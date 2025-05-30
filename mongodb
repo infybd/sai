@@ -1,0 +1,1001 @@
+userId	userName	date	time	exceptionName	exceptionClass	logLevel	description	applicationName	applicationClassName	applicationComponent	ipAddress
+150	Pablo Wilson	5/5/2025	10:31:56	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	PaymentService	DatabaseModule	192.168.58.109
+178	Rosa Ross	13-05-25	14:49:19	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	UserService	DatabaseModule	192.168.144.242
+64	Henry Rodriguez	27-04-25	4:35:06	InventoryUpdateError	MongoWriteException	Error	Failed to update inventory due to database connection issue.	Retailer Application	OrderService	InventoryModule	192.168.117.207
+49	Samuel Evans	26-04-25	23:53:25	CheckoutError	MongoCommandException	Error	Payment processing failed, please try again.	Retailer Application	CartService	CheckoutModule	192.168.68.238
+148	Noah Taylor	23-05-25	1:56:49	TransactionAbortError	MongoTransactionException	Critical	The transaction was aborted due to a conflict or error	Retailer Application	PaymentService	PaymentGatewayModule	192.168.142.205
+111	Cora Peters	14-05-25	23:00:39	ShippingError	MongoException	Warn	Shipping carrier is unavailable or unreachable.	Retailer Application	OrderService	ShippingModule	192.168.17.160
+192	Fiona Walker	13-05-25	6:00:04	ProductNotFound	MongoCommandException	Error	The requested product could not be found in the inventory	Retailer Application	CartService	ProductModule	192.168.99.53
+143	Isaac Greene	8/5/2025	14:44:57	ShippingError	MongoException	Warn	Shipping carrier is unavailable or unreachable.	Retailer Application	OrderService	ShippingModule	192.168.92.238
+97	Olga Peterson	27-04-25	4:59:13	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	AdminService	DatabaseModule	192.168.190.142
+58	Blake Thomas	16-05-25	22:41:41	SessionCreationError	MongoException	Warn	Failed to create a session	Retailer Application	UserService	SessionModule	192.168.11.134
+193	Gavin Coleman	20-05-25	22:21:03	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	ProductService	DatabaseModule	192.168.204.44
+78	Vanessa Webb	22-05-25	8:15:04	AuthenticationFailed	MongoAuthenticationException	Critical	Authentication failed. Please check your credentials and try again.	Retailer Application	UserService	AuthenticationModule	192.168.138.139
+103	Uma Sullivan	29-04-25	20:20:29	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	CustomerService	CustomerModule	192.168.122.91
+140	Fiona Lawrence	21-05-25	1:20:49	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	PaymentService	PaymentGatewayModule	192.168.41.204
+33	Cathy Evans	11/5/2025	5:54:35	TransactionTimeoutError	MongoTimeoutException	Critical	 The transaction timed out due to a long processing delay	Retailer Application	TransactionService	TransactionProcessingModule	192.168.93.40
+147	Martha Gray	30-04-25	7:39:02	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	NotificationService	EmailModule	192.168.251.172
+156	Vicky Davis	20-05-25	4:26:52	TransactionAbortError	MongoTransactionException	Critical	The transaction was aborted due to a conflict or error	Retailer Application	TransactionService	PaymentModule	192.168.239.71
+175	Olga Davidson	16-05-25	0:28:30	SessionTimeoutError	MongoTimeoutException	Warn	The session has timed out. The operation cannot proceed.	Retailer Application	UserService	SessionModule	192.168.198.94
+189	Cora White	1/5/2025	10:58:22	DocumentNotFound	MongoCommandException	Error	The requested document does not exist.	Retailer Application	CustomerService	ProfileModule	192.168.62.136
+112	Diana Moore	3/5/2025	18:50:02	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	InventoryService	InventoryManagementModule	192.168.8.146
+20	Paul Scott	5/5/2025	6:54:42	TransactionTimeoutError	MongoTimeoutException	Critical	 The transaction timed out due to a long processing delay	Retailer Application	PaymentService	TransactionModule	192.168.181.94
+142	Harriet Anderson	29-04-25	9:40:25	InventoryUpdateError	MongoWriteException	Error	Failed to update inventory due to database connection issue.	Retailer Application	InventoryService	StockTrackingModule	192.168.131.39
+127	Seth Campbell	15-05-25	16:39:03	CatalogUpdateError	MongoCommandException	Error	Unable to update catalog due to database connection issues.	Retailer Application	ProductService	CatalogModule	192.168.207.7
+159	Yvette Brooks	12/5/2025	1:42:54	TransactionRollbackError	MongoException	Info	An unknown error occurred	Retailer Application	PaymentService	TransactionModule	192.168.21.186
+65	Isabel Dunn	23-05-25	9:05:12	TransactionAbortError	MongoTransactionException	Critical	The transaction was aborted due to a conflict or error	Retailer Application	ReturnService	RefundModule	192.168.60.242
+23	Steve Rodriguez	5/5/2025	16:14:39	TimeoutError	MongoTimeoutException	Error	Timed out after 300 ms while waiting for server to respond.	Retailer Application	OrderService	ShippingModule	192.168.10.245
+138	Diana Walker	21-05-25	14:56:34	PaymentError	MongoException	Info	An unknown error occurred	Retailer Application	CartService	CartModule	192.168.251.185
+63	Georgia Bennett	23-05-25	1:33:55	TimeoutError	MongoTimeoutException	Error	Timed out after 300 ms while waiting for server to respond.	Retailer Application	ReturnService	ReturnProcessingModule	192.168.183.15
+192	Fiona Walker	18-05-25	2:00:40	CartItemNotFound	MongoCommandException	Error	The item you are looking for is not in the cart.	Retailer Application	CartService	CartModule	192.168.125.182
+151	Quincy Parker	21-05-25	3:07:34	OrderProcessingError	MongoCommandException	Error	Failed to process order due to payment gateway failure.	Retailer Application	ReturnService	OrderModule	192.168.164.197
+194	Harriet Wood	17-05-25	0:00:00	PaymentError	MongoException	Info	An unknown error occurred	Retailer Application	CartService	CheckoutModule	192.168.49.123
+8	Peggy Green	13-05-25	11:52:21	TransactionTimeoutError	MongoTimeoutException	Critical	 The transaction timed out due to a long processing delay	Retailer Application	TransactionService	TransactionProcessingModule	192.168.5.63
+104	Vicky Carpenter	2/5/2025	12:36:52	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	NotificationService	DatabaseModule	192.168.110.189
+116	Harriet Simmons	25-04-25	23:42:16	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	InventoryService	WarehouseModule	192.168.73.116
+106	Xander Zimmerman	26-04-25	4:56:04	PaymentError	MongoException	Info	An unknown error occurred	Retailer Application	CartService	CheckoutModule	192.168.225.169
+72	Penny Shaw	18-05-25	23:48:32	NetworkTimeoutError	MongoException	Info	An unknown error occurred	Retailer Application	NotificationService	PushNotificationModule	192.168.181.173
+17	Michael Allen	24-04-25	23:06:43	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	ShippingService	DatabaseModule	192.168.255.254
+115	Gavin Powell	24-04-25	5:25:27	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	PaymentService	DatabaseModule	192.168.127.12
+95	Martha Bates	5/5/2025	14:35:42	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	PaymentService	PaymentGatewayModule	192.168.82.216
+93	Kurtis Jenkins	23-05-25	4:29:49	PermissionDenied	MongoException	Warn	You do not have permission to perform this action.	Retailer Application	AdminService	AdminDashboardModule	192.168.164.121
+0	Alice Johnson	23-04-25	21:14:48	AuthenticationTimeout	MongoTimeoutException	Critical	 Authentication failed due to a timeout.	Retailer Application	UserService	AuthenticationModule	192.168.124.231
+150	Pablo Wilson	26-04-25	1:26:26	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	PaymentService	PaymentGatewayModule	192.168.211.122
+71	Oscar Jordan	19-05-25	5:42:54	OrderNotFoundError	MongoCommandException	Error	The requested order could not be found in the system	Retailer Application	ReturnService	OrderModule	192.168.52.197
+65	Isabel Dunn	16-05-25	11:23:21	PaymentError	MongoException	Info	An unknown error occurred	Retailer Application	CartService	CheckoutModule	192.168.136.40
+35	Evan Gomez	25-04-25	3:59:04	MongoDBError	MongoException	Info	An unknown error occurred	Retailer Application	ReturnService	ReturnProcessingModule	192.168.14.118
+103	Uma Sullivan	23-05-25	5:20:11	QueryTimeout	MongoTimeoutException	Error	Query timed out.	Retailer Application	ProductService	DatabaseModule	192.168.180.128
+181	Uma Harris	9/5/2025	6:49:55	ShippingError	MongoException	Warn	Shipping carrier is unavailable or unreachable.	Retailer Application	OrderService	ShippingModule	192.168.125.248
+75	Sophie Campbell	17-05-25	10:59:24	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	PaymentService	DatabaseModule	192.168.94.133
+94	Leah Palmer	25-04-25	23:59:43	MongoDBError	MongoException	Info	An unknown error occurred	Retailer Application	ReturnService	ReturnProcessingModule	192.168.224.95
+68	Lena Patterson	20-05-25	5:18:32	InventoryUpdateError	MongoWriteException	Error	Failed to update inventory due to database connection issue.	Retailer Application	AdminService	InventoryModule	192.168.156.67
+147	Martha Gray	27-04-25	22:08:29	CatalogUpdateError	MongoCommandException	Error	Unable to update catalog due to database connection issues.	Retailer Application	ProductService	CatalogModule	192.168.197.146
+1	Bob Smith	3/5/2025	10:56:54	NetworkTimeoutError	MongoException	Info	An unknown error occurred	Retailer Application	NotificationService	PushNotificationModule	192.168.53.49
+73	Quinn Foster	27-04-25	2:23:42	OrderNotFoundError	MongoCommandException	Error	The requested order could not be found in the system	Retailer Application	ReturnService	OrderModule	192.168.62.69
+163	Cora Peterson	2/5/2025	14:17:18	TransactionAbortError	MongoTransactionException	Critical	The transaction was aborted due to a conflict or error	Retailer Application	ReturnService	RefundModule	192.168.232.159
+196	Julia Richardson	22-05-25	13:38:14	QueryTimeout	MongoTimeoutException	Error	Query timed out.	Retailer Application	ShippingService	DatabaseModule	192.168.172.56
+98	Pablo Lee	21-05-25	15:53:57	InventoryError	MongoWriteException	Error	Insufficient stock to fulfill the order.	Retailer Application	OrderService	OrderProcessingModule	192.168.132.241
+89	Gavin Griffith	22-05-25	8:40:11	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	InventoryService	InventoryManagementModule	192.168.155.205
+15	Kim Walker	9/5/2025	17:54:42	QueryTimeout	MongoTimeoutException	Error	Query timed out.	Retailer Application	PaymentService	DatabaseModule	192.168.111.92
+165	Elias Clarke	15-05-25	8:48:39	OrderProcessingError	MongoCommandException	Error	Failed to process order due to payment gateway failure.	Retailer Application	OrderService	OrderProcessingModule	192.168.236.125
+163	Cora Peterson	6/5/2025	9:05:15	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	CustomerService	ProfileModule	192.168.121.216
+60	Derrick Richards	21-05-25	22:36:33	OrderProcessingError	MongoCommandException	Error	Failed to process order due to payment gateway failure.	Retailer Application	ShippingService	OrderModule	192.168.92.15
+77	Ulysses Howard	21-05-25	23:57:28	CartItemNotFound	MongoCommandException	Error	The item you are looking for is not in the cart.	Retailer Application	CartService	CartModule	192.168.222.186
+125	Quincy Torres	27-04-25	14:28:47	CatalogUpdateError	MongoCommandException	Error	Unable to update catalog due to database connection issues.	Retailer Application	ProductService	CatalogModule	192.168.220.235
+123	Olga Carter	25-04-25	8:21:49	ShippingError	MongoException	Warn	Shipping carrier is unavailable or unreachable.	Retailer Application	OrderService	ShippingModule	192.168.96.252
+6	Mallory White	6/5/2025	11:40:39	RefundError	MongoWriteException	Error	 Unable to process refund due to payment gateway failure	Retailer Application	ReturnService	RefundModule	192.168.244.44
+50	Tina Baker	28-04-25	1:58:40	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	AdminService	DatabaseModule	192.168.226.140
+57	Adriana Gordon	18-05-25	12:32:46	DataIntegrityError	MongoWriteException	Error	Document validation failed	Retailer Application	ProductService	PricingModule	192.168.141.235
+26	Vera Clark	5/5/2025	21:04:42	PaymentError	MongoException	Info	An unknown error occurred	Retailer Application	CartService	CheckoutModule	192.168.24.13
+67	Kyle Bennett	28-04-25	1:31:18	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	CustomerService	DatabaseModule	192.168.223.66
+62	Felix Ferguson	26-04-25	11:25:12	OrderProcessingError	MongoCommandException	Error	Failed to process order due to payment gateway failure.	Retailer Application	ShippingService	OrderModule	192.168.158.191
+130	Vicky Robinson	7/5/2025	6:55:25	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	NotificationService	EmailModule	192.168.33.21
+167	Gavin Powell	1/5/2025	7:40:57	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	TransactionService	DatabaseModule	192.168.68.186
+102	Talia Pearson	12/5/2025	16:02:32	QueryTimeout	MongoTimeoutException	Error	Query timed out.	Retailer Application	TransactionService	DatabaseModule	192.168.39.141
+146	Leah Jenkins	3/5/2025	22:03:06	InventoryUpdateError	MongoWriteException	Error	Failed to update inventory due to database connection issue.	Retailer Application	AdminService	InventoryModule	192.168.65.230
+20	Paul Scott	11/5/2025	0:48:49	ProductNotFound	MongoCommandException	Error	The requested product could not be found in the inventory	Retailer Application	CartService	ProductModule	192.168.43.86
+183	Willie Morris	23-05-25	5:23:22	TransactionAbortError	MongoTransactionException	Critical	The transaction was aborted due to a conflict or error	Retailer Application	ReturnService	RefundModule	192.168.89.99
+194	Harriet Wood	23-05-25	2:24:28	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	CustomerService	DatabaseModule	192.168.19.24
+197	Kurtis Anderson	3/5/2025	14:25:46	DataIntegrityError	MongoWriteException	Error	Document validation failed	Retailer Application	CartService	ProductModule	192.168.192.75
+183	Willie Morris	1/5/2025	3:39:44	RefundError	MongoWriteException	Error	 Unable to process refund due to payment gateway failure	Retailer Application	ReturnService	RefundModule	192.168.210.131
+180	Talia Allen	24-04-25	0:08:03	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	TransactionService	OrderModule	192.168.207.208
+71	Oscar Jordan	5/5/2025	5:53:58	ProductNotFoundError	MongoException	Info	An unknown error occurred	Retailer Application	ProductService	ProductManagementModule	192.168.43.16
+115	Gavin Powell	15-05-25	14:41:47	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	InventoryService	DatabaseModule	192.168.181.246
+36	Fiona Duncan	27-04-25	4:00:41	ShippingTrackingError	MongoCommandException	Error	Unable to retrieve tracking information for the shipment	Retailer Application	ShippingService	ShippingTrackingModule	192.168.220.131
+17	Michael Allen	5/5/2025	20:42:01	DataIntegrityError	MongoWriteException	Error	Document validation failed	Retailer Application	CartService	ProductModule	192.168.67.74
+162	Blake Andrews	21-05-25	1:00:28	InventoryUpdateError	MongoWriteException	Error	Failed to update inventory due to database connection issue.	Retailer Application	OrderService	InventoryModule	192.168.152.209
+165	Elias Clarke	13-05-25	19:49:21	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	PaymentService	DatabaseModule	192.168.22.194
+199	Martha Campbell	30-04-25	8:43:01	ShippingTrackingError	MongoCommandException	Error	Unable to retrieve tracking information for the shipment	Retailer Application	ShippingService	ShippingTrackingModule	192.168.9.51
+124	Pablo Taylor	5/5/2025	2:59:50	PermissionDenied	MongoException	Warn	You do not have permission to perform this action.	Retailer Application	AdminService	UserManagementModule	192.168.5.180
+138	Diana Walker	15-05-25	19:51:10	SessionCreationError	MongoException	Warn	Failed to create a session	Retailer Application	UserService	SessionModule	192.168.24.38
+177	Quincy Mitchell	23-05-25	10:32:16	UserNotFound	MongoCommandException	Warn	The specified user could not be found.	Retailer Application	AdminService	UserManagementModule	192.168.10.199
+182	Vicky Edwards	30-04-25	21:02:54	EmailSendingError	MongoException	Warn	Failed to send email due to SMTP server connection failure.	Retailer Application	NotificationService	EmailModule	192.168.226.67
+143	Isaac Greene	24-04-25	14:31:21	ReturnProcessingError	MongoCommandException	Error	Unable to process the return due to invalid order details.	Retailer Application	ReturnService	ReturnProcessingModule	192.168.188.190
+161	Abigail Ross	19-05-25	9:31:56	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	InventoryService	WarehouseModule	192.168.28.54
+36	Fiona Duncan	10/5/2025	4:55:11	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	CustomerService	DatabaseModule	192.168.172.213
+39	Irene Grant	15-05-25	12:28:10	RefundError	MongoWriteException	Error	 Unable to process refund due to payment gateway failure	Retailer Application	PaymentService	RefundModule	192.168.17.224
+179	Seth Martin	12/5/2025	13:59:48	ProductNotFoundError	MongoException	Info	An unknown error occurred	Retailer Application	ProductService	ProductManagementModule	192.168.74.185
+160	Zachary Johnson	8/5/2025	19:04:23	TransactionAbortError	MongoTransactionException	Critical	The transaction was aborted due to a conflict or error	Retailer Application	TransactionService	TransactionProcessingModule	192.168.5.138
+19	Oliver Robinson	17-05-25	9:27:54	TransactionAbortError	MongoTransactionException	Critical	The transaction was aborted due to a conflict or error	Retailer Application	PaymentService	RefundModule	192.168.32.135
+116	Harriet Simmons	7/5/2025	14:44:12	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	ProductService	DatabaseModule	192.168.92.16
+115	Gavin Powell	14-05-25	8:27:01	TimeoutError	MongoTimeoutException	Error	Timed out after 300 ms while waiting for server to respond.	Retailer Application	ShippingService	ShippingLabelModule	192.168.69.89
+189	Cora White	16-05-25	2:08:39	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	NotificationService	DatabaseModule	192.168.42.7
+132	Xander Ford	17-05-25	12:52:46	TransactionAbortError	MongoTransactionException	Critical	The transaction was aborted due to a conflict or error	Retailer Application	TransactionService	PaymentModule	192.168.77.220
+161	Abigail Ross	12/5/2025	10:54:47	QueryTimeout	MongoTimeoutException	Error	Query timed out.	Retailer Application	ShippingService	DatabaseModule	192.168.95.124
+171	Kurtis Roberts	8/5/2025	6:49:42	RefundError	MongoWriteException	Error	 Unable to process refund due to payment gateway failure	Retailer Application	ReturnService	RefundModule	192.168.126.85
+160	Zachary Johnson	13-05-25	20:48:58	OrderNotFoundError	MongoCommandException	Error	The requested order could not be found in the system	Retailer Application	ReturnService	OrderModule	192.168.249.87
+147	Martha Gray	30-04-25	12:23:40	PermissionDenied	MongoException	Warn	You do not have permission to perform this action.	Retailer Application	AdminService	UserManagementModule	192.168.231.208
+91	Isaac Evans	12/5/2025	16:27:11	TimeoutError	MongoTimeoutException	Error	Timed out after 300 ms while waiting for server to respond.	Retailer Application	ShippingService	ShippingLabelModule	192.168.203.88
+153	Seth Adams	23-05-25	6:03:08	PaymentProcessingError	MongoCommandException	Critical	Payment could not be processed due to a system error.	Retailer Application	TransactionService	PaymentModule	192.168.120.175
+2	Charlie Brown	22-05-25	19:14:45	TimeoutError	MongoTimeoutException	Error	Timed out after 300 ms while waiting for server to respond.	Retailer Application	PaymentService	PaymentGatewayModule	192.168.218.154
+110	Blake Fisher	23-04-25	21:56:17	OrderProcessingError	MongoCommandException	Error	Failed to process order due to payment gateway failure.	Retailer Application	TransactionService	OrderModule	192.168.162.167
+28	Xander Mitchell	21-05-25	6:37:59	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	TransactionService	DatabaseModule	192.168.225.86
+69	Mason Coleman	9/5/2025	19:43:54	DataIntegrityError	MongoWriteException	Error	Document validation failed	Retailer Application	CustomerService	CustomerModule	192.168.145.77
+31	Alex Miller	4/5/2025	0:25:29	SessionCreationError	MongoException	Warn	Failed to create a session	Retailer Application	UserService	SessionModule	192.168.96.246
+168	Harriet Hernandez	20-05-25	10:30:23	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	PaymentService	DatabaseModule	192.168.210.89
+21	Quincy Harris	3/5/2025	9:48:27	TimeoutError	MongoTimeoutException	Error	Timed out after 300 ms while waiting for server to respond.	Retailer Application	PaymentService	PaymentGatewayModule	192.168.27.241
+108	Zachary Duncan	19-05-25	1:04:14	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	UserService	DatabaseModule	192.168.79.91
+38	Helen Bryant	26-04-25	18:50:50	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	ProductService	DatabaseModule	192.168.156.206
+123	Olga Carter	3/5/2025	6:08:55	SmsSendingError	MongoException	Warn	Failed to send SMS due to network error	Retailer Application	NotificationService	SMSModule	192.168.199.112
+4	Eve Davis	3/5/2025	17:56:14	UserNotFound	MongoCommandException	Warn	The specified user could not be found.	Retailer Application	AdminService	UserManagementModule	192.168.141.40
+189	Cora White	25-04-25	21:14:44	PermissionDenied	MongoException	Warn	You do not have permission to perform this action.	Retailer Application	AdminService	AdminDashboardModule	192.168.35.50
+106	Xander Zimmerman	18-05-25	14:42:58	OrderNotFoundError	MongoCommandException	Error	The requested order could not be found in the system	Retailer Application	TransactionService	OrderModule	192.168.206.247
+106	Xander Zimmerman	1/5/2025	22:23:40	DocumentNotFound	MongoCommandException	Error	The requested document does not exist.	Retailer Application	UserService	UserProfileModule	192.168.216.76
+103	Uma Sullivan	14-05-25	4:56:16	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	CustomerService	ProfileModule	192.168.19.132
+6	Mallory White	13-05-25	2:22:21	ShippingError	MongoException	Warn	Shipping carrier is unavailable or unreachable.	Retailer Application	OrderService	ShippingModule	192.168.88.6
+169	Isaac Ellis	20-05-25	22:03:09	DataIntegrityError	MongoWriteException	Error	Document validation failed	Retailer Application	ProductService	PricingModule	192.168.78.15
+84	Blake Curtis	1/5/2025	17:05:37	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	ProductService	DatabaseModule	192.168.96.126
+108	Zachary Duncan	13-05-25	9:15:21	CheckoutError	MongoCommandException	Error	Payment processing failed, please try again.	Retailer Application	CartService	CheckoutModule	192.168.175.78
+11	Zack Garcia	4/5/2025	2:06:26	NetworkTimeoutError	MongoException	Info	An unknown error occurred	Retailer Application	NotificationService	SMSModule	192.168.99.4
+0	Alice Johnson	26-04-25	13:11:03	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	CustomerService	ProfileModule	192.168.75.53
+68	Lena Patterson	29-04-25	18:38:46	AuthenticationFailed	MongoAuthenticationException	Critical	Authentication failed. Please check your credentials and try again.	Retailer Application	UserService	AuthenticationModule	192.168.49.45
+108	Zachary Duncan	15-05-25	1:50:04	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	PaymentService	DatabaseModule	192.168.49.146
+197	Kurtis Anderson	10/5/2025	9:00:01	ProductNotFound	MongoCommandException	Error	The requested product could not be found in the inventory	Retailer Application	CartService	ProductModule	192.168.210.169
+35	Evan Gomez	28-04-25	3:35:45	TransactionTimeoutError	MongoTimeoutException	Critical	 The transaction timed out due to a long processing delay	Retailer Application	TransactionService	TransactionProcessingModule	192.168.145.193
+88	Fiona Newton	17-05-25	22:46:46	InvalidCredentials	MongoAuthenticationException	Critical	 Invalid credentials.	Retailer Application	UserService	AuthenticationModule	192.168.15.74
+92	Julia Simmons	23-05-25	3:48:10	DataIntegrityError	MongoWriteException	Error	Document validation failed	Retailer Application	OrderService	InventoryModule	192.168.82.60
+55	Yara Harper	4/5/2025	6:49:03	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	OrderService	DatabaseModule	192.168.133.156
+48	Rebecca Lopez	23-04-25	16:47:20	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	InventoryService	DatabaseModule	192.168.234.120
+69	Mason Coleman	7/5/2025	21:13:55	ProductNotFound	MongoCommandException	Error	The requested product could not be found in the inventory	Retailer Application	CartService	ProductModule	192.168.138.239
+96	Noah Murphy	16-05-25	22:09:16	OrderProcessingError	MongoCommandException	Error	Failed to process order due to payment gateway failure.	Retailer Application	OrderService	OrderProcessingModule	192.168.237.208
+60	Derrick Richards	6/5/2025	19:02:47	DataIntegrityError	MongoWriteException	Error	Document validation failed	Retailer Application	CartService	ProductModule	192.168.79.81
+184	Xander Lopez	26-04-25	9:02:49	OrderNotFoundError	MongoCommandException	Error	The requested order could not be found in the system	Retailer Application	ReturnService	OrderModule	192.168.110.227
+117	Isaac Daniels	27-04-25	18:16:00	PermissionDenied	MongoException	Warn	You do not have permission to perform this action.	Retailer Application	AdminService	UserManagementModule	192.168.212.51
+68	Lena Patterson	21-05-25	11:42:26	ReturnProcessingError	MongoCommandException	Error	Unable to process the return due to invalid order details.	Retailer Application	ReturnService	ReturnProcessingModule	192.168.205.95
+25	Uma Moore	7/5/2025	10:13:51	TransactionAbortError	MongoTransactionException	Critical	The transaction was aborted due to a conflict or error	Retailer Application	TransactionService	PaymentModule	192.168.206.84
+77	Ulysses Howard	26-04-25	1:04:15	MongoDBError	MongoException	Info	An unknown error occurred	Retailer Application	ReturnService	ReturnProcessingModule	192.168.253.15
+28	Xander Mitchell	18-05-25	22:48:10	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	ShippingService	DatabaseModule	192.168.213.214
+133	Yvette Bennett	21-05-25	19:06:41	RefundError	MongoWriteException	Error	 Unable to process refund due to payment gateway failure	Retailer Application	ReturnService	RefundModule	192.168.127.70
+186	Zachary Watson	18-05-25	11:09:13	PaymentError	MongoException	Info	An unknown error occurred	Retailer Application	CartService	CheckoutModule	192.168.213.87
+120	Leah Simmons	16-05-25	20:06:04	QueryTimeout	MongoTimeoutException	Error	Query timed out.	Retailer Application	CustomerService	DatabaseModule	192.168.245.54
+193	Gavin Coleman	15-05-25	4:01:42	InventoryUpdateError	MongoWriteException	Error	Failed to update inventory due to database connection issue.	Retailer Application	OrderService	InventoryModule	192.168.219.194
+140	Fiona Lawrence	9/5/2025	9:26:10	OrderProcessingError	MongoCommandException	Error	Failed to process order due to payment gateway failure.	Retailer Application	ReturnService	OrderModule	192.168.92.6
+104	Vicky Carpenter	14-05-25	6:17:23	InvalidCredentials	MongoAuthenticationException	Critical	 Invalid credentials.	Retailer Application	UserService	AuthenticationModule	192.168.193.94
+132	Xander Ford	4/5/2025	3:59:45	CartItemNotFound	MongoCommandException	Error	The item you are looking for is not in the cart.	Retailer Application	CartService	CartModule	192.168.238.165
+52	Victor Hunt	15-05-25	10:08:27	TimeoutError	MongoTimeoutException	Error	Timed out after 300 ms while waiting for server to respond.	Retailer Application	ReturnService	ReturnProcessingModule	192.168.153.163
+191	Elias Roberts	14-05-25	10:54:49	AuthenticationTimeout	MongoTimeoutException	Critical	 Authentication failed due to a timeout.	Retailer Application	CustomerService	AuthModule	192.168.39.123
+28	Xander Mitchell	22-05-25	3:11:47	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	UserService	DatabaseModule	192.168.18.242
+136	Blake Simmons	2/5/2025	9:42:48	TransactionAbortError	MongoTransactionException	Critical	The transaction was aborted due to a conflict or error	Retailer Application	TransactionService	TransactionProcessingModule	192.168.11.131
+153	Seth Adams	2/5/2025	19:49:00	TransactionAbortError	MongoTransactionException	Critical	The transaction was aborted due to a conflict or error	Retailer Application	ReturnService	RefundModule	192.168.24.109
+198	Leah Scott	19-05-25	20:44:28	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	InventoryService	WarehouseModule	192.168.162.30
+64	Henry Rodriguez	23-04-25	19:37:52	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	ShippingService	DatabaseModule	192.168.232.176
+31	Alex Miller	6/5/2025	11:23:58	SessionCreationError	MongoException	Warn	Failed to create a session	Retailer Application	UserService	SessionModule	192.168.106.35
+63	Georgia Bennett	13-05-25	8:27:13	TransactionAbortError	MongoTransactionException	Critical	The transaction was aborted due to a conflict or error	Retailer Application	ReturnService	RefundModule	192.168.68.252
+17	Michael Allen	4/5/2025	18:35:24	InventoryUpdateError	MongoWriteException	Error	Failed to update inventory due to database connection issue.	Retailer Application	InventoryService	InventoryManagementModule	192.168.197.177
+70	Nina Griffin	3/5/2025	11:00:00	DataIntegrityError	MongoWriteException	Error	Document validation failed	Retailer Application	AdminService	InventoryModule	192.168.94.63
+165	Elias Clarke	5/5/2025	10:37:05	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	ReturnService	DatabaseModule	192.168.151.99
+39	Irene Grant	12/5/2025	19:11:01	AuthenticationFailed	MongoAuthenticationException	Critical	Authentication failed. Please check your credentials and try again.	Retailer Application	UserService	AuthenticationModule	192.168.59.55
+83	Abigail Boyd	20-05-25	15:21:45	ShippingLabelGenerationError	MongoCommandException	Error	Unable to generate shipping label due to system error	Retailer Application	ShippingService	ShippingLabelModule	192.168.104.240
+131	Willie Rodriguez	21-05-25	3:59:43	NetworkTimeoutError	MongoException	Info	An unknown error occurred	Retailer Application	NotificationService	PushNotificationModule	192.168.250.60
+161	Abigail Ross	13-05-25	13:17:08	DataIntegrityError	MongoWriteException	Error	Document validation failed	Retailer Application	InventoryService	InventoryManagementModule	192.168.199.160
+87	Elias Carpenter	6/5/2025	12:57:08	DataIntegrityError	MongoWriteException	Error	Document validation failed	Retailer Application	AdminService	InventoryModule	192.168.81.142
+105	Willie Hughes	7/5/2025	4:55:10	SmsSendingError	MongoException	Warn	Failed to send SMS due to network error	Retailer Application	NotificationService	SMSModule	192.168.192.68
+54	Xander Hudson	14-05-25	19:09:53	NotificationSendError	MongoException	Warn	Failed to send notification due to network failure..	Retailer Application	NotificationService	PushNotificationModule	192.168.184.166
+42	Liam Stewart	22-05-25	15:40:15	DataIntegrityError	MongoWriteException	Error	Document validation failed	Retailer Application	CartService	ProductModule	192.168.77.244
+189	Cora White	25-04-25	12:54:21	TransactionRollbackError	MongoException	Info	An unknown error occurred	Retailer Application	PaymentService	TransactionModule	192.168.178.92
+196	Julia Richardson	4/5/2025	5:30:05	PaymentProcessingError	MongoCommandException	Critical	Payment could not be processed due to a system error.	Retailer Application	TransactionService	PaymentModule	192.168.203.171
+69	Mason Coleman	26-04-25	8:10:35	TransactionTimeoutError	MongoTimeoutException	Critical	 The transaction timed out due to a long processing delay	Retailer Application	TransactionService	TransactionProcessingModule	192.168.74.128
+116	Harriet Simmons	14-05-25	2:56:06	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	UserService	UserProfileModule	192.168.29.195
+22	Rachel Perez	14-05-25	10:39:17	RefundError	MongoWriteException	Error	 Unable to process refund due to payment gateway failure	Retailer Application	ReturnService	RefundModule	192.168.89.245
+150	Pablo Wilson	23-05-25	13:24:33	TransactionAbortError	MongoTransactionException	Critical	The transaction was aborted due to a conflict or error	Retailer Application	ReturnService	RefundModule	192.168.187.228
+193	Gavin Coleman	4/5/2025	2:48:34	AdminAccessError	MongoException	Warn	You do not have sufficient permissions to access this section.	Retailer Application	AdminService	AdminDashboardModule	192.168.48.12
+161	Abigail Ross	18-05-25	19:24:41	InvalidCredentials	MongoAuthenticationException	Critical	 Invalid credentials.	Retailer Application	UserService	AuthenticationModule	192.168.104.231
+91	Isaac Evans	24-04-25	14:17:44	AuthenticationTimeout	MongoTimeoutException	Critical	 Authentication failed due to a timeout.	Retailer Application	CustomerService	AuthModule	192.168.81.63
+144	Julia Sullivan	14-05-25	0:50:02	OrderNotFoundError	MongoCommandException	Error	The requested order could not be found in the system	Retailer Application	ShippingService	OrderModule	192.168.251.12
+20	Paul Scott	6/5/2025	1:19:54	PaymentError	MongoException	Info	An unknown error occurred	Retailer Application	CartService	CartModule	192.168.108.40
+113	Elias Rivera	19-05-25	9:56:04	DataIntegrityError	MongoWriteException	Error	Document validation failed	Retailer Application	InventoryService	InventoryManagementModule	192.168.231.168
+51	Ursula Jenkins	7/5/2025	16:46:40	PermissionDenied	MongoException	Warn	You do not have permission to perform this action.	Retailer Application	AdminService	UserManagementModule	192.168.203.13
+17	Michael Allen	28-04-25	2:54:56	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	ShippingService	DatabaseModule	192.168.214.193
+176	Pablo Garcia	4/5/2025	13:50:39	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	InventoryService	WarehouseModule	192.168.88.240
+183	Willie Morris	30-04-25	13:00:48	TimeoutError	MongoTimeoutException	Error	Timed out after 300 ms while waiting for server to respond.	Retailer Application	OrderService	ShippingModule	192.168.59.245
+84	Blake Curtis	9/5/2025	10:01:59	TransactionAbortError	MongoTransactionException	Critical	The transaction was aborted due to a conflict or error	Retailer Application	TransactionService	TransactionProcessingModule	192.168.110.70
+119	Kurtis Phillips	10/5/2025	8:53:15	TimeoutError	MongoTimeoutException	Error	Timed out after 300 ms while waiting for server to respond.	Retailer Application	OrderService	ShippingModule	192.168.119.184
+194	Harriet Wood	7/5/2025	14:38:45	QueryTimeout	MongoTimeoutException	Error	Query timed out.	Retailer Application	InventoryService	DatabaseModule	192.168.122.233
+174	Noah Clark	30-04-25	1:33:51	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	CustomerService	ProfileModule	192.168.153.8
+45	Olivia Wright	1/5/2025	5:44:57	UserNotFound	MongoCommandException	Warn	The specified user could not be found.	Retailer Application	AdminService	UserManagementModule	192.168.103.115
+174	Noah Clark	13-05-25	5:23:32	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	CustomerService	ProfileModule	192.168.233.46
+74	Riley Cooper	16-05-25	13:02:21	CheckoutError	MongoCommandException	Error	Payment processing failed, please try again.	Retailer Application	CartService	CheckoutModule	192.168.143.185
+104	Vicky Carpenter	5/5/2025	11:28:04	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	CustomerService	DatabaseModule	192.168.127.169
+115	Gavin Powell	7/5/2025	0:02:43	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	InventoryService	DatabaseModule	192.168.3.6
+156	Vicky Davis	10/5/2025	1:36:16	PaymentError	MongoException	Info	An unknown error occurred	Retailer Application	CartService	CartModule	192.168.208.233
+126	Rosa Harris	8/5/2025	14:52:24	TransactionTimeoutError	MongoTimeoutException	Critical	 The transaction timed out due to a long processing delay	Retailer Application	TransactionService	TransactionProcessingModule	192.168.207.234
+45	Olivia Wright	27-04-25	19:26:47	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	ShippingService	OrderModule	192.168.93.4
+51	Ursula Jenkins	8/5/2025	21:06:36	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	CustomerService	DatabaseModule	192.168.183.109
+154	Talia Hayes	16-05-25	18:23:28	ReturnProcessingError	MongoCommandException	Error	Unable to process the return due to invalid order details.	Retailer Application	ReturnService	ReturnProcessingModule	192.168.163.48
+173	Martha Gray	18-05-25	1:17:59	PricingError	MongoCommandException	Error	Unable to retrieve pricing information for the requested product.	Retailer Application	ProductService	PricingModule	192.168.104.73
+12	Judy Clark	27-04-25	15:23:02	AuthenticationFailed	MongoAuthenticationException	Critical	Authentication failed. Please check your credentials and try again.	Retailer Application	CustomerService	AuthModule	192.168.141.144
+175	Olga Davidson	23-05-25	13:37:58	TimeoutError	MongoTimeoutException	Error	Timed out after 300 ms while waiting for server to respond.	Retailer Application	ShippingService	ShippingTrackingModule	192.168.159.31
+103	Uma Sullivan	19-05-25	12:56:20	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	ReturnService	DatabaseModule	192.168.189.236
+12	Judy Clark	26-04-25	21:18:54	RefundError	MongoWriteException	Error	 Unable to process refund due to payment gateway failure	Retailer Application	PaymentService	RefundModule	192.168.223.42
+57	Adriana Gordon	8/5/2025	6:10:31	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	NotificationService	DatabaseModule	192.168.234.103
+35	Evan Gomez	19-05-25	20:27:43	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	ProductService	DatabaseModule	192.168.33.61
+42	Liam Stewart	12/5/2025	16:45:30	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	CartService	DatabaseModule	192.168.2.101
+36	Fiona Duncan	25-04-25	23:14:17	InventoryUpdateError	MongoWriteException	Error	Failed to update inventory due to database connection issue.	Retailer Application	AdminService	InventoryModule	192.168.181.38
+105	Willie Hughes	26-04-25	14:58:17	QueryTimeout	MongoTimeoutException	Error	Query timed out.	Retailer Application	TransactionService	DatabaseModule	192.168.62.216
+117	Isaac Daniels	28-04-25	5:01:42	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	PaymentService	DatabaseModule	192.168.120.183
+183	Willie Morris	9/5/2025	17:04:02	ProductNotFound	MongoCommandException	Error	The requested product could not be found in the inventory	Retailer Application	CartService	ProductModule	192.168.181.67
+25	Uma Moore	19-05-25	12:08:46	NetworkTimeoutError	MongoException	Info	An unknown error occurred	Retailer Application	NotificationService	PushNotificationModule	192.168.231.10
+10	Wendy Martinez	30-04-25	9:09:25	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	OrderService	DatabaseModule	192.168.1.40
+76	Travis Bailey	9/5/2025	21:03:13	InventoryError	MongoWriteException	Error	Insufficient stock to fulfill the order.	Retailer Application	OrderService	OrderProcessingModule	192.168.46.55
+50	Tina Baker	13-05-25	20:20:14	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	InventoryService	DatabaseModule	192.168.218.27
+86	Diana Wood	26-04-25	9:17:16	QueryTimeout	MongoTimeoutException	Error	Query timed out.	Retailer Application	NotificationService	DatabaseModule	192.168.165.109
+41	Kathy James	22-05-25	18:10:53	OrderNotFoundError	MongoCommandException	Error	The requested order could not be found in the system	Retailer Application	ShippingService	OrderModule	192.168.147.239
+25	Uma Moore	6/5/2025	23:39:29	AuthenticationFailed	MongoAuthenticationException	Critical	Authentication failed. Please check your credentials and try again.	Retailer Application	UserService	AuthenticationModule	192.168.248.107
+18	Nancy King	12/5/2025	21:22:11	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	TransactionService	DatabaseModule	192.168.251.198
+34	Diane Hughes	6/5/2025	15:10:59	DataIntegrityError	MongoWriteException	Error	Document validation failed	Retailer Application	ProductService	CatalogModule	192.168.32.56
+123	Olga Carter	13-05-25	16:26:10	PaymentError	MongoException	Info	An unknown error occurred	Retailer Application	CartService	CartModule	192.168.2.34
+180	Talia Allen	17-05-25	18:34:55	PaymentProcessingError	MongoCommandException	Critical	Payment could not be processed due to a system error.	Retailer Application	TransactionService	PaymentModule	192.168.169.189
+173	Martha Gray	13-05-25	18:30:53	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	PaymentService	PaymentGatewayModule	192.168.20.47
+165	Elias Clarke	19-05-25	6:18:08	TimeoutError	MongoTimeoutException	Error	Timed out after 300 ms while waiting for server to respond.	Retailer Application	ShippingService	ShippingTrackingModule	192.168.175.141
+31	Alex Miller	11/5/2025	19:11:37	AuthenticationTimeout	MongoTimeoutException	Critical	 Authentication failed due to a timeout.	Retailer Application	UserService	AuthenticationModule	192.168.51.6
+24	Tim Anderson	20-05-25	1:25:53	CatalogUpdateError	MongoCommandException	Error	Unable to update catalog due to database connection issues.	Retailer Application	ProductService	CatalogModule	192.168.131.56
+112	Diana Moore	24-04-25	6:07:31	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	InventoryService	DatabaseModule	192.168.106.117
+126	Rosa Harris	9/5/2025	14:08:42	TimeoutError	MongoTimeoutException	Error	Timed out after 300 ms while waiting for server to respond.	Retailer Application	ShippingService	ShippingLabelModule	192.168.233.251
+101	Seth Coleman	9/5/2025	13:36:27	CatalogUpdateError	MongoCommandException	Error	Unable to update catalog due to database connection issues.	Retailer Application	ProductService	CatalogModule	192.168.94.178
+154	Talia Hayes	14-05-25	11:09:16	TimeoutError	MongoTimeoutException	Error	Timed out after 300 ms while waiting for server to respond.	Retailer Application	OrderService	OrderProcessingModule	192.168.46.59
+30	Zoe Carter	20-05-25	20:24:45	OrderNotFoundError	MongoCommandException	Error	The requested order could not be found in the system	Retailer Application	ShippingService	OrderModule	192.168.79.25
+147	Martha Gray	23-05-25	4:42:50	InventoryUpdateError	MongoWriteException	Error	Failed to update inventory due to database connection issue.	Retailer Application	InventoryService	WarehouseModule	192.168.129.249
+54	Xander Hudson	26-04-25	7:54:53	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	InventoryService	DatabaseModule	192.168.89.223
+171	Kurtis Roberts	25-04-25	6:00:01	EmailSendingError	MongoException	Warn	Failed to send email due to SMTP server connection failure.	Retailer Application	NotificationService	EmailModule	192.168.244.7
+42	Liam Stewart	8/5/2025	20:21:42	TransactionAbortError	MongoTransactionException	Critical	The transaction was aborted due to a conflict or error	Retailer Application	PaymentService	PaymentGatewayModule	192.168.254.46
+191	Elias Roberts	9/5/2025	16:14:12	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	AdminService	DatabaseModule	192.168.214.12
+93	Kurtis Jenkins	18-05-25	3:12:47	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	PaymentService	DatabaseModule	192.168.122.20
+165	Elias Clarke	1/5/2025	16:18:02	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	InventoryService	StockTrackingModule	192.168.175.16
+29	Yasmine Phillips	22-05-25	9:11:20	PaymentError	MongoException	Info	An unknown error occurred	Retailer Application	CartService	CheckoutModule	192.168.197.171
+151	Quincy Parker	21-05-25	5:44:13	SessionCreationError	MongoException	Warn	Failed to create a session	Retailer Application	UserService	SessionModule	192.168.219.244
+51	Ursula Jenkins	8/5/2025	15:30:41	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	ShippingService	DatabaseModule	192.168.18.230
+50	Tina Baker	27-04-25	16:29:23	TimeoutError	MongoTimeoutException	Error	Timed out after 300 ms while waiting for server to respond.	Retailer Application	ShippingService	ShippingLabelModule	192.168.161.149
+186	Zachary Watson	2/5/2025	17:51:32	TimeoutError	MongoTimeoutException	Error	Timed out after 300 ms while waiting for server to respond.	Retailer Application	OrderService	ShippingModule	192.168.15.58
+23	Steve Rodriguez	29-04-25	1:52:39	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	CustomerService	ProfileModule	192.168.139.72
+12	Judy Clark	17-05-25	0:34:32	TransactionAbortError	MongoTransactionException	Critical	The transaction was aborted due to a conflict or error	Retailer Application	TransactionService	TransactionProcessingModule	192.168.150.171
+189	Cora White	1/5/2025	6:06:31	DocumentNotFound	MongoCommandException	Error	The requested document does not exist.	Retailer Application	UserService	UserProfileModule	192.168.86.31
+181	Uma Harris	11/5/2025	10:30:35	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	NotificationService	EmailModule	192.168.43.216
+163	Cora Peterson	7/5/2025	1:07:12	PaymentError	MongoException	Info	An unknown error occurred	Retailer Application	CartService	CheckoutModule	192.168.157.79
+75	Sophie Campbell	16-05-25	20:39:56	DataIntegrityError	MongoWriteException	Error	Document validation failed	Retailer Application	ProductService	CatalogModule	192.168.78.236
+74	Riley Cooper	21-05-25	21:57:52	RefundError	MongoWriteException	Error	 Unable to process refund due to payment gateway failure	Retailer Application	PaymentService	RefundModule	192.168.137.182
+38	Helen Bryant	2/5/2025	1:14:23	TransactionAbortError	MongoTransactionException	Critical	The transaction was aborted due to a conflict or error	Retailer Application	TransactionService	TransactionProcessingModule	192.168.243.61
+173	Martha Gray	10/5/2025	4:50:24	OrderProcessingError	MongoCommandException	Error	Failed to process order due to payment gateway failure.	Retailer Application	ReturnService	OrderModule	192.168.160.249
+54	Xander Hudson	24-04-25	0:12:27	QueryTimeout	MongoTimeoutException	Error	Query timed out.	Retailer Application	ProductService	DatabaseModule	192.168.127.116
+121	Martha Rogers	9/5/2025	13:18:43	TransactionAbortError	MongoTransactionException	Critical	The transaction was aborted due to a conflict or error	Retailer Application	ReturnService	RefundModule	192.168.216.107
+74	Riley Cooper	26-04-25	1:55:53	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	InventoryService	WarehouseModule	192.168.121.31
+20	Paul Scott	20-05-25	14:34:17	OrderProcessingError	MongoCommandException	Error	Failed to process order due to payment gateway failure.	Retailer Application	ShippingService	OrderModule	192.168.181.90
+110	Blake Fisher	28-04-25	4:49:35	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	AdminService	DatabaseModule	192.168.118.86
+91	Isaac Evans	28-04-25	19:58:06	DataIntegrityError	MongoWriteException	Error	Document validation failed	Retailer Application	CustomerService	CustomerModule	192.168.243.112
+149	Olga Hall	28-04-25	18:19:01	NotificationSendError	MongoException	Warn	Failed to send notification due to network failure..	Retailer Application	NotificationService	PushNotificationModule	192.168.10.227
+165	Elias Clarke	13-05-25	19:16:11	QueryTimeout	MongoTimeoutException	Error	Query timed out.	Retailer Application	TransactionService	DatabaseModule	192.168.106.219
+0	Alice Johnson	3/5/2025	22:51:06	TransactionTimeoutError	MongoTimeoutException	Critical	 The transaction timed out due to a long processing delay	Retailer Application	TransactionService	TransactionProcessingModule	192.168.69.88
+42	Liam Stewart	26-04-25	11:40:39	AuthenticationTimeout	MongoTimeoutException	Critical	 Authentication failed due to a timeout.	Retailer Application	CustomerService	AuthModule	192.168.83.176
+117	Isaac Daniels	21-05-25	13:46:42	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	ProductService	ProductManagementModule	192.168.96.207
+11	Zack Garcia	7/5/2025	22:34:18	TimeoutError	MongoTimeoutException	Error	Timed out after 300 ms while waiting for server to respond.	Retailer Application	ShippingService	ShippingTrackingModule	192.168.210.47
+29	Yasmine Phillips	1/5/2025	8:42:49	TimeoutError	MongoTimeoutException	Error	Timed out after 300 ms while waiting for server to respond.	Retailer Application	ShippingService	ShippingTrackingModule	192.168.80.16
+72	Penny Shaw	11/5/2025	1:59:52	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	ProductService	DatabaseModule	192.168.107.251
+32	Brian Taylor	1/5/2025	6:40:05	CheckoutError	MongoCommandException	Error	Payment processing failed, please try again.	Retailer Application	CartService	CheckoutModule	192.168.117.123
+173	Martha Gray	29-04-25	0:03:41	TransactionRollbackError	MongoException	Info	An unknown error occurred	Retailer Application	PaymentService	TransactionModule	192.168.241.148
+195	Isaac Lewis	22-05-25	14:45:27	EmailSendingError	MongoException	Warn	Failed to send email due to SMTP server connection failure.	Retailer Application	NotificationService	EmailModule	192.168.146.200
+31	Alex Miller	10/5/2025	19:02:58	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	PaymentService	DatabaseModule	192.168.93.249
+172	Leah Peterson	4/5/2025	7:37:18	PermissionDenied	MongoException	Warn	You do not have permission to perform this action.	Retailer Application	AdminService	AdminDashboardModule	192.168.191.111
+77	Ulysses Howard	17-05-25	9:35:59	NetworkTimeoutError	MongoException	Info	An unknown error occurred	Retailer Application	NotificationService	SMSModule	192.168.82.223
+46	Peter King	29-04-25	7:14:43	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	ShippingService	DatabaseModule	192.168.148.63
+67	Kyle Bennett	19-05-25	21:36:28	PaymentProcessingError	MongoCommandException	Critical	Payment could not be processed due to a system error.	Retailer Application	TransactionService	PaymentModule	192.168.63.123
+72	Penny Shaw	30-04-25	22:47:53	TimeoutError	MongoTimeoutException	Error	Timed out after 300 ms while waiting for server to respond.	Retailer Application	ShippingService	ShippingLabelModule	192.168.209.139
+87	Elias Carpenter	16-05-25	10:47:15	NotificationSendError	MongoException	Warn	Failed to send notification due to network failure..	Retailer Application	NotificationService	PushNotificationModule	192.168.169.1
+99	Quincy Morgan	7/5/2025	15:21:57	ShippingTrackingError	MongoCommandException	Error	Unable to retrieve tracking information for the shipment	Retailer Application	ShippingService	ShippingTrackingModule	192.168.174.238
+100	Rosa Griffin	24-04-25	7:58:44	InventoryUpdateError	MongoWriteException	Error	Failed to update inventory due to database connection issue.	Retailer Application	OrderService	InventoryModule	192.168.187.240
+152	Rosa Bennett	18-05-25	12:24:16	QueryTimeout	MongoTimeoutException	Error	Query timed out.	Retailer Application	AdminService	DatabaseModule	192.168.118.63
+3	David Lee	23-05-25	5:18:35	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	InventoryService	WarehouseModule	192.168.87.152
+179	Seth Martin	12/5/2025	1:36:29	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	AdminService	DatabaseModule	192.168.43.237
+106	Xander Zimmerman	12/5/2025	1:37:17	PermissionDenied	MongoException	Warn	You do not have permission to perform this action.	Retailer Application	AdminService	AdminDashboardModule	192.168.242.101
+159	Yvette Brooks	26-04-25	0:19:40	ProductNotFoundError	MongoException	Info	An unknown error occurred	Retailer Application	ProductService	ProductManagementModule	192.168.7.241
+121	Martha Rogers	20-05-25	22:54:06	UserNotFound	MongoCommandException	Warn	The specified user could not be found.	Retailer Application	AdminService	UserManagementModule	192.168.46.56
+92	Julia Simmons	16-05-25	8:05:36	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	NotificationService	DatabaseModule	192.168.131.183
+38	Helen Bryant	10/5/2025	7:03:35	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	ShippingService	DatabaseModule	192.168.18.143
+106	Xander Zimmerman	25-04-25	4:23:32	InventoryUpdateError	MongoWriteException	Error	Failed to update inventory due to database connection issue.	Retailer Application	OrderService	InventoryModule	192.168.34.150
+47	Quinn Mitchell	2/5/2025	22:50:58	TransactionTimeoutError	MongoTimeoutException	Critical	 The transaction timed out due to a long processing delay	Retailer Application	TransactionService	TransactionProcessingModule	192.168.146.21
+14	Jack Young	19-05-25	3:36:28	TimeoutError	MongoTimeoutException	Error	Timed out after 300 ms while waiting for server to respond.	Retailer Application	ReturnService	ReturnProcessingModule	192.168.41.215
+32	Brian Taylor	8/5/2025	23:25:52	OrderProcessingError	MongoCommandException	Error	Failed to process order due to payment gateway failure.	Retailer Application	TransactionService	OrderModule	192.168.11.219
+146	Leah Jenkins	21-05-25	18:40:19	TransactionAbortError	MongoTransactionException	Critical	The transaction was aborted due to a conflict or error	Retailer Application	TransactionService	PaymentModule	192.168.86.227
+127	Seth Campbell	15-05-25	21:49:11	OrderProcessingError	MongoCommandException	Error	Failed to process order due to payment gateway failure.	Retailer Application	ShippingService	OrderModule	192.168.229.75
+131	Willie Rodriguez	25-04-25	14:13:51	InventoryUpdateError	MongoWriteException	Error	Failed to update inventory due to database connection issue.	Retailer Application	InventoryService	WarehouseModule	192.168.40.162
+158	Xander Hernandez	15-05-25	12:54:33	DataIntegrityError	MongoWriteException	Error	Document validation failed	Retailer Application	ProductService	CatalogModule	192.168.101.65
+79	Warren Romero	29-04-25	8:08:16	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	AdminService	DatabaseModule	192.168.204.26
+71	Oscar Jordan	6/5/2025	12:03:06	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	InventoryService	DatabaseModule	192.168.17.14
+54	Xander Hudson	8/5/2025	14:35:04	OrderProcessingError	MongoCommandException	Error	Failed to process order due to payment gateway failure.	Retailer Application	ReturnService	OrderModule	192.168.196.99
+196	Julia Richardson	10/5/2025	2:39:03	OrderProcessingError	MongoCommandException	Error	Failed to process order due to payment gateway failure.	Retailer Application	ReturnService	OrderModule	192.168.18.63
+77	Ulysses Howard	16-05-25	9:37:34	AuthenticationFailed	MongoAuthenticationException	Critical	Authentication failed. Please check your credentials and try again.	Retailer Application	UserService	AuthenticationModule	192.168.56.35
+17	Michael Allen	6/5/2025	21:29:39	AuthenticationFailed	MongoAuthenticationException	Critical	Authentication failed. Please check your credentials and try again.	Retailer Application	UserService	AuthenticationModule	192.168.54.179
+145	Kurtis Cooper	12/5/2025	19:08:16	DataIntegrityError	MongoWriteException	Error	Document validation failed	Retailer Application	OrderService	InventoryModule	192.168.220.109
+53	Wendy Grant	30-04-25	8:20:23	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	InventoryService	WarehouseModule	192.168.117.139
+178	Rosa Ross	4/5/2025	1:43:44	QueryTimeout	MongoTimeoutException	Error	Query timed out.	Retailer Application	ProductService	DatabaseModule	192.168.211.232
+41	Kathy James	26-04-25	8:41:51	InventoryError	MongoWriteException	Error	Insufficient stock to fulfill the order.	Retailer Application	OrderService	OrderProcessingModule	192.168.135.250
+79	Warren Romero	28-04-25	18:33:43	SessionTimeoutError	MongoTimeoutException	Warn	The session has timed out. The operation cannot proceed.	Retailer Application	UserService	SessionModule	192.168.197.107
+133	Yvette Bennett	29-04-25	20:42:10	InvalidCredentials	MongoAuthenticationException	Critical	 Invalid credentials.	Retailer Application	CustomerService	AuthModule	192.168.201.105
+197	Kurtis Anderson	20-05-25	4:31:20	ProductNotFound	MongoCommandException	Error	The requested product could not be found in the inventory	Retailer Application	CartService	ProductModule	192.168.221.218
+114	Fiona Burns	24-04-25	23:56:13	PaymentError	MongoException	Info	An unknown error occurred	Retailer Application	CartService	CheckoutModule	192.168.238.233
+32	Brian Taylor	12/5/2025	14:23:43	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	NotificationService	DatabaseModule	192.168.91.174
+159	Yvette Brooks	5/5/2025	15:06:00	DocumentNotFound	MongoCommandException	Error	The requested document does not exist.	Retailer Application	UserService	UserProfileModule	192.168.98.19
+35	Evan Gomez	4/5/2025	2:00:25	QueryTimeout	MongoTimeoutException	Error	Query timed out.	Retailer Application	CartService	DatabaseModule	192.168.175.178
+71	Oscar Jordan	28-04-25	10:12:24	SmsSendingError	MongoException	Warn	Failed to send SMS due to network error	Retailer Application	NotificationService	SMSModule	192.168.91.143
+0	Alice Johnson	2/5/2025	7:06:58	DocumentNotFound	MongoCommandException	Error	The requested document does not exist.	Retailer Application	CustomerService	ProfileModule	192.168.109.43
+50	Tina Baker	15-05-25	7:42:13	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	CustomerService	DatabaseModule	192.168.161.46
+53	Wendy Grant	4/5/2025	2:10:25	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	OrderService	DatabaseModule	192.168.104.69
+27	Walter Murphy	6/5/2025	14:24:33	SessionTimeoutError	MongoTimeoutException	Warn	The session has timed out. The operation cannot proceed.	Retailer Application	UserService	SessionModule	192.168.174.96
+115	Gavin Powell	9/5/2025	5:18:38	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	NotificationService	DatabaseModule	192.168.82.122
+113	Elias Rivera	27-04-25	9:20:41	TransactionTimeoutError	MongoTimeoutException	Critical	 The transaction timed out due to a long processing delay	Retailer Application	TransactionService	TransactionProcessingModule	192.168.221.237
+104	Vicky Carpenter	1/5/2025	20:44:29	AuthenticationTimeout	MongoTimeoutException	Critical	 Authentication failed due to a timeout.	Retailer Application	CustomerService	AuthModule	192.168.184.67
+16	Linda Hall	18-05-25	1:55:41	QueryTimeout	MongoTimeoutException	Error	Query timed out.	Retailer Application	PaymentService	DatabaseModule	192.168.4.86
+187	Abigail Williams	12/5/2025	21:15:43	TransactionAbortError	MongoTransactionException	Critical	The transaction was aborted due to a conflict or error	Retailer Application	TransactionService	PaymentModule	192.168.9.96
+133	Yvette Bennett	18-05-25	18:38:43	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	CustomerService	DatabaseModule	192.168.239.26
+60	Derrick Richards	24-04-25	22:49:57	ReturnProcessingError	MongoCommandException	Error	Unable to process the return due to invalid order details.	Retailer Application	ReturnService	ReturnProcessingModule	192.168.172.33
+75	Sophie Campbell	22-05-25	5:48:33	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	InventoryService	StockTrackingModule	192.168.17.136
+85	Cora Lawrence	10/5/2025	3:12:29	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	ProductService	DatabaseModule	192.168.240.60
+64	Henry Rodriguez	2/5/2025	2:17:15	TransactionTimeoutError	MongoTimeoutException	Critical	 The transaction timed out due to a long processing delay	Retailer Application	TransactionService	TransactionProcessingModule	192.168.36.159
+66	Jackie Richards	22-05-25	8:46:23	DataIntegrityError	MongoWriteException	Error	Document validation failed	Retailer Application	ProductService	PricingModule	192.168.150.89
+28	Xander Mitchell	18-05-25	3:35:16	TransactionAbortError	MongoTransactionException	Critical	The transaction was aborted due to a conflict or error	Retailer Application	TransactionService	TransactionProcessingModule	192.168.252.228
+72	Penny Shaw	17-05-25	23:33:04	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	ProductService	DatabaseModule	192.168.155.214
+15	Kim Walker	4/5/2025	20:08:06	AuthenticationFailed	MongoAuthenticationException	Critical	Authentication failed. Please check your credentials and try again.	Retailer Application	UserService	AuthenticationModule	192.168.175.29
+91	Isaac Evans	10/5/2025	14:52:12	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	ShippingService	OrderModule	192.168.205.149
+38	Helen Bryant	5/5/2025	1:22:50	TransactionAbortError	MongoTransactionException	Critical	The transaction was aborted due to a conflict or error	Retailer Application	PaymentService	RefundModule	192.168.29.29
+33	Cathy Evans	26-04-25	18:23:19	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	ShippingService	DatabaseModule	192.168.82.220
+95	Martha Bates	17-05-25	1:55:48	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	InventoryService	WarehouseModule	192.168.209.172
+110	Blake Fisher	17-05-25	23:50:53	SessionCreationError	MongoException	Warn	Failed to create a session	Retailer Application	UserService	SessionModule	192.168.232.134
+198	Leah Scott	19-05-25	3:11:38	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	CustomerService	ProfileModule	192.168.195.101
+101	Seth Coleman	1/5/2025	22:27:40	CartItemNotFound	MongoCommandException	Error	The item you are looking for is not in the cart.	Retailer Application	CartService	CartModule	192.168.92.12
+13	Harry Lewis	26-04-25	11:59:12	PaymentError	MongoException	Info	An unknown error occurred	Retailer Application	CartService	CheckoutModule	192.168.224.173
+193	Gavin Coleman	29-04-25	6:40:10	SessionCreationError	MongoException	Warn	Failed to create a session	Retailer Application	UserService	SessionModule	192.168.251.252
+22	Rachel Perez	19-05-25	7:57:33	UserNotFound	MongoCommandException	Warn	The specified user could not be found.	Retailer Application	AdminService	UserManagementModule	192.168.17.179
+141	Gavin Evans	20-05-25	19:44:24	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	InventoryService	InventoryManagementModule	192.168.24.111
+187	Abigail Williams	22-05-25	16:06:20	PaymentProcessingError	MongoCommandException	Critical	Payment could not be processed due to a system error.	Retailer Application	TransactionService	PaymentModule	192.168.150.225
+86	Diana Wood	21-05-25	0:34:50	InventoryUpdateError	MongoWriteException	Error	Failed to update inventory due to database connection issue.	Retailer Application	InventoryService	InventoryManagementModule	192.168.106.130
+190	Diana Morris	15-05-25	13:29:13	UserNotFound	MongoCommandException	Warn	The specified user could not be found.	Retailer Application	AdminService	UserManagementModule	192.168.166.220
+176	Pablo Garcia	13-05-25	7:24:58	DataIntegrityError	MongoWriteException	Error	Document validation failed	Retailer Application	InventoryService	InventoryManagementModule	192.168.70.133
+190	Diana Morris	26-04-25	22:26:31	DataIntegrityError	MongoWriteException	Error	Document validation failed	Retailer Application	AdminService	InventoryModule	192.168.196.157
+180	Talia Allen	10/5/2025	7:09:42	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	CustomerService	DatabaseModule	192.168.16.253
+111	Cora Peters	6/5/2025	16:44:33	PermissionDenied	MongoException	Warn	You do not have permission to perform this action.	Retailer Application	AdminService	UserManagementModule	192.168.156.74
+53	Wendy Grant	25-04-25	13:42:05	AuthenticationTimeout	MongoTimeoutException	Critical	 Authentication failed due to a timeout.	Retailer Application	CustomerService	AuthModule	192.168.43.15
+186	Zachary Watson	19-05-25	22:50:32	PaymentProcessingError	MongoCommandException	Critical	Payment could not be processed due to a system error.	Retailer Application	TransactionService	PaymentModule	192.168.134.232
+52	Victor Hunt	20-05-25	23:33:39	TransactionRollbackError	MongoException	Info	An unknown error occurred	Retailer Application	PaymentService	TransactionModule	192.168.189.169
+162	Blake Andrews	27-04-25	11:49:29	DuplicateKeyError	MongoWriteException	Error	E11000 duplicate key error collection: mydb.users index: username_1 dup key: { : Pablo Wilson }	Retailer Application	CustomerService	CustomerModule	192.168.127.53
+86	Diana Wood	19-05-25	18:31:19	OrderProcessingError	MongoCommandException	Error	Failed to process order due to payment gateway failure.	Retailer Application	TransactionService	OrderModule	192.168.167.121
+81	Yasmine Walsh	29-04-25	15:56:37	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	InventoryService	StockTrackingModule	192.168.25.19
+99	Quincy Morgan	11/5/2025	17:58:17	TimeoutError	MongoTimeoutException	Error	Timed out after 300 ms while waiting for server to respond.	Retailer Application	OrderService	ShippingModule	192.168.229.99
+160	Zachary Johnson	24-04-25	15:43:45	OrderProcessingError	MongoCommandException	Error	Failed to process order due to payment gateway failure.	Retailer Application	TransactionService	OrderModule	192.168.204.59
+128	Talia Coleman	29-04-25	21:10:09	PermissionDenied	MongoException	Warn	You do not have permission to perform this action.	Retailer Application	AdminService	AdminDashboardModule	192.168.48.16
+196	Julia Richardson	27-04-25	20:35:29	DataIntegrityError	MongoWriteException	Error	Document validation failed	Retailer Application	ProductService	CatalogModule	192.168.207.229
+106	Xander Zimmerman	7/5/2025	4:30:46	DuplicateKeyError	MongoWriteException	Error	E11000 duplicate key error collection: mydb.users index: username_1 dup key: { : Pablo Wilson }	Retailer Application	CustomerService	CustomerModule	192.168.142.46
+136	Blake Simmons	24-04-25	17:34:40	ShippingTrackingError	MongoCommandException	Error	Unable to retrieve tracking information for the shipment	Retailer Application	ShippingService	ShippingTrackingModule	192.168.29.167
+88	Fiona Newton	30-04-25	22:20:20	ProductNotFound	MongoCommandException	Error	The requested product could not be found in the inventory	Retailer Application	CartService	ProductModule	192.168.114.89
+120	Leah Simmons	13-05-25	17:43:14	DataIntegrityError	MongoWriteException	Error	Document validation failed	Retailer Application	CartService	ProductModule	192.168.188.233
+48	Rebecca Lopez	30-04-25	10:17:31	TransactionAbortError	MongoTransactionException	Critical	The transaction was aborted due to a conflict or error	Retailer Application	TransactionService	TransactionProcessingModule	192.168.131.67
+17	Michael Allen	3/5/2025	13:07:20	InventoryUpdateError	MongoWriteException	Error	Failed to update inventory due to database connection issue.	Retailer Application	InventoryService	InventoryManagementModule	192.168.129.191
+130	Vicky Robinson	25-04-25	23:44:57	OrderNotFoundError	MongoCommandException	Error	The requested order could not be found in the system	Retailer Application	ReturnService	OrderModule	192.168.61.200
+177	Quincy Mitchell	28-04-25	9:13:57	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	TransactionService	OrderModule	192.168.52.79
+99	Quincy Morgan	19-05-25	13:19:07	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	UserService	UserProfileModule	192.168.91.48
+95	Martha Bates	29-04-25	0:42:17	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	CustomerService	DatabaseModule	192.168.23.252
+125	Quincy Torres	18-05-25	22:02:05	PaymentError	MongoException	Info	An unknown error occurred	Retailer Application	CartService	CartModule	192.168.148.54
+91	Isaac Evans	18-05-25	19:20:08	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	NotificationService	DatabaseModule	192.168.194.248
+68	Lena Patterson	21-05-25	14:35:39	TransactionTimeoutError	MongoTimeoutException	Critical	 The transaction timed out due to a long processing delay	Retailer Application	PaymentService	TransactionModule	192.168.107.4
+191	Elias Roberts	18-05-25	6:14:16	QueryTimeout	MongoTimeoutException	Error	Query timed out.	Retailer Application	ProductService	DatabaseModule	192.168.79.55
+76	Travis Bailey	3/5/2025	7:05:56	InventoryUpdateError	MongoWriteException	Error	Failed to update inventory due to database connection issue.	Retailer Application	OrderService	InventoryModule	192.168.144.223
+113	Elias Rivera	16-05-25	6:56:47	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	UserService	DatabaseModule	192.168.177.194
+33	Cathy Evans	11/5/2025	0:28:40	QueryTimeout	MongoTimeoutException	Error	Query timed out.	Retailer Application	TransactionService	DatabaseModule	192.168.52.29
+2	Charlie Brown	26-04-25	22:41:20	ShippingTrackingError	MongoCommandException	Error	Unable to retrieve tracking information for the shipment	Retailer Application	ShippingService	ShippingTrackingModule	192.168.213.53
+99	Quincy Morgan	10/5/2025	17:31:00	TransactionAbortError	MongoTransactionException	Critical	The transaction was aborted due to a conflict or error	Retailer Application	PaymentService	RefundModule	192.168.227.140
+82	Zoe Alvarez	22-05-25	8:27:28	DocumentNotFound	MongoCommandException	Error	The requested document does not exist.	Retailer Application	CustomerService	ProfileModule	192.168.142.175
+128	Talia Coleman	16-05-25	2:49:08	SmsSendingError	MongoException	Warn	Failed to send SMS due to network error	Retailer Application	NotificationService	SMSModule	192.168.146.85
+194	Harriet Wood	27-04-25	1:55:54	OrderNotFoundError	MongoCommandException	Error	The requested order could not be found in the system	Retailer Application	ShippingService	OrderModule	192.168.247.147
+0	Alice Johnson	17-05-25	19:02:43	TimeoutError	MongoTimeoutException	Error	Timed out after 300 ms while waiting for server to respond.	Retailer Application	ReturnService	ReturnProcessingModule	192.168.129.28
+43	Monica Collins	9/5/2025	20:09:26	InventoryUpdateError	MongoWriteException	Error	Failed to update inventory due to database connection issue.	Retailer Application	InventoryService	InventoryManagementModule	192.168.175.214
+53	Wendy Grant	3/5/2025	20:26:10	ShippingError	MongoException	Warn	Shipping carrier is unavailable or unreachable.	Retailer Application	OrderService	ShippingModule	192.168.157.14
+155	Uma Walker	29-04-25	16:25:29	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	NotificationService	DatabaseModule	192.168.244.20
+134	Zachary Mitchell	30-04-25	10:28:44	DataIntegrityError	MongoWriteException	Error	Document validation failed	Retailer Application	OrderService	InventoryModule	192.168.18.189
+30	Zoe Carter	27-04-25	10:46:49	CheckoutError	MongoCommandException	Error	Payment processing failed, please try again.	Retailer Application	CartService	CheckoutModule	192.168.73.102
+4	Eve Davis	26-04-25	10:34:12	EmailSendingError	MongoException	Warn	Failed to send email due to SMTP server connection failure.	Retailer Application	NotificationService	EmailModule	192.168.214.178
+74	Riley Cooper	6/5/2025	4:23:51	PermissionDenied	MongoException	Warn	You do not have permission to perform this action.	Retailer Application	AdminService	AdminDashboardModule	192.168.25.154
+37	George Edwards	18-05-25	8:44:21	TransactionAbortError	MongoTransactionException	Critical	The transaction was aborted due to a conflict or error	Retailer Application	TransactionService	TransactionProcessingModule	192.168.188.170
+110	Blake Fisher	18-05-25	13:19:34	TimeoutError	MongoTimeoutException	Error	Timed out after 300 ms while waiting for server to respond.	Retailer Application	ShippingService	ShippingLabelModule	192.168.229.108
+96	Noah Murphy	22-05-25	18:42:31	OrderNotFoundError	MongoCommandException	Error	The requested order could not be found in the system	Retailer Application	ShippingService	OrderModule	192.168.135.137
+156	Vicky Davis	25-04-25	22:34:47	TimeoutError	MongoTimeoutException	Error	Timed out after 300 ms while waiting for server to respond.	Retailer Application	ReturnService	ReturnProcessingModule	192.168.183.133
+17	Michael Allen	24-04-25	22:26:33	AuthenticationTimeout	MongoTimeoutException	Critical	 Authentication failed due to a timeout.	Retailer Application	UserService	AuthenticationModule	192.168.207.236
+66	Jackie Richards	10/5/2025	10:19:15	DuplicateKeyError	MongoWriteException	Error	E11000 duplicate key error collection: mydb.users index: username_1 dup key: { : Pablo Wilson }	Retailer Application	CustomerService	CustomerModule	192.168.241.207
+28	Xander Mitchell	5/5/2025	16:50:08	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	ProductService	DatabaseModule	192.168.135.104
+165	Elias Clarke	25-04-25	10:41:00	OrderProcessingError	MongoCommandException	Error	Failed to process order due to payment gateway failure.	Retailer Application	TransactionService	OrderModule	192.168.167.74
+189	Cora White	6/5/2025	0:08:50	DocumentNotFound	MongoCommandException	Error	The requested document does not exist.	Retailer Application	UserService	UserProfileModule	192.168.25.140
+154	Talia Hayes	30-04-25	7:35:08	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	OrderService	DatabaseModule	192.168.64.233
+48	Rebecca Lopez	9/5/2025	0:59:23	DuplicateKeyError	MongoWriteException	Error	E11000 duplicate key error collection: mydb.users index: username_1 dup key: { : Pablo Wilson }	Retailer Application	CustomerService	CustomerModule	192.168.150.226
+69	Mason Coleman	22-05-25	17:07:56	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	CustomerService	DatabaseModule	192.168.8.240
+158	Xander Hernandez	15-05-25	2:14:15	DataIntegrityError	MongoWriteException	Error	Document validation failed	Retailer Application	OrderService	InventoryModule	192.168.244.44
+33	Cathy Evans	17-05-25	10:10:58	QueryTimeout	MongoTimeoutException	Error	Query timed out.	Retailer Application	UserService	DatabaseModule	192.168.74.152
+70	Nina Griffin	29-04-25	22:03:34	PaymentError	MongoException	Info	An unknown error occurred	Retailer Application	CartService	CheckoutModule	192.168.31.41
+157	Willie Martinez	26-04-25	20:50:42	TimeoutError	MongoTimeoutException	Error	Timed out after 300 ms while waiting for server to respond.	Retailer Application	OrderService	OrderProcessingModule	192.168.159.240
+95	Martha Bates	29-04-25	16:51:46	QueryTimeout	MongoTimeoutException	Error	Query timed out.	Retailer Application	ProductService	DatabaseModule	192.168.37.224
+0	Alice Johnson	21-05-25	5:01:43	ProductNotFound	MongoCommandException	Error	The requested product could not be found in the inventory	Retailer Application	CartService	ProductModule	192.168.12.28
+162	Blake Andrews	1/5/2025	21:57:29	OrderProcessingError	MongoCommandException	Error	Failed to process order due to payment gateway failure.	Retailer Application	OrderService	OrderProcessingModule	192.168.163.224
+65	Isabel Dunn	8/5/2025	2:29:45	ShippingLabelGenerationError	MongoCommandException	Error	Unable to generate shipping label due to system error	Retailer Application	ShippingService	ShippingLabelModule	192.168.44.77
+48	Rebecca Lopez	30-04-25	6:17:07	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	ReturnService	DatabaseModule	192.168.104.104
+54	Xander Hudson	1/5/2025	3:20:57	DataIntegrityError	MongoWriteException	Error	Document validation failed	Retailer Application	InventoryService	InventoryManagementModule	192.168.130.222
+187	Abigail Williams	1/5/2025	17:10:47	AuthenticationFailed	MongoAuthenticationException	Critical	Authentication failed. Please check your credentials and try again.	Retailer Application	CustomerService	AuthModule	192.168.159.118
+137	Cora Nelson	17-05-25	9:28:00	SchemaValidationError	MongoCommandException	Error	Document failed validation because field 'username' is required and was not provided	Retailer Application	CustomerService	ProfileModule	192.168.238.196
+119	Kurtis Phillips	8/5/2025	18:56:05	RefundError	MongoWriteException	Error	 Unable to process refund due to payment gateway failure	Retailer Application	ReturnService	RefundModule	192.168.201.107
+11	Zack Garcia	10/5/2025	4:53:04	TransactionAbortError	MongoTransactionException	Critical	The transaction was aborted due to a conflict or error	Retailer Application	TransactionService	PaymentModule	192.168.20.142
+187	Abigail Williams	16-05-25	6:31:44	TransactionRollbackError	MongoException	Info	An unknown error occurred	Retailer Application	PaymentService	TransactionModule	192.168.76.215
+67	Kyle Bennett	13-05-25	5:36:38	PaymentError	MongoException	Info	An unknown error occurred	Retailer Application	CartService	CartModule	192.168.144.157
+112	Diana Moore	13-05-25	15:14:20	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	PaymentService	PaymentGatewayModule	192.168.58.226
+66	Jackie Richards	18-05-25	6:09:03	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	NotificationService	DatabaseModule	192.168.4.193
+16	Linda Hall	28-04-25	6:31:25	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	UserService	UserProfileModule	192.168.103.211
+143	Isaac Greene	7/5/2025	15:27:48	QueryTimeout	MongoTimeoutException	Error	Query timed out.	Retailer Application	PaymentService	DatabaseModule	192.168.103.218
+136	Blake Simmons	12/5/2025	3:51:40	ShippingLabelGenerationError	MongoCommandException	Error	Unable to generate shipping label due to system error	Retailer Application	ShippingService	ShippingLabelModule	192.168.166.190
+198	Leah Scott	1/5/2025	1:41:00	CheckoutError	MongoCommandException	Error	Payment processing failed, please try again.	Retailer Application	CartService	CheckoutModule	192.168.150.116
+178	Rosa Ross	22-05-25	3:08:57	SessionTimeoutError	MongoTimeoutException	Warn	The session has timed out. The operation cannot proceed.	Retailer Application	UserService	SessionModule	192.168.125.103
+125	Quincy Torres	30-04-25	23:11:37	PermissionDenied	MongoException	Warn	You do not have permission to perform this action.	Retailer Application	AdminService	UserManagementModule	192.168.208.52
+103	Uma Sullivan	19-05-25	19:55:25	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	NotificationService	EmailModule	192.168.65.71
+151	Quincy Parker	15-05-25	22:15:34	SessionTimeoutError	MongoTimeoutException	Warn	The session has timed out. The operation cannot proceed.	Retailer Application	UserService	SessionModule	192.168.127.34
+77	Ulysses Howard	24-04-25	0:29:04	QueryTimeout	MongoTimeoutException	Error	Query timed out.	Retailer Application	ProductService	DatabaseModule	192.168.151.77
+178	Rosa Ross	9/5/2025	12:01:49	PermissionDenied	MongoException	Warn	You do not have permission to perform this action.	Retailer Application	AdminService	AdminDashboardModule	192.168.180.85
+37	George Edwards	6/5/2025	3:46:24	SessionCreationError	MongoException	Warn	Failed to create a session	Retailer Application	UserService	SessionModule	192.168.94.171
+118	Julia Bryant	20-05-25	8:32:01	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	InventoryService	DatabaseModule	192.168.106.76
+172	Leah Peterson	9/5/2025	3:35:02	NotificationSendError	MongoException	Warn	Failed to send notification due to network failure..	Retailer Application	NotificationService	PushNotificationModule	192.168.212.230
+16	Linda Hall	8/5/2025	3:39:58	PermissionDenied	MongoException	Warn	You do not have permission to perform this action.	Retailer Application	AdminService	AdminDashboardModule	192.168.162.63
+109	Abigail Perry	27-04-25	4:24:10	TransactionAbortError	MongoTransactionException	Critical	The transaction was aborted due to a conflict or error	Retailer Application	TransactionService	TransactionProcessingModule	192.168.168.205
+59	Camila Duncan	19-05-25	22:28:10	TimeoutError	MongoTimeoutException	Error	Timed out after 300 ms while waiting for server to respond.	Retailer Application	ShippingService	ShippingLabelModule	192.168.168.53
+185	Yvette Powell	12/5/2025	21:46:03	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	TransactionService	DatabaseModule	192.168.17.71
+185	Yvette Powell	28-04-25	18:17:49	TransactionAbortError	MongoTransactionException	Critical	The transaction was aborted due to a conflict or error	Retailer Application	ReturnService	RefundModule	192.168.148.56
+148	Noah Taylor	16-05-25	10:45:13	NetworkTimeoutError	MongoException	Info	An unknown error occurred	Retailer Application	NotificationService	SMSModule	192.168.244.149
+127	Seth Campbell	15-05-25	1:57:11	SessionCreationError	MongoException	Warn	Failed to create a session	Retailer Application	UserService	SessionModule	192.168.158.252
+3	David Lee	18-05-25	8:11:48	QueryTimeout	MongoTimeoutException	Error	Query timed out.	Retailer Application	CustomerService	DatabaseModule	192.168.207.107
+199	Martha Campbell	5/5/2025	11:16:47	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	UserService	UserProfileModule	192.168.241.239
+171	Kurtis Roberts	2/5/2025	23:34:24	ProductNotFound	MongoCommandException	Error	The requested product could not be found in the inventory	Retailer Application	CartService	ProductModule	192.168.64.243
+175	Olga Davidson	16-05-25	12:06:21	TransactionAbortError	MongoTransactionException	Critical	The transaction was aborted due to a conflict or error	Retailer Application	ReturnService	RefundModule	192.168.170.74
+115	Gavin Powell	16-05-25	1:46:26	PaymentError	MongoException	Info	An unknown error occurred	Retailer Application	CartService	CheckoutModule	192.168.19.1
+33	Cathy Evans	7/5/2025	2:50:11	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	TransactionService	OrderModule	192.168.177.254
+200	Noah Lee	1/5/2025	22:07:30	TransactionTimeoutError	MongoTimeoutException	Critical	 The transaction timed out due to a long processing delay	Retailer Application	TransactionService	TransactionProcessingModule	192.168.226.150
+104	Vicky Carpenter	28-04-25	6:24:40	InventoryUpdateError	MongoWriteException	Error	Failed to update inventory due to database connection issue.	Retailer Application	InventoryService	WarehouseModule	192.168.156.179
+51	Ursula Jenkins	17-05-25	18:27:35	QueryTimeout	MongoTimeoutException	Error	Query timed out.	Retailer Application	AdminService	DatabaseModule	192.168.152.122
+98	Pablo Lee	20-05-25	10:39:31	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	ProductService	ProductManagementModule	192.168.154.29
+174	Noah Clark	2/5/2025	10:49:36	OrderProcessingError	MongoCommandException	Error	Failed to process order due to payment gateway failure.	Retailer Application	ReturnService	OrderModule	192.168.228.154
+181	Uma Harris	14-05-25	6:30:53	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	UserService	UserProfileModule	192.168.204.121
+20	Paul Scott	21-05-25	17:37:18	ShippingError	MongoException	Warn	Shipping carrier is unavailable or unreachable.	Retailer Application	OrderService	ShippingModule	192.168.230.171
+119	Kurtis Phillips	9/5/2025	8:20:43	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	AdminService	DatabaseModule	192.168.143.88
+169	Isaac Ellis	27-04-25	17:01:10	OrderProcessingError	MongoCommandException	Error	Failed to process order due to payment gateway failure.	Retailer Application	ShippingService	OrderModule	192.168.49.213
+89	Gavin Griffith	4/5/2025	5:09:56	AuthenticationTimeout	MongoTimeoutException	Critical	 Authentication failed due to a timeout.	Retailer Application	UserService	AuthenticationModule	192.168.187.42
+139	Elias Thomas	15-05-25	2:16:19	TransactionTimeoutError	MongoTimeoutException	Critical	 The transaction timed out due to a long processing delay	Retailer Application	PaymentService	TransactionModule	192.168.177.223
+48	Rebecca Lopez	16-05-25	18:30:29	ProductNotFoundError	MongoException	Info	An unknown error occurred	Retailer Application	ProductService	ProductManagementModule	192.168.213.19
+14	Jack Young	18-05-25	0:20:54	TimeoutError	MongoTimeoutException	Error	Timed out after 300 ms while waiting for server to respond.	Retailer Application	ShippingService	ShippingTrackingModule	192.168.109.210
+141	Gavin Evans	9/5/2025	22:13:36	AdminAccessError	MongoException	Warn	You do not have sufficient permissions to access this section.	Retailer Application	AdminService	AdminDashboardModule	192.168.147.81
+25	Uma Moore	13-05-25	14:16:01	DocumentNotFound	MongoCommandException	Error	The requested document does not exist.	Retailer Application	UserService	UserProfileModule	192.168.47.89
+92	Julia Simmons	13-05-25	8:01:28	InvalidCredentials	MongoAuthenticationException	Critical	 Invalid credentials.	Retailer Application	CustomerService	AuthModule	192.168.179.17
+164	Diana Powell	16-05-25	6:25:34	DataIntegrityError	MongoWriteException	Error	Document validation failed	Retailer Application	CustomerService	CustomerModule	192.168.180.251
+18	Nancy King	17-05-25	7:59:46	AuthenticationFailed	MongoAuthenticationException	Critical	Authentication failed. Please check your credentials and try again.	Retailer Application	UserService	AuthenticationModule	192.168.221.129
+19	Oliver Robinson	9/5/2025	4:47:39	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	ShippingService	DatabaseModule	192.168.103.224
+131	Willie Rodriguez	10/5/2025	15:28:35	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	InventoryService	DatabaseModule	192.168.105.125
+82	Zoe Alvarez	21-05-25	15:31:59	TimeoutError	MongoTimeoutException	Error	Timed out after 300 ms while waiting for server to respond.	Retailer Application	ReturnService	ReturnProcessingModule	192.168.129.96
+13	Harry Lewis	23-05-25	12:30:07	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	ProductService	ProductManagementModule	192.168.156.246
+111	Cora Peters	15-05-25	20:29:13	PricingError	MongoCommandException	Error	Unable to retrieve pricing information for the requested product.	Retailer Application	ProductService	PricingModule	192.168.146.99
+138	Diana Walker	15-05-25	17:32:16	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	OrderService	DatabaseModule	192.168.181.209
+96	Noah Murphy	22-05-25	0:06:07	AuthenticationFailed	MongoAuthenticationException	Critical	Authentication failed. Please check your credentials and try again.	Retailer Application	UserService	AuthenticationModule	192.168.115.24
+186	Zachary Watson	1/5/2025	1:49:48	DataIntegrityError	MongoWriteException	Error	Document validation failed	Retailer Application	OrderService	InventoryModule	192.168.7.125
+186	Zachary Watson	6/5/2025	3:36:02	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	OrderService	DatabaseModule	192.168.215.231
+142	Harriet Anderson	9/5/2025	0:01:38	OrderProcessingError	MongoCommandException	Error	Failed to process order due to payment gateway failure.	Retailer Application	ReturnService	OrderModule	192.168.42.146
+12	Judy Clark	12/5/2025	8:40:56	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	InventoryService	StockTrackingModule	192.168.253.50
+174	Noah Clark	10/5/2025	4:54:18	QueryTimeout	MongoTimeoutException	Error	Query timed out.	Retailer Application	TransactionService	DatabaseModule	192.168.75.242
+63	Georgia Bennett	21-05-25	4:38:17	TimeoutError	MongoTimeoutException	Error	Timed out after 300 ms while waiting for server to respond.	Retailer Application	ShippingService	ShippingTrackingModule	192.168.231.106
+64	Henry Rodriguez	9/5/2025	10:03:10	ProductNotFoundError	MongoException	Info	An unknown error occurred	Retailer Application	ProductService	ProductManagementModule	192.168.15.33
+167	Gavin Powell	18-05-25	4:29:49	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	OrderService	DatabaseModule	192.168.70.232
+65	Isabel Dunn	25-04-25	9:18:34	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	CustomerService	ProfileModule	192.168.131.56
+90	Harriet Boyd	10/5/2025	6:02:28	TransactionTimeoutError	MongoTimeoutException	Critical	 The transaction timed out due to a long processing delay	Retailer Application	PaymentService	TransactionModule	192.168.86.220
+106	Xander Zimmerman	6/5/2025	20:14:14	PricingError	MongoCommandException	Error	Unable to retrieve pricing information for the requested product.	Retailer Application	ProductService	PricingModule	192.168.175.11
+11	Zack Garcia	29-04-25	2:33:08	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	ShippingService	OrderModule	192.168.239.96
+127	Seth Campbell	9/5/2025	12:25:46	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	PaymentService	DatabaseModule	192.168.163.39
+12	Judy Clark	9/5/2025	10:13:31	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	CustomerService	CustomerModule	192.168.12.75
+136	Blake Simmons	5/5/2025	13:41:58	TimeoutError	MongoTimeoutException	Error	Timed out after 300 ms while waiting for server to respond.	Retailer Application	ShippingService	ShippingLabelModule	192.168.116.50
+192	Fiona Walker	23-05-25	6:58:39	TransactionAbortError	MongoTransactionException	Critical	The transaction was aborted due to a conflict or error	Retailer Application	TransactionService	TransactionProcessingModule	192.168.18.177
+132	Xander Ford	9/5/2025	13:48:09	CartItemNotFound	MongoCommandException	Error	The item you are looking for is not in the cart.	Retailer Application	CartService	CartModule	192.168.147.87
+198	Leah Scott	20-05-25	23:50:15	TransactionAbortError	MongoTransactionException	Critical	The transaction was aborted due to a conflict or error	Retailer Application	TransactionService	TransactionProcessingModule	192.168.195.67
+77	Ulysses Howard	17-05-25	6:18:00	SessionCreationError	MongoException	Warn	Failed to create a session	Retailer Application	UserService	SessionModule	192.168.194.124
+149	Olga Hall	30-04-25	17:24:10	InventoryUpdateError	MongoWriteException	Error	Failed to update inventory due to database connection issue.	Retailer Application	InventoryService	StockTrackingModule	192.168.244.252
+160	Zachary Johnson	3/5/2025	17:02:16	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	UserService	UserProfileModule	192.168.164.203
+129	Uma Thomas	12/5/2025	14:50:33	RefundError	MongoWriteException	Error	 Unable to process refund due to payment gateway failure	Retailer Application	ReturnService	RefundModule	192.168.24.117
+92	Julia Simmons	19-05-25	0:41:17	TransactionAbortError	MongoTransactionException	Critical	The transaction was aborted due to a conflict or error	Retailer Application	PaymentService	RefundModule	192.168.120.156
+57	Adriana Gordon	13-05-25	14:14:43	ShippingLabelGenerationError	MongoCommandException	Error	Unable to generate shipping label due to system error	Retailer Application	ShippingService	ShippingLabelModule	192.168.32.43
+39	Irene Grant	10/5/2025	17:37:13	QueryTimeout	MongoTimeoutException	Error	Query timed out.	Retailer Application	UserService	DatabaseModule	192.168.54.217
+115	Gavin Powell	6/5/2025	21:02:54	NetworkTimeoutError	MongoException	Info	An unknown error occurred	Retailer Application	NotificationService	SMSModule	192.168.199.3
+69	Mason Coleman	2/5/2025	7:11:04	DuplicateKeyError	MongoWriteException	Error	E11000 duplicate key error collection: mydb.users index: username_1 dup key: { : Pablo Wilson }	Retailer Application	CustomerService	CustomerModule	192.168.249.246
+49	Samuel Evans	15-05-25	9:47:56	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	UserService	DatabaseModule	192.168.255.98
+59	Camila Duncan	3/5/2025	20:50:41	ShippingLabelGenerationError	MongoCommandException	Error	Unable to generate shipping label due to system error	Retailer Application	ShippingService	ShippingLabelModule	192.168.174.106
+56	Zane Marshall	5/5/2025	8:52:30	NotificationSendError	MongoException	Warn	Failed to send notification due to network failure..	Retailer Application	NotificationService	PushNotificationModule	192.168.88.113
+172	Leah Peterson	1/5/2025	17:45:53	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	CartService	DatabaseModule	192.168.152.229
+181	Uma Harris	7/5/2025	5:01:23	TransactionAbortError	MongoTransactionException	Critical	The transaction was aborted due to a conflict or error	Retailer Application	ReturnService	RefundModule	192.168.36.233
+141	Gavin Evans	21-05-25	12:37:10	QueryTimeout	MongoTimeoutException	Error	Query timed out.	Retailer Application	NotificationService	DatabaseModule	192.168.98.204
+42	Liam Stewart	13-05-25	8:22:08	OrderNotFoundError	MongoCommandException	Error	The requested order could not be found in the system	Retailer Application	ReturnService	OrderModule	192.168.154.61
+81	Yasmine Walsh	25-04-25	10:43:24	PermissionDenied	MongoException	Warn	You do not have permission to perform this action.	Retailer Application	AdminService	UserManagementModule	192.168.101.134
+145	Kurtis Cooper	4/5/2025	5:46:25	TimeoutError	MongoTimeoutException	Error	Timed out after 300 ms while waiting for server to respond.	Retailer Application	PaymentService	PaymentGatewayModule	192.168.220.105
+77	Ulysses Howard	13-05-25	1:55:59	QueryTimeout	MongoTimeoutException	Error	Query timed out.	Retailer Application	ReturnService	DatabaseModule	192.168.39.3
+103	Uma Sullivan	29-04-25	5:35:40	OrderNotFoundError	MongoCommandException	Error	The requested order could not be found in the system	Retailer Application	TransactionService	OrderModule	192.168.116.8
+2	Charlie Brown	18-05-25	15:56:48	TimeoutError	MongoTimeoutException	Error	Timed out after 300 ms while waiting for server to respond.	Retailer Application	ShippingService	ShippingTrackingModule	192.168.194.159
+14	Jack Young	22-05-25	9:22:39	EmailSendingError	MongoException	Warn	Failed to send email due to SMTP server connection failure.	Retailer Application	NotificationService	EmailModule	192.168.79.111
+116	Harriet Simmons	25-04-25	4:06:49	OrderProcessingError	MongoCommandException	Error	Failed to process order due to payment gateway failure.	Retailer Application	ReturnService	OrderModule	192.168.88.131
+163	Cora Peterson	10/5/2025	4:09:34	NetworkTimeoutError	MongoException	Info	An unknown error occurred	Retailer Application	NotificationService	PushNotificationModule	192.168.222.59
+77	Ulysses Howard	23-05-25	5:10:38	ProductNotFound	MongoCommandException	Error	The requested product could not be found in the inventory	Retailer Application	CartService	ProductModule	192.168.116.62
+136	Blake Simmons	2/5/2025	18:41:18	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	CustomerService	DatabaseModule	192.168.84.11
+142	Harriet Anderson	8/5/2025	12:34:48	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	CustomerService	DatabaseModule	192.168.99.209
+196	Julia Richardson	29-04-25	16:57:03	SessionTimeoutError	MongoTimeoutException	Warn	The session has timed out. The operation cannot proceed.	Retailer Application	UserService	SessionModule	192.168.31.93
+185	Yvette Powell	13-05-25	16:24:41	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	ReturnService	DatabaseModule	192.168.91.124
+152	Rosa Bennett	12/5/2025	7:28:51	AuthenticationFailed	MongoAuthenticationException	Critical	Authentication failed. Please check your credentials and try again.	Retailer Application	CustomerService	AuthModule	192.168.66.180
+0	Alice Johnson	4/5/2025	6:45:11	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	CustomerService	DatabaseModule	192.168.218.153
+151	Quincy Parker	3/5/2025	16:31:01	TransactionAbortError	MongoTransactionException	Critical	The transaction was aborted due to a conflict or error	Retailer Application	TransactionService	PaymentModule	192.168.199.183
+193	Gavin Coleman	4/5/2025	16:14:33	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	NotificationService	DatabaseModule	192.168.108.106
+178	Rosa Ross	8/5/2025	19:23:40	ProductNotFoundError	MongoException	Info	An unknown error occurred	Retailer Application	ProductService	ProductManagementModule	192.168.73.72
+142	Harriet Anderson	28-04-25	19:16:16	TransactionTimeoutError	MongoTimeoutException	Critical	 The transaction timed out due to a long processing delay	Retailer Application	PaymentService	TransactionModule	192.168.102.195
+3	David Lee	26-04-25	15:42:35	TransactionAbortError	MongoTransactionException	Critical	The transaction was aborted due to a conflict or error	Retailer Application	TransactionService	TransactionProcessingModule	192.168.203.94
+98	Pablo Lee	5/5/2025	2:10:09	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	InventoryService	DatabaseModule	192.168.212.147
+154	Talia Hayes	25-04-25	3:20:38	InvalidCredentials	MongoAuthenticationException	Critical	 Invalid credentials.	Retailer Application	UserService	AuthenticationModule	192.168.49.245
+200	Noah Lee	19-05-25	4:22:58	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	PaymentService	DatabaseModule	192.168.107.94
+39	Irene Grant	24-04-25	18:39:04	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	PaymentService	DatabaseModule	192.168.250.144
+2	Charlie Brown	5/5/2025	5:52:24	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	InventoryService	StockTrackingModule	192.168.19.141
+177	Quincy Mitchell	2/5/2025	2:43:37	OrderProcessingError	MongoCommandException	Error	Failed to process order due to payment gateway failure.	Retailer Application	ReturnService	OrderModule	192.168.141.197
+69	Mason Coleman	3/5/2025	21:01:26	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	CustomerService	CustomerModule	192.168.21.163
+133	Yvette Bennett	19-05-25	2:32:55	OrderProcessingError	MongoCommandException	Error	Failed to process order due to payment gateway failure.	Retailer Application	OrderService	OrderProcessingModule	192.168.125.71
+174	Noah Clark	2/5/2025	20:58:43	SessionCreationError	MongoException	Warn	Failed to create a session	Retailer Application	UserService	SessionModule	192.168.78.233
+89	Gavin Griffith	2/5/2025	6:12:06	TransactionAbortError	MongoTransactionException	Critical	The transaction was aborted due to a conflict or error	Retailer Application	TransactionService	PaymentModule	192.168.206.141
+23	Steve Rodriguez	27-04-25	20:51:42	TransactionTimeoutError	MongoTimeoutException	Critical	 The transaction timed out due to a long processing delay	Retailer Application	TransactionService	TransactionProcessingModule	192.168.138.9
+143	Isaac Greene	27-04-25	17:01:00	PaymentError	MongoException	Info	An unknown error occurred	Retailer Application	CartService	CheckoutModule	192.168.121.33
+8	Peggy Green	11/5/2025	1:52:51	QueryTimeout	MongoTimeoutException	Error	Query timed out.	Retailer Application	CartService	DatabaseModule	192.168.231.190
+193	Gavin Coleman	18-05-25	20:46:44	TimeoutError	MongoTimeoutException	Error	Timed out after 300 ms while waiting for server to respond.	Retailer Application	ShippingService	ShippingTrackingModule	192.168.104.201
+127	Seth Campbell	13-05-25	3:52:00	OrderProcessingError	MongoCommandException	Error	Failed to process order due to payment gateway failure.	Retailer Application	ReturnService	OrderModule	192.168.217.196
+183	Willie Morris	11/5/2025	16:15:45	DataIntegrityError	MongoWriteException	Error	Document validation failed	Retailer Application	OrderService	InventoryModule	192.168.184.144
+85	Cora Lawrence	8/5/2025	20:22:41	RefundError	MongoWriteException	Error	 Unable to process refund due to payment gateway failure	Retailer Application	ReturnService	RefundModule	192.168.172.110
+104	Vicky Carpenter	26-04-25	22:01:12	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	NotificationService	DatabaseModule	192.168.33.223
+122	Noah Pierce	21-05-25	20:59:30	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	PaymentService	DatabaseModule	192.168.219.28
+181	Uma Harris	28-04-25	5:05:43	TransactionTimeoutError	MongoTimeoutException	Critical	 The transaction timed out due to a long processing delay	Retailer Application	TransactionService	TransactionProcessingModule	192.168.149.101
+149	Olga Hall	21-05-25	18:50:31	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	CustomerService	ProfileModule	192.168.223.6
+142	Harriet Anderson	22-05-25	3:53:03	DataIntegrityError	MongoWriteException	Error	Document validation failed	Retailer Application	ProductService	PricingModule	192.168.228.39
+168	Harriet Hernandez	19-05-25	17:07:30	TimeoutError	MongoTimeoutException	Error	Timed out after 300 ms while waiting for server to respond.	Retailer Application	ReturnService	ReturnProcessingModule	192.168.202.51
+109	Abigail Perry	8/5/2025	22:00:29	ReturnProcessingError	MongoCommandException	Error	Unable to process the return due to invalid order details.	Retailer Application	ReturnService	ReturnProcessingModule	192.168.113.79
+79	Warren Romero	26-04-25	15:24:50	TimeoutError	MongoTimeoutException	Error	Timed out after 300 ms while waiting for server to respond.	Retailer Application	ReturnService	ReturnProcessingModule	192.168.237.222
+134	Zachary Mitchell	7/5/2025	0:27:50	NetworkTimeoutError	MongoException	Info	An unknown error occurred	Retailer Application	NotificationService	SMSModule	192.168.251.172
+62	Felix Ferguson	14-05-25	5:45:43	TransactionRollbackError	MongoException	Info	An unknown error occurred	Retailer Application	PaymentService	TransactionModule	192.168.137.146
+141	Gavin Evans	5/5/2025	6:42:38	PermissionDenied	MongoException	Warn	You do not have permission to perform this action.	Retailer Application	AdminService	UserManagementModule	192.168.55.79
+137	Cora Nelson	2/5/2025	18:03:14	ShippingTrackingError	MongoCommandException	Error	Unable to retrieve tracking information for the shipment	Retailer Application	ShippingService	ShippingTrackingModule	192.168.248.224
+172	Leah Peterson	20-05-25	12:50:50	TransactionAbortError	MongoTransactionException	Critical	The transaction was aborted due to a conflict or error	Retailer Application	ReturnService	RefundModule	192.168.246.12
+190	Diana Morris	29-04-25	15:35:05	DataIntegrityError	MongoWriteException	Error	Document validation failed	Retailer Application	AdminService	InventoryModule	192.168.235.208
+177	Quincy Mitchell	6/5/2025	19:09:40	PermissionDenied	MongoException	Warn	You do not have permission to perform this action.	Retailer Application	AdminService	UserManagementModule	192.168.235.188
+176	Pablo Garcia	9/5/2025	8:06:22	PermissionDenied	MongoException	Warn	You do not have permission to perform this action.	Retailer Application	AdminService	UserManagementModule	192.168.108.216
+91	Isaac Evans	4/5/2025	4:24:13	OrderNotFoundError	MongoCommandException	Error	The requested order could not be found in the system	Retailer Application	ReturnService	OrderModule	192.168.45.92
+185	Yvette Powell	13-05-25	3:22:44	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	OrderService	DatabaseModule	192.168.152.151
+101	Seth Coleman	3/5/2025	12:56:44	TransactionAbortError	MongoTransactionException	Critical	The transaction was aborted due to a conflict or error	Retailer Application	PaymentService	RefundModule	192.168.63.255
+133	Yvette Bennett	3/5/2025	2:52:22	TransactionAbortError	MongoTransactionException	Critical	The transaction was aborted due to a conflict or error	Retailer Application	TransactionService	PaymentModule	192.168.9.22
+48	Rebecca Lopez	1/5/2025	20:00:08	DocumentNotFound	MongoCommandException	Error	The requested document does not exist.	Retailer Application	CustomerService	ProfileModule	192.168.214.237
+114	Fiona Burns	12/5/2025	17:57:52	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	PaymentService	DatabaseModule	192.168.177.200
+142	Harriet Anderson	27-04-25	15:01:48	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	NotificationService	DatabaseModule	192.168.150.151
+161	Abigail Ross	4/5/2025	16:23:38	UserNotFound	MongoCommandException	Warn	The specified user could not be found.	Retailer Application	AdminService	UserManagementModule	192.168.98.142
+19	Oliver Robinson	15-05-25	7:37:00	InventoryUpdateError	MongoWriteException	Error	Failed to update inventory due to database connection issue.	Retailer Application	OrderService	InventoryModule	192.168.78.192
+189	Cora White	4/5/2025	11:59:16	PricingError	MongoCommandException	Error	Unable to retrieve pricing information for the requested product.	Retailer Application	ProductService	PricingModule	192.168.242.29
+20	Paul Scott	5/5/2025	20:53:16	ShippingError	MongoException	Warn	Shipping carrier is unavailable or unreachable.	Retailer Application	OrderService	ShippingModule	192.168.92.192
+53	Wendy Grant	29-04-25	11:58:33	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	UserService	DatabaseModule	192.168.192.222
+14	Jack Young	27-04-25	11:39:55	NetworkTimeoutError	MongoException	Info	An unknown error occurred	Retailer Application	NotificationService	PushNotificationModule	192.168.161.149
+22	Rachel Perez	16-05-25	3:03:34	SessionCreationError	MongoException	Warn	Failed to create a session	Retailer Application	UserService	SessionModule	192.168.159.165
+91	Isaac Evans	20-05-25	10:43:44	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	UserService	UserProfileModule	192.168.157.65
+195	Isaac Lewis	16-05-25	23:58:28	ShippingError	MongoException	Warn	Shipping carrier is unavailable or unreachable.	Retailer Application	OrderService	ShippingModule	192.168.190.69
+83	Abigail Boyd	21-05-25	1:13:22	MongoDBError	MongoException	Info	An unknown error occurred	Retailer Application	ReturnService	ReturnProcessingModule	192.168.168.17
+148	Noah Taylor	8/5/2025	8:47:19	SessionCreationError	MongoException	Warn	Failed to create a session	Retailer Application	UserService	SessionModule	192.168.43.74
+36	Fiona Duncan	13-05-25	23:24:47	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	AdminService	DatabaseModule	192.168.222.168
+200	Noah Lee	2/5/2025	20:38:48	OrderProcessingError	MongoCommandException	Error	Failed to process order due to payment gateway failure.	Retailer Application	ShippingService	OrderModule	192.168.205.133
+84	Blake Curtis	9/5/2025	2:20:59	QueryTimeout	MongoTimeoutException	Error	Query timed out.	Retailer Application	PaymentService	DatabaseModule	192.168.182.217
+38	Helen Bryant	6/5/2025	19:08:35	UserNotFound	MongoCommandException	Warn	The specified user could not be found.	Retailer Application	AdminService	UserManagementModule	192.168.109.22
+189	Cora White	4/5/2025	12:32:37	TransactionAbortError	MongoTransactionException	Critical	The transaction was aborted due to a conflict or error	Retailer Application	TransactionService	TransactionProcessingModule	192.168.78.196
+139	Elias Thomas	28-04-25	10:27:37	UserNotFound	MongoCommandException	Warn	The specified user could not be found.	Retailer Application	AdminService	UserManagementModule	192.168.241.181
+179	Seth Martin	24-04-25	18:41:47	TimeoutError	MongoTimeoutException	Error	Timed out after 300 ms while waiting for server to respond.	Retailer Application	ShippingService	ShippingLabelModule	192.168.173.56
+96	Noah Murphy	13-05-25	23:42:41	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	InventoryService	DatabaseModule	192.168.16.214
+79	Warren Romero	17-05-25	12:13:44	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	ProductService	DatabaseModule	192.168.134.129
+48	Rebecca Lopez	4/5/2025	21:10:42	DataIntegrityError	MongoWriteException	Error	Document validation failed	Retailer Application	CartService	ProductModule	192.168.96.81
+109	Abigail Perry	29-04-25	7:15:07	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	AdminService	DatabaseModule	192.168.166.209
+49	Samuel Evans	17-05-25	13:24:22	InvalidCredentials	MongoAuthenticationException	Critical	 Invalid credentials.	Retailer Application	UserService	AuthenticationModule	192.168.77.73
+61	Emily Murphy	12/5/2025	10:26:58	PaymentError	MongoException	Info	An unknown error occurred	Retailer Application	CartService	CheckoutModule	192.168.209.228
+15	Kim Walker	17-05-25	12:00:13	TransactionTimeoutError	MongoTimeoutException	Critical	 The transaction timed out due to a long processing delay	Retailer Application	PaymentService	TransactionModule	192.168.103.36
+135	Abigail Stewart	22-05-25	17:54:29	TransactionRollbackError	MongoException	Info	An unknown error occurred	Retailer Application	PaymentService	TransactionModule	192.168.191.203
+124	Pablo Taylor	4/5/2025	6:51:52	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	ProductService	ProductManagementModule	192.168.194.142
+176	Pablo Garcia	6/5/2025	13:58:21	TimeoutError	MongoTimeoutException	Error	Timed out after 300 ms while waiting for server to respond.	Retailer Application	ReturnService	ReturnProcessingModule	192.168.10.39
+31	Alex Miller	7/5/2025	0:44:05	QueryTimeout	MongoTimeoutException	Error	Query timed out.	Retailer Application	PaymentService	DatabaseModule	192.168.157.105
+137	Cora Nelson	24-04-25	14:44:32	PaymentError	MongoException	Info	An unknown error occurred	Retailer Application	CartService	CartModule	192.168.140.143
+177	Quincy Mitchell	21-05-25	14:43:15	ProductNotFound	MongoCommandException	Error	The requested product could not be found in the inventory	Retailer Application	CartService	ProductModule	192.168.32.226
+100	Rosa Griffin	8/5/2025	14:30:55	PaymentError	MongoException	Info	An unknown error occurred	Retailer Application	CartService	CheckoutModule	192.168.124.229
+162	Blake Andrews	28-04-25	14:39:32	DataIntegrityError	MongoWriteException	Error	Document validation failed	Retailer Application	CustomerService	CustomerModule	192.168.11.40
+155	Uma Walker	16-05-25	9:53:35	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	AdminService	DatabaseModule	192.168.62.68
+26	Vera Clark	28-04-25	22:45:10	TransactionRollbackError	MongoException	Info	An unknown error occurred	Retailer Application	PaymentService	TransactionModule	192.168.63.32
+117	Isaac Daniels	10/5/2025	6:15:36	InventoryUpdateError	MongoWriteException	Error	Failed to update inventory due to database connection issue.	Retailer Application	InventoryService	InventoryManagementModule	192.168.122.14
+20	Paul Scott	21-05-25	20:19:28	PaymentError	MongoException	Info	An unknown error occurred	Retailer Application	CartService	CheckoutModule	192.168.234.139
+122	Noah Pierce	24-04-25	20:00:33	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	TransactionService	OrderModule	192.168.184.228
+155	Uma Walker	8/5/2025	3:45:26	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	UserService	DatabaseModule	192.168.241.114
+141	Gavin Evans	21-05-25	2:42:13	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	ShippingService	OrderModule	192.168.57.56
+161	Abigail Ross	7/5/2025	13:41:59	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	NotificationService	EmailModule	192.168.34.145
+71	Oscar Jordan	2/5/2025	21:21:10	SessionTimeoutError	MongoTimeoutException	Warn	The session has timed out. The operation cannot proceed.	Retailer Application	UserService	SessionModule	192.168.56.226
+66	Jackie Richards	2/5/2025	20:02:05	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	CustomerService	ProfileModule	192.168.84.140
+6	Mallory White	1/5/2025	13:35:34	PricingError	MongoCommandException	Error	Unable to retrieve pricing information for the requested product.	Retailer Application	ProductService	PricingModule	192.168.21.166
+163	Cora Peterson	18-05-25	10:02:58	PermissionDenied	MongoException	Warn	You do not have permission to perform this action.	Retailer Application	AdminService	AdminDashboardModule	192.168.131.151
+165	Elias Clarke	22-05-25	11:45:36	TransactionAbortError	MongoTransactionException	Critical	The transaction was aborted due to a conflict or error	Retailer Application	ReturnService	RefundModule	192.168.202.78
+18	Nancy King	15-05-25	16:21:39	DataIntegrityError	MongoWriteException	Error	Document validation failed	Retailer Application	ProductService	PricingModule	192.168.161.103
+13	Harry Lewis	8/5/2025	13:29:39	DataIntegrityError	MongoWriteException	Error	Document validation failed	Retailer Application	AdminService	InventoryModule	192.168.211.36
+50	Tina Baker	21-05-25	20:26:29	PaymentError	MongoException	Info	An unknown error occurred	Retailer Application	CartService	CheckoutModule	192.168.239.193
+138	Diana Walker	14-05-25	9:41:32	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	AdminService	DatabaseModule	192.168.142.146
+166	Fiona Stevens	24-04-25	9:41:55	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	NotificationService	EmailModule	192.168.221.155
+192	Fiona Walker	24-04-25	1:01:35	SessionCreationError	MongoException	Warn	Failed to create a session	Retailer Application	UserService	SessionModule	192.168.72.119
+85	Cora Lawrence	15-05-25	21:12:11	TransactionAbortError	MongoTransactionException	Critical	The transaction was aborted due to a conflict or error	Retailer Application	TransactionService	TransactionProcessingModule	192.168.36.159
+104	Vicky Carpenter	20-05-25	11:20:57	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	UserService	UserProfileModule	192.168.6.45
+135	Abigail Stewart	28-04-25	17:57:57	ShippingLabelGenerationError	MongoCommandException	Error	Unable to generate shipping label due to system error	Retailer Application	ShippingService	ShippingLabelModule	192.168.91.42
+186	Zachary Watson	24-04-25	0:17:44	SessionCreationError	MongoException	Warn	Failed to create a session	Retailer Application	UserService	SessionModule	192.168.87.78
+45	Olivia Wright	19-05-25	16:41:20	QueryTimeout	MongoTimeoutException	Error	Query timed out.	Retailer Application	UserService	DatabaseModule	192.168.107.96
+106	Xander Zimmerman	10/5/2025	7:07:53	QueryTimeout	MongoTimeoutException	Error	Query timed out.	Retailer Application	ProductService	DatabaseModule	192.168.243.222
+196	Julia Richardson	12/5/2025	21:18:23	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	NotificationService	DatabaseModule	192.168.76.160
+18	Nancy King	26-04-25	17:38:17	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	UserService	UserProfileModule	192.168.24.76
+198	Leah Scott	23-04-25	17:22:41	EmailSendingError	MongoException	Warn	Failed to send email due to SMTP server connection failure.	Retailer Application	NotificationService	EmailModule	192.168.84.171
+65	Isabel Dunn	6/5/2025	4:20:31	CartItemNotFound	MongoCommandException	Error	The item you are looking for is not in the cart.	Retailer Application	CartService	CartModule	192.168.230.30
+120	Leah Simmons	20-05-25	10:37:34	DocumentNotFound	MongoCommandException	Error	The requested document does not exist.	Retailer Application	CustomerService	ProfileModule	192.168.193.145
+139	Elias Thomas	17-05-25	16:34:14	SessionCreationError	MongoException	Warn	Failed to create a session	Retailer Application	UserService	SessionModule	192.168.197.18
+4	Eve Davis	26-04-25	14:09:28	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	CustomerService	DatabaseModule	192.168.111.161
+167	Gavin Powell	26-04-25	14:30:41	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	CustomerService	ProfileModule	192.168.42.244
+52	Victor Hunt	3/5/2025	23:29:54	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	CustomerService	ProfileModule	192.168.148.76
+107	Yvette Wells	23-05-25	2:23:42	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	InventoryService	StockTrackingModule	192.168.162.42
+176	Pablo Garcia	7/5/2025	7:14:34	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	ShippingService	DatabaseModule	192.168.229.237
+144	Julia Sullivan	22-05-25	5:58:24	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	ShippingService	DatabaseModule	192.168.144.102
+96	Noah Murphy	16-05-25	22:50:07	InventoryUpdateError	MongoWriteException	Error	Failed to update inventory due to database connection issue.	Retailer Application	InventoryService	InventoryManagementModule	192.168.34.29
+14	Jack Young	27-04-25	10:44:20	OrderProcessingError	MongoCommandException	Error	Failed to process order due to payment gateway failure.	Retailer Application	ShippingService	OrderModule	192.168.191.188
+56	Zane Marshall	27-04-25	8:02:51	PaymentProcessingError	MongoCommandException	Critical	Payment could not be processed due to a system error.	Retailer Application	TransactionService	PaymentModule	192.168.54.58
+180	Talia Allen	11/5/2025	5:41:26	NetworkTimeoutError	MongoException	Info	An unknown error occurred	Retailer Application	NotificationService	PushNotificationModule	192.168.23.252
+186	Zachary Watson	25-04-25	1:30:09	ProductNotFound	MongoCommandException	Error	The requested product could not be found in the inventory	Retailer Application	CartService	ProductModule	192.168.95.26
+145	Kurtis Cooper	20-05-25	20:52:51	DataIntegrityError	MongoWriteException	Error	Document validation failed	Retailer Application	CartService	ProductModule	192.168.172.150
+87	Elias Carpenter	19-05-25	12:55:29	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	OrderService	DatabaseModule	192.168.29.112
+21	Quincy Harris	27-04-25	6:13:11	TransactionTimeoutError	MongoTimeoutException	Critical	 The transaction timed out due to a long processing delay	Retailer Application	TransactionService	TransactionProcessingModule	192.168.103.135
+135	Abigail Stewart	10/5/2025	5:44:50	AuthenticationFailed	MongoAuthenticationException	Critical	Authentication failed. Please check your credentials and try again.	Retailer Application	CustomerService	AuthModule	192.168.187.5
+79	Warren Romero	21-05-25	20:43:24	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	TransactionService	DatabaseModule	192.168.121.225
+134	Zachary Mitchell	15-05-25	19:44:29	SessionCreationError	MongoException	Warn	Failed to create a session	Retailer Application	UserService	SessionModule	192.168.239.231
+96	Noah Murphy	18-05-25	11:54:58	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	CartService	DatabaseModule	192.168.14.65
+114	Fiona Burns	12/5/2025	2:52:53	SessionTimeoutError	MongoTimeoutException	Warn	The session has timed out. The operation cannot proceed.	Retailer Application	UserService	SessionModule	192.168.24.5
+120	Leah Simmons	12/5/2025	23:36:19	TransactionAbortError	MongoTransactionException	Critical	The transaction was aborted due to a conflict or error	Retailer Application	TransactionService	PaymentModule	192.168.133.43
+178	Rosa Ross	2/5/2025	14:35:25	QueryTimeout	MongoTimeoutException	Error	Query timed out.	Retailer Application	OrderService	DatabaseModule	192.168.11.116
+35	Evan Gomez	2/5/2025	1:30:58	RefundError	MongoWriteException	Error	 Unable to process refund due to payment gateway failure	Retailer Application	PaymentService	RefundModule	192.168.109.43
+12	Judy Clark	22-05-25	10:43:57	PaymentError	MongoException	Info	An unknown error occurred	Retailer Application	CartService	CartModule	192.168.63.126
+120	Leah Simmons	30-04-25	21:37:53	SmsSendingError	MongoException	Warn	Failed to send SMS due to network error	Retailer Application	NotificationService	SMSModule	192.168.168.119
+4	Eve Davis	10/5/2025	15:49:44	ShippingLabelGenerationError	MongoCommandException	Error	Unable to generate shipping label due to system error	Retailer Application	ShippingService	ShippingLabelModule	192.168.114.62
+14	Jack Young	6/5/2025	12:59:38	TransactionAbortError	MongoTransactionException	Critical	The transaction was aborted due to a conflict or error	Retailer Application	PaymentService	RefundModule	192.168.41.146
+143	Isaac Greene	10/5/2025	11:16:59	PaymentProcessingError	MongoCommandException	Critical	Payment could not be processed due to a system error.	Retailer Application	TransactionService	PaymentModule	192.168.96.238
+74	Riley Cooper	17-05-25	20:53:50	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	ShippingService	DatabaseModule	192.168.151.202
+110	Blake Fisher	13-05-25	13:45:45	TimeoutError	MongoTimeoutException	Error	Timed out after 300 ms while waiting for server to respond.	Retailer Application	ShippingService	ShippingTrackingModule	192.168.89.211
+6	Mallory White	1/5/2025	18:50:28	InventoryUpdateError	MongoWriteException	Error	Failed to update inventory due to database connection issue.	Retailer Application	InventoryService	WarehouseModule	192.168.119.71
+46	Peter King	19-05-25	15:34:05	QueryTimeout	MongoTimeoutException	Error	Query timed out.	Retailer Application	ShippingService	DatabaseModule	192.168.171.130
+63	Georgia Bennett	14-05-25	3:06:02	DataIntegrityError	MongoWriteException	Error	Document validation failed	Retailer Application	ProductService	CatalogModule	192.168.183.220
+52	Victor Hunt	10/5/2025	19:11:45	DataIntegrityError	MongoWriteException	Error	Document validation failed	Retailer Application	ProductService	CatalogModule	192.168.27.113
+201	Olga Martinez	18-05-25	17:25:36	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	NotificationService	EmailModule	192.168.237.116
+154	Talia Hayes	3/5/2025	0:38:02	QueryTimeout	MongoTimeoutException	Error	Query timed out.	Retailer Application	InventoryService	DatabaseModule	192.168.158.202
+146	Leah Jenkins	13-05-25	20:35:00	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	ShippingService	DatabaseModule	192.168.92.170
+126	Rosa Harris	11/5/2025	20:23:13	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	InventoryService	StockTrackingModule	192.168.76.173
+124	Pablo Taylor	10/5/2025	4:02:35	OrderNotFoundError	MongoCommandException	Error	The requested order could not be found in the system	Retailer Application	ReturnService	OrderModule	192.168.158.77
+33	Cathy Evans	24-04-25	11:59:21	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	CustomerService	ProfileModule	192.168.20.201
+85	Cora Lawrence	5/5/2025	0:01:04	AuthenticationFailed	MongoAuthenticationException	Critical	Authentication failed. Please check your credentials and try again.	Retailer Application	UserService	AuthenticationModule	192.168.76.145
+67	Kyle Bennett	20-05-25	15:37:01	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	TransactionService	DatabaseModule	192.168.117.30
+156	Vicky Davis	28-04-25	0:27:00	NetworkTimeoutError	MongoException	Info	An unknown error occurred	Retailer Application	NotificationService	PushNotificationModule	192.168.102.247
+4	Eve Davis	21-05-25	2:10:21	QueryTimeout	MongoTimeoutException	Error	Query timed out.	Retailer Application	UserService	DatabaseModule	192.168.231.249
+199	Martha Campbell	15-05-25	0:21:48	ShippingTrackingError	MongoCommandException	Error	Unable to retrieve tracking information for the shipment	Retailer Application	ShippingService	ShippingTrackingModule	192.168.55.107
+21	Quincy Harris	18-05-25	13:00:26	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	InventoryService	DatabaseModule	192.168.249.88
+1	Bob Smith	3/5/2025	1:09:05	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	UserService	UserProfileModule	192.168.160.104
+117	Isaac Daniels	3/5/2025	21:58:04	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	InventoryService	InventoryManagementModule	192.168.15.51
+6	Mallory White	19-05-25	22:31:08	InvalidCredentials	MongoAuthenticationException	Critical	 Invalid credentials.	Retailer Application	UserService	AuthenticationModule	192.168.215.230
+88	Fiona Newton	9/5/2025	0:23:53	TransactionTimeoutError	MongoTimeoutException	Critical	 The transaction timed out due to a long processing delay	Retailer Application	PaymentService	TransactionModule	192.168.80.204
+98	Pablo Lee	25-04-25	15:43:25	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	CartService	DatabaseModule	192.168.194.27
+85	Cora Lawrence	19-05-25	5:46:18	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	ShippingService	OrderModule	192.168.94.84
+32	Brian Taylor	18-05-25	18:49:33	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	InventoryService	InventoryManagementModule	192.168.143.175
+107	Yvette Wells	7/5/2025	12:44:03	RefundError	MongoWriteException	Error	 Unable to process refund due to payment gateway failure	Retailer Application	PaymentService	RefundModule	192.168.214.118
+81	Yasmine Walsh	29-04-25	23:00:56	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	ProductService	DatabaseModule	192.168.39.214
+105	Willie Hughes	14-05-25	13:59:03	QueryTimeout	MongoTimeoutException	Error	Query timed out.	Retailer Application	ProductService	DatabaseModule	192.168.107.232
+141	Gavin Evans	28-04-25	7:44:07	TimeoutError	MongoTimeoutException	Error	Timed out after 300 ms while waiting for server to respond.	Retailer Application	OrderService	ShippingModule	192.168.234.148
+196	Julia Richardson	5/5/2025	18:40:08	QueryTimeout	MongoTimeoutException	Error	Query timed out.	Retailer Application	TransactionService	DatabaseModule	192.168.37.128
+141	Gavin Evans	28-04-25	7:52:04	ShippingLabelGenerationError	MongoCommandException	Error	Unable to generate shipping label due to system error	Retailer Application	ShippingService	ShippingLabelModule	192.168.139.92
+85	Cora Lawrence	4/5/2025	19:26:58	InventoryUpdateError	MongoWriteException	Error	Failed to update inventory due to database connection issue.	Retailer Application	InventoryService	StockTrackingModule	192.168.163.147
+20	Paul Scott	5/5/2025	10:02:24	OrderProcessingError	MongoCommandException	Error	Failed to process order due to payment gateway failure.	Retailer Application	OrderService	OrderProcessingModule	192.168.241.83
+27	Walter Murphy	19-05-25	15:12:41	InventoryError	MongoWriteException	Error	Insufficient stock to fulfill the order.	Retailer Application	OrderService	OrderProcessingModule	192.168.154.93
+178	Rosa Ross	13-05-25	3:33:16	InvalidCredentials	MongoAuthenticationException	Critical	 Invalid credentials.	Retailer Application	CustomerService	AuthModule	192.168.176.65
+7	Oscar Black	30-04-25	19:08:23	InvalidCredentials	MongoAuthenticationException	Critical	 Invalid credentials.	Retailer Application	UserService	AuthenticationModule	192.168.151.182
+46	Peter King	29-04-25	12:47:15	DuplicateKeyError	MongoWriteException	Error	E11000 duplicate key error collection: mydb.users index: username_1 dup key: { : Pablo Wilson }	Retailer Application	CustomerService	CustomerModule	192.168.20.146
+22	Rachel Perez	15-05-25	7:46:48	QueryTimeout	MongoTimeoutException	Error	Query timed out.	Retailer Application	ProductService	DatabaseModule	192.168.22.165
+46	Peter King	13-05-25	7:31:36	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	InventoryService	InventoryManagementModule	192.168.188.177
+74	Riley Cooper	19-05-25	12:33:09	QueryTimeout	MongoTimeoutException	Error	Query timed out.	Retailer Application	ReturnService	DatabaseModule	192.168.21.251
+171	Kurtis Roberts	15-05-25	20:52:38	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	AdminService	DatabaseModule	192.168.249.180
+200	Noah Lee	19-05-25	20:10:32	UserNotFound	MongoCommandException	Warn	The specified user could not be found.	Retailer Application	AdminService	UserManagementModule	192.168.244.50
+197	Kurtis Anderson	28-04-25	12:50:56	AdminAccessError	MongoException	Warn	You do not have sufficient permissions to access this section.	Retailer Application	AdminService	AdminDashboardModule	192.168.234.63
+42	Liam Stewart	25-04-25	14:05:44	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	InventoryService	InventoryManagementModule	192.168.141.240
+189	Cora White	26-04-25	22:03:37	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	PaymentService	DatabaseModule	192.168.3.53
+105	Willie Hughes	27-04-25	20:12:17	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	ShippingService	DatabaseModule	192.168.93.22
+132	Xander Ford	15-05-25	1:18:13	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	OrderService	DatabaseModule	192.168.137.251
+69	Mason Coleman	17-05-25	11:06:21	PermissionDenied	MongoException	Warn	You do not have permission to perform this action.	Retailer Application	AdminService	AdminDashboardModule	192.168.108.190
+0	Alice Johnson	9/5/2025	18:33:33	OrderProcessingError	MongoCommandException	Error	Failed to process order due to payment gateway failure.	Retailer Application	ShippingService	OrderModule	192.168.198.209
+29	Yasmine Phillips	10/5/2025	14:42:10	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	ShippingService	DatabaseModule	192.168.1.53
+62	Felix Ferguson	9/5/2025	11:41:17	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	CartService	DatabaseModule	192.168.126.18
+173	Martha Gray	23-05-25	13:33:52	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	ShippingService	DatabaseModule	192.168.103.240
+190	Diana Morris	3/5/2025	21:27:27	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	CartService	DatabaseModule	192.168.112.84
+182	Vicky Edwards	5/5/2025	18:31:01	SessionTimeoutError	MongoTimeoutException	Warn	The session has timed out. The operation cannot proceed.	Retailer Application	UserService	SessionModule	192.168.85.58
+120	Leah Simmons	5/5/2025	23:57:38	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	PaymentService	PaymentGatewayModule	192.168.111.197
+94	Leah Palmer	5/5/2025	21:37:42	TimeoutError	MongoTimeoutException	Error	Timed out after 300 ms while waiting for server to respond.	Retailer Application	PaymentService	PaymentGatewayModule	192.168.180.178
+146	Leah Jenkins	6/5/2025	19:50:25	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	PaymentService	DatabaseModule	192.168.70.147
+97	Olga Peterson	7/5/2025	14:35:40	PermissionDenied	MongoException	Warn	You do not have permission to perform this action.	Retailer Application	AdminService	UserManagementModule	192.168.163.165
+11	Zack Garcia	10/5/2025	12:39:03	TimeoutError	MongoTimeoutException	Error	Timed out after 300 ms while waiting for server to respond.	Retailer Application	OrderService	ShippingModule	192.168.175.156
+78	Vanessa Webb	18-05-25	21:45:44	TransactionTimeoutError	MongoTimeoutException	Critical	 The transaction timed out due to a long processing delay	Retailer Application	TransactionService	TransactionProcessingModule	192.168.101.162
+44	Nathan Parker	16-05-25	16:35:26	QueryTimeout	MongoTimeoutException	Error	Query timed out.	Retailer Application	CartService	DatabaseModule	192.168.134.29
+173	Martha Gray	12/5/2025	1:15:54	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	CustomerService	DatabaseModule	192.168.177.23
+161	Abigail Ross	8/5/2025	11:15:26	SessionTimeoutError	MongoTimeoutException	Warn	The session has timed out. The operation cannot proceed.	Retailer Application	UserService	SessionModule	192.168.91.24
+78	Vanessa Webb	9/5/2025	6:17:08	RefundError	MongoWriteException	Error	 Unable to process refund due to payment gateway failure	Retailer Application	PaymentService	RefundModule	192.168.233.52
+137	Cora Nelson	1/5/2025	23:26:18	TimeoutError	MongoTimeoutException	Error	Timed out after 300 ms while waiting for server to respond.	Retailer Application	ShippingService	ShippingTrackingModule	192.168.113.117
+56	Zane Marshall	16-05-25	16:18:24	AdminAccessError	MongoException	Warn	You do not have sufficient permissions to access this section.	Retailer Application	AdminService	AdminDashboardModule	192.168.217.109
+46	Peter King	4/5/2025	11:32:14	PermissionDenied	MongoException	Warn	You do not have permission to perform this action.	Retailer Application	AdminService	AdminDashboardModule	192.168.91.82
+179	Seth Martin	21-05-25	2:41:46	DocumentNotFound	MongoCommandException	Error	The requested document does not exist.	Retailer Application	CustomerService	ProfileModule	192.168.105.27
+35	Evan Gomez	17-05-25	4:27:56	TimeoutError	MongoTimeoutException	Error	Timed out after 300 ms while waiting for server to respond.	Retailer Application	ShippingService	ShippingTrackingModule	192.168.101.165
+140	Fiona Lawrence	2/5/2025	5:24:19	TransactionTimeoutError	MongoTimeoutException	Critical	 The transaction timed out due to a long processing delay	Retailer Application	PaymentService	TransactionModule	192.168.158.241
+55	Yara Harper	10/5/2025	11:18:11	OrderProcessingError	MongoCommandException	Error	Failed to process order due to payment gateway failure.	Retailer Application	ShippingService	OrderModule	192.168.64.185
+36	Fiona Duncan	19-05-25	20:34:37	UserNotFound	MongoCommandException	Warn	The specified user could not be found.	Retailer Application	AdminService	UserManagementModule	192.168.92.155
+115	Gavin Powell	17-05-25	18:08:43	TransactionTimeoutError	MongoTimeoutException	Critical	 The transaction timed out due to a long processing delay	Retailer Application	PaymentService	TransactionModule	192.168.251.80
+17	Michael Allen	20-05-25	16:08:23	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	InventoryService	InventoryManagementModule	192.168.120.176
+90	Harriet Boyd	15-05-25	19:07:33	OrderNotFoundError	MongoCommandException	Error	The requested order could not be found in the system	Retailer Application	TransactionService	OrderModule	192.168.203.204
+110	Blake Fisher	19-05-25	14:01:57	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	ProductService	DatabaseModule	192.168.34.60
+74	Riley Cooper	26-04-25	2:54:42	QueryTimeout	MongoTimeoutException	Error	Query timed out.	Retailer Application	TransactionService	DatabaseModule	192.168.233.60
+41	Kathy James	7/5/2025	22:16:33	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	ProductService	DatabaseModule	192.168.166.139
+141	Gavin Evans	30-04-25	18:10:24	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	InventoryService	WarehouseModule	192.168.168.191
+69	Mason Coleman	12/5/2025	3:13:43	QueryTimeout	MongoTimeoutException	Error	Query timed out.	Retailer Application	UserService	DatabaseModule	192.168.111.213
+61	Emily Murphy	5/5/2025	7:08:14	AuthenticationFailed	MongoAuthenticationException	Critical	Authentication failed. Please check your credentials and try again.	Retailer Application	CustomerService	AuthModule	192.168.163.128
+177	Quincy Mitchell	29-04-25	17:35:22	CheckoutError	MongoCommandException	Error	Payment processing failed, please try again.	Retailer Application	CartService	CheckoutModule	192.168.169.180
+166	Fiona Stevens	16-05-25	1:25:26	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	UserService	UserProfileModule	192.168.248.202
+13	Harry Lewis	19-05-25	10:45:07	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	UserService	DatabaseModule	192.168.60.210
+177	Quincy Mitchell	9/5/2025	23:55:11	TimeoutError	MongoTimeoutException	Error	Timed out after 300 ms while waiting for server to respond.	Retailer Application	ShippingService	ShippingLabelModule	192.168.51.236
+78	Vanessa Webb	15-05-25	12:43:57	ProductNotFound	MongoCommandException	Error	The requested product could not be found in the inventory	Retailer Application	CartService	ProductModule	192.168.1.197
+56	Zane Marshall	2/5/2025	13:36:36	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	ProductService	DatabaseModule	192.168.84.254
+6	Mallory White	18-05-25	4:19:28	NotificationSendError	MongoException	Warn	Failed to send notification due to network failure..	Retailer Application	NotificationService	PushNotificationModule	192.168.107.139
+184	Xander Lopez	28-04-25	16:19:22	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	AdminService	DatabaseModule	192.168.158.75
+165	Elias Clarke	7/5/2025	12:03:35	CartItemNotFound	MongoCommandException	Error	The item you are looking for is not in the cart.	Retailer Application	CartService	CartModule	192.168.50.19
+179	Seth Martin	22-05-25	2:57:54	SessionTimeoutError	MongoTimeoutException	Warn	The session has timed out. The operation cannot proceed.	Retailer Application	UserService	SessionModule	192.168.246.48
+98	Pablo Lee	17-05-25	14:51:02	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	NotificationService	EmailModule	192.168.231.80
+65	Isabel Dunn	6/5/2025	15:08:48	NetworkTimeoutError	MongoException	Info	An unknown error occurred	Retailer Application	NotificationService	PushNotificationModule	192.168.251.167
+42	Liam Stewart	13-05-25	18:23:53	TimeoutError	MongoTimeoutException	Error	Timed out after 300 ms while waiting for server to respond.	Retailer Application	PaymentService	PaymentGatewayModule	192.168.88.129
+138	Diana Walker	6/5/2025	19:37:15	SchemaValidationError	MongoCommandException	Error	Document failed validation because field 'username' is required and was not provided	Retailer Application	CustomerService	ProfileModule	192.168.243.39
+140	Fiona Lawrence	19-05-25	11:13:05	NotificationSendError	MongoException	Warn	Failed to send notification due to network failure..	Retailer Application	NotificationService	PushNotificationModule	192.168.212.242
+113	Elias Rivera	8/5/2025	22:51:52	QueryTimeout	MongoTimeoutException	Error	Query timed out.	Retailer Application	TransactionService	DatabaseModule	192.168.15.105
+57	Adriana Gordon	19-05-25	8:34:04	CartItemNotFound	MongoCommandException	Error	The item you are looking for is not in the cart.	Retailer Application	CartService	CartModule	192.168.104.132
+196	Julia Richardson	2/5/2025	13:18:24	TransactionRollbackError	MongoException	Info	An unknown error occurred	Retailer Application	PaymentService	TransactionModule	192.168.237.155
+113	Elias Rivera	17-05-25	14:47:38	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	AdminService	DatabaseModule	192.168.57.234
+186	Zachary Watson	15-05-25	0:57:49	DataIntegrityError	MongoWriteException	Error	Document validation failed	Retailer Application	ProductService	CatalogModule	192.168.45.20
+135	Abigail Stewart	11/5/2025	20:37:54	QueryTimeout	MongoTimeoutException	Error	Query timed out.	Retailer Application	ProductService	DatabaseModule	192.168.12.21
+144	Julia Sullivan	21-05-25	8:18:01	PermissionDenied	MongoException	Warn	You do not have permission to perform this action.	Retailer Application	AdminService	UserManagementModule	192.168.211.55
+8	Peggy Green	10/5/2025	22:10:56	InventoryError	MongoWriteException	Error	Insufficient stock to fulfill the order.	Retailer Application	OrderService	OrderProcessingModule	192.168.114.93
+157	Willie Martinez	19-05-25	11:28:01	QueryTimeout	MongoTimeoutException	Error	Query timed out.	Retailer Application	CustomerService	DatabaseModule	192.168.239.17
+44	Nathan Parker	28-04-25	4:09:31	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	TransactionService	OrderModule	192.168.252.177
+11	Zack Garcia	9/5/2025	0:28:17	AuthenticationTimeout	MongoTimeoutException	Critical	 Authentication failed due to a timeout.	Retailer Application	CustomerService	AuthModule	192.168.141.64
+26	Vera Clark	8/5/2025	20:05:41	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	ReturnService	DatabaseModule	192.168.133.62
+8	Peggy Green	27-04-25	15:26:28	CartItemNotFound	MongoCommandException	Error	The item you are looking for is not in the cart.	Retailer Application	CartService	CartModule	192.168.231.164
+162	Blake Andrews	5/5/2025	9:24:05	RefundError	MongoWriteException	Error	 Unable to process refund due to payment gateway failure	Retailer Application	PaymentService	RefundModule	192.168.3.74
+136	Blake Simmons	6/5/2025	17:22:03	ShippingLabelGenerationError	MongoCommandException	Error	Unable to generate shipping label due to system error	Retailer Application	ShippingService	ShippingLabelModule	192.168.173.132
+86	Diana Wood	22-05-25	18:06:08	PaymentError	MongoException	Info	An unknown error occurred	Retailer Application	CartService	CheckoutModule	192.168.174.172
+25	Uma Moore	21-05-25	10:12:30	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	ProductService	DatabaseModule	192.168.223.67
+161	Abigail Ross	19-05-25	13:19:03	PaymentError	MongoException	Info	An unknown error occurred	Retailer Application	CartService	CartModule	192.168.44.10
+15	Kim Walker	18-05-25	3:12:12	PaymentError	MongoException	Info	An unknown error occurred	Retailer Application	CartService	CartModule	192.168.233.230
+167	Gavin Powell	10/5/2025	19:34:45	ProductNotFoundError	MongoException	Info	An unknown error occurred	Retailer Application	ProductService	ProductManagementModule	192.168.126.142
+122	Noah Pierce	16-05-25	17:11:06	ShippingTrackingError	MongoCommandException	Error	Unable to retrieve tracking information for the shipment	Retailer Application	ShippingService	ShippingTrackingModule	192.168.144.117
+131	Willie Rodriguez	24-04-25	11:58:39	DataIntegrityError	MongoWriteException	Error	Document validation failed	Retailer Application	ProductService	CatalogModule	192.168.48.229
+95	Martha Bates	20-05-25	3:42:52	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	InventoryService	InventoryManagementModule	192.168.155.220
+42	Liam Stewart	20-05-25	23:00:01	SessionTimeoutError	MongoTimeoutException	Warn	The session has timed out. The operation cannot proceed.	Retailer Application	UserService	SessionModule	192.168.117.111
+189	Cora White	15-05-25	22:39:05	AuthenticationTimeout	MongoTimeoutException	Critical	 Authentication failed due to a timeout.	Retailer Application	UserService	AuthenticationModule	192.168.38.91
+17	Michael Allen	8/5/2025	19:30:30	SchemaValidationError	MongoCommandException	Error	Document failed validation because field 'username' is required and was not provided	Retailer Application	CustomerService	ProfileModule	192.168.123.114
+117	Isaac Daniels	25-04-25	1:16:26	InventoryUpdateError	MongoWriteException	Error	Failed to update inventory due to database connection issue.	Retailer Application	InventoryService	StockTrackingModule	192.168.251.70
+63	Georgia Bennett	24-04-25	19:37:37	RefundError	MongoWriteException	Error	 Unable to process refund due to payment gateway failure	Retailer Application	PaymentService	RefundModule	192.168.184.2
+89	Gavin Griffith	22-05-25	18:24:11	TimeoutError	MongoTimeoutException	Error	Timed out after 300 ms while waiting for server to respond.	Retailer Application	OrderService	ShippingModule	192.168.137.7
+192	Fiona Walker	21-05-25	20:41:51	ProductNotFoundError	MongoException	Info	An unknown error occurred	Retailer Application	ProductService	ProductManagementModule	192.168.79.30
+194	Harriet Wood	22-05-25	19:50:57	OrderProcessingError	MongoCommandException	Error	Failed to process order due to payment gateway failure.	Retailer Application	TransactionService	OrderModule	192.168.65.229
+194	Harriet Wood	14-05-25	23:00:42	QueryTimeout	MongoTimeoutException	Error	Query timed out.	Retailer Application	UserService	DatabaseModule	192.168.99.167
+174	Noah Clark	26-04-25	22:45:14	SmsSendingError	MongoException	Warn	Failed to send SMS due to network error	Retailer Application	NotificationService	SMSModule	192.168.86.176
+146	Leah Jenkins	26-04-25	0:12:54	NetworkTimeoutError	MongoException	Info	An unknown error occurred	Retailer Application	NotificationService	SMSModule	192.168.229.41
+5	Grace Wilson	4/5/2025	13:17:04	ShippingLabelGenerationError	MongoCommandException	Error	Unable to generate shipping label due to system error	Retailer Application	ShippingService	ShippingLabelModule	192.168.129.253
+48	Rebecca Lopez	18-05-25	2:13:18	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	TransactionService	DatabaseModule	192.168.80.126
+28	Xander Mitchell	17-05-25	4:35:09	CatalogUpdateError	MongoCommandException	Error	Unable to update catalog due to database connection issues.	Retailer Application	ProductService	CatalogModule	192.168.3.133
+71	Oscar Jordan	3/5/2025	8:57:05	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	TransactionService	OrderModule	192.168.188.48
+171	Kurtis Roberts	1/5/2025	7:26:12	DocumentNotFound	MongoCommandException	Error	The requested document does not exist.	Retailer Application	CustomerService	ProfileModule	192.168.100.227
+29	Yasmine Phillips	16-05-25	2:08:14	SmsSendingError	MongoException	Warn	Failed to send SMS due to network error	Retailer Application	NotificationService	SMSModule	192.168.155.138
+120	Leah Simmons	18-05-25	23:47:33	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	TransactionService	OrderModule	192.168.194.163
+45	Olivia Wright	22-05-25	13:06:28	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	CartService	DatabaseModule	192.168.82.98
+137	Cora Nelson	20-05-25	15:08:29	TransactionAbortError	MongoTransactionException	Critical	The transaction was aborted due to a conflict or error	Retailer Application	PaymentService	PaymentGatewayModule	192.168.33.8
+37	George Edwards	2/5/2025	19:28:37	SessionTimeoutError	MongoTimeoutException	Warn	The session has timed out. The operation cannot proceed.	Retailer Application	UserService	SessionModule	192.168.209.173
+13	Harry Lewis	14-05-25	6:40:36	AuthenticationFailed	MongoAuthenticationException	Critical	Authentication failed. Please check your credentials and try again.	Retailer Application	UserService	AuthenticationModule	192.168.172.15
+172	Leah Peterson	30-04-25	20:08:22	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	InventoryService	StockTrackingModule	192.168.16.144
+98	Pablo Lee	14-05-25	19:20:59	PermissionDenied	MongoException	Warn	You do not have permission to perform this action.	Retailer Application	AdminService	UserManagementModule	192.168.180.121
+92	Julia Simmons	16-05-25	18:41:58	TimeoutError	MongoTimeoutException	Error	Timed out after 300 ms while waiting for server to respond.	Retailer Application	ShippingService	ShippingTrackingModule	192.168.113.109
+117	Isaac Daniels	4/5/2025	2:47:53	InvalidCredentials	MongoAuthenticationException	Critical	 Invalid credentials.	Retailer Application	CustomerService	AuthModule	192.168.6.11
+18	Nancy King	28-04-25	5:12:33	SchemaValidationError	MongoCommandException	Error	Document failed validation because field 'username' is required and was not provided	Retailer Application	CustomerService	ProfileModule	192.168.74.247
+129	Uma Thomas	24-04-25	0:27:10	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	NotificationService	DatabaseModule	192.168.231.58
+137	Cora Nelson	7/5/2025	12:53:37	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	CustomerService	DatabaseModule	192.168.152.3
+3	David Lee	7/5/2025	10:02:31	CheckoutError	MongoCommandException	Error	Payment processing failed, please try again.	Retailer Application	CartService	CheckoutModule	192.168.133.132
+60	Derrick Richards	1/5/2025	2:42:18	DataIntegrityError	MongoWriteException	Error	Document validation failed	Retailer Application	OrderService	InventoryModule	192.168.3.68
+191	Elias Roberts	18-05-25	21:16:12	QueryTimeout	MongoTimeoutException	Error	Query timed out.	Retailer Application	PaymentService	DatabaseModule	192.168.198.25
+123	Olga Carter	16-05-25	5:17:55	TransactionAbortError	MongoTransactionException	Critical	The transaction was aborted due to a conflict or error	Retailer Application	PaymentService	PaymentGatewayModule	192.168.35.203
+180	Talia Allen	7/5/2025	3:31:53	NotificationSendError	MongoException	Warn	Failed to send notification due to network failure..	Retailer Application	NotificationService	PushNotificationModule	192.168.186.243
+109	Abigail Perry	3/5/2025	4:28:11	TransactionAbortError	MongoTransactionException	Critical	The transaction was aborted due to a conflict or error	Retailer Application	ReturnService	RefundModule	192.168.126.33
+34	Diane Hughes	18-05-25	1:31:57	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	NotificationService	DatabaseModule	192.168.51.41
+12	Judy Clark	21-05-25	0:35:55	PaymentError	MongoException	Info	An unknown error occurred	Retailer Application	CartService	CartModule	192.168.46.41
+198	Leah Scott	28-04-25	9:37:05	TimeoutError	MongoTimeoutException	Error	Timed out after 300 ms while waiting for server to respond.	Retailer Application	ShippingService	ShippingTrackingModule	192.168.56.61
+137	Cora Nelson	20-05-25	5:19:49	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	CustomerService	ProfileModule	192.168.114.50
+133	Yvette Bennett	10/5/2025	22:08:50	AuthenticationFailed	MongoAuthenticationException	Critical	Authentication failed. Please check your credentials and try again.	Retailer Application	UserService	AuthenticationModule	192.168.27.187
+162	Blake Andrews	25-04-25	18:49:22	RefundError	MongoWriteException	Error	 Unable to process refund due to payment gateway failure	Retailer Application	PaymentService	RefundModule	192.168.32.214
+168	Harriet Hernandez	18-05-25	2:36:11	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	InventoryService	DatabaseModule	192.168.168.119
+193	Gavin Coleman	5/5/2025	8:47:06	UserNotFound	MongoCommandException	Warn	The specified user could not be found.	Retailer Application	AdminService	UserManagementModule	192.168.210.180
+62	Felix Ferguson	22-05-25	17:56:38	DataIntegrityError	MongoWriteException	Error	Document validation failed	Retailer Application	AdminService	InventoryModule	192.168.185.67
+57	Adriana Gordon	24-04-25	15:50:27	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	AdminService	DatabaseModule	192.168.237.22
+168	Harriet Hernandez	29-04-25	4:05:58	InventoryUpdateError	MongoWriteException	Error	Failed to update inventory due to database connection issue.	Retailer Application	AdminService	InventoryModule	192.168.30.23
+109	Abigail Perry	28-04-25	19:46:17	TransactionTimeoutError	MongoTimeoutException	Critical	 The transaction timed out due to a long processing delay	Retailer Application	TransactionService	TransactionProcessingModule	192.168.53.205
+107	Yvette Wells	13-05-25	20:01:15	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	AdminService	DatabaseModule	192.168.104.156
+106	Xander Zimmerman	13-05-25	13:57:10	PaymentProcessingError	MongoCommandException	Critical	Payment could not be processed due to a system error.	Retailer Application	TransactionService	PaymentModule	192.168.107.116
+90	Harriet Boyd	23-04-25	22:55:44	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	NotificationService	EmailModule	192.168.133.121
+78	Vanessa Webb	10/5/2025	3:34:57	NotificationSendError	MongoException	Warn	Failed to send notification due to network failure..	Retailer Application	NotificationService	PushNotificationModule	192.168.22.93
+200	Noah Lee	7/5/2025	2:45:23	ProductNotFound	MongoCommandException	Error	The requested product could not be found in the inventory	Retailer Application	CartService	ProductModule	192.168.132.62
+4	Eve Davis	25-04-25	20:40:57	TimeoutError	MongoTimeoutException	Error	Timed out after 300 ms while waiting for server to respond.	Retailer Application	ShippingService	ShippingTrackingModule	192.168.43.190
+87	Elias Carpenter	13-05-25	9:32:42	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	OrderService	DatabaseModule	192.168.90.167
+35	Evan Gomez	2/5/2025	19:33:32	OrderNotFoundError	MongoCommandException	Error	The requested order could not be found in the system	Retailer Application	TransactionService	OrderModule	192.168.156.184
+42	Liam Stewart	16-05-25	17:55:53	PermissionDenied	MongoException	Warn	You do not have permission to perform this action.	Retailer Application	AdminService	AdminDashboardModule	192.168.141.112
+68	Lena Patterson	30-04-25	5:16:01	DataIntegrityError	MongoWriteException	Error	Document validation failed	Retailer Application	ProductService	CatalogModule	192.168.212.91
+10	Wendy Martinez	28-04-25	14:12:02	InventoryUpdateError	MongoWriteException	Error	Failed to update inventory due to database connection issue.	Retailer Application	OrderService	InventoryModule	192.168.29.33
+190	Diana Morris	16-05-25	13:51:27	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	UserService	UserProfileModule	192.168.62.197
+55	Yara Harper	4/5/2025	4:35:33	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	CartService	DatabaseModule	192.168.198.110
+48	Rebecca Lopez	11/5/2025	21:30:25	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	ProductService	ProductManagementModule	192.168.155.216
+193	Gavin Coleman	12/5/2025	21:58:22	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	InventoryService	DatabaseModule	192.168.85.107
+117	Isaac Daniels	7/5/2025	1:21:42	NotificationSendError	MongoException	Warn	Failed to send notification due to network failure..	Retailer Application	NotificationService	PushNotificationModule	192.168.135.226
+27	Walter Murphy	14-05-25	6:14:02	EmailSendingError	MongoException	Warn	Failed to send email due to SMTP server connection failure.	Retailer Application	NotificationService	EmailModule	192.168.166.9
+17	Michael Allen	11/5/2025	4:57:07	ShippingTrackingError	MongoCommandException	Error	Unable to retrieve tracking information for the shipment	Retailer Application	ShippingService	ShippingTrackingModule	192.168.199.99
+96	Noah Murphy	21-05-25	2:26:40	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	CustomerService	DatabaseModule	192.168.164.101
+37	George Edwards	10/5/2025	19:35:01	DataIntegrityError	MongoWriteException	Error	Document validation failed	Retailer Application	AdminService	InventoryModule	192.168.113.110
+20	Paul Scott	4/5/2025	22:01:10	TransactionRollbackError	MongoException	Info	An unknown error occurred	Retailer Application	PaymentService	TransactionModule	192.168.228.125
+71	Oscar Jordan	10/5/2025	15:25:10	ShippingLabelGenerationError	MongoCommandException	Error	Unable to generate shipping label due to system error	Retailer Application	ShippingService	ShippingLabelModule	192.168.191.198
+40	James Foster	25-04-25	11:18:39	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	InventoryService	WarehouseModule	192.168.34.133
+44	Nathan Parker	30-04-25	15:34:07	NotificationSendError	MongoException	Warn	Failed to send notification due to network failure..	Retailer Application	NotificationService	PushNotificationModule	192.168.189.62
+44	Nathan Parker	12/5/2025	22:58:45	TimeoutError	MongoTimeoutException	Error	Timed out after 300 ms while waiting for server to respond.	Retailer Application	ReturnService	ReturnProcessingModule	192.168.42.107
+120	Leah Simmons	21-05-25	7:21:35	PermissionDenied	MongoException	Warn	You do not have permission to perform this action.	Retailer Application	AdminService	AdminDashboardModule	192.168.163.81
+27	Walter Murphy	8/5/2025	15:07:32	PaymentError	MongoException	Info	An unknown error occurred	Retailer Application	CartService	CheckoutModule	192.168.59.171
+17	Michael Allen	10/5/2025	16:40:51	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	ShippingService	DatabaseModule	192.168.172.27
+115	Gavin Powell	1/5/2025	6:20:11	SessionCreationError	MongoException	Warn	Failed to create a session	Retailer Application	UserService	SessionModule	192.168.46.244
+171	Kurtis Roberts	28-04-25	9:58:56	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	PaymentService	DatabaseModule	192.168.191.216
+30	Zoe Carter	16-05-25	22:00:02	DataIntegrityError	MongoWriteException	Error	Document validation failed	Retailer Application	InventoryService	InventoryManagementModule	192.168.9.240
+76	Travis Bailey	23-04-25	18:35:33	NetworkTimeoutError	MongoException	Info	An unknown error occurred	Retailer Application	NotificationService	SMSModule	192.168.112.129
+15	Kim Walker	27-04-25	4:13:55	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	PaymentService	DatabaseModule	192.168.36.237
+22	Rachel Perez	2/5/2025	10:05:12	TransactionAbortError	MongoTransactionException	Critical	The transaction was aborted due to a conflict or error	Retailer Application	PaymentService	RefundModule	192.168.231.247
+51	Ursula Jenkins	1/5/2025	22:35:20	QueryTimeout	MongoTimeoutException	Error	Query timed out.	Retailer Application	TransactionService	DatabaseModule	192.168.249.75
+65	Isabel Dunn	11/5/2025	23:43:20	TimeoutError	MongoTimeoutException	Error	Timed out after 300 ms while waiting for server to respond.	Retailer Application	ShippingService	ShippingTrackingModule	192.168.242.189
+74	Riley Cooper	24-04-25	4:17:41	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	NotificationService	DatabaseModule	192.168.178.60
+29	Yasmine Phillips	3/5/2025	16:29:24	AuthenticationTimeout	MongoTimeoutException	Critical	 Authentication failed due to a timeout.	Retailer Application	CustomerService	AuthModule	192.168.141.218
+12	Judy Clark	4/5/2025	0:34:11	TransactionRollbackError	MongoException	Info	An unknown error occurred	Retailer Application	PaymentService	TransactionModule	192.168.193.142
+4	Eve Davis	2/5/2025	16:44:51	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	CartService	DatabaseModule	192.168.210.163
+187	Abigail Williams	12/5/2025	13:13:39	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	ShippingService	DatabaseModule	192.168.15.78
+55	Yara Harper	29-04-25	7:21:04	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	InventoryService	DatabaseModule	192.168.17.187
+8	Peggy Green	17-05-25	22:20:00	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	CustomerService	DatabaseModule	192.168.66.94
+87	Elias Carpenter	21-05-25	15:19:06	SessionCreationError	MongoException	Warn	Failed to create a session	Retailer Application	UserService	SessionModule	192.168.210.246
+46	Peter King	27-04-25	17:17:44	ShippingError	MongoException	Warn	Shipping carrier is unavailable or unreachable.	Retailer Application	OrderService	ShippingModule	192.168.25.160
+86	Diana Wood	1/5/2025	17:53:40	NetworkTimeoutError	MongoException	Info	An unknown error occurred	Retailer Application	NotificationService	PushNotificationModule	192.168.224.14
+68	Lena Patterson	5/5/2025	13:57:55	SessionCreationError	MongoException	Warn	Failed to create a session	Retailer Application	UserService	SessionModule	192.168.88.50
+185	Yvette Powell	4/5/2025	2:50:51	TransactionRollbackError	MongoException	Info	An unknown error occurred	Retailer Application	PaymentService	TransactionModule	192.168.67.116
+180	Talia Allen	17-05-25	8:05:18	TransactionAbortError	MongoTransactionException	Critical	The transaction was aborted due to a conflict or error	Retailer Application	TransactionService	PaymentModule	192.168.79.146
+68	Lena Patterson	18-05-25	6:58:31	ShippingTrackingError	MongoCommandException	Error	Unable to retrieve tracking information for the shipment	Retailer Application	ShippingService	ShippingTrackingModule	192.168.156.168
+126	Rosa Harris	14-05-25	19:04:04	DataIntegrityError	MongoWriteException	Error	Document validation failed	Retailer Application	OrderService	InventoryModule	192.168.113.64
+166	Fiona Stevens	22-05-25	4:02:25	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	NotificationService	EmailModule	192.168.63.147
+119	Kurtis Phillips	26-04-25	16:29:36	AuthenticationFailed	MongoAuthenticationException	Critical	Authentication failed. Please check your credentials and try again.	Retailer Application	UserService	AuthenticationModule	192.168.63.152
+130	Vicky Robinson	22-05-25	2:53:52	TimeoutError	MongoTimeoutException	Error	Timed out after 300 ms while waiting for server to respond.	Retailer Application	OrderService	ShippingModule	192.168.6.186
+36	Fiona Duncan	5/5/2025	9:39:58	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	UserService	UserProfileModule	192.168.190.153
+111	Cora Peters	11/5/2025	11:45:06	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	UserService	DatabaseModule	192.168.249.10
+140	Fiona Lawrence	21-05-25	0:38:14	InventoryUpdateError	MongoWriteException	Error	Failed to update inventory due to database connection issue.	Retailer Application	AdminService	InventoryModule	192.168.163.86
+69	Mason Coleman	26-04-25	9:36:49	QueryTimeout	MongoTimeoutException	Error	Query timed out.	Retailer Application	ShippingService	DatabaseModule	192.168.246.43
+11	Zack Garcia	13-05-25	14:41:48	InventoryUpdateError	MongoWriteException	Error	Failed to update inventory due to database connection issue.	Retailer Application	InventoryService	WarehouseModule	192.168.161.40
+192	Fiona Walker	30-04-25	21:53:30	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	NotificationService	EmailModule	192.168.159.14
+139	Elias Thomas	12/5/2025	14:50:19	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	NotificationService	DatabaseModule	192.168.186.107
+86	Diana Wood	28-04-25	19:46:02	TimeoutError	MongoTimeoutException	Error	Timed out after 300 ms while waiting for server to respond.	Retailer Application	ShippingService	ShippingTrackingModule	192.168.39.124
+85	Cora Lawrence	16-05-25	14:12:09	PricingError	MongoCommandException	Error	Unable to retrieve pricing information for the requested product.	Retailer Application	ProductService	PricingModule	192.168.121.1
+97	Olga Peterson	3/5/2025	11:43:17	RefundError	MongoWriteException	Error	 Unable to process refund due to payment gateway failure	Retailer Application	ReturnService	RefundModule	192.168.91.243
+66	Jackie Richards	3/5/2025	16:52:07	DataIntegrityError	MongoWriteException	Error	Document validation failed	Retailer Application	AdminService	InventoryModule	192.168.145.31
+13	Harry Lewis	8/5/2025	0:53:11	TransactionAbortError	MongoTransactionException	Critical	The transaction was aborted due to a conflict or error	Retailer Application	ReturnService	RefundModule	192.168.195.255
+65	Isabel Dunn	5/5/2025	4:32:50	AuthenticationFailed	MongoAuthenticationException	Critical	Authentication failed. Please check your credentials and try again.	Retailer Application	UserService	AuthenticationModule	192.168.158.222
+24	Tim Anderson	26-04-25	0:51:19	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	NotificationService	DatabaseModule	192.168.91.207
+48	Rebecca Lopez	30-04-25	15:29:40	CheckoutError	MongoCommandException	Error	Payment processing failed, please try again.	Retailer Application	CartService	CheckoutModule	192.168.37.99
+66	Jackie Richards	26-04-25	13:43:05	ProductNotFoundError	MongoException	Info	An unknown error occurred	Retailer Application	ProductService	ProductManagementModule	192.168.188.57
+50	Tina Baker	30-04-25	7:57:22	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	InventoryService	InventoryManagementModule	192.168.135.246
+101	Seth Coleman	20-05-25	0:12:20	TransactionAbortError	MongoTransactionException	Critical	The transaction was aborted due to a conflict or error	Retailer Application	TransactionService	PaymentModule	192.168.234.75
+151	Quincy Parker	5/5/2025	18:43:05	ShippingError	MongoException	Warn	Shipping carrier is unavailable or unreachable.	Retailer Application	OrderService	ShippingModule	192.168.12.191
+52	Victor Hunt	11/5/2025	7:56:34	PermissionDenied	MongoException	Warn	You do not have permission to perform this action.	Retailer Application	AdminService	AdminDashboardModule	192.168.48.33
+173	Martha Gray	14-05-25	17:15:07	ShippingLabelGenerationError	MongoCommandException	Error	Unable to generate shipping label due to system error	Retailer Application	ShippingService	ShippingLabelModule	192.168.45.14
+147	Martha Gray	27-04-25	4:31:41	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	CustomerService	DatabaseModule	192.168.145.3
+145	Kurtis Cooper	30-04-25	11:51:57	TransactionAbortError	MongoTransactionException	Critical	The transaction was aborted due to a conflict or error	Retailer Application	TransactionService	TransactionProcessingModule	192.168.3.165
+27	Walter Murphy	5/5/2025	3:22:35	AuthenticationFailed	MongoAuthenticationException	Critical	Authentication failed. Please check your credentials and try again.	Retailer Application	UserService	AuthenticationModule	192.168.111.120
+153	Seth Adams	23-04-25	19:19:18	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	UserService	DatabaseModule	192.168.168.89
+174	Noah Clark	15-05-25	17:59:07	QueryTimeout	MongoTimeoutException	Error	Query timed out.	Retailer Application	CartService	DatabaseModule	192.168.92.225
+174	Noah Clark	21-05-25	2:59:11	QueryTimeout	MongoTimeoutException	Error	Query timed out.	Retailer Application	CartService	DatabaseModule	192.168.146.87
+36	Fiona Duncan	7/5/2025	17:32:57	OrderNotFoundError	MongoCommandException	Error	The requested order could not be found in the system	Retailer Application	ReturnService	OrderModule	192.168.76.177
+55	Yara Harper	7/5/2025	22:55:27	OrderNotFoundError	MongoCommandException	Error	The requested order could not be found in the system	Retailer Application	ShippingService	OrderModule	192.168.10.81
+191	Elias Roberts	3/5/2025	20:52:07	CatalogUpdateError	MongoCommandException	Error	Unable to update catalog due to database connection issues.	Retailer Application	ProductService	CatalogModule	192.168.142.59
+101	Seth Coleman	11/5/2025	14:34:38	InvalidCredentials	MongoAuthenticationException	Critical	 Invalid credentials.	Retailer Application	UserService	AuthenticationModule	192.168.217.232
+174	Noah Clark	27-04-25	20:38:22	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	CustomerService	ProfileModule	192.168.198.223
+143	Isaac Greene	6/5/2025	15:23:10	OrderNotFoundError	MongoCommandException	Error	The requested order could not be found in the system	Retailer Application	TransactionService	OrderModule	192.168.50.194
+126	Rosa Harris	15-05-25	8:13:03	CheckoutError	MongoCommandException	Error	Payment processing failed, please try again.	Retailer Application	CartService	CheckoutModule	192.168.230.248
+15	Kim Walker	1/5/2025	5:54:39	SessionCreationError	MongoException	Warn	Failed to create a session	Retailer Application	UserService	SessionModule	192.168.125.61
+194	Harriet Wood	17-05-25	8:40:43	TimeoutError	MongoTimeoutException	Error	Timed out after 300 ms while waiting for server to respond.	Retailer Application	ReturnService	ReturnProcessingModule	192.168.111.109
+122	Noah Pierce	6/5/2025	10:55:25	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	AdminService	DatabaseModule	192.168.215.115
+164	Diana Powell	21-05-25	9:54:22	PaymentError	MongoException	Info	An unknown error occurred	Retailer Application	CartService	CartModule	192.168.38.30
+58	Blake Thomas	10/5/2025	9:14:09	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	InventoryService	DatabaseModule	192.168.85.90
+17	Michael Allen	12/5/2025	11:32:59	PricingError	MongoCommandException	Error	Unable to retrieve pricing information for the requested product.	Retailer Application	ProductService	PricingModule	192.168.253.23
+160	Zachary Johnson	10/5/2025	7:17:12	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	CartService	DatabaseModule	192.168.248.66
+6	Mallory White	26-04-25	22:26:42	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	ReturnService	DatabaseModule	192.168.99.83
+192	Fiona Walker	20-05-25	3:06:32	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	TransactionService	DatabaseModule	192.168.170.26
+167	Gavin Powell	18-05-25	18:48:32	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	OrderService	DatabaseModule	192.168.51.215
+50	Tina Baker	17-05-25	20:59:39	QueryTimeout	MongoTimeoutException	Error	Query timed out.	Retailer Application	ShippingService	DatabaseModule	192.168.158.67
+163	Cora Peterson	18-05-25	15:11:34	EmailSendingError	MongoException	Warn	Failed to send email due to SMTP server connection failure.	Retailer Application	NotificationService	EmailModule	192.168.36.137
+110	Blake Fisher	28-04-25	15:22:27	ShippingLabelGenerationError	MongoCommandException	Error	Unable to generate shipping label due to system error	Retailer Application	ShippingService	ShippingLabelModule	192.168.214.227
+151	Quincy Parker	3/5/2025	22:00:33	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	InventoryService	StockTrackingModule	192.168.190.77
+171	Kurtis Roberts	30-04-25	20:48:26	AdminAccessError	MongoException	Warn	You do not have sufficient permissions to access this section.	Retailer Application	AdminService	AdminDashboardModule	192.168.16.100
+103	Uma Sullivan	5/5/2025	23:24:46	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	AdminService	DatabaseModule	192.168.36.223
+89	Gavin Griffith	3/5/2025	12:40:19	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	AdminService	DatabaseModule	192.168.241.33
+87	Elias Carpenter	29-04-25	21:08:42	InventoryUpdateError	MongoWriteException	Error	Failed to update inventory due to database connection issue.	Retailer Application	InventoryService	WarehouseModule	192.168.243.11
+22	Rachel Perez	6/5/2025	13:36:29	DataIntegrityError	MongoWriteException	Error	Document validation failed	Retailer Application	AdminService	InventoryModule	192.168.188.86
+129	Uma Thomas	3/5/2025	7:25:10	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	ProductService	ProductManagementModule	192.168.188.141
+156	Vicky Davis	2/5/2025	20:29:04	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	InventoryService	StockTrackingModule	192.168.151.86
+45	Olivia Wright	25-04-25	14:29:16	CatalogUpdateError	MongoCommandException	Error	Unable to update catalog due to database connection issues.	Retailer Application	ProductService	CatalogModule	192.168.65.213
+168	Harriet Hernandez	14-05-25	14:24:26	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	CustomerService	DatabaseModule	192.168.112.144
+19	Oliver Robinson	5/5/2025	12:23:45	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	ProductService	ProductManagementModule	192.168.17.226
+127	Seth Campbell	21-05-25	5:05:48	UserNotFound	MongoCommandException	Warn	The specified user could not be found.	Retailer Application	AdminService	UserManagementModule	192.168.34.248
+191	Elias Roberts	8/5/2025	6:14:18	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	ShippingService	DatabaseModule	192.168.115.148
+45	Olivia Wright	24-04-25	14:11:20	TransactionAbortError	MongoTransactionException	Critical	The transaction was aborted due to a conflict or error	Retailer Application	TransactionService	TransactionProcessingModule	192.168.6.237
+24	Tim Anderson	15-05-25	14:51:33	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	ProductService	ProductManagementModule	192.168.175.218
+172	Leah Peterson	18-05-25	4:06:33	NetworkTimeoutError	MongoException	Info	An unknown error occurred	Retailer Application	NotificationService	SMSModule	192.168.144.170
+49	Samuel Evans	30-04-25	13:23:48	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	TransactionService	OrderModule	192.168.237.167
+16	Linda Hall	14-05-25	17:00:55	TransactionAbortError	MongoTransactionException	Critical	The transaction was aborted due to a conflict or error	Retailer Application	ReturnService	RefundModule	192.168.228.152
+103	Uma Sullivan	3/5/2025	14:58:18	InventoryUpdateError	MongoWriteException	Error	Failed to update inventory due to database connection issue.	Retailer Application	OrderService	InventoryModule	192.168.218.150
+62	Felix Ferguson	22-05-25	22:09:08	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	ReturnService	DatabaseModule	192.168.131.87
+55	Yara Harper	16-05-25	14:06:32	DataIntegrityError	MongoWriteException	Error	Document validation failed	Retailer Application	ProductService	CatalogModule	192.168.203.95
+41	Kathy James	2/5/2025	17:52:54	NetworkTimeoutError	MongoException	Info	An unknown error occurred	Retailer Application	NotificationService	PushNotificationModule	192.168.228.205
+109	Abigail Perry	16-05-25	19:40:05	CatalogUpdateError	MongoCommandException	Error	Unable to update catalog due to database connection issues.	Retailer Application	ProductService	CatalogModule	192.168.112.251
+105	Willie Hughes	19-05-25	5:13:15	NotificationSendError	MongoException	Warn	Failed to send notification due to network failure..	Retailer Application	NotificationService	PushNotificationModule	192.168.238.204
+127	Seth Campbell	13-05-25	8:38:20	TimeoutError	MongoTimeoutException	Error	Timed out after 300 ms while waiting for server to respond.	Retailer Application	ReturnService	ReturnProcessingModule	192.168.79.70
+196	Julia Richardson	6/5/2025	3:25:21	AdminAccessError	MongoException	Warn	You do not have sufficient permissions to access this section.	Retailer Application	AdminService	AdminDashboardModule	192.168.192.83
+94	Leah Palmer	24-04-25	16:18:53	AuthenticationFailed	MongoAuthenticationException	Critical	Authentication failed. Please check your credentials and try again.	Retailer Application	CustomerService	AuthModule	192.168.248.183
+159	Yvette Brooks	4/5/2025	16:51:48	InventoryError	MongoWriteException	Error	Insufficient stock to fulfill the order.	Retailer Application	OrderService	OrderProcessingModule	192.168.28.107
+32	Brian Taylor	2/5/2025	4:20:09	DataIntegrityError	MongoWriteException	Error	Document validation failed	Retailer Application	OrderService	InventoryModule	192.168.102.239
+188	Blake Clark	8/5/2025	15:01:05	TransactionTimeoutError	MongoTimeoutException	Critical	 The transaction timed out due to a long processing delay	Retailer Application	TransactionService	TransactionProcessingModule	192.168.158.124
+111	Cora Peters	25-04-25	0:16:41	DocumentNotFound	MongoCommandException	Error	The requested document does not exist.	Retailer Application	UserService	UserProfileModule	192.168.166.45
+86	Diana Wood	27-04-25	11:36:39	InventoryUpdateError	MongoWriteException	Error	Failed to update inventory due to database connection issue.	Retailer Application	InventoryService	WarehouseModule	192.168.105.70
+184	Xander Lopez	15-05-25	19:46:05	PaymentProcessingError	MongoCommandException	Critical	Payment could not be processed due to a system error.	Retailer Application	TransactionService	PaymentModule	192.168.35.178
+61	Emily Murphy	23-05-25	10:13:33	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	CustomerService	ProfileModule	192.168.180.28
+149	Olga Hall	26-04-25	3:09:08	InvalidCredentials	MongoAuthenticationException	Critical	 Invalid credentials.	Retailer Application	CustomerService	AuthModule	192.168.153.22
+139	Elias Thomas	28-04-25	1:15:46	TimeoutError	MongoTimeoutException	Error	Timed out after 300 ms while waiting for server to respond.	Retailer Application	ShippingService	ShippingTrackingModule	192.168.171.254
+133	Yvette Bennett	20-05-25	20:16:05	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	ReturnService	DatabaseModule	192.168.209.218
+144	Julia Sullivan	28-04-25	23:19:45	DataIntegrityError	MongoWriteException	Error	Document validation failed	Retailer Application	AdminService	InventoryModule	192.168.195.57
+169	Isaac Ellis	24-04-25	16:40:46	OrderNotFoundError	MongoCommandException	Error	The requested order could not be found in the system	Retailer Application	ReturnService	OrderModule	192.168.64.133
+32	Brian Taylor	17-05-25	7:29:57	PricingError	MongoCommandException	Error	Unable to retrieve pricing information for the requested product.	Retailer Application	ProductService	PricingModule	192.168.170.124
+70	Nina Griffin	6/5/2025	9:09:26	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	CustomerService	DatabaseModule	192.168.72.60
+36	Fiona Duncan	6/5/2025	11:27:24	DataIntegrityError	MongoWriteException	Error	Document validation failed	Retailer Application	CartService	ProductModule	192.168.169.54
+15	Kim Walker	16-05-25	15:21:20	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	CartService	DatabaseModule	192.168.126.97
+113	Elias Rivera	8/5/2025	22:29:43	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	OrderService	DatabaseModule	192.168.178.14
+173	Martha Gray	15-05-25	8:21:19	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	ShippingService	OrderModule	192.168.7.64
+141	Gavin Evans	25-04-25	6:59:23	DocumentNotFound	MongoCommandException	Error	The requested document does not exist.	Retailer Application	UserService	UserProfileModule	192.168.72.136
+131	Willie Rodriguez	20-05-25	8:49:59	DataIntegrityError	MongoWriteException	Error	Document validation failed	Retailer Application	InventoryService	InventoryManagementModule	192.168.42.132
+143	Isaac Greene	26-04-25	23:16:02	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	ReturnService	OrderModule	192.168.132.122
+71	Oscar Jordan	16-05-25	9:19:10	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	CartService	DatabaseModule	192.168.89.213
+145	Kurtis Cooper	13-05-25	14:38:26	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	InventoryService	WarehouseModule	192.168.143.182
+115	Gavin Powell	19-05-25	11:23:17	DataIntegrityError	MongoWriteException	Error	Document validation failed	Retailer Application	AdminService	InventoryModule	192.168.130.90
+8	Peggy Green	27-04-25	9:57:14	SessionTimeoutError	MongoTimeoutException	Warn	The session has timed out. The operation cannot proceed.	Retailer Application	UserService	SessionModule	192.168.222.47
+64	Henry Rodriguez	25-04-25	7:32:22	CartItemNotFound	MongoCommandException	Error	The item you are looking for is not in the cart.	Retailer Application	CartService	CartModule	192.168.135.242
+122	Noah Pierce	6/5/2025	18:39:14	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	ProductService	DatabaseModule	192.168.254.74
+38	Helen Bryant	10/5/2025	10:30:35	ProductNotFound	MongoCommandException	Error	The requested product could not be found in the inventory	Retailer Application	CartService	ProductModule	192.168.87.128
+44	Nathan Parker	27-04-25	4:33:51	DataIntegrityError	MongoWriteException	Error	Document validation failed	Retailer Application	CartService	ProductModule	192.168.202.3
+11	Zack Garcia	1/5/2025	10:09:58	TransactionAbortError	MongoTransactionException	Critical	The transaction was aborted due to a conflict or error	Retailer Application	ReturnService	RefundModule	192.168.133.96
+105	Willie Hughes	30-04-25	17:34:40	PermissionDenied	MongoException	Warn	You do not have permission to perform this action.	Retailer Application	AdminService	UserManagementModule	192.168.212.4
+193	Gavin Coleman	26-04-25	13:52:11	InvalidCredentials	MongoAuthenticationException	Critical	 Invalid credentials.	Retailer Application	CustomerService	AuthModule	192.168.250.142
+60	Derrick Richards	27-04-25	11:16:47	DataIntegrityError	MongoWriteException	Error	Document validation failed	Retailer Application	CartService	ProductModule	192.168.197.186
+7	Oscar Black	10/5/2025	13:27:09	UserNotFound	MongoCommandException	Warn	The specified user could not be found.	Retailer Application	AdminService	UserManagementModule	192.168.48.115
+166	Fiona Stevens	13-05-25	19:45:47	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	TransactionService	DatabaseModule	192.168.145.204
+154	Talia Hayes	16-05-25	2:08:48	DataIntegrityError	MongoWriteException	Error	Document validation failed	Retailer Application	CartService	ProductModule	192.168.134.194
+41	Kathy James	15-05-25	10:01:36	ShippingError	MongoException	Warn	Shipping carrier is unavailable or unreachable.	Retailer Application	OrderService	ShippingModule	192.168.134.224
+163	Cora Peterson	15-05-25	12:27:54	PermissionDenied	MongoException	Warn	You do not have permission to perform this action.	Retailer Application	AdminService	UserManagementModule	192.168.77.203
+19	Oliver Robinson	2/5/2025	5:26:16	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	NotificationService	DatabaseModule	192.168.7.107
+144	Julia Sullivan	28-04-25	23:38:46	WriteConflictError	MongoWriteConcernException	Error	Unable to write data due to a conflict with another operation	Retailer Application	CartService	DatabaseModule	192.168.58.163
+183	Willie Morris	11/5/2025	4:37:33	ProductNotFound	MongoCommandException	Error	The requested product could not be found in the inventory	Retailer Application	CartService	ProductModule	192.168.16.190
+67	Kyle Bennett	5/5/2025	14:21:15	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	InventoryService	InventoryManagementModule	192.168.245.92
+195	Isaac Lewis	22-05-25	18:43:07	DatabaseUnavailable	MongoTimeoutException	Critical	Database unavailable.	Retailer Application	InventoryService	InventoryManagementModule	192.168.174.229
+26	Vera Clark	19-05-25	2:48:01	ShippingLabelGenerationError	MongoCommandException	Error	Unable to generate shipping label due to system error	Retailer Application	ShippingService	ShippingLabelModule	192.168.176.117
+26	Vera Clark	23-04-25	21:45:04	SessionTimeoutError	MongoTimeoutException	Warn	The session has timed out. The operation cannot proceed.	Retailer Application	UserService	SessionModule	192.168.88.220
+112	Diana Moore	14-05-25	12:45:35	ConnectionTimeout	MongoTimeoutException	Error	connect ETIMEDOUT 192.168.1.100:27017	Retailer Application	InventoryService	DatabaseModule	192.168.225.72
+51	Ursula Jenkins	7/5/2025	12:52:19	DataIntegrityError	MongoWriteException	Error	Document validation failed	Retailer Application	AdminService	InventoryModule	192.168.74.210
+126	Rosa Harris	3/5/2025	13:48:18	TimeoutError	MongoTimeoutException	Error	Timed out after 300 ms while waiting for server to respond.	Retailer Application	OrderService	OrderProcessingModule	192.168.174.133
