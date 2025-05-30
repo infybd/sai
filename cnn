@@ -1,0 +1,1001 @@
+userid	username	date	time	exceptionname	exception class	exception type	exception description	ApplicationName	ModuleName	ip_address
+user_0001	Ashley Barrett	3/11/2025	10:58:27	DeprecationWarning	builtins.DeprecationWarning	Warning	Feature is deprecated.	Wildlife Species Recognition System	preprocessImageData	80.175.165.97
+user_0002	Destiny Howard	2/15/2025	6:15:02	UnimplementedError	tf.errors.UnimplementedError	Error	Operation not implemented.	Security Threat Detection System	detectIntrusiveObjects	244.222.96.180
+user_0003	Madison Herrera	3/10/2025	18:37:56	Uninitialized Tensor	CustomError	Error	Tensor used before initialization.	Wildlife Species Recognition System	extractAnimalFeatures	143.28.29.126
+user_0004	Mark Clark	3/18/2025	17:18:04	ResourceExhaustedError	tf.errors.ResourceExhaustedError	Error	Resource exhaustion during operation.	Wildlife Species Recognition System	segmentAnimalFromBackground	194.113.215.179
+user_0005	Carol Chavez	1/22/2025	4:18:47	GPU Memory Error	CustomError	Error	GPU ran out of memory.	Wildlife Species Recognition System	segmentAnimalFromBackground	126.161.186.62
+user_0006	Bridget Hanson	4/9/2025	19:41:30	Undefined Symbol	CustomError	Error	Required symbol not defined.	Wildlife Species Recognition System	analyzeHabitatContext	250.183.198.190
+user_0007	Robert Webb	3/2/2025	20:52:18	Data Type Mismatch	CustomError	Error	Input data type doesn't match expected type.	Security Threat Detection System	archiveSurveillanceLogs	201.233.183.10
+user_0008	Mr. Christopher Hawkins	3/31/2025	5:55:51	PermissionDeniedError	tf.errors.PermissionDeniedError	Error	Permission denied for operation.	Security Threat Detection System	traceSuspiciousPath	55.194.195.208
+user_0009	Lori Berry	3/22/2025	9:57:59	Resource Exhaustion	CustomError	Error	Insufficient resources for operation.	Wildlife Species Recognition System	captureWildlifeImage	143.29.180.125
+user_0010	Joseph Nixon	1/6/2025	3:24:09	OverflowError	builtins.OverflowError	Error	Arithmetic result too large.	Wildlife Species Recognition System	generateSpeciesReport	227.61.144.231
+user_0011	Brenda Gill	3/1/2025	14:55:06	DeprecationWarning	builtins.DeprecationWarning	Warning	Feature is deprecated.	Wildlife Species Recognition System	captureWildlifeImage	91.57.227.235
+user_0012	Spencer Klein	2/17/2025	10:25:46	InvalidArgumentError	tf.errors.InvalidArgumentError	Error	Invalid argument provided.	Security Threat Detection System	alertSecurityPersonnel	59.93.77.13
+user_0013	Emily Matthews	4/27/2025	7:13:45	OverflowError	builtins.OverflowError	Error	Arithmetic result too large.	Security Threat Detection System	alertSecurityPersonnel	111.161.206.166
+user_0014	Brian Moore	4/3/2025	18:08:50	Resource Exhaustion	CustomError	Error	Insufficient resources for operation.	Security Threat Detection System	detectIntrusiveObjects	190.57.238.50
+user_0015	Philip Mendez	1/22/2025	19:19:12	FailedPreconditionError	tf.errors.FailedPreconditionError	Error	Prerequisites not met for operation.	Security Threat Detection System	analyzeThreatIntensity	189.225.168.46
+user_0016	Michael Shields	2/19/2025	14:01:19	ResourceExhaustedError	tf.errors.ResourceExhaustedError	Error	Resource exhaustion during operation.	Wildlife Species Recognition System	logSpeciesData	136.210.51.109
+user_0017	Joshua Ramos	3/18/2025	22:31:47	NameError	builtins.NameError	Error	Name not found in namespace.	Wildlife Species Recognition System	applySpeciesModel	246.146.143.115
+user_0018	Christine Cabrera	4/8/2025	9:13:30	InvalidArgumentError	tf.errors.InvalidArgumentError	Error	Invalid argument provided.	Wildlife Species Recognition System	analyzeHabitatContext	237.183.189.19
+user_0019	Brian Parsons	1/19/2025	7:54:44	AbortedError	tf.errors.AbortedError	Error	Operation was aborted.	Security Threat Detection System	captureSurveillanceFrame	221.128.204.95
+user_0020	Jennifer Cole	3/27/2025	4:19:14	GPU Memory Error	CustomError	Error	GPU ran out of memory.	Wildlife Species Recognition System	segmentAnimalFromBackground	209.139.46.210
+user_0021	Ryan Patterson	2/6/2025	15:37:35	DeadlineExceededError	tf.errors.DeadlineExceededError	Error	Operation deadline exceeded.	Wildlife Species Recognition System	captureWildlifeImage	11.181.150.80
+user_0022	Kim Dean	1/26/2025	12:20:41	OutOfRangeError	tf.errors.OutOfRangeError	Error	Operation iterated past valid range.	Security Threat Detection System	filterNoiseFromImage	4.67.41.58
+user_0023	Dawn Wilson	3/28/2025	15:42:33	AbortedError	tf.errors.AbortedError	Error	Operation was aborted.	Security Threat Detection System	archiveSurveillanceLogs	133.84.144.144
+user_0024	Emily Frank	1/6/2025	9:52:01	DeadlineExceededError	tf.errors.DeadlineExceededError	Error	Operation deadline exceeded.	Wildlife Species Recognition System	extractAnimalFeatures	191.117.109.103
+user_0025	Ryan Underwood	1/30/2025	13:23:29	RuntimeError	builtins.RuntimeError	Error	General runtime error.	Security Threat Detection System	traceSuspiciousPath	251.10.24.115
+user_0026	Zachary Chapman	1/6/2025	2:45:30	DataLossError	tf.errors.DataLossError	Error	Unrecoverable data loss encountered.	Wildlife Species Recognition System	segmentAnimalFromBackground	195.113.195.135
+user_0027	Raymond Gonzalez	2/1/2025	21:45:48	UnimplementedError	tf.errors.UnimplementedError	Error	Operation not implemented.	Security Threat Detection System	detectIntrusiveObjects	118.135.235.33
+user_0028	David Wright	2/23/2025	6:08:42	FailedPreconditionError	tf.errors.FailedPreconditionError	Error	Prerequisites not met for operation.	Security Threat Detection System	alertSecurityPersonnel	174.66.225.6
+user_0029	Matthew Price	4/14/2025	14:52:17	AlreadyExistsError	tf.errors.AlreadyExistsError	Error	Entity already exists.	Wildlife Species Recognition System	analyzeHabitatContext	209.224.244.46
+user_0030	Gina Johnson	2/11/2025	15:25:07	OutOfRangeError	tf.errors.OutOfRangeError	Error	Operation iterated past valid range.	Wildlife Species Recognition System	segmentAnimalFromBackground	33.47.131.83
+user_0031	Adam Pena	4/25/2025	6:16:59	NotFoundError	tf.errors.NotFoundError	Error	Requested entity not found.	Security Threat Detection System	archiveSurveillanceLogs	159.236.233.195
+user_0032	Nicole Phillips	3/30/2025	11:06:23	ValueError	builtins.ValueError	Error	Inappropriate value passed to function.	Wildlife Species Recognition System	verifySpeciesMatch	131.125.32.202
+user_0033	Katherine Riddle	4/6/2025	1:21:54	TypeError	builtins.TypeError	Error	Inappropriate type for operation.	Security Threat Detection System	applyThreatDetectionModel	167.43.152.50
+user_0034	Nathan Evans	3/1/2025	13:11:40	AssertionError	builtins.AssertionError	Error	Assertion failed.	Wildlife Species Recognition System	preprocessImageData	12.75.41.224
+user_0035	Chad Hanson	4/10/2025	3:18:41	Resource Exhaustion	CustomError	Error	Insufficient resources for operation.	Security Threat Detection System	detectIntrusiveObjects	140.244.42.5
+user_0036	John Adams	3/1/2025	19:23:50	Type Inference Error	CustomError	Error	Unable to infer tensor type.	Security Threat Detection System	filterNoiseFromImage	239.246.195.29
+user_0037	Sara Hoffman	4/26/2025	5:30:32	NameError	builtins.NameError	Error	Name not found in namespace.	Security Threat Detection System	applyThreatDetectionModel	93.78.202.239
+user_0038	Steven Ruiz	1/19/2025	3:15:05	ImportError	builtins.ImportError	Error	Module import failed.	Wildlife Species Recognition System	verifySpeciesMatch	21.127.117.80
+user_0039	Marc Cohen	4/27/2025	6:15:31	MemoryError	builtins.MemoryError	Error	Operation ran out of memory.	Wildlife Species Recognition System	extractAnimalFeatures	184.183.195.210
+user_0040	Ronald Fleming	2/15/2025	10:49:45	IndexError	builtins.IndexError	Error	Sequence index out of range.	Wildlife Species Recognition System	captureWildlifeImage	153.171.34.101
+user_0041	Barbara Holt	1/1/2025	8:15:02	InvalidArgumentError	tf.errors.InvalidArgumentError	Error	Invalid argument provided.	Wildlife Species Recognition System	applySpeciesModel	219.25.137.107
+user_0042	Francisco Thompson	2/10/2025	4:43:08	KeyError	builtins.KeyError	Error	Dictionary key not found.	Security Threat Detection System	applyThreatDetectionModel	161.82.191.194
+user_0043	Brittney Cabrera	2/14/2025	13:09:24	AttributeError	builtins.AttributeError	Error	Attribute reference failed.	Security Threat Detection System	traceSuspiciousPath	13.173.146.116
+user_0044	Cheryl Kent	4/16/2025	21:47:11	KeyError	builtins.KeyError	Error	Dictionary key not found.	Security Threat Detection System	alertSecurityPersonnel	39.32.74.187
+user_0045	Joseph Reeves	1/20/2025	6:22:10	Dataset Conversion Error	CustomError	Error	Error converting dataset.	Security Threat Detection System	archiveSurveillanceLogs	69.67.184.127
+user_0046	Luke Johnson	2/9/2025	8:02:33	AbortedError	tf.errors.AbortedError	Error	Operation was aborted.	Security Threat Detection System	detectIntrusiveObjects	182.177.182.26
+user_0047	Evan Patterson	2/28/2025	4:11:01	OverflowError	builtins.OverflowError	Error	Arithmetic result too large.	Wildlife Species Recognition System	analyzeHabitatContext	164.53.145.107
+user_0048	Janet Underwood	3/28/2025	13:22:02	MemoryError	builtins.MemoryError	Error	Operation ran out of memory.	Wildlife Species Recognition System	applySpeciesModel	25.7.125.50
+user_0049	Shane Kirk	2/20/2025	20:23:19	TypeError	builtins.TypeError	Error	Inappropriate type for operation.	Security Threat Detection System	alertSecurityPersonnel	197.140.54.193
+user_0050	Erica Stevenson	3/2/2025	7:39:26	UnimplementedError	tf.errors.UnimplementedError	Error	Operation not implemented.	Wildlife Species Recognition System	analyzeHabitatContext	92.221.191.103
+user_0051	Kathryn Carroll	3/26/2025	5:06:22	AlreadyExistsError	tf.errors.AlreadyExistsError	Error	Entity already exists.	Security Threat Detection System	analyzeThreatIntensity	189.150.194.75
+user_0052	Connie Wilson	4/17/2025	16:40:33	RuntimeError	builtins.RuntimeError	Error	General runtime error.	Security Threat Detection System	analyzeThreatIntensity	42.250.61.136
+user_0053	Yvonne Wiley	2/1/2025	12:55:13	PermissionDeniedError	tf.errors.PermissionDeniedError	Error	Permission denied for operation.	Wildlife Species Recognition System	verifySpeciesMatch	97.115.81.57
+user_0054	Meagan Walker	3/6/2025	5:27:22	DeadlineExceededError	tf.errors.DeadlineExceededError	Error	Operation deadline exceeded.	Security Threat Detection System	captureSurveillanceFrame	191.18.23.238
+user_0055	Thomas Frederick	1/11/2025	16:53:52	ValueError	builtins.ValueError	Error	Inappropriate value passed to function.	Security Threat Detection System	applyThreatDetectionModel	93.35.79.78
+user_0056	Kelsey Young	2/6/2025	13:14:24	Type Inference Error	CustomError	Error	Unable to infer tensor type.	Wildlife Species Recognition System	captureWildlifeImage	76.215.80.142
+user_0057	John Robinson	2/21/2025	20:26:16	OperatorNotAllowedInGraphError	tf.errors.OperatorNotAllowedInGraphError	Error	Unsupported operator in graph execution.	Security Threat Detection System	detectIntrusiveObjects	232.91.219.9
+user_0058	Mr. John Montgomery MD	4/26/2025	13:32:29	FailedPreconditionError	tf.errors.FailedPreconditionError	Error	Prerequisites not met for operation.	Wildlife Species Recognition System	preprocessImageData	71.90.241.134
+user_0059	Lisa Mcneil	4/11/2025	3:02:21	AbortedError	tf.errors.AbortedError	Error	Operation was aborted.	Wildlife Species Recognition System	extractAnimalFeatures	125.183.23.102
+user_0060	Andrea Frazier	2/4/2025	18:59:19	GPU Memory Error	CustomError	Error	GPU ran out of memory.	Security Threat Detection System	identifyMovementPatterns	174.221.15.95
+user_0061	Walter Wilson	1/4/2025	6:31:28	DeprecationWarning	builtins.DeprecationWarning	Warning	Feature is deprecated.	Security Threat Detection System	applyThreatDetectionModel	237.61.91.29
+user_0062	Raymond Allen	4/17/2025	23:37:05	MemoryError	builtins.MemoryError	Error	Operation ran out of memory.	Security Threat Detection System	analyzeThreatIntensity	239.21.178.180
+user_0063	Connie Stafford	2/19/2025	22:53:16	AlreadyExistsError	tf.errors.AlreadyExistsError	Error	Entity already exists.	Wildlife Species Recognition System	extractAnimalFeatures	249.183.40.28
+user_0064	Denise Daniel	2/6/2025	15:41:01	ZeroDivisionError	builtins.ZeroDivisionError	Error	Division or modulo by zero.	Security Threat Detection System	analyzeThreatIntensity	240.211.135.213
+user_0065	Thomas Hicks	1/5/2025	1:48:18	DeprecationWarning	builtins.DeprecationWarning	Warning	Feature is deprecated.	Wildlife Species Recognition System	segmentAnimalFromBackground	206.23.237.173
+user_0066	Catherine Kennedy	1/31/2025	18:55:29	NotFoundError	tf.errors.NotFoundError	Error	Requested entity not found.	Security Threat Detection System	analyzeThreatIntensity	223.134.205.169
+user_0067	Holly Copeland	3/5/2025	16:39:36	ZeroDivisionError	builtins.ZeroDivisionError	Error	Division or modulo by zero.	Security Threat Detection System	filterNoiseFromImage	210.143.96.145
+user_0068	Jill Dominguez	3/4/2025	16:39:51	OverflowError	builtins.OverflowError	Error	Arithmetic result too large.	Security Threat Detection System	captureSurveillanceFrame	161.211.157.124
+user_0069	Diana Pierce	2/21/2025	6:13:17	DataLossError	tf.errors.DataLossError	Error	Unrecoverable data loss encountered.	Wildlife Species Recognition System	analyzeHabitatContext	246.131.63.206
+user_0070	Michael Butler	3/14/2025	2:46:05	NameError	builtins.NameError	Error	Name not found in namespace.	Wildlife Species Recognition System	trackAnimalMovement	19.39.215.69
+user_0071	Edward Mullen	4/23/2025	18:52:10	AssertionError	builtins.AssertionError	Error	Assertion failed.	Wildlife Species Recognition System	trackAnimalMovement	127.75.228.157
+user_0072	Deborah Barr	1/12/2025	10:27:03	ImportError	builtins.ImportError	Error	Module import failed.	Wildlife Species Recognition System	trackAnimalMovement	133.12.231.199
+user_0073	Jeff Hayes	4/14/2025	21:08:45	GPU Memory Error	CustomError	Error	GPU ran out of memory.	Wildlife Species Recognition System	generateSpeciesReport	84.26.23.198
+user_0074	Cristina Johnson	4/5/2025	19:11:17	IndexError	builtins.IndexError	Error	Sequence index out of range.	Wildlife Species Recognition System	verifySpeciesMatch	21.180.60.183
+user_0075	Mary Robinson	3/29/2025	13:36:06	Resource Exhaustion	CustomError	Error	Insufficient resources for operation.	Wildlife Species Recognition System	analyzeHabitatContext	129.170.70.69
+user_0076	John Parker	4/8/2025	8:56:08	AttributeError	builtins.AttributeError	Error	Attribute reference failed.	Security Threat Detection System	captureSurveillanceFrame	164.51.66.167
+user_0077	Sheryl Parker	1/31/2025	19:45:14	Input Shape Mismatch	CustomError	Error	Input data shape doesn't match model expectation.	Security Threat Detection System	alertSecurityPersonnel	68.195.27.244
+user_0078	John Moss	1/27/2025	1:55:18	AssertionError	builtins.AssertionError	Error	Assertion failed.	Wildlife Species Recognition System	analyzeHabitatContext	64.5.58.71
+user_0079	Emily Sanchez	1/18/2025	23:58:06	DeprecationWarning	builtins.DeprecationWarning	Warning	Feature is deprecated.	Security Threat Detection System	detectIntrusiveObjects	122.171.129.213
+user_0080	Krista Mitchell	3/19/2025	17:46:19	UnknownError	tf.errors.UnknownError	Error	Unknown error occurred.	Wildlife Species Recognition System	applySpeciesModel	57.216.193.163
+user_0081	Billy Edwards	1/1/2025	5:32:11	FailedPreconditionError	tf.errors.FailedPreconditionError	Error	Prerequisites not met for operation.	Security Threat Detection System	analyzeThreatIntensity	224.220.130.157
+user_0082	Leonard Montes	4/21/2025	21:12:06	InternalError	tf.errors.InternalError	Error	Internal system error.	Wildlife Species Recognition System	applySpeciesModel	69.128.31.105
+user_0083	Matthew Warren	2/8/2025	23:58:07	GPU Memory Error	CustomError	Error	GPU ran out of memory.	Wildlife Species Recognition System	verifySpeciesMatch	34.79.79.100
+user_0084	Meghan Wise	3/8/2025	16:51:28	Type Inference Error	CustomError	Error	Unable to infer tensor type.	Security Threat Detection System	identifyMovementPatterns	64.244.87.122
+user_0085	Scott Harrell	4/26/2025	4:09:51	AssertionError	builtins.AssertionError	Error	Assertion failed.	Wildlife Species Recognition System	captureWildlifeImage	127.242.62.248
+user_0086	Christopher Davis	1/26/2025	20:08:43	AlreadyExistsError	tf.errors.AlreadyExistsError	Error	Entity already exists.	Wildlife Species Recognition System	preprocessImageData	228.190.96.169
+user_0087	William Macdonald	2/10/2025	4:19:10	DeprecationWarning	builtins.DeprecationWarning	Warning	Feature is deprecated.	Wildlife Species Recognition System	segmentAnimalFromBackground	253.107.205.166
+user_0088	Alexandria Johnson	2/18/2025	7:06:46	AssertionError	builtins.AssertionError	Error	Assertion failed.	Wildlife Species Recognition System	generateSpeciesReport	242.149.115.143
+user_0089	Lauren Burnett	4/17/2025	2:49:56	RuntimeError	builtins.RuntimeError	Error	General runtime error.	Security Threat Detection System	traceSuspiciousPath	37.145.61.240
+user_0090	Amber Taylor	4/25/2025	22:00:33	DeprecationWarning	builtins.DeprecationWarning	Warning	Feature is deprecated.	Security Threat Detection System	applyThreatDetectionModel	97.24.232.231
+user_0091	Lisa Diaz	3/5/2025	5:38:15	Data Type Mismatch	CustomError	Error	Input data type doesn't match expected type.	Security Threat Detection System	identifyMovementPatterns	157.48.132.184
+user_0092	James Lopez	2/8/2025	8:33:54	DeprecationWarning	builtins.DeprecationWarning	Warning	Feature is deprecated.	Security Threat Detection System	analyzeThreatIntensity	58.83.207.65
+user_0093	Jack Flores	1/14/2025	18:45:29	UnavailableError	tf.errors.UnavailableError	Error	Runtime currently unavailable.	Wildlife Species Recognition System	logSpeciesData	235.145.62.254
+user_0094	Taylor Wilson	4/3/2025	22:22:51	DeprecationWarning	builtins.DeprecationWarning	Warning	Feature is deprecated.	Wildlife Species Recognition System	segmentAnimalFromBackground	72.143.128.129
+user_0095	Justin Robertson	1/29/2025	23:29:57	UnimplementedError	tf.errors.UnimplementedError	Error	Operation not implemented.	Wildlife Species Recognition System	extractAnimalFeatures	233.177.87.236
+user_0096	Kayla Allen	1/31/2025	14:43:47	OperatorNotAllowedInGraphError	tf.errors.OperatorNotAllowedInGraphError	Error	Unsupported operator in graph execution.	Wildlife Species Recognition System	segmentAnimalFromBackground	59.52.190.16
+user_0097	Desiree Rogers	3/4/2025	6:57:55	ZeroDivisionError	builtins.ZeroDivisionError	Error	Division or modulo by zero.	Wildlife Species Recognition System	extractAnimalFeatures	168.55.40.95
+user_0098	Christine Anderson	4/6/2025	8:33:56	UnimplementedError	tf.errors.UnimplementedError	Error	Operation not implemented.	Wildlife Species Recognition System	verifySpeciesMatch	101.227.87.168
+user_0099	Patrick Galloway	4/14/2025	17:29:37	Out-of-Range Index	CustomError	Error	Index out of valid range.	Wildlife Species Recognition System	captureWildlifeImage	41.93.203.65
+user_0100	Thomas Gross	3/10/2025	15:16:50	DeadlineExceededError	tf.errors.DeadlineExceededError	Error	Operation deadline exceeded.	Security Threat Detection System	classifyThreatCategory	234.177.137.116
+user_0101	Kenneth Miller	3/13/2025	17:23:25	CancelledError	tf.errors.CancelledError	Error	Operation was cancelled.	Wildlife Species Recognition System	analyzeHabitatContext	133.86.36.191
+user_0102	Robert Flynn	4/13/2025	13:48:45	Type Inference Error	CustomError	Error	Unable to infer tensor type.	Security Threat Detection System	archiveSurveillanceLogs	201.49.14.114
+user_0103	Danielle Erickson	2/18/2025	0:10:19	CancelledError	tf.errors.CancelledError	Error	Operation was cancelled.	Wildlife Species Recognition System	applySpeciesModel	67.231.5.15
+user_0104	Carrie Mills	4/11/2025	0:22:56	ValueError	builtins.ValueError	Error	Inappropriate value passed to function.	Security Threat Detection System	alertSecurityPersonnel	159.86.134.28
+user_0105	Thomas Greene	1/2/2025	7:54:11	DeadlineExceededError	tf.errors.DeadlineExceededError	Error	Operation deadline exceeded.	Wildlife Species Recognition System	preprocessImageData	231.90.45.203
+user_0106	Alan Chase	2/7/2025	2:24:52	TypeError	builtins.TypeError	Error	Inappropriate type for operation.	Wildlife Species Recognition System	preprocessImageData	94.80.184.55
+user_0107	Hannah Hunter MD	1/28/2025	20:10:35	DeadlineExceededError	tf.errors.DeadlineExceededError	Error	Operation deadline exceeded.	Wildlife Species Recognition System	captureWildlifeImage	124.173.104.93
+user_0108	Suzanne Peterson	3/12/2025	21:39:45	UnknownError	tf.errors.UnknownError	Error	Unknown error occurred.	Wildlife Species Recognition System	generateSpeciesReport	143.185.18.224
+user_0109	Jeffery Jones	1/22/2025	1:47:01	ValueError	builtins.ValueError	Error	Inappropriate value passed to function.	Wildlife Species Recognition System	preprocessImageData	98.116.169.60
+user_0110	Martin Barker	3/28/2025	23:22:41	InvalidArgumentError	tf.errors.InvalidArgumentError	Error	Invalid argument provided.	Security Threat Detection System	detectIntrusiveObjects	12.179.42.56
+user_0111	Shannon Kennedy	1/1/2025	19:57:19	UnimplementedError	tf.errors.UnimplementedError	Error	Operation not implemented.	Wildlife Species Recognition System	preprocessImageData	66.15.142.232
+user_0112	James Poole	1/10/2025	2:16:32	Out-of-Range Index	CustomError	Error	Index out of valid range.	Security Threat Detection System	filterNoiseFromImage	47.117.153.31
+user_0113	Aaron Rice	1/16/2025	16:43:10	InternalError	tf.errors.InternalError	Error	Internal system error.	Security Threat Detection System	alertSecurityPersonnel	156.200.192.130
+user_0114	Emily Trujillo	4/27/2025	22:05:20	InternalError	tf.errors.InternalError	Error	Internal system error.	Wildlife Species Recognition System	captureWildlifeImage	57.185.64.50
+user_0115	Brandon Brown	4/1/2025	12:42:20	Data Type Mismatch	CustomError	Error	Input data type doesn't match expected type.	Security Threat Detection System	archiveSurveillanceLogs	143.122.189.80
+user_0116	Michael Martin	3/2/2025	1:35:53	UnavailableError	tf.errors.UnavailableError	Error	Runtime currently unavailable.	Security Threat Detection System	traceSuspiciousPath	236.96.238.225
+user_0117	Catherine Montgomery	4/2/2025	19:52:38	UnimplementedError	tf.errors.UnimplementedError	Error	Operation not implemented.	Wildlife Species Recognition System	applySpeciesModel	88.94.151.227
+user_0118	Jake Choi	1/11/2025	6:52:06	PermissionDeniedError	tf.errors.PermissionDeniedError	Error	Permission denied for operation.	Wildlife Species Recognition System	applySpeciesModel	132.19.104.98
+user_0119	Timothy Evans	3/6/2025	15:01:37	PermissionDeniedError	tf.errors.PermissionDeniedError	Error	Permission denied for operation.	Wildlife Species Recognition System	analyzeHabitatContext	71.219.109.117
+user_0120	Carl Armstrong	3/29/2025	3:52:50	OutOfRangeError	tf.errors.OutOfRangeError	Error	Operation iterated past valid range.	Security Threat Detection System	alertSecurityPersonnel	93.21.14.56
+user_0121	Juan Allen	3/6/2025	21:50:05	DeprecationWarning	builtins.DeprecationWarning	Warning	Feature is deprecated.	Security Threat Detection System	filterNoiseFromImage	139.142.181.96
+user_0122	Caitlin Jimenez	4/9/2025	5:43:34	OverflowError	builtins.OverflowError	Error	Arithmetic result too large.	Security Threat Detection System	analyzeThreatIntensity	202.145.100.247
+user_0123	Leah Campbell	1/13/2025	6:17:13	UnimplementedError	tf.errors.UnimplementedError	Error	Operation not implemented.	Security Threat Detection System	classifyThreatCategory	33.192.251.198
+user_0124	Sonya Ferrell	3/27/2025	1:15:04	Resource Exhaustion	CustomError	Error	Insufficient resources for operation.	Security Threat Detection System	filterNoiseFromImage	253.27.204.222
+user_0125	Mary Garrett	3/18/2025	20:12:33	Type Inference Error	CustomError	Error	Unable to infer tensor type.	Security Threat Detection System	detectIntrusiveObjects	185.144.209.8
+user_0126	April Smith	3/16/2025	0:45:04	Resource Exhaustion	CustomError	Error	Insufficient resources for operation.	Wildlife Species Recognition System	trackAnimalMovement	153.24.3.63
+user_0127	William Hunt	1/6/2025	19:49:59	Input Shape Mismatch	CustomError	Error	Input data shape doesn't match model expectation.	Wildlife Species Recognition System	trackAnimalMovement	138.173.121.219
+user_0128	Rachel King	1/14/2025	5:08:06	UnavailableError	tf.errors.UnavailableError	Error	Runtime currently unavailable.	Security Threat Detection System	captureSurveillanceFrame	31.16.5.30
+user_0129	Angela Sanchez	4/28/2025	22:10:03	RuntimeError	builtins.RuntimeError	Error	General runtime error.	Security Threat Detection System	alertSecurityPersonnel	205.82.184.139
+user_0130	Scott Chavez	4/16/2025	19:06:15	Resource Exhaustion	CustomError	Error	Insufficient resources for operation.	Wildlife Species Recognition System	captureWildlifeImage	247.114.124.190
+user_0131	Darlene Aguilar	4/20/2025	7:51:12	OverflowError	builtins.OverflowError	Error	Arithmetic result too large.	Wildlife Species Recognition System	generateSpeciesReport	202.56.51.63
+user_0132	James Young	3/13/2025	9:25:53	OverflowError	builtins.OverflowError	Error	Arithmetic result too large.	Wildlife Species Recognition System	trackAnimalMovement	63.240.29.4
+user_0133	Wendy Evans	2/16/2025	11:48:11	ValueError	builtins.ValueError	Error	Inappropriate value passed to function.	Security Threat Detection System	filterNoiseFromImage	201.148.158.161
+user_0134	Elizabeth Howell	3/8/2025	9:12:09	OpError	tf.errors.OpError	Error	Base TensorFlow operation error.	Security Threat Detection System	classifyThreatCategory	163.162.138.124
+user_0135	Kevin Mason	2/5/2025	2:48:53	OpError	tf.errors.OpError	Error	Base TensorFlow operation error.	Wildlife Species Recognition System	segmentAnimalFromBackground	110.108.124.220
+user_0136	Robert Scott	1/6/2025	5:30:12	Resource Exhaustion	CustomError	Error	Insufficient resources for operation.	Wildlife Species Recognition System	analyzeHabitatContext	52.239.11.187
+user_0137	John Hill	1/19/2025	18:20:49	Input Shape Mismatch	CustomError	Error	Input data shape doesn't match model expectation.	Wildlife Species Recognition System	applySpeciesModel	13.71.34.94
+user_0138	Miranda Bradford	1/5/2025	7:22:09	StopIteration	builtins.StopIteration	Error	Iteration has no more items.	Security Threat Detection System	alertSecurityPersonnel	146.149.187.32
+user_0139	Jacqueline Mccarthy	4/25/2025	22:30:42	FailedPreconditionError	tf.errors.FailedPreconditionError	Error	Prerequisites not met for operation.	Security Threat Detection System	detectIntrusiveObjects	14.31.90.1
+user_0140	Stephen Anderson	3/30/2025	7:43:04	ImportError	builtins.ImportError	Error	Module import failed.	Wildlife Species Recognition System	extractAnimalFeatures	229.239.213.211
+user_0141	James Sanchez	1/30/2025	13:58:44	DeprecationWarning	builtins.DeprecationWarning	Warning	Feature is deprecated.	Security Threat Detection System	identifyMovementPatterns	57.29.228.14
+user_0142	Kimberly Morgan	2/14/2025	6:41:32	ResourceExhaustedError	tf.errors.ResourceExhaustedError	Error	Resource exhaustion during operation.	Security Threat Detection System	captureSurveillanceFrame	87.36.179.175
+user_0143	Christopher Matthews	1/19/2025	18:17:47	DeadlineExceededError	tf.errors.DeadlineExceededError	Error	Operation deadline exceeded.	Security Threat Detection System	detectIntrusiveObjects	174.214.140.19
+user_0144	Joshua Smith	1/25/2025	1:09:14	IndexError	builtins.IndexError	Error	Sequence index out of range.	Security Threat Detection System	applyThreatDetectionModel	65.97.63.232
+user_0145	Patricia Garcia	2/8/2025	16:13:38	OutOfRangeError	tf.errors.OutOfRangeError	Error	Operation iterated past valid range.	Wildlife Species Recognition System	applySpeciesModel	186.74.13.161
+user_0146	Erica Taylor	4/17/2025	1:05:04	OutOfRangeError	tf.errors.OutOfRangeError	Error	Operation iterated past valid range.	Wildlife Species Recognition System	generateSpeciesReport	43.94.178.126
+user_0147	Elizabeth Johnson	2/22/2025	13:32:37	DeprecationWarning	builtins.DeprecationWarning	Warning	Feature is deprecated.	Security Threat Detection System	alertSecurityPersonnel	34.71.240.89
+user_0148	Michael Harris	3/13/2025	8:24:51	ResourceExhaustedError	tf.errors.ResourceExhaustedError	Error	Resource exhaustion during operation.	Security Threat Detection System	identifyMovementPatterns	180.183.169.254
+user_0149	Bethany Dudley	4/16/2025	16:10:58	Out-of-Range Index	CustomError	Error	Index out of valid range.	Wildlife Species Recognition System	preprocessImageData	97.128.48.238
+user_0150	Laura Hernandez	3/5/2025	7:52:58	OpError	tf.errors.OpError	Error	Base TensorFlow operation error.	Wildlife Species Recognition System	verifySpeciesMatch	125.17.110.184
+user_0151	Shelby Mueller	3/29/2025	23:11:30	DeprecationWarning	builtins.DeprecationWarning	Warning	Feature is deprecated.	Security Threat Detection System	alertSecurityPersonnel	51.189.145.121
+user_0152	Brittany Francis	2/17/2025	22:31:09	AlreadyExistsError	tf.errors.AlreadyExistsError	Error	Entity already exists.	Security Threat Detection System	archiveSurveillanceLogs	37.68.104.147
+user_0153	Linda Moore	4/17/2025	19:32:18	FailedPreconditionError	tf.errors.FailedPreconditionError	Error	Prerequisites not met for operation.	Wildlife Species Recognition System	applySpeciesModel	50.25.161.215
+user_0154	Christina Mills	1/25/2025	6:37:36	MemoryError	builtins.MemoryError	Error	Operation ran out of memory.	Security Threat Detection System	traceSuspiciousPath	125.11.69.106
+user_0155	Debbie Howe	3/18/2025	5:59:26	Undefined Symbol	CustomError	Error	Required symbol not defined.	Security Threat Detection System	analyzeThreatIntensity	153.97.169.222
+user_0156	Miguel Rogers	3/29/2025	5:06:39	ValueError	builtins.ValueError	Error	Inappropriate value passed to function.	Wildlife Species Recognition System	analyzeHabitatContext	60.171.154.56
+user_0157	Margaret Miller	1/7/2025	8:55:58	CancelledError	tf.errors.CancelledError	Error	Operation was cancelled.	Wildlife Species Recognition System	applySpeciesModel	97.234.123.224
+user_0158	Cassie White	3/22/2025	20:00:56	OpError	tf.errors.OpError	Error	Base TensorFlow operation error.	Wildlife Species Recognition System	applySpeciesModel	91.168.236.14
+user_0159	Alexander Baxter	1/31/2025	9:38:32	Out-of-Range Index	CustomError	Error	Index out of valid range.	Security Threat Detection System	applyThreatDetectionModel	212.54.8.83
+user_0160	Bruce Harris	1/1/2025	15:14:48	KeyError	builtins.KeyError	Error	Dictionary key not found.	Wildlife Species Recognition System	preprocessImageData	194.247.70.186
+user_0161	Jessica Barrett	3/18/2025	19:24:24	ZeroDivisionError	builtins.ZeroDivisionError	Error	Division or modulo by zero.	Security Threat Detection System	detectIntrusiveObjects	232.53.175.174
+user_0162	Stephen Alexander	4/27/2025	0:09:03	DeadlineExceededError	tf.errors.DeadlineExceededError	Error	Operation deadline exceeded.	Wildlife Species Recognition System	generateSpeciesReport	224.71.119.235
+user_0163	Christina Taylor	4/7/2025	0:42:30	DeprecationWarning	builtins.DeprecationWarning	Warning	Feature is deprecated.	Wildlife Species Recognition System	captureWildlifeImage	83.25.128.188
+user_0164	Christopher Robinson	4/20/2025	0:37:54	OverflowError	builtins.OverflowError	Error	Arithmetic result too large.	Wildlife Species Recognition System	captureWildlifeImage	168.154.111.210
+user_0165	Scott Flores	1/22/2025	11:00:31	DeprecationWarning	builtins.DeprecationWarning	Warning	Feature is deprecated.	Security Threat Detection System	archiveSurveillanceLogs	36.128.150.3
+user_0166	Barbara Nichols	2/18/2025	20:47:31	ValueError	builtins.ValueError	Error	Inappropriate value passed to function.	Security Threat Detection System	alertSecurityPersonnel	139.61.167.70
+user_0167	Joshua Small	4/19/2025	3:43:44	OutOfRangeError	tf.errors.OutOfRangeError	Error	Operation iterated past valid range.	Wildlife Species Recognition System	trackAnimalMovement	30.52.90.221
+user_0168	Lance Morris	2/5/2025	10:33:55	AbortedError	tf.errors.AbortedError	Error	Operation was aborted.	Wildlife Species Recognition System	segmentAnimalFromBackground	167.232.120.244
+user_0169	Dana Jones	1/18/2025	19:02:30	UnimplementedError	tf.errors.UnimplementedError	Error	Operation not implemented.	Wildlife Species Recognition System	applySpeciesModel	23.20.68.137
+user_0170	Adrian Mcdonald	2/9/2025	15:59:15	IndexError	builtins.IndexError	Error	Sequence index out of range.	Wildlife Species Recognition System	logSpeciesData	13.8.227.15
+user_0171	Daniel Anthony	4/26/2025	18:59:42	ZeroDivisionError	builtins.ZeroDivisionError	Error	Division or modulo by zero.	Security Threat Detection System	filterNoiseFromImage	10.63.228.113
+user_0172	Diane Lawrence	3/15/2025	13:13:47	DeprecationWarning	builtins.DeprecationWarning	Warning	Feature is deprecated.	Wildlife Species Recognition System	generateSpeciesReport	86.132.136.25
+user_0173	Yolanda Williams	3/27/2025	18:11:31	AbortedError	tf.errors.AbortedError	Error	Operation was aborted.	Security Threat Detection System	traceSuspiciousPath	77.49.23.104
+user_0174	Gregory Barrett	4/6/2025	7:16:36	Type Inference Error	CustomError	Error	Unable to infer tensor type.	Wildlife Species Recognition System	generateSpeciesReport	151.180.205.116
+user_0175	Michelle Hughes	2/25/2025	1:54:58	AlreadyExistsError	tf.errors.AlreadyExistsError	Error	Entity already exists.	Wildlife Species Recognition System	analyzeHabitatContext	210.202.158.172
+user_0176	Sharon Chang	1/18/2025	17:54:49	Undefined Symbol	CustomError	Error	Required symbol not defined.	Wildlife Species Recognition System	verifySpeciesMatch	164.34.20.177
+user_0177	Jared Rubio	4/18/2025	10:21:28	ValueError	builtins.ValueError	Error	Inappropriate value passed to function.	Security Threat Detection System	traceSuspiciousPath	123.213.182.248
+user_0178	Shane Guerrero	4/19/2025	17:40:45	DeadlineExceededError	tf.errors.DeadlineExceededError	Error	Operation deadline exceeded.	Security Threat Detection System	archiveSurveillanceLogs	214.66.171.141
+user_0179	Janet Johnson	4/15/2025	3:23:08	DeadlineExceededError	tf.errors.DeadlineExceededError	Error	Operation deadline exceeded.	Security Threat Detection System	classifyThreatCategory	180.103.41.54
+user_0180	Michael Carter	3/10/2025	19:06:17	KeyError	builtins.KeyError	Error	Dictionary key not found.	Wildlife Species Recognition System	captureWildlifeImage	228.125.123.37
+user_0181	Taylor Fisher	2/6/2025	2:17:34	TypeError	builtins.TypeError	Error	Inappropriate type for operation.	Security Threat Detection System	analyzeThreatIntensity	159.169.103.253
+user_0182	Patricia Bryant	3/19/2025	6:13:54	DeprecationWarning	builtins.DeprecationWarning	Warning	Feature is deprecated.	Wildlife Species Recognition System	captureWildlifeImage	53.84.205.52
+user_0183	Valerie Brown	3/5/2025	21:44:49	ResourceExhaustedError	tf.errors.ResourceExhaustedError	Error	Resource exhaustion during operation.	Security Threat Detection System	identifyMovementPatterns	144.147.135.145
+user_0184	Joseph Dennis	4/23/2025	9:42:43	NotFoundError	tf.errors.NotFoundError	Error	Requested entity not found.	Security Threat Detection System	applyThreatDetectionModel	162.49.109.254
+user_0185	Gabrielle Robinson	4/15/2025	13:22:25	InternalError	tf.errors.InternalError	Error	Internal system error.	Wildlife Species Recognition System	trackAnimalMovement	179.211.82.59
+user_0186	Nancy Baker	3/7/2025	6:38:09	ZeroDivisionError	builtins.ZeroDivisionError	Error	Division or modulo by zero.	Wildlife Species Recognition System	trackAnimalMovement	67.79.80.250
+user_0187	Anthony Johnson	1/22/2025	8:37:23	InvalidArgumentError	tf.errors.InvalidArgumentError	Error	Invalid argument provided.	Wildlife Species Recognition System	captureWildlifeImage	58.154.83.131
+user_0188	Lisa Calderon	4/9/2025	6:57:31	DataLossError	tf.errors.DataLossError	Error	Unrecoverable data loss encountered.	Security Threat Detection System	detectIntrusiveObjects	36.147.41.76
+user_0189	Preston Burns	3/24/2025	0:09:16	AttributeError	builtins.AttributeError	Error	Attribute reference failed.	Wildlife Species Recognition System	segmentAnimalFromBackground	36.30.9.124
+user_0190	Alexander Adams	4/6/2025	17:19:44	Uninitialized Tensor	CustomError	Error	Tensor used before initialization.	Security Threat Detection System	applyThreatDetectionModel	33.238.169.94
+user_0191	Megan Carpenter	2/7/2025	14:30:22	Input Shape Mismatch	CustomError	Error	Input data shape doesn't match model expectation.	Wildlife Species Recognition System	trackAnimalMovement	174.10.2.100
+user_0192	Dylan Franklin	1/14/2025	2:26:17	NameError	builtins.NameError	Error	Name not found in namespace.	Wildlife Species Recognition System	segmentAnimalFromBackground	101.28.74.224
+user_0193	Mariah Burns	2/4/2025	21:43:00	MemoryError	builtins.MemoryError	Error	Operation ran out of memory.	Security Threat Detection System	classifyThreatCategory	155.140.212.221
+user_0194	Erik Lopez	4/3/2025	22:05:35	GPU Memory Error	CustomError	Error	GPU ran out of memory.	Wildlife Species Recognition System	analyzeHabitatContext	227.197.53.111
+user_0195	Mr. Thomas Nelson	2/25/2025	20:51:02	AssertionError	builtins.AssertionError	Error	Assertion failed.	Wildlife Species Recognition System	analyzeHabitatContext	102.74.191.1
+user_0196	Brad Barnes	1/9/2025	14:24:55	KeyError	builtins.KeyError	Error	Dictionary key not found.	Security Threat Detection System	alertSecurityPersonnel	16.56.219.244
+user_0197	Amber Scott	3/22/2025	17:43:38	OpError	tf.errors.OpError	Error	Base TensorFlow operation error.	Security Threat Detection System	analyzeThreatIntensity	211.137.63.38
+user_0198	Elizabeth Williams	1/10/2025	9:43:42	Uninitialized Tensor	CustomError	Error	Tensor used before initialization.	Wildlife Species Recognition System	verifySpeciesMatch	80.223.170.37
+user_0199	Karina Sanchez	4/13/2025	11:17:45	Uninitialized Tensor	CustomError	Error	Tensor used before initialization.	Wildlife Species Recognition System	preprocessImageData	43.221.141.224
+user_0200	William Adams	4/26/2025	19:11:15	NameError	builtins.NameError	Error	Name not found in namespace.	Wildlife Species Recognition System	segmentAnimalFromBackground	187.100.191.103
+user_0201	Leslie Knapp	1/23/2025	3:48:46	Dataset Conversion Error	CustomError	Error	Error converting dataset.	Security Threat Detection System	traceSuspiciousPath	200.123.160.223
+user_0202	Jeffrey Cooper	4/12/2025	8:39:44	FailedPreconditionError	tf.errors.FailedPreconditionError	Error	Prerequisites not met for operation.	Wildlife Species Recognition System	captureWildlifeImage	82.138.158.136
+user_0203	Audrey Robinson	1/11/2025	6:34:45	StopIteration	builtins.StopIteration	Error	Iteration has no more items.	Wildlife Species Recognition System	trackAnimalMovement	127.223.84.46
+user_0204	Joshua Valdez	3/25/2025	6:01:54	Uninitialized Tensor	CustomError	Error	Tensor used before initialization.	Wildlife Species Recognition System	extractAnimalFeatures	173.198.91.254
+user_0205	Kathryn Brooks	2/4/2025	23:54:56	ZeroDivisionError	builtins.ZeroDivisionError	Error	Division or modulo by zero.	Security Threat Detection System	identifyMovementPatterns	85.82.39.164
+user_0206	Todd Tanner	4/7/2025	5:11:36	Resource Exhaustion	CustomError	Error	Insufficient resources for operation.	Wildlife Species Recognition System	generateSpeciesReport	219.188.113.127
+user_0207	Jonathan Green	4/14/2025	4:07:57	AlreadyExistsError	tf.errors.AlreadyExistsError	Error	Entity already exists.	Wildlife Species Recognition System	analyzeHabitatContext	27.201.43.81
+user_0208	Amanda Rodriguez	4/23/2025	10:59:22	OperatorNotAllowedInGraphError	tf.errors.OperatorNotAllowedInGraphError	Error	Unsupported operator in graph execution.	Wildlife Species Recognition System	applySpeciesModel	229.60.6.7
+user_0209	Ashley Butler	3/5/2025	17:56:01	OperatorNotAllowedInGraphError	tf.errors.OperatorNotAllowedInGraphError	Error	Unsupported operator in graph execution.	Wildlife Species Recognition System	applySpeciesModel	16.14.236.103
+user_0210	Darryl Dunn	2/4/2025	4:15:18	NameError	builtins.NameError	Error	Name not found in namespace.	Wildlife Species Recognition System	verifySpeciesMatch	179.252.175.13
+user_0211	Yvette Williamson	4/17/2025	10:22:12	Input Shape Mismatch	CustomError	Error	Input data shape doesn't match model expectation.	Wildlife Species Recognition System	trackAnimalMovement	225.136.164.204
+user_0212	Amy Chen	2/18/2025	22:20:45	RuntimeError	builtins.RuntimeError	Error	General runtime error.	Security Threat Detection System	filterNoiseFromImage	195.44.192.144
+user_0213	Jennifer Navarro DDS	1/21/2025	20:27:50	PermissionDeniedError	tf.errors.PermissionDeniedError	Error	Permission denied for operation.	Security Threat Detection System	classifyThreatCategory	139.221.160.238
+user_0214	Mark Hopkins	2/14/2025	11:56:34	UnavailableError	tf.errors.UnavailableError	Error	Runtime currently unavailable.	Security Threat Detection System	classifyThreatCategory	141.238.234.202
+user_0215	Jessica Gallegos	3/28/2025	3:13:09	ZeroDivisionError	builtins.ZeroDivisionError	Error	Division or modulo by zero.	Security Threat Detection System	classifyThreatCategory	71.203.7.194
+user_0216	Jerry Franklin	1/5/2025	16:36:22	AlreadyExistsError	tf.errors.AlreadyExistsError	Error	Entity already exists.	Security Threat Detection System	detectIntrusiveObjects	238.41.218.69
+user_0217	Nicole Moore	4/18/2025	16:06:17	CancelledError	tf.errors.CancelledError	Error	Operation was cancelled.	Security Threat Detection System	alertSecurityPersonnel	11.67.194.144
+user_0218	Thomas Burns	3/1/2025	12:07:46	AssertionError	builtins.AssertionError	Error	Assertion failed.	Security Threat Detection System	filterNoiseFromImage	127.124.159.101
+user_0219	Dorothy Allen	4/23/2025	21:08:24	GPU Memory Error	CustomError	Error	GPU ran out of memory.	Security Threat Detection System	identifyMovementPatterns	74.93.253.201
+user_0220	Vanessa Welch	1/28/2025	0:50:11	NotFoundError	tf.errors.NotFoundError	Error	Requested entity not found.	Security Threat Detection System	traceSuspiciousPath	223.23.24.37
+user_0221	Ricardo Robinson	3/13/2025	12:50:48	AbortedError	tf.errors.AbortedError	Error	Operation was aborted.	Security Threat Detection System	detectIntrusiveObjects	51.60.23.53
+user_0222	Jose Carlson	1/27/2025	12:13:02	AttributeError	builtins.AttributeError	Error	Attribute reference failed.	Wildlife Species Recognition System	verifySpeciesMatch	97.30.187.116
+user_0223	Martin Vasquez	4/9/2025	5:05:34	TypeError	builtins.TypeError	Error	Inappropriate type for operation.	Security Threat Detection System	alertSecurityPersonnel	221.194.234.212
+user_0224	Matthew Hampton	2/6/2025	16:01:02	Dataset Conversion Error	CustomError	Error	Error converting dataset.	Security Threat Detection System	filterNoiseFromImage	230.12.15.164
+user_0225	Allison Hopkins	4/19/2025	23:55:48	AssertionError	builtins.AssertionError	Error	Assertion failed.	Wildlife Species Recognition System	preprocessImageData	124.182.117.95
+user_0226	Christopher Adams	4/25/2025	10:31:21	Data Type Mismatch	CustomError	Error	Input data type doesn't match expected type.	Wildlife Species Recognition System	analyzeHabitatContext	181.63.200.137
+user_0227	Logan Stokes	4/15/2025	11:53:56	ValueError	builtins.ValueError	Error	Inappropriate value passed to function.	Security Threat Detection System	classifyThreatCategory	159.181.221.80
+user_0228	Donna Lewis	4/14/2025	12:05:09	FailedPreconditionError	tf.errors.FailedPreconditionError	Error	Prerequisites not met for operation.	Wildlife Species Recognition System	segmentAnimalFromBackground	53.153.137.141
+user_0229	Chelsea Lloyd DDS	1/5/2025	8:42:48	ValueError	builtins.ValueError	Error	Inappropriate value passed to function.	Security Threat Detection System	analyzeThreatIntensity	220.23.21.160
+user_0230	Tammy Smith	2/4/2025	6:46:31	OutOfRangeError	tf.errors.OutOfRangeError	Error	Operation iterated past valid range.	Security Threat Detection System	classifyThreatCategory	189.208.5.233
+user_0231	Gregory Phillips	1/24/2025	19:27:35	ValueError	builtins.ValueError	Error	Inappropriate value passed to function.	Security Threat Detection System	filterNoiseFromImage	188.202.130.244
+user_0232	Jillian Mills	4/15/2025	16:42:20	RuntimeError	builtins.RuntimeError	Error	General runtime error.	Wildlife Species Recognition System	analyzeHabitatContext	197.253.76.136
+user_0233	Summer Harrison	4/10/2025	5:26:54	Uninitialized Tensor	CustomError	Error	Tensor used before initialization.	Wildlife Species Recognition System	trackAnimalMovement	95.93.63.6
+user_0234	Kathleen Thompson	4/26/2025	7:18:01	IndexError	builtins.IndexError	Error	Sequence index out of range.	Security Threat Detection System	traceSuspiciousPath	217.205.142.159
+user_0235	William Davis	3/7/2025	5:53:22	Type Inference Error	CustomError	Error	Unable to infer tensor type.	Wildlife Species Recognition System	generateSpeciesReport	126.84.153.141
+user_0236	Stacy Johnson	2/8/2025	11:34:31	ImportError	builtins.ImportError	Error	Module import failed.	Security Threat Detection System	detectIntrusiveObjects	8.131.195.165
+user_0237	Sierra Schroeder	1/29/2025	23:49:50	GPU Memory Error	CustomError	Error	GPU ran out of memory.	Security Threat Detection System	detectIntrusiveObjects	88.151.60.150
+user_0238	Elizabeth Foster	1/27/2025	4:11:50	UnimplementedError	tf.errors.UnimplementedError	Error	Operation not implemented.	Security Threat Detection System	traceSuspiciousPath	101.75.138.142
+user_0239	Mrs. Erica Warner	1/10/2025	9:56:56	ImportError	builtins.ImportError	Error	Module import failed.	Wildlife Species Recognition System	logSpeciesData	76.32.240.79
+user_0240	Brittany Weiss	3/6/2025	14:09:30	IndexError	builtins.IndexError	Error	Sequence index out of range.	Wildlife Species Recognition System	captureWildlifeImage	84.44.70.146
+user_0241	Philip Adams	4/4/2025	15:00:31	PermissionDeniedError	tf.errors.PermissionDeniedError	Error	Permission denied for operation.	Security Threat Detection System	filterNoiseFromImage	217.66.168.239
+user_0242	Mrs. Tiffany Anderson MD	1/18/2025	10:20:38	TypeError	builtins.TypeError	Error	Inappropriate type for operation.	Wildlife Species Recognition System	trackAnimalMovement	74.115.198.177
+user_0243	Anthony Reeves	2/26/2025	11:40:27	Shape Mismatch	CustomError	Error	Shape of input data mismatch.	Security Threat Detection System	traceSuspiciousPath	149.164.34.175
+user_0244	Christopher Franklin	1/30/2025	1:25:32	KeyError	builtins.KeyError	Error	Dictionary key not found.	Wildlife Species Recognition System	captureWildlifeImage	222.238.158.130
+user_0245	William Grant	3/11/2025	16:52:14	UnknownError	tf.errors.UnknownError	Error	Unknown error occurred.	Wildlife Species Recognition System	analyzeHabitatContext	55.51.218.128
+user_0246	John Mack	1/13/2025	8:40:04	DeprecationWarning	builtins.DeprecationWarning	Warning	Feature is deprecated.	Security Threat Detection System	alertSecurityPersonnel	159.84.10.110
+user_0247	Mary Humphrey	1/25/2025	21:29:05	DataLossError	tf.errors.DataLossError	Error	Unrecoverable data loss encountered.	Wildlife Species Recognition System	analyzeHabitatContext	208.9.72.161
+user_0248	Renee Pham	4/25/2025	1:31:57	AssertionError	builtins.AssertionError	Error	Assertion failed.	Security Threat Detection System	analyzeThreatIntensity	35.76.232.224
+user_0249	Sharon Chang	1/12/2025	7:38:05	IndexError	builtins.IndexError	Error	Sequence index out of range.	Wildlife Species Recognition System	extractAnimalFeatures	232.73.205.167
+user_0250	Amanda Nixon	3/20/2025	19:11:59	GPU Memory Error	CustomError	Error	GPU ran out of memory.	Security Threat Detection System	alertSecurityPersonnel	71.180.248.78
+user_0251	Todd Brennan	3/8/2025	6:21:09	FailedPreconditionError	tf.errors.FailedPreconditionError	Error	Prerequisites not met for operation.	Wildlife Species Recognition System	captureWildlifeImage	110.65.158.92
+user_0252	Kyle Medina	4/12/2025	13:54:00	DeprecationWarning	builtins.DeprecationWarning	Warning	Feature is deprecated.	Wildlife Species Recognition System	applySpeciesModel	178.235.74.150
+user_0253	Briana Martinez	2/6/2025	10:29:11	UnavailableError	tf.errors.UnavailableError	Error	Runtime currently unavailable.	Security Threat Detection System	classifyThreatCategory	197.3.208.26
+user_0254	Trevor Sutton	3/25/2025	17:10:23	OperatorNotAllowedInGraphError	tf.errors.OperatorNotAllowedInGraphError	Error	Unsupported operator in graph execution.	Wildlife Species Recognition System	analyzeHabitatContext	179.101.204.174
+user_0255	Kenneth Stark	2/2/2025	0:39:31	UnimplementedError	tf.errors.UnimplementedError	Error	Operation not implemented.	Security Threat Detection System	analyzeThreatIntensity	180.222.172.43
+user_0256	Jennifer Key	1/10/2025	22:37:13	StopIteration	builtins.StopIteration	Error	Iteration has no more items.	Wildlife Species Recognition System	trackAnimalMovement	206.200.34.85
+user_0257	Isaac Cannon	2/13/2025	11:59:41	AbortedError	tf.errors.AbortedError	Error	Operation was aborted.	Wildlife Species Recognition System	trackAnimalMovement	22.203.107.232
+user_0258	Ann Willis	3/12/2025	6:10:27	UnauthenticatedError	tf.errors.UnauthenticatedError	Error	Invalid authentication credentials.	Wildlife Species Recognition System	captureWildlifeImage	54.99.221.218
+user_0259	Katie Russell	3/26/2025	1:54:46	OverflowError	builtins.OverflowError	Error	Arithmetic result too large.	Security Threat Detection System	traceSuspiciousPath	245.180.9.118
+user_0260	Joseph Wilkins	1/3/2025	6:18:30	Dataset Conversion Error	CustomError	Error	Error converting dataset.	Security Threat Detection System	analyzeThreatIntensity	34.221.41.132
+user_0261	Jennifer Hunter	2/18/2025	7:31:19	Shape Mismatch	CustomError	Error	Shape of input data mismatch.	Wildlife Species Recognition System	applySpeciesModel	18.192.206.244
+user_0262	Aaron Byrd	4/24/2025	0:56:55	OpError	tf.errors.OpError	Error	Base TensorFlow operation error.	Wildlife Species Recognition System	segmentAnimalFromBackground	245.174.125.151
+user_0263	Jorge Frank	2/27/2025	4:41:03	ResourceExhaustedError	tf.errors.ResourceExhaustedError	Error	Resource exhaustion during operation.	Security Threat Detection System	alertSecurityPersonnel	155.183.58.8
+user_0264	Jessica Elliott	1/15/2025	19:30:47	InternalError	tf.errors.InternalError	Error	Internal system error.	Wildlife Species Recognition System	generateSpeciesReport	134.185.118.132
+user_0265	John Jones	1/5/2025	4:21:24	CancelledError	tf.errors.CancelledError	Error	Operation was cancelled.	Security Threat Detection System	archiveSurveillanceLogs	5.100.136.249
+user_0266	Anna Caldwell	2/18/2025	8:42:11	InvalidArgumentError	tf.errors.InvalidArgumentError	Error	Invalid argument provided.	Security Threat Detection System	traceSuspiciousPath	47.29.107.115
+user_0267	Alexander Eaton	3/31/2025	22:06:39	AttributeError	builtins.AttributeError	Error	Attribute reference failed.	Security Threat Detection System	identifyMovementPatterns	190.150.254.157
+user_0268	Emily Fisher	4/11/2025	14:24:46	RuntimeError	builtins.RuntimeError	Error	General runtime error.	Security Threat Detection System	captureSurveillanceFrame	107.8.246.84
+user_0269	Alex Reyes	1/9/2025	23:20:52	AlreadyExistsError	tf.errors.AlreadyExistsError	Error	Entity already exists.	Wildlife Species Recognition System	verifySpeciesMatch	87.1.86.25
+user_0270	Jeffery Armstrong	3/29/2025	6:02:29	OverflowError	builtins.OverflowError	Error	Arithmetic result too large.	Security Threat Detection System	detectIntrusiveObjects	108.172.215.18
+user_0271	Frank Cox	4/23/2025	21:02:53	ResourceExhaustedError	tf.errors.ResourceExhaustedError	Error	Resource exhaustion during operation.	Wildlife Species Recognition System	trackAnimalMovement	212.102.74.184
+user_0272	Tiffany Barnes	3/23/2025	14:00:07	Dataset Conversion Error	CustomError	Error	Error converting dataset.	Wildlife Species Recognition System	applySpeciesModel	114.89.28.102
+user_0273	Oscar Hall	4/21/2025	3:42:58	MemoryError	builtins.MemoryError	Error	Operation ran out of memory.	Wildlife Species Recognition System	applySpeciesModel	69.3.66.104
+user_0274	Mr. Isaiah Miller MD	3/11/2025	2:12:58	OperatorNotAllowedInGraphError	tf.errors.OperatorNotAllowedInGraphError	Error	Unsupported operator in graph execution.	Security Threat Detection System	applyThreatDetectionModel	52.165.188.93
+user_0275	David Petersen	3/31/2025	7:12:06	Shape Mismatch	CustomError	Error	Shape of input data mismatch.	Security Threat Detection System	captureSurveillanceFrame	236.191.102.151
+user_0276	Molly Mueller	2/28/2025	5:11:08	RuntimeError	builtins.RuntimeError	Error	General runtime error.	Wildlife Species Recognition System	verifySpeciesMatch	219.17.41.19
+user_0277	Elizabeth Morgan	1/12/2025	16:33:49	Input Shape Mismatch	CustomError	Error	Input data shape doesn't match model expectation.	Security Threat Detection System	alertSecurityPersonnel	243.170.107.7
+user_0278	Paul Dunn	1/5/2025	5:46:12	UnavailableError	tf.errors.UnavailableError	Error	Runtime currently unavailable.	Wildlife Species Recognition System	trackAnimalMovement	227.125.96.243
+user_0279	Alexa Miles	2/17/2025	16:56:40	UnavailableError	tf.errors.UnavailableError	Error	Runtime currently unavailable.	Wildlife Species Recognition System	analyzeHabitatContext	7.77.187.55
+user_0280	Lisa Lang	2/13/2025	8:33:24	Input Shape Mismatch	CustomError	Error	Input data shape doesn't match model expectation.	Security Threat Detection System	captureSurveillanceFrame	183.37.213.210
+user_0281	Kimberly Moore	1/24/2025	12:44:03	Input Shape Mismatch	CustomError	Error	Input data shape doesn't match model expectation.	Security Threat Detection System	detectIntrusiveObjects	160.203.37.47
+user_0282	Marissa Strickland	1/23/2025	23:40:17	TypeError	builtins.TypeError	Error	Inappropriate type for operation.	Security Threat Detection System	analyzeThreatIntensity	46.115.71.145
+user_0283	Justin Chaney	4/14/2025	10:46:11	PermissionDeniedError	tf.errors.PermissionDeniedError	Error	Permission denied for operation.	Wildlife Species Recognition System	extractAnimalFeatures	97.217.30.43
+user_0284	Angela Lin	3/5/2025	19:32:26	Input Shape Mismatch	CustomError	Error	Input data shape doesn't match model expectation.	Security Threat Detection System	applyThreatDetectionModel	170.98.69.148
+user_0285	Jamie Diaz	3/9/2025	15:15:57	InternalError	tf.errors.InternalError	Error	Internal system error.	Security Threat Detection System	identifyMovementPatterns	185.82.116.211
+user_0286	Jennifer Pierce	2/2/2025	23:34:27	Uninitialized Tensor	CustomError	Error	Tensor used before initialization.	Security Threat Detection System	analyzeThreatIntensity	59.238.91.249
+user_0287	Carol Pierce	3/8/2025	8:23:24	OpError	tf.errors.OpError	Error	Base TensorFlow operation error.	Security Threat Detection System	classifyThreatCategory	7.43.24.207
+user_0288	John Thomas	4/29/2025	3:42:22	Unknown Loss Function	CustomError	Error	Loss function not recognized.	Wildlife Species Recognition System	generateSpeciesReport	4.167.13.20
+user_0289	Anne Johnson	4/4/2025	22:42:23	Dataset Conversion Error	CustomError	Error	Error converting dataset.	Wildlife Species Recognition System	segmentAnimalFromBackground	40.78.248.201
+user_0290	Jessica Blackwell	4/9/2025	9:36:22	Dataset Conversion Error	CustomError	Error	Error converting dataset.	Security Threat Detection System	analyzeThreatIntensity	43.133.29.123
+user_0291	Adam Miller	1/20/2025	16:15:07	InternalError	tf.errors.InternalError	Error	Internal system error.	Security Threat Detection System	detectIntrusiveObjects	45.14.135.63
+user_0292	Katie Bailey	4/30/2025	7:40:59	AlreadyExistsError	tf.errors.AlreadyExistsError	Error	Entity already exists.	Wildlife Species Recognition System	extractAnimalFeatures	22.88.177.168
+user_0293	Courtney Cruz	3/27/2025	2:43:55	NotFoundError	tf.errors.NotFoundError	Error	Requested entity not found.	Security Threat Detection System	captureSurveillanceFrame	218.41.59.180
+user_0294	Anthony Smith	1/3/2025	11:03:26	ZeroDivisionError	builtins.ZeroDivisionError	Error	Division or modulo by zero.	Security Threat Detection System	analyzeThreatIntensity	227.163.229.78
+user_0295	Nicole Schroeder	4/26/2025	12:11:17	DeadlineExceededError	tf.errors.DeadlineExceededError	Error	Operation deadline exceeded.	Wildlife Species Recognition System	generateSpeciesReport	15.18.180.219
+user_0296	Mark Holland	4/22/2025	18:32:24	IndexError	builtins.IndexError	Error	Sequence index out of range.	Security Threat Detection System	applyThreatDetectionModel	144.81.200.76
+user_0297	Katherine Walls	2/2/2025	11:15:12	Dataset Conversion Error	CustomError	Error	Error converting dataset.	Security Threat Detection System	archiveSurveillanceLogs	226.115.20.59
+user_0298	Stacy Payne	1/19/2025	3:36:04	ZeroDivisionError	builtins.ZeroDivisionError	Error	Division or modulo by zero.	Security Threat Detection System	traceSuspiciousPath	4.123.70.109
+user_0299	Angela Oconnor	4/13/2025	15:27:07	UnimplementedError	tf.errors.UnimplementedError	Error	Operation not implemented.	Wildlife Species Recognition System	logSpeciesData	241.38.239.154
+user_0300	Tyler Sanchez	1/18/2025	8:34:09	CancelledError	tf.errors.CancelledError	Error	Operation was cancelled.	Wildlife Species Recognition System	preprocessImageData	242.74.90.199
+user_0301	Ronald Montgomery	2/4/2025	0:50:18	Unknown Loss Function	CustomError	Error	Loss function not recognized.	Wildlife Species Recognition System	extractAnimalFeatures	48.131.215.115
+user_0302	Alexander Robinson	4/12/2025	4:59:55	OverflowError	builtins.OverflowError	Error	Arithmetic result too large.	Wildlife Species Recognition System	captureWildlifeImage	4.1.192.104
+user_0303	Jeffrey Clark	4/18/2025	6:39:17	ValueError	builtins.ValueError	Error	Inappropriate value passed to function.	Wildlife Species Recognition System	extractAnimalFeatures	247.56.15.143
+user_0304	Jonathan Evans	4/7/2025	11:36:58	Uninitialized Tensor	CustomError	Error	Tensor used before initialization.	Wildlife Species Recognition System	logSpeciesData	14.27.252.53
+user_0305	Margaret Copeland	2/27/2025	1:52:06	Uninitialized Tensor	CustomError	Error	Tensor used before initialization.	Security Threat Detection System	applyThreatDetectionModel	153.131.27.222
+user_0306	Jason Velez	1/21/2025	22:38:51	CancelledError	tf.errors.CancelledError	Error	Operation was cancelled.	Wildlife Species Recognition System	trackAnimalMovement	243.20.176.11
+user_0307	Ian Jimenez	1/16/2025	9:08:20	DeprecationWarning	builtins.DeprecationWarning	Warning	Feature is deprecated.	Wildlife Species Recognition System	extractAnimalFeatures	214.148.194.246
+user_0308	Michael Nolan	3/5/2025	0:38:58	DeadlineExceededError	tf.errors.DeadlineExceededError	Error	Operation deadline exceeded.	Wildlife Species Recognition System	trackAnimalMovement	242.19.235.244
+user_0309	Matthew West	2/14/2025	4:30:22	IndexError	builtins.IndexError	Error	Sequence index out of range.	Security Threat Detection System	captureSurveillanceFrame	67.254.233.214
+user_0310	Catherine Jackson	1/4/2025	0:00:53	ValueError	builtins.ValueError	Error	Inappropriate value passed to function.	Security Threat Detection System	applyThreatDetectionModel	120.24.180.235
+user_0311	James Collins	3/30/2025	6:27:30	OverflowError	builtins.OverflowError	Error	Arithmetic result too large.	Wildlife Species Recognition System	verifySpeciesMatch	98.236.239.173
+user_0312	Natalie Robinson	4/18/2025	23:16:27	RuntimeError	builtins.RuntimeError	Error	General runtime error.	Wildlife Species Recognition System	extractAnimalFeatures	111.212.39.251
+user_0313	Samuel Young	1/15/2025	20:43:08	IndexError	builtins.IndexError	Error	Sequence index out of range.	Security Threat Detection System	captureSurveillanceFrame	242.131.55.65
+user_0314	Joseph Weaver	3/6/2025	8:49:51	UnknownError	tf.errors.UnknownError	Error	Unknown error occurred.	Security Threat Detection System	captureSurveillanceFrame	18.211.219.143
+user_0315	Jordan Smith	1/20/2025	18:43:17	OverflowError	builtins.OverflowError	Error	Arithmetic result too large.	Wildlife Species Recognition System	preprocessImageData	205.69.101.67
+user_0316	Anna Reese	3/20/2025	22:28:13	InvalidArgumentError	tf.errors.InvalidArgumentError	Error	Invalid argument provided.	Security Threat Detection System	filterNoiseFromImage	131.201.132.120
+user_0317	Derek Ferrell	3/28/2025	10:04:02	Undefined Symbol	CustomError	Error	Required symbol not defined.	Security Threat Detection System	classifyThreatCategory	142.214.81.4
+user_0318	Margaret Robertson	2/18/2025	17:59:37	GPU Memory Error	CustomError	Error	GPU ran out of memory.	Wildlife Species Recognition System	generateSpeciesReport	131.75.35.27
+user_0319	Michelle Barnes	2/7/2025	23:30:23	GPU Memory Error	CustomError	Error	GPU ran out of memory.	Wildlife Species Recognition System	captureWildlifeImage	11.14.14.208
+user_0320	Derek Nelson	1/17/2025	5:40:58	UnknownError	tf.errors.UnknownError	Error	Unknown error occurred.	Security Threat Detection System	traceSuspiciousPath	21.201.25.104
+user_0321	Marissa Bennett	2/21/2025	22:28:41	UnavailableError	tf.errors.UnavailableError	Error	Runtime currently unavailable.	Wildlife Species Recognition System	analyzeHabitatContext	66.178.3.198
+user_0322	Kevin Lee	1/31/2025	5:47:53	NotFoundError	tf.errors.NotFoundError	Error	Requested entity not found.	Security Threat Detection System	applyThreatDetectionModel	200.188.107.172
+user_0323	Frederick Holland	4/3/2025	16:16:21	InvalidArgumentError	tf.errors.InvalidArgumentError	Error	Invalid argument provided.	Wildlife Species Recognition System	trackAnimalMovement	114.63.25.111
+user_0324	Jeremy Sanders	1/14/2025	11:41:00	DeadlineExceededError	tf.errors.DeadlineExceededError	Error	Operation deadline exceeded.	Wildlife Species Recognition System	trackAnimalMovement	79.105.250.28
+user_0325	Dan Estrada	3/10/2025	1:08:58	ZeroDivisionError	builtins.ZeroDivisionError	Error	Division or modulo by zero.	Wildlife Species Recognition System	analyzeHabitatContext	7.107.53.131
+user_0326	Matthew Lang	1/29/2025	17:48:40	ResourceExhaustedError	tf.errors.ResourceExhaustedError	Error	Resource exhaustion during operation.	Security Threat Detection System	analyzeThreatIntensity	15.45.68.182
+user_0327	Samuel Yang	4/5/2025	1:59:36	AbortedError	tf.errors.AbortedError	Error	Operation was aborted.	Security Threat Detection System	classifyThreatCategory	1.22.153.195
+user_0328	Anthony Stanley	4/4/2025	12:06:30	IndexError	builtins.IndexError	Error	Sequence index out of range.	Wildlife Species Recognition System	captureWildlifeImage	248.57.192.209
+user_0329	Roger Ramirez	2/23/2025	19:33:50	ValueError	builtins.ValueError	Error	Inappropriate value passed to function.	Security Threat Detection System	filterNoiseFromImage	149.251.87.184
+user_0330	Ethan Beard	4/14/2025	21:58:55	UnimplementedError	tf.errors.UnimplementedError	Error	Operation not implemented.	Security Threat Detection System	captureSurveillanceFrame	234.90.216.220
+user_0331	Stephanie Cunningham	1/10/2025	0:58:19	OutOfRangeError	tf.errors.OutOfRangeError	Error	Operation iterated past valid range.	Wildlife Species Recognition System	logSpeciesData	122.152.177.188
+user_0332	Kevin Brown	2/11/2025	1:01:10	NotFoundError	tf.errors.NotFoundError	Error	Requested entity not found.	Security Threat Detection System	traceSuspiciousPath	94.254.9.25
+user_0333	Matthew Bailey	3/30/2025	13:20:43	AlreadyExistsError	tf.errors.AlreadyExistsError	Error	Entity already exists.	Wildlife Species Recognition System	applySpeciesModel	69.216.213.85
+user_0334	Larry Parker	2/15/2025	8:38:58	DataLossError	tf.errors.DataLossError	Error	Unrecoverable data loss encountered.	Security Threat Detection System	alertSecurityPersonnel	6.167.203.124
+user_0335	Amanda Morgan	4/26/2025	3:04:16	InvalidArgumentError	tf.errors.InvalidArgumentError	Error	Invalid argument provided.	Wildlife Species Recognition System	segmentAnimalFromBackground	250.129.101.159
+user_0336	Nicole Harvey	2/3/2025	17:02:14	Unknown Loss Function	CustomError	Error	Loss function not recognized.	Security Threat Detection System	alertSecurityPersonnel	1.118.56.213
+user_0337	Christine Guzman	3/10/2025	12:44:41	DataLossError	tf.errors.DataLossError	Error	Unrecoverable data loss encountered.	Security Threat Detection System	alertSecurityPersonnel	67.248.15.213
+user_0338	Pamela Williams	2/8/2025	10:22:36	KeyError	builtins.KeyError	Error	Dictionary key not found.	Wildlife Species Recognition System	captureWildlifeImage	190.136.24.106
+user_0339	Courtney Brady	2/25/2025	8:01:09	UnavailableError	tf.errors.UnavailableError	Error	Runtime currently unavailable.	Security Threat Detection System	analyzeThreatIntensity	42.99.205.54
+user_0340	Melissa Martinez	4/8/2025	1:10:47	StopIteration	builtins.StopIteration	Error	Iteration has no more items.	Wildlife Species Recognition System	analyzeHabitatContext	190.50.131.13
+user_0341	Tamara White	2/28/2025	20:28:31	Data Type Mismatch	CustomError	Error	Input data type doesn't match expected type.	Security Threat Detection System	captureSurveillanceFrame	99.148.173.2
+user_0342	William Miller	1/7/2025	9:50:17	ImportError	builtins.ImportError	Error	Module import failed.	Wildlife Species Recognition System	trackAnimalMovement	239.23.211.121
+user_0343	Nancy Orr	4/23/2025	21:00:48	Input Shape Mismatch	CustomError	Error	Input data shape doesn't match model expectation.	Security Threat Detection System	classifyThreatCategory	221.179.252.197
+user_0344	Samuel Parker	4/4/2025	15:37:23	NameError	builtins.NameError	Error	Name not found in namespace.	Security Threat Detection System	archiveSurveillanceLogs	104.179.250.69
+user_0345	Sarah Perez	3/6/2025	22:18:35	DeprecationWarning	builtins.DeprecationWarning	Warning	Feature is deprecated.	Wildlife Species Recognition System	captureWildlifeImage	16.145.239.228
+user_0346	Eric Peterson	4/4/2025	12:53:56	UnauthenticatedError	tf.errors.UnauthenticatedError	Error	Invalid authentication credentials.	Security Threat Detection System	identifyMovementPatterns	182.89.40.35
+user_0347	Sara Stout	4/15/2025	16:40:57	ImportError	builtins.ImportError	Error	Module import failed.	Security Threat Detection System	traceSuspiciousPath	155.177.101.131
+user_0348	Wanda Abbott	4/22/2025	14:32:07	AttributeError	builtins.AttributeError	Error	Attribute reference failed.	Security Threat Detection System	traceSuspiciousPath	48.60.55.165
+user_0349	Alejandra Martinez	3/12/2025	18:05:53	NameError	builtins.NameError	Error	Name not found in namespace.	Security Threat Detection System	filterNoiseFromImage	212.27.62.30
+user_0350	Angel Warren	4/4/2025	12:02:14	Out-of-Range Index	CustomError	Error	Index out of valid range.	Wildlife Species Recognition System	captureWildlifeImage	230.140.38.76
+user_0351	Mr. Matthew Davis	1/28/2025	4:11:58	Unknown Loss Function	CustomError	Error	Loss function not recognized.	Security Threat Detection System	traceSuspiciousPath	141.250.122.58
+user_0352	Daniel Douglas	3/26/2025	4:54:32	FailedPreconditionError	tf.errors.FailedPreconditionError	Error	Prerequisites not met for operation.	Security Threat Detection System	captureSurveillanceFrame	45.71.173.128
+user_0353	Mike Bailey	3/4/2025	0:32:28	ZeroDivisionError	builtins.ZeroDivisionError	Error	Division or modulo by zero.	Security Threat Detection System	applyThreatDetectionModel	252.26.104.50
+user_0354	Brian Anderson	1/19/2025	3:12:36	NotFoundError	tf.errors.NotFoundError	Error	Requested entity not found.	Wildlife Species Recognition System	generateSpeciesReport	27.204.192.93
+user_0355	Justin Williams	1/19/2025	15:34:00	InvalidArgumentError	tf.errors.InvalidArgumentError	Error	Invalid argument provided.	Security Threat Detection System	filterNoiseFromImage	133.135.57.218
+user_0356	Lisa Kelly	2/3/2025	10:25:17	ResourceExhaustedError	tf.errors.ResourceExhaustedError	Error	Resource exhaustion during operation.	Wildlife Species Recognition System	preprocessImageData	91.227.85.64
+user_0357	Lori Wilson	3/7/2025	2:19:06	Resource Exhaustion	CustomError	Error	Insufficient resources for operation.	Security Threat Detection System	filterNoiseFromImage	80.197.114.63
+user_0358	William Hall	2/28/2025	22:07:27	AttributeError	builtins.AttributeError	Error	Attribute reference failed.	Wildlife Species Recognition System	trackAnimalMovement	130.163.23.172
+user_0359	Gina Sharp	3/21/2025	6:44:30	IndexError	builtins.IndexError	Error	Sequence index out of range.	Wildlife Species Recognition System	applySpeciesModel	70.222.163.63
+user_0360	Seth Jones	1/17/2025	9:56:42	Type Inference Error	CustomError	Error	Unable to infer tensor type.	Wildlife Species Recognition System	preprocessImageData	101.14.69.107
+user_0361	Rebecca Martin	1/21/2025	5:07:19	Undefined Symbol	CustomError	Error	Required symbol not defined.	Security Threat Detection System	filterNoiseFromImage	35.61.188.133
+user_0362	Kerry Thomas	4/3/2025	17:23:30	UnknownError	tf.errors.UnknownError	Error	Unknown error occurred.	Wildlife Species Recognition System	trackAnimalMovement	59.230.108.253
+user_0363	Emily Adams	3/15/2025	5:49:49	UnauthenticatedError	tf.errors.UnauthenticatedError	Error	Invalid authentication credentials.	Wildlife Species Recognition System	extractAnimalFeatures	103.59.161.142
+user_0364	Daniel Smith	2/4/2025	2:26:58	OpError	tf.errors.OpError	Error	Base TensorFlow operation error.	Security Threat Detection System	traceSuspiciousPath	65.16.94.132
+user_0365	Daniel Carter	3/10/2025	5:40:14	KeyError	builtins.KeyError	Error	Dictionary key not found.	Wildlife Species Recognition System	extractAnimalFeatures	56.218.121.204
+user_0366	Vanessa Baker	1/3/2025	11:09:00	DataLossError	tf.errors.DataLossError	Error	Unrecoverable data loss encountered.	Security Threat Detection System	identifyMovementPatterns	191.22.47.156
+user_0367	Carlos Powell	4/22/2025	5:39:18	AttributeError	builtins.AttributeError	Error	Attribute reference failed.	Wildlife Species Recognition System	segmentAnimalFromBackground	92.199.62.37
+user_0368	Larry Brewer	4/29/2025	9:55:42	AlreadyExistsError	tf.errors.AlreadyExistsError	Error	Entity already exists.	Security Threat Detection System	archiveSurveillanceLogs	205.74.196.129
+user_0369	Matthew Harris	3/21/2025	0:56:03	ZeroDivisionError	builtins.ZeroDivisionError	Error	Division or modulo by zero.	Wildlife Species Recognition System	extractAnimalFeatures	37.121.153.179
+user_0370	Wayne Ponce	3/16/2025	1:39:29	CancelledError	tf.errors.CancelledError	Error	Operation was cancelled.	Wildlife Species Recognition System	segmentAnimalFromBackground	33.136.121.104
+user_0371	Larry Cisneros	1/8/2025	3:16:17	Input Shape Mismatch	CustomError	Error	Input data shape doesn't match model expectation.	Wildlife Species Recognition System	applySpeciesModel	42.139.36.198
+user_0372	Anna Mitchell	4/20/2025	19:34:01	UnavailableError	tf.errors.UnavailableError	Error	Runtime currently unavailable.	Security Threat Detection System	applyThreatDetectionModel	119.221.43.18
+user_0373	Aaron Williams	3/29/2025	15:52:26	MemoryError	builtins.MemoryError	Error	Operation ran out of memory.	Security Threat Detection System	captureSurveillanceFrame	15.191.188.172
+user_0374	Glen Sutton	1/5/2025	0:56:47	NotFoundError	tf.errors.NotFoundError	Error	Requested entity not found.	Security Threat Detection System	alertSecurityPersonnel	118.129.20.171
+user_0375	Katherine Edwards	1/12/2025	21:43:33	Type Inference Error	CustomError	Error	Unable to infer tensor type.	Security Threat Detection System	analyzeThreatIntensity	87.253.65.199
+user_0376	Marcus Gomez	3/24/2025	1:53:29	Data Type Mismatch	CustomError	Error	Input data type doesn't match expected type.	Security Threat Detection System	captureSurveillanceFrame	27.85.175.131
+user_0377	Bobby Barker	4/22/2025	11:55:05	AttributeError	builtins.AttributeError	Error	Attribute reference failed.	Security Threat Detection System	detectIntrusiveObjects	235.49.27.92
+user_0378	Jeffrey Martinez	2/13/2025	19:22:08	Type Inference Error	CustomError	Error	Unable to infer tensor type.	Wildlife Species Recognition System	logSpeciesData	210.119.100.117
+user_0379	David Ortiz	4/19/2025	1:14:38	Uninitialized Tensor	CustomError	Error	Tensor used before initialization.	Security Threat Detection System	analyzeThreatIntensity	173.17.249.201
+user_0380	Brandi Bryant	4/12/2025	17:53:10	AttributeError	builtins.AttributeError	Error	Attribute reference failed.	Wildlife Species Recognition System	applySpeciesModel	136.10.68.145
+user_0381	Keith Trevino	3/16/2025	14:22:21	Data Type Mismatch	CustomError	Error	Input data type doesn't match expected type.	Security Threat Detection System	detectIntrusiveObjects	21.4.89.215
+user_0382	Jason Todd	2/10/2025	8:58:04	InternalError	tf.errors.InternalError	Error	Internal system error.	Security Threat Detection System	archiveSurveillanceLogs	144.120.182.116
+user_0383	James Diaz	3/16/2025	3:19:33	DeprecationWarning	builtins.DeprecationWarning	Warning	Feature is deprecated.	Wildlife Species Recognition System	segmentAnimalFromBackground	135.57.170.63
+user_0384	Michael Jackson	2/19/2025	1:50:43	DeprecationWarning	builtins.DeprecationWarning	Warning	Feature is deprecated.	Security Threat Detection System	applyThreatDetectionModel	166.147.240.87
+user_0385	Benjamin Wright	3/4/2025	17:15:09	DeprecationWarning	builtins.DeprecationWarning	Warning	Feature is deprecated.	Security Threat Detection System	archiveSurveillanceLogs	120.199.129.34
+user_0386	Rebecca Huang	2/17/2025	1:06:57	FailedPreconditionError	tf.errors.FailedPreconditionError	Error	Prerequisites not met for operation.	Security Threat Detection System	captureSurveillanceFrame	101.56.214.130
+user_0387	Rebecca Castillo	3/10/2025	19:02:49	PermissionDeniedError	tf.errors.PermissionDeniedError	Error	Permission denied for operation.	Security Threat Detection System	detectIntrusiveObjects	73.119.27.224
+user_0388	Melanie Raymond	2/5/2025	19:40:02	Out-of-Range Index	CustomError	Error	Index out of valid range.	Security Threat Detection System	analyzeThreatIntensity	8.222.123.201
+user_0389	Paul Garcia	1/16/2025	0:19:28	OverflowError	builtins.OverflowError	Error	Arithmetic result too large.	Wildlife Species Recognition System	applySpeciesModel	148.71.150.133
+user_0390	Deborah Reynolds	1/26/2025	16:00:36	GPU Memory Error	CustomError	Error	GPU ran out of memory.	Wildlife Species Recognition System	logSpeciesData	199.22.203.157
+user_0391	Cynthia Wade	1/4/2025	13:43:41	Dataset Conversion Error	CustomError	Error	Error converting dataset.	Wildlife Species Recognition System	segmentAnimalFromBackground	253.60.37.205
+user_0392	Jamie Long	2/13/2025	1:10:26	Shape Mismatch	CustomError	Error	Shape of input data mismatch.	Security Threat Detection System	applyThreatDetectionModel	209.45.177.174
+user_0393	James Gomez	4/20/2025	15:54:31	Undefined Symbol	CustomError	Error	Required symbol not defined.	Security Threat Detection System	identifyMovementPatterns	142.87.228.53
+user_0394	John Murray	2/10/2025	6:50:22	NotFoundError	tf.errors.NotFoundError	Error	Requested entity not found.	Security Threat Detection System	applyThreatDetectionModel	8.249.46.101
+user_0395	Gabriel Aguilar	2/22/2025	1:24:45	MemoryError	builtins.MemoryError	Error	Operation ran out of memory.	Security Threat Detection System	applyThreatDetectionModel	2.196.63.226
+user_0396	Randall Lawrence	4/28/2025	12:38:05	InvalidArgumentError	tf.errors.InvalidArgumentError	Error	Invalid argument provided.	Security Threat Detection System	filterNoiseFromImage	104.45.77.202
+user_0397	Hayley Khan	1/22/2025	19:38:14	AbortedError	tf.errors.AbortedError	Error	Operation was aborted.	Security Threat Detection System	identifyMovementPatterns	204.75.238.56
+user_0398	Melissa Mejia	1/31/2025	11:20:46	AssertionError	builtins.AssertionError	Error	Assertion failed.	Wildlife Species Recognition System	verifySpeciesMatch	230.153.35.122
+user_0399	Dr. Danny Ferguson	3/3/2025	12:00:55	GPU Memory Error	CustomError	Error	GPU ran out of memory.	Wildlife Species Recognition System	extractAnimalFeatures	238.169.118.215
+user_0400	John Franklin	3/30/2025	20:19:55	FailedPreconditionError	tf.errors.FailedPreconditionError	Error	Prerequisites not met for operation.	Security Threat Detection System	captureSurveillanceFrame	7.178.61.246
+user_0401	Jesus Hansen	2/24/2025	23:35:37	Shape Mismatch	CustomError	Error	Shape of input data mismatch.	Wildlife Species Recognition System	generateSpeciesReport	181.95.11.193
+user_0402	Chad Hall	3/2/2025	10:28:50	Type Inference Error	CustomError	Error	Unable to infer tensor type.	Wildlife Species Recognition System	preprocessImageData	67.110.104.254
+user_0403	Willie Hall	1/26/2025	6:02:12	Dataset Conversion Error	CustomError	Error	Error converting dataset.	Wildlife Species Recognition System	captureWildlifeImage	170.51.16.160
+user_0404	Brian Baker	4/30/2025	11:02:40	ZeroDivisionError	builtins.ZeroDivisionError	Error	Division or modulo by zero.	Wildlife Species Recognition System	trackAnimalMovement	231.30.250.171
+user_0405	Sean Gallagher	3/27/2025	21:30:32	OverflowError	builtins.OverflowError	Error	Arithmetic result too large.	Wildlife Species Recognition System	verifySpeciesMatch	251.58.6.95
+user_0406	Julie Rodriguez	1/5/2025	2:30:48	UnavailableError	tf.errors.UnavailableError	Error	Runtime currently unavailable.	Security Threat Detection System	archiveSurveillanceLogs	140.230.198.141
+user_0407	Amy Mcdonald	4/9/2025	19:58:05	IndexError	builtins.IndexError	Error	Sequence index out of range.	Security Threat Detection System	alertSecurityPersonnel	36.79.177.165
+user_0408	Donna Schmitt	3/7/2025	17:41:26	OverflowError	builtins.OverflowError	Error	Arithmetic result too large.	Wildlife Species Recognition System	generateSpeciesReport	105.64.59.115
+user_0409	Michele Gomez	4/18/2025	19:32:50	RuntimeError	builtins.RuntimeError	Error	General runtime error.	Wildlife Species Recognition System	analyzeHabitatContext	62.178.114.16
+user_0410	Manuel Wolfe	3/24/2025	20:54:21	DataLossError	tf.errors.DataLossError	Error	Unrecoverable data loss encountered.	Security Threat Detection System	captureSurveillanceFrame	5.106.215.164
+user_0411	Scott Dougherty	4/30/2025	2:36:47	OverflowError	builtins.OverflowError	Error	Arithmetic result too large.	Wildlife Species Recognition System	logSpeciesData	210.179.230.96
+user_0412	Robert Mcfarland	4/1/2025	15:37:03	AttributeError	builtins.AttributeError	Error	Attribute reference failed.	Wildlife Species Recognition System	extractAnimalFeatures	149.146.151.235
+user_0413	Virginia Acosta	2/26/2025	8:06:15	GPU Memory Error	CustomError	Error	GPU ran out of memory.	Wildlife Species Recognition System	analyzeHabitatContext	125.78.44.62
+user_0414	Christian Elliott	3/3/2025	2:09:17	PermissionDeniedError	tf.errors.PermissionDeniedError	Error	Permission denied for operation.	Wildlife Species Recognition System	preprocessImageData	104.25.133.87
+user_0415	Tyler Smith	3/26/2025	17:04:06	UnimplementedError	tf.errors.UnimplementedError	Error	Operation not implemented.	Security Threat Detection System	classifyThreatCategory	96.10.129.141
+user_0416	Shannon Salazar	2/18/2025	20:07:23	AttributeError	builtins.AttributeError	Error	Attribute reference failed.	Wildlife Species Recognition System	analyzeHabitatContext	61.49.67.40
+user_0417	Kendra Jenkins	1/28/2025	22:37:07	Out-of-Range Index	CustomError	Error	Index out of valid range.	Security Threat Detection System	identifyMovementPatterns	44.77.240.54
+user_0418	Melissa Travis	4/28/2025	23:40:28	DeprecationWarning	builtins.DeprecationWarning	Warning	Feature is deprecated.	Wildlife Species Recognition System	captureWildlifeImage	79.238.145.34
+user_0419	James Harper	4/15/2025	14:17:15	ImportError	builtins.ImportError	Error	Module import failed.	Security Threat Detection System	captureSurveillanceFrame	30.252.214.34
+user_0420	Mark Lynch	3/6/2025	12:43:22	StopIteration	builtins.StopIteration	Error	Iteration has no more items.	Security Threat Detection System	archiveSurveillanceLogs	135.183.148.245
+user_0421	William Rodriguez	3/10/2025	3:09:08	TypeError	builtins.TypeError	Error	Inappropriate type for operation.	Wildlife Species Recognition System	logSpeciesData	191.215.108.102
+user_0422	Crystal Griffin	4/18/2025	20:06:11	DataLossError	tf.errors.DataLossError	Error	Unrecoverable data loss encountered.	Security Threat Detection System	filterNoiseFromImage	109.245.251.254
+user_0423	Emily Clark	4/16/2025	19:01:38	ValueError	builtins.ValueError	Error	Inappropriate value passed to function.	Wildlife Species Recognition System	captureWildlifeImage	92.210.17.140
+user_0424	William Conner	2/9/2025	19:59:59	ImportError	builtins.ImportError	Error	Module import failed.	Security Threat Detection System	alertSecurityPersonnel	93.179.204.101
+user_0425	Stacy Lee	4/24/2025	19:24:01	PermissionDeniedError	tf.errors.PermissionDeniedError	Error	Permission denied for operation.	Security Threat Detection System	identifyMovementPatterns	173.154.74.67
+user_0426	Nicole Jones	3/11/2025	0:16:02	OpError	tf.errors.OpError	Error	Base TensorFlow operation error.	Security Threat Detection System	traceSuspiciousPath	131.16.51.146
+user_0427	Rodney Benitez	2/9/2025	9:49:24	AssertionError	builtins.AssertionError	Error	Assertion failed.	Security Threat Detection System	alertSecurityPersonnel	126.126.23.9
+user_0428	Suzanne Thomas	3/6/2025	19:19:43	InternalError	tf.errors.InternalError	Error	Internal system error.	Wildlife Species Recognition System	extractAnimalFeatures	96.196.21.44
+user_0429	Kelly Daniels	4/28/2025	2:43:57	ValueError	builtins.ValueError	Error	Inappropriate value passed to function.	Wildlife Species Recognition System	analyzeHabitatContext	39.64.224.108
+user_0430	Kyle Hughes	2/7/2025	13:17:38	Input Shape Mismatch	CustomError	Error	Input data shape doesn't match model expectation.	Wildlife Species Recognition System	logSpeciesData	152.62.133.137
+user_0431	Amber Eaton	4/17/2025	18:48:29	InvalidArgumentError	tf.errors.InvalidArgumentError	Error	Invalid argument provided.	Security Threat Detection System	identifyMovementPatterns	93.236.167.132
+user_0432	Tammy Glover	3/23/2025	4:19:13	OpError	tf.errors.OpError	Error	Base TensorFlow operation error.	Wildlife Species Recognition System	captureWildlifeImage	24.20.188.146
+user_0433	Tammy Burke	1/14/2025	12:03:57	InternalError	tf.errors.InternalError	Error	Internal system error.	Wildlife Species Recognition System	trackAnimalMovement	146.143.40.155
+user_0434	John Edwards	2/21/2025	0:20:11	OpError	tf.errors.OpError	Error	Base TensorFlow operation error.	Wildlife Species Recognition System	captureWildlifeImage	181.64.170.150
+user_0435	Holly Davis	1/11/2025	8:38:09	KeyError	builtins.KeyError	Error	Dictionary key not found.	Security Threat Detection System	detectIntrusiveObjects	8.132.151.77
+user_0436	Christine Khan	4/23/2025	3:39:16	Out-of-Range Index	CustomError	Error	Index out of valid range.	Wildlife Species Recognition System	segmentAnimalFromBackground	25.19.48.108
+user_0437	Mark Ray	4/5/2025	9:57:43	NameError	builtins.NameError	Error	Name not found in namespace.	Security Threat Detection System	applyThreatDetectionModel	165.60.156.199
+user_0438	Patricia Walton	1/30/2025	4:31:09	Input Shape Mismatch	CustomError	Error	Input data shape doesn't match model expectation.	Security Threat Detection System	filterNoiseFromImage	124.134.23.26
+user_0439	Edward Floyd	3/5/2025	2:39:31	MemoryError	builtins.MemoryError	Error	Operation ran out of memory.	Security Threat Detection System	archiveSurveillanceLogs	159.88.71.88
+user_0440	Karen Warner	1/13/2025	0:33:33	Dataset Conversion Error	CustomError	Error	Error converting dataset.	Wildlife Species Recognition System	preprocessImageData	62.10.29.81
+user_0441	Dalton Hernandez	4/28/2025	2:09:58	IndexError	builtins.IndexError	Error	Sequence index out of range.	Wildlife Species Recognition System	verifySpeciesMatch	109.23.129.221
+user_0442	Deborah Le	4/13/2025	23:15:00	UnauthenticatedError	tf.errors.UnauthenticatedError	Error	Invalid authentication credentials.	Security Threat Detection System	traceSuspiciousPath	61.13.54.231
+user_0443	Cynthia Smith	4/26/2025	14:17:45	Dataset Conversion Error	CustomError	Error	Error converting dataset.	Security Threat Detection System	identifyMovementPatterns	56.253.30.108
+user_0444	Mark Dickson	1/23/2025	20:16:46	Undefined Symbol	CustomError	Error	Required symbol not defined.	Wildlife Species Recognition System	captureWildlifeImage	148.126.83.214
+user_0445	Scott Pollard	2/18/2025	23:35:37	InternalError	tf.errors.InternalError	Error	Internal system error.	Security Threat Detection System	archiveSurveillanceLogs	123.46.162.64
+user_0446	Shaun Hall	3/15/2025	9:50:12	OperatorNotAllowedInGraphError	tf.errors.OperatorNotAllowedInGraphError	Error	Unsupported operator in graph execution.	Security Threat Detection System	traceSuspiciousPath	222.152.222.37
+user_0447	Michael Davenport	3/17/2025	3:19:48	Resource Exhaustion	CustomError	Error	Insufficient resources for operation.	Wildlife Species Recognition System	extractAnimalFeatures	233.29.125.19
+user_0448	Ashley Griffin DDS	4/2/2025	9:00:45	Type Inference Error	CustomError	Error	Unable to infer tensor type.	Wildlife Species Recognition System	preprocessImageData	103.251.176.183
+user_0449	Mary Gomez	3/16/2025	1:23:34	UnavailableError	tf.errors.UnavailableError	Error	Runtime currently unavailable.	Wildlife Species Recognition System	trackAnimalMovement	74.215.52.88
+user_0450	David Lopez	2/26/2025	22:44:00	NameError	builtins.NameError	Error	Name not found in namespace.	Wildlife Species Recognition System	extractAnimalFeatures	17.73.11.65
+user_0451	James Lewis	2/21/2025	13:36:41	KeyError	builtins.KeyError	Error	Dictionary key not found.	Security Threat Detection System	alertSecurityPersonnel	123.185.84.84
+user_0452	Gerald Gomez	1/8/2025	23:40:30	NameError	builtins.NameError	Error	Name not found in namespace.	Security Threat Detection System	identifyMovementPatterns	54.33.45.170
+user_0453	Carolyn Singh	4/16/2025	6:57:28	Input Shape Mismatch	CustomError	Error	Input data shape doesn't match model expectation.	Wildlife Species Recognition System	generateSpeciesReport	249.9.135.219
+user_0454	Terry Sanchez	3/30/2025	4:51:26	Uninitialized Tensor	CustomError	Error	Tensor used before initialization.	Security Threat Detection System	filterNoiseFromImage	24.6.104.76
+user_0455	Jennifer Meyers	4/11/2025	13:17:13	MemoryError	builtins.MemoryError	Error	Operation ran out of memory.	Security Threat Detection System	alertSecurityPersonnel	199.175.174.189
+user_0456	Benjamin Brown	2/13/2025	23:36:43	UnimplementedError	tf.errors.UnimplementedError	Error	Operation not implemented.	Security Threat Detection System	archiveSurveillanceLogs	167.30.35.89
+user_0457	Claudia Cook	4/13/2025	3:39:35	IndexError	builtins.IndexError	Error	Sequence index out of range.	Security Threat Detection System	analyzeThreatIntensity	210.43.114.137
+user_0458	Bonnie Owens	1/4/2025	0:08:28	InvalidArgumentError	tf.errors.InvalidArgumentError	Error	Invalid argument provided.	Wildlife Species Recognition System	verifySpeciesMatch	110.238.47.198
+user_0459	Shannon Cunningham	3/6/2025	20:04:34	UnknownError	tf.errors.UnknownError	Error	Unknown error occurred.	Wildlife Species Recognition System	captureWildlifeImage	147.138.208.233
+user_0460	William Miller	1/12/2025	19:00:39	Unknown Loss Function	CustomError	Error	Loss function not recognized.	Wildlife Species Recognition System	verifySpeciesMatch	164.169.99.192
+user_0461	Kenneth Oneal	1/9/2025	13:29:49	UnauthenticatedError	tf.errors.UnauthenticatedError	Error	Invalid authentication credentials.	Wildlife Species Recognition System	trackAnimalMovement	227.223.139.108
+user_0462	Becky Cooper	2/7/2025	13:44:36	OpError	tf.errors.OpError	Error	Base TensorFlow operation error.	Security Threat Detection System	applyThreatDetectionModel	90.206.80.147
+user_0463	Anthony Ford	1/27/2025	13:24:37	OpError	tf.errors.OpError	Error	Base TensorFlow operation error.	Wildlife Species Recognition System	applySpeciesModel	77.139.249.11
+user_0464	Angela Hayes	2/12/2025	23:12:46	InvalidArgumentError	tf.errors.InvalidArgumentError	Error	Invalid argument provided.	Wildlife Species Recognition System	verifySpeciesMatch	169.203.198.71
+user_0465	Sean Wright Jr.	1/16/2025	18:25:14	GPU Memory Error	CustomError	Error	GPU ran out of memory.	Wildlife Species Recognition System	applySpeciesModel	101.138.14.94
+user_0466	Elizabeth Martinez	1/26/2025	17:56:53	OverflowError	builtins.OverflowError	Error	Arithmetic result too large.	Security Threat Detection System	filterNoiseFromImage	138.246.1.204
+user_0467	Tiffany Moore	3/8/2025	1:14:25	ResourceExhaustedError	tf.errors.ResourceExhaustedError	Error	Resource exhaustion during operation.	Security Threat Detection System	filterNoiseFromImage	45.160.239.163
+user_0468	Cody Carter	2/24/2025	9:47:41	Resource Exhaustion	CustomError	Error	Insufficient resources for operation.	Wildlife Species Recognition System	verifySpeciesMatch	101.240.144.6
+user_0469	Diane Thompson	1/20/2025	13:26:01	Input Shape Mismatch	CustomError	Error	Input data shape doesn't match model expectation.	Wildlife Species Recognition System	trackAnimalMovement	254.77.119.52
+user_0470	Sean Jackson	4/3/2025	23:52:42	Type Inference Error	CustomError	Error	Unable to infer tensor type.	Security Threat Detection System	analyzeThreatIntensity	159.14.91.140
+user_0471	Angela Johnson	3/25/2025	16:02:39	ResourceExhaustedError	tf.errors.ResourceExhaustedError	Error	Resource exhaustion during operation.	Wildlife Species Recognition System	captureWildlifeImage	67.81.252.207
+user_0472	Amanda Wright	4/17/2025	17:49:29	AbortedError	tf.errors.AbortedError	Error	Operation was aborted.	Wildlife Species Recognition System	logSpeciesData	13.177.216.174
+user_0473	Anna Miles	1/21/2025	7:13:40	OutOfRangeError	tf.errors.OutOfRangeError	Error	Operation iterated past valid range.	Security Threat Detection System	identifyMovementPatterns	205.78.55.80
+user_0474	Lisa Santiago	3/11/2025	10:34:12	KeyError	builtins.KeyError	Error	Dictionary key not found.	Security Threat Detection System	archiveSurveillanceLogs	210.87.121.124
+user_0475	Erica Bell	4/17/2025	4:25:38	AttributeError	builtins.AttributeError	Error	Attribute reference failed.	Security Threat Detection System	traceSuspiciousPath	205.223.207.182
+user_0476	Colleen Johnson	3/14/2025	19:53:25	NameError	builtins.NameError	Error	Name not found in namespace.	Wildlife Species Recognition System	logSpeciesData	233.249.207.92
+user_0477	Sandra Jenkins	4/26/2025	6:51:39	NameError	builtins.NameError	Error	Name not found in namespace.	Security Threat Detection System	applyThreatDetectionModel	242.175.77.216
+user_0478	Keith Yang MD	3/1/2025	1:06:16	UnimplementedError	tf.errors.UnimplementedError	Error	Operation not implemented.	Security Threat Detection System	alertSecurityPersonnel	169.44.122.11
+user_0479	Kristy Moss	3/23/2025	10:34:37	Uninitialized Tensor	CustomError	Error	Tensor used before initialization.	Security Threat Detection System	filterNoiseFromImage	21.144.234.67
+user_0480	Brianna Guzman	2/5/2025	18:39:35	Uninitialized Tensor	CustomError	Error	Tensor used before initialization.	Security Threat Detection System	filterNoiseFromImage	227.29.100.28
+user_0481	Jenna Arias	4/2/2025	15:03:33	OperatorNotAllowedInGraphError	tf.errors.OperatorNotAllowedInGraphError	Error	Unsupported operator in graph execution.	Security Threat Detection System	detectIntrusiveObjects	17.72.43.132
+user_0482	Kimberly Ferrell	3/16/2025	17:51:51	UnauthenticatedError	tf.errors.UnauthenticatedError	Error	Invalid authentication credentials.	Wildlife Species Recognition System	verifySpeciesMatch	85.156.155.197
+user_0483	Kristen White	4/28/2025	15:27:38	OpError	tf.errors.OpError	Error	Base TensorFlow operation error.	Wildlife Species Recognition System	applySpeciesModel	222.139.100.137
+user_0484	Denise Rivera	1/12/2025	18:03:03	UnimplementedError	tf.errors.UnimplementedError	Error	Operation not implemented.	Wildlife Species Recognition System	extractAnimalFeatures	253.16.62.153
+user_0485	Brandon Castaneda	4/27/2025	14:42:27	NameError	builtins.NameError	Error	Name not found in namespace.	Security Threat Detection System	detectIntrusiveObjects	32.166.55.174
+user_0486	Laura Brown	1/24/2025	17:47:43	DeadlineExceededError	tf.errors.DeadlineExceededError	Error	Operation deadline exceeded.	Security Threat Detection System	classifyThreatCategory	170.240.93.43
+user_0487	Terri Dean	2/20/2025	13:54:28	Data Type Mismatch	CustomError	Error	Input data type doesn't match expected type.	Wildlife Species Recognition System	generateSpeciesReport	194.113.43.56
+user_0488	Peter Mendoza	3/10/2025	23:55:45	UnimplementedError	tf.errors.UnimplementedError	Error	Operation not implemented.	Wildlife Species Recognition System	generateSpeciesReport	179.73.220.144
+user_0489	Lawrence Smith	3/3/2025	6:16:30	AbortedError	tf.errors.AbortedError	Error	Operation was aborted.	Wildlife Species Recognition System	analyzeHabitatContext	130.182.57.249
+user_0490	Natalie Lee	3/10/2025	1:44:24	OperatorNotAllowedInGraphError	tf.errors.OperatorNotAllowedInGraphError	Error	Unsupported operator in graph execution.	Wildlife Species Recognition System	generateSpeciesReport	161.177.111.25
+user_0491	Zachary Johnson	3/2/2025	16:00:44	UnavailableError	tf.errors.UnavailableError	Error	Runtime currently unavailable.	Security Threat Detection System	filterNoiseFromImage	131.39.253.171
+user_0492	Robert Woodward	1/15/2025	16:56:18	AttributeError	builtins.AttributeError	Error	Attribute reference failed.	Security Threat Detection System	identifyMovementPatterns	197.213.235.54
+user_0493	Matthew Roberts	2/8/2025	9:51:49	OpError	tf.errors.OpError	Error	Base TensorFlow operation error.	Security Threat Detection System	applyThreatDetectionModel	85.161.32.17
+user_0494	Donald Sims	3/1/2025	15:33:52	NotFoundError	tf.errors.NotFoundError	Error	Requested entity not found.	Wildlife Species Recognition System	verifySpeciesMatch	10.17.235.90
+user_0495	Alan Larson	3/10/2025	20:53:24	Data Type Mismatch	CustomError	Error	Input data type doesn't match expected type.	Wildlife Species Recognition System	applySpeciesModel	157.241.226.8
+user_0496	Hayden Mejia	1/25/2025	17:42:45	InvalidArgumentError	tf.errors.InvalidArgumentError	Error	Invalid argument provided.	Security Threat Detection System	applyThreatDetectionModel	253.170.191.120
+user_0497	Nathaniel Mccullough	1/8/2025	10:01:08	InternalError	tf.errors.InternalError	Error	Internal system error.	Wildlife Species Recognition System	generateSpeciesReport	131.154.46.69
+user_0498	Victoria Rose	2/25/2025	3:25:53	RuntimeError	builtins.RuntimeError	Error	General runtime error.	Security Threat Detection System	filterNoiseFromImage	65.140.187.101
+user_0499	Cheryl Thornton	4/27/2025	21:02:05	UnimplementedError	tf.errors.UnimplementedError	Error	Operation not implemented.	Wildlife Species Recognition System	extractAnimalFeatures	149.247.188.68
+user_0500	Phillip Dunn	3/3/2025	4:24:21	Dataset Conversion Error	CustomError	Error	Error converting dataset.	Security Threat Detection System	classifyThreatCategory	226.55.3.167
+user_0501	Megan Townsend	3/27/2025	10:08:42	KeyError	builtins.KeyError	Error	Dictionary key not found.	Security Threat Detection System	archiveSurveillanceLogs	70.198.239.45
+user_0502	Timothy Armstrong	1/25/2025	21:28:00	Input Shape Mismatch	CustomError	Error	Input data shape doesn't match model expectation.	Wildlife Species Recognition System	segmentAnimalFromBackground	111.112.115.61
+user_0503	Nancy Jones	4/4/2025	10:00:54	StopIteration	builtins.StopIteration	Error	Iteration has no more items.	Security Threat Detection System	identifyMovementPatterns	76.120.235.137
+user_0504	Jacob Lowe	3/3/2025	6:48:26	OverflowError	builtins.OverflowError	Error	Arithmetic result too large.	Security Threat Detection System	classifyThreatCategory	169.55.128.54
+user_0505	Sara Miranda	1/9/2025	21:09:22	ImportError	builtins.ImportError	Error	Module import failed.	Wildlife Species Recognition System	verifySpeciesMatch	135.40.76.65
+user_0506	Brian Austin	1/24/2025	1:11:01	TypeError	builtins.TypeError	Error	Inappropriate type for operation.	Wildlife Species Recognition System	generateSpeciesReport	200.35.81.206
+user_0507	Megan Yates	2/28/2025	13:18:27	AbortedError	tf.errors.AbortedError	Error	Operation was aborted.	Wildlife Species Recognition System	preprocessImageData	224.45.177.22
+user_0508	Amanda Castillo	3/11/2025	4:30:19	OutOfRangeError	tf.errors.OutOfRangeError	Error	Operation iterated past valid range.	Wildlife Species Recognition System	preprocessImageData	110.34.197.203
+user_0509	Brenda Miller	2/2/2025	11:37:28	DeprecationWarning	builtins.DeprecationWarning	Warning	Feature is deprecated.	Security Threat Detection System	applyThreatDetectionModel	185.176.150.221
+user_0510	Susan Thompson	1/18/2025	22:01:57	CancelledError	tf.errors.CancelledError	Error	Operation was cancelled.	Wildlife Species Recognition System	applySpeciesModel	65.153.48.199
+user_0511	Tracy Drake	3/18/2025	10:09:31	TypeError	builtins.TypeError	Error	Inappropriate type for operation.	Wildlife Species Recognition System	generateSpeciesReport	233.154.218.96
+user_0512	Tiffany Cruz	3/6/2025	2:49:29	UnauthenticatedError	tf.errors.UnauthenticatedError	Error	Invalid authentication credentials.	Wildlife Species Recognition System	extractAnimalFeatures	202.142.245.239
+user_0513	Katherine Matthews	1/29/2025	7:01:24	DataLossError	tf.errors.DataLossError	Error	Unrecoverable data loss encountered.	Wildlife Species Recognition System	extractAnimalFeatures	160.15.93.101
+user_0514	Christopher Parrish	3/10/2025	4:09:03	InvalidArgumentError	tf.errors.InvalidArgumentError	Error	Invalid argument provided.	Wildlife Species Recognition System	segmentAnimalFromBackground	133.79.31.123
+user_0515	Sandra Edwards	2/25/2025	19:48:51	Undefined Symbol	CustomError	Error	Required symbol not defined.	Wildlife Species Recognition System	extractAnimalFeatures	113.244.122.162
+user_0516	Vincent Abbott	4/10/2025	7:57:17	UnauthenticatedError	tf.errors.UnauthenticatedError	Error	Invalid authentication credentials.	Wildlife Species Recognition System	captureWildlifeImage	85.68.99.216
+user_0517	John Aguilar	2/4/2025	2:24:17	Data Type Mismatch	CustomError	Error	Input data type doesn't match expected type.	Wildlife Species Recognition System	logSpeciesData	236.115.207.155
+user_0518	Sally Chavez	4/10/2025	19:40:44	AssertionError	builtins.AssertionError	Error	Assertion failed.	Security Threat Detection System	traceSuspiciousPath	85.27.186.32
+user_0519	Veronica Fleming	3/17/2025	2:58:35	OutOfRangeError	tf.errors.OutOfRangeError	Error	Operation iterated past valid range.	Security Threat Detection System	filterNoiseFromImage	34.156.22.96
+user_0520	Gary Mclean	1/12/2025	0:38:16	OpError	tf.errors.OpError	Error	Base TensorFlow operation error.	Security Threat Detection System	detectIntrusiveObjects	232.226.83.204
+user_0521	David Lewis	1/26/2025	10:19:50	TypeError	builtins.TypeError	Error	Inappropriate type for operation.	Security Threat Detection System	captureSurveillanceFrame	23.195.40.121
+user_0522	Mitchell Frey	2/15/2025	9:15:27	KeyError	builtins.KeyError	Error	Dictionary key not found.	Wildlife Species Recognition System	generateSpeciesReport	222.69.211.196
+user_0523	Abigail Lowe	2/25/2025	12:05:48	Uninitialized Tensor	CustomError	Error	Tensor used before initialization.	Security Threat Detection System	analyzeThreatIntensity	91.57.36.25
+user_0524	Craig Ellis	1/1/2025	10:04:00	RuntimeError	builtins.RuntimeError	Error	General runtime error.	Security Threat Detection System	analyzeThreatIntensity	37.182.176.17
+user_0525	Susan Fernandez	3/11/2025	2:16:41	Out-of-Range Index	CustomError	Error	Index out of valid range.	Wildlife Species Recognition System	captureWildlifeImage	125.204.184.46
+user_0526	Michael Johnson	2/11/2025	22:44:51	InternalError	tf.errors.InternalError	Error	Internal system error.	Wildlife Species Recognition System	logSpeciesData	33.99.203.103
+user_0527	Jason Allen	4/3/2025	4:26:32	UnknownError	tf.errors.UnknownError	Error	Unknown error occurred.	Wildlife Species Recognition System	preprocessImageData	142.154.253.3
+user_0528	Susan Carter	4/28/2025	13:00:53	FailedPreconditionError	tf.errors.FailedPreconditionError	Error	Prerequisites not met for operation.	Wildlife Species Recognition System	extractAnimalFeatures	235.245.35.240
+user_0529	Erin Ross	4/5/2025	23:11:30	AttributeError	builtins.AttributeError	Error	Attribute reference failed.	Wildlife Species Recognition System	captureWildlifeImage	252.209.219.19
+user_0530	Julia Hess	3/29/2025	11:32:37	UnimplementedError	tf.errors.UnimplementedError	Error	Operation not implemented.	Wildlife Species Recognition System	segmentAnimalFromBackground	217.238.231.228
+user_0531	Amy Butler	3/15/2025	22:23:08	ZeroDivisionError	builtins.ZeroDivisionError	Error	Division or modulo by zero.	Security Threat Detection System	archiveSurveillanceLogs	21.123.84.206
+user_0532	Daniel Long	2/18/2025	19:45:57	IndexError	builtins.IndexError	Error	Sequence index out of range.	Wildlife Species Recognition System	verifySpeciesMatch	51.91.151.132
+user_0533	Mary Shah	4/8/2025	8:05:58	StopIteration	builtins.StopIteration	Error	Iteration has no more items.	Wildlife Species Recognition System	preprocessImageData	12.171.231.20
+user_0534	Clarence Harper	4/6/2025	14:05:04	Out-of-Range Index	CustomError	Error	Index out of valid range.	Wildlife Species Recognition System	logSpeciesData	3.217.49.239
+user_0535	Hunter Grimes	4/13/2025	20:51:16	UnknownError	tf.errors.UnknownError	Error	Unknown error occurred.	Wildlife Species Recognition System	logSpeciesData	48.39.115.133
+user_0536	Anthony Jordan	1/4/2025	21:24:11	Undefined Symbol	CustomError	Error	Required symbol not defined.	Security Threat Detection System	traceSuspiciousPath	244.175.139.243
+user_0537	Martin Andrews	4/22/2025	5:02:07	ResourceExhaustedError	tf.errors.ResourceExhaustedError	Error	Resource exhaustion during operation.	Security Threat Detection System	archiveSurveillanceLogs	28.116.98.133
+user_0538	Samuel Wilson	4/18/2025	6:27:52	NameError	builtins.NameError	Error	Name not found in namespace.	Security Threat Detection System	identifyMovementPatterns	128.112.93.201
+user_0539	Stephanie Navarro	2/11/2025	9:37:12	UnauthenticatedError	tf.errors.UnauthenticatedError	Error	Invalid authentication credentials.	Security Threat Detection System	detectIntrusiveObjects	139.107.50.135
+user_0540	Karen Davis	2/25/2025	21:59:19	ImportError	builtins.ImportError	Error	Module import failed.	Wildlife Species Recognition System	verifySpeciesMatch	116.16.219.91
+user_0541	Erin Frye	2/3/2025	3:06:24	UnknownError	tf.errors.UnknownError	Error	Unknown error occurred.	Wildlife Species Recognition System	analyzeHabitatContext	183.170.172.245
+user_0542	Krystal Walton	1/30/2025	8:03:36	PermissionDeniedError	tf.errors.PermissionDeniedError	Error	Permission denied for operation.	Wildlife Species Recognition System	captureWildlifeImage	214.226.213.109
+user_0543	Jaime Ray	4/8/2025	2:56:58	UnauthenticatedError	tf.errors.UnauthenticatedError	Error	Invalid authentication credentials.	Wildlife Species Recognition System	extractAnimalFeatures	108.34.240.220
+user_0544	Melinda Olsen	3/13/2025	22:00:26	DeprecationWarning	builtins.DeprecationWarning	Warning	Feature is deprecated.	Security Threat Detection System	traceSuspiciousPath	134.49.90.49
+user_0545	Michael English	4/26/2025	7:03:46	TypeError	builtins.TypeError	Error	Inappropriate type for operation.	Security Threat Detection System	captureSurveillanceFrame	243.178.119.248
+user_0546	Brett Johnston	4/16/2025	2:40:52	OutOfRangeError	tf.errors.OutOfRangeError	Error	Operation iterated past valid range.	Wildlife Species Recognition System	trackAnimalMovement	245.146.104.228
+user_0547	Mary Phillips	4/15/2025	21:43:31	Type Inference Error	CustomError	Error	Unable to infer tensor type.	Wildlife Species Recognition System	extractAnimalFeatures	150.223.182.153
+user_0548	Alison Morton	4/2/2025	20:58:16	Resource Exhaustion	CustomError	Error	Insufficient resources for operation.	Security Threat Detection System	applyThreatDetectionModel	186.128.96.254
+user_0549	Hailey Jackson	1/25/2025	21:16:38	AttributeError	builtins.AttributeError	Error	Attribute reference failed.	Wildlife Species Recognition System	analyzeHabitatContext	113.128.39.222
+user_0550	Christopher Weaver	2/14/2025	10:21:30	Uninitialized Tensor	CustomError	Error	Tensor used before initialization.	Security Threat Detection System	identifyMovementPatterns	235.204.170.64
+user_0551	Johnathan Johnson	3/3/2025	2:31:35	PermissionDeniedError	tf.errors.PermissionDeniedError	Error	Permission denied for operation.	Security Threat Detection System	alertSecurityPersonnel	70.97.243.112
+user_0552	Diane Mclaughlin	4/14/2025	23:03:43	FailedPreconditionError	tf.errors.FailedPreconditionError	Error	Prerequisites not met for operation.	Security Threat Detection System	classifyThreatCategory	133.254.198.221
+user_0553	Howard Cook	2/7/2025	2:35:39	OverflowError	builtins.OverflowError	Error	Arithmetic result too large.	Wildlife Species Recognition System	verifySpeciesMatch	120.34.157.251
+user_0554	Andrew Drake	1/31/2025	8:44:09	FailedPreconditionError	tf.errors.FailedPreconditionError	Error	Prerequisites not met for operation.	Security Threat Detection System	identifyMovementPatterns	168.103.75.151
+user_0555	Jenna Lewis	3/24/2025	3:42:59	MemoryError	builtins.MemoryError	Error	Operation ran out of memory.	Security Threat Detection System	traceSuspiciousPath	219.93.129.108
+user_0556	Jessica Mcdowell	3/14/2025	21:55:35	UnknownError	tf.errors.UnknownError	Error	Unknown error occurred.	Security Threat Detection System	alertSecurityPersonnel	41.99.34.49
+user_0557	Nichole Wells	3/29/2025	0:18:44	Unknown Loss Function	CustomError	Error	Loss function not recognized.	Wildlife Species Recognition System	verifySpeciesMatch	170.61.232.11
+user_0558	Christopher Smith	1/23/2025	13:16:17	ImportError	builtins.ImportError	Error	Module import failed.	Wildlife Species Recognition System	verifySpeciesMatch	6.221.26.206
+user_0559	Tiffany Ramirez	1/5/2025	12:35:21	OpError	tf.errors.OpError	Error	Base TensorFlow operation error.	Wildlife Species Recognition System	captureWildlifeImage	228.161.231.213
+user_0560	Patricia Bell	1/3/2025	22:15:21	MemoryError	builtins.MemoryError	Error	Operation ran out of memory.	Security Threat Detection System	alertSecurityPersonnel	53.113.49.9
+user_0561	John Graves	1/2/2025	7:53:00	Data Type Mismatch	CustomError	Error	Input data type doesn't match expected type.	Security Threat Detection System	classifyThreatCategory	246.171.238.164
+user_0562	Timothy Castro	3/8/2025	21:33:34	StopIteration	builtins.StopIteration	Error	Iteration has no more items.	Wildlife Species Recognition System	verifySpeciesMatch	67.112.40.28
+user_0563	Norman Garcia	4/29/2025	14:23:49	AlreadyExistsError	tf.errors.AlreadyExistsError	Error	Entity already exists.	Wildlife Species Recognition System	applySpeciesModel	236.31.91.17
+user_0564	David Wiley	3/30/2025	21:31:50	DataLossError	tf.errors.DataLossError	Error	Unrecoverable data loss encountered.	Security Threat Detection System	alertSecurityPersonnel	141.35.60.68
+user_0565	Anthony Russell	3/28/2025	5:31:38	OutOfRangeError	tf.errors.OutOfRangeError	Error	Operation iterated past valid range.	Security Threat Detection System	analyzeThreatIntensity	148.61.184.57
+user_0566	Cynthia Lawson	3/30/2025	11:06:41	ValueError	builtins.ValueError	Error	Inappropriate value passed to function.	Security Threat Detection System	archiveSurveillanceLogs	248.20.180.30
+user_0567	Julie Butler	4/8/2025	10:20:29	NotFoundError	tf.errors.NotFoundError	Error	Requested entity not found.	Wildlife Species Recognition System	verifySpeciesMatch	41.130.1.169
+user_0568	Abigail Sullivan	3/14/2025	18:39:59	AttributeError	builtins.AttributeError	Error	Attribute reference failed.	Security Threat Detection System	traceSuspiciousPath	135.54.39.46
+user_0569	Steven Glenn	3/1/2025	19:00:19	DataLossError	tf.errors.DataLossError	Error	Unrecoverable data loss encountered.	Security Threat Detection System	archiveSurveillanceLogs	102.39.34.60
+user_0570	Bruce Ramos	2/10/2025	16:43:36	Uninitialized Tensor	CustomError	Error	Tensor used before initialization.	Wildlife Species Recognition System	captureWildlifeImage	52.186.186.133
+user_0571	Crystal Hernandez	3/15/2025	17:14:09	NameError	builtins.NameError	Error	Name not found in namespace.	Wildlife Species Recognition System	trackAnimalMovement	75.3.195.221
+user_0572	Jordan Evans	4/10/2025	20:52:48	DataLossError	tf.errors.DataLossError	Error	Unrecoverable data loss encountered.	Wildlife Species Recognition System	segmentAnimalFromBackground	161.62.185.6
+user_0573	Rebecca Gonzalez	3/18/2025	21:31:24	OpError	tf.errors.OpError	Error	Base TensorFlow operation error.	Wildlife Species Recognition System	segmentAnimalFromBackground	154.49.251.59
+user_0574	Amanda Ward	4/18/2025	21:15:09	StopIteration	builtins.StopIteration	Error	Iteration has no more items.	Security Threat Detection System	traceSuspiciousPath	149.250.152.76
+user_0575	Kyle Cain	4/12/2025	20:37:35	DataLossError	tf.errors.DataLossError	Error	Unrecoverable data loss encountered.	Security Threat Detection System	classifyThreatCategory	216.236.25.76
+user_0576	Brittany Jenkins	1/13/2025	1:50:57	UnimplementedError	tf.errors.UnimplementedError	Error	Operation not implemented.	Wildlife Species Recognition System	preprocessImageData	17.115.95.175
+user_0577	Melvin Castro	1/10/2025	19:24:14	OutOfRangeError	tf.errors.OutOfRangeError	Error	Operation iterated past valid range.	Wildlife Species Recognition System	applySpeciesModel	216.228.233.133
+user_0578	David Miller	3/9/2025	8:11:29	ValueError	builtins.ValueError	Error	Inappropriate value passed to function.	Security Threat Detection System	applyThreatDetectionModel	3.192.36.121
+user_0579	Erica Ali	4/18/2025	5:11:47	UnimplementedError	tf.errors.UnimplementedError	Error	Operation not implemented.	Security Threat Detection System	archiveSurveillanceLogs	33.136.105.186
+user_0580	Patrick King	4/20/2025	15:30:14	Uninitialized Tensor	CustomError	Error	Tensor used before initialization.	Wildlife Species Recognition System	applySpeciesModel	76.42.190.75
+user_0581	Kimberly Dalton	1/31/2025	6:08:19	AttributeError	builtins.AttributeError	Error	Attribute reference failed.	Wildlife Species Recognition System	extractAnimalFeatures	211.86.101.168
+user_0582	Jason Brewer	4/29/2025	10:47:15	DeprecationWarning	builtins.DeprecationWarning	Warning	Feature is deprecated.	Security Threat Detection System	alertSecurityPersonnel	132.168.225.217
+user_0583	Christine Clark	3/9/2025	8:51:57	DeadlineExceededError	tf.errors.DeadlineExceededError	Error	Operation deadline exceeded.	Security Threat Detection System	applyThreatDetectionModel	23.162.254.200
+user_0584	Matthew Benitez	4/27/2025	4:54:47	NameError	builtins.NameError	Error	Name not found in namespace.	Security Threat Detection System	archiveSurveillanceLogs	55.19.182.150
+user_0585	Elaine Jacobson	1/10/2025	22:14:34	CancelledError	tf.errors.CancelledError	Error	Operation was cancelled.	Security Threat Detection System	detectIntrusiveObjects	242.19.108.52
+user_0586	Johnny Williams	4/8/2025	21:19:04	DeprecationWarning	builtins.DeprecationWarning	Warning	Feature is deprecated.	Wildlife Species Recognition System	logSpeciesData	117.102.246.64
+user_0587	Danielle Robbins	1/24/2025	14:53:17	ResourceExhaustedError	tf.errors.ResourceExhaustedError	Error	Resource exhaustion during operation.	Wildlife Species Recognition System	trackAnimalMovement	119.108.224.221
+user_0588	Rachel Lowe	3/26/2025	5:14:50	ResourceExhaustedError	tf.errors.ResourceExhaustedError	Error	Resource exhaustion during operation.	Security Threat Detection System	analyzeThreatIntensity	246.248.145.186
+user_0589	Robert Davis	4/12/2025	15:00:27	UnimplementedError	tf.errors.UnimplementedError	Error	Operation not implemented.	Wildlife Species Recognition System	generateSpeciesReport	41.174.7.7
+user_0590	Patricia Lopez	3/28/2025	10:20:15	NotFoundError	tf.errors.NotFoundError	Error	Requested entity not found.	Wildlife Species Recognition System	captureWildlifeImage	225.124.21.152
+user_0591	Christopher Coleman	4/20/2025	13:13:20	AlreadyExistsError	tf.errors.AlreadyExistsError	Error	Entity already exists.	Wildlife Species Recognition System	analyzeHabitatContext	132.92.214.223
+user_0592	Zachary Jones DVM	3/3/2025	14:18:30	IndexError	builtins.IndexError	Error	Sequence index out of range.	Security Threat Detection System	applyThreatDetectionModel	206.65.227.248
+user_0593	Lori Thompson	1/31/2025	12:03:28	Shape Mismatch	CustomError	Error	Shape of input data mismatch.	Security Threat Detection System	archiveSurveillanceLogs	82.46.5.195
+user_0594	Kayla Davis	4/13/2025	7:40:29	OverflowError	builtins.OverflowError	Error	Arithmetic result too large.	Security Threat Detection System	filterNoiseFromImage	14.238.109.23
+user_0595	Amber Wilkerson	3/28/2025	22:39:41	OverflowError	builtins.OverflowError	Error	Arithmetic result too large.	Wildlife Species Recognition System	segmentAnimalFromBackground	3.169.187.77
+user_0596	Tracy Johnson	4/30/2025	13:59:03	TypeError	builtins.TypeError	Error	Inappropriate type for operation.	Security Threat Detection System	classifyThreatCategory	7.175.201.43
+user_0597	Samuel Hood	2/10/2025	23:31:50	AttributeError	builtins.AttributeError	Error	Attribute reference failed.	Security Threat Detection System	detectIntrusiveObjects	216.118.103.178
+user_0598	David Harris	1/3/2025	16:09:11	Resource Exhaustion	CustomError	Error	Insufficient resources for operation.	Security Threat Detection System	archiveSurveillanceLogs	229.232.185.54
+user_0599	Katrina Harrington	3/7/2025	21:26:37	AbortedError	tf.errors.AbortedError	Error	Operation was aborted.	Security Threat Detection System	filterNoiseFromImage	26.183.77.48
+user_0600	Nathan Wyatt	4/28/2025	17:55:50	Input Shape Mismatch	CustomError	Error	Input data shape doesn't match model expectation.	Wildlife Species Recognition System	trackAnimalMovement	42.2.24.48
+user_0601	Leroy Moody	1/22/2025	21:15:08	InternalError	tf.errors.InternalError	Error	Internal system error.	Wildlife Species Recognition System	logSpeciesData	224.196.89.50
+user_0602	Cynthia Thompson	3/25/2025	21:49:08	AbortedError	tf.errors.AbortedError	Error	Operation was aborted.	Wildlife Species Recognition System	trackAnimalMovement	123.52.190.88
+user_0603	Jenna Moore DDS	1/22/2025	7:43:41	DeadlineExceededError	tf.errors.DeadlineExceededError	Error	Operation deadline exceeded.	Security Threat Detection System	identifyMovementPatterns	186.12.12.111
+user_0604	Kimberly Wise	3/18/2025	12:07:10	FailedPreconditionError	tf.errors.FailedPreconditionError	Error	Prerequisites not met for operation.	Security Threat Detection System	classifyThreatCategory	114.58.69.57
+user_0605	Edward Porter	3/2/2025	14:51:20	InternalError	tf.errors.InternalError	Error	Internal system error.	Security Threat Detection System	archiveSurveillanceLogs	46.206.207.143
+user_0606	Donna Richmond	4/28/2025	18:54:14	MemoryError	builtins.MemoryError	Error	Operation ran out of memory.	Security Threat Detection System	applyThreatDetectionModel	246.159.159.72
+user_0607	Justin Moore	1/5/2025	16:26:59	Type Inference Error	CustomError	Error	Unable to infer tensor type.	Wildlife Species Recognition System	segmentAnimalFromBackground	16.159.174.67
+user_0608	Jessica Solis	4/6/2025	1:18:09	PermissionDeniedError	tf.errors.PermissionDeniedError	Error	Permission denied for operation.	Security Threat Detection System	alertSecurityPersonnel	82.46.127.121
+user_0609	Kerry Nguyen	2/18/2025	6:26:01	ValueError	builtins.ValueError	Error	Inappropriate value passed to function.	Security Threat Detection System	captureSurveillanceFrame	189.178.178.121
+user_0610	Edward Mcdonald	3/31/2025	20:40:13	Out-of-Range Index	CustomError	Error	Index out of valid range.	Wildlife Species Recognition System	captureWildlifeImage	163.176.75.133
+user_0611	Lisa Williams	4/11/2025	3:05:55	ResourceExhaustedError	tf.errors.ResourceExhaustedError	Error	Resource exhaustion during operation.	Security Threat Detection System	identifyMovementPatterns	137.114.246.4
+user_0612	Megan Ray	1/1/2025	12:02:21	OutOfRangeError	tf.errors.OutOfRangeError	Error	Operation iterated past valid range.	Wildlife Species Recognition System	captureWildlifeImage	77.27.249.78
+user_0613	Craig Lee	4/1/2025	3:56:48	UnauthenticatedError	tf.errors.UnauthenticatedError	Error	Invalid authentication credentials.	Wildlife Species Recognition System	captureWildlifeImage	6.126.54.15
+user_0614	Christopher Andrews	1/16/2025	18:17:59	UnknownError	tf.errors.UnknownError	Error	Unknown error occurred.	Security Threat Detection System	identifyMovementPatterns	228.86.89.51
+user_0615	Lee Page	4/4/2025	12:34:11	OperatorNotAllowedInGraphError	tf.errors.OperatorNotAllowedInGraphError	Error	Unsupported operator in graph execution.	Security Threat Detection System	captureSurveillanceFrame	57.204.96.158
+user_0616	David Patel	1/7/2025	12:55:44	UnauthenticatedError	tf.errors.UnauthenticatedError	Error	Invalid authentication credentials.	Security Threat Detection System	identifyMovementPatterns	235.238.189.2
+user_0617	Sabrina Wagner	1/31/2025	9:40:58	NotFoundError	tf.errors.NotFoundError	Error	Requested entity not found.	Security Threat Detection System	applyThreatDetectionModel	46.21.34.253
+user_0618	Teresa Hammond	4/11/2025	17:21:03	UnavailableError	tf.errors.UnavailableError	Error	Runtime currently unavailable.	Security Threat Detection System	traceSuspiciousPath	58.252.216.62
+user_0619	Sharon Alexander	1/9/2025	13:07:27	DataLossError	tf.errors.DataLossError	Error	Unrecoverable data loss encountered.	Wildlife Species Recognition System	segmentAnimalFromBackground	220.42.175.107
+user_0620	Nicole Boyd MD	2/5/2025	13:48:09	ResourceExhaustedError	tf.errors.ResourceExhaustedError	Error	Resource exhaustion during operation.	Wildlife Species Recognition System	analyzeHabitatContext	115.106.252.160
+user_0621	Carolyn Watson	2/21/2025	0:36:56	AlreadyExistsError	tf.errors.AlreadyExistsError	Error	Entity already exists.	Security Threat Detection System	captureSurveillanceFrame	105.229.191.34
+user_0622	Samantha Smith	3/1/2025	23:51:52	InternalError	tf.errors.InternalError	Error	Internal system error.	Wildlife Species Recognition System	trackAnimalMovement	65.24.159.10
+user_0623	Cheryl Guerra	4/17/2025	21:59:33	InvalidArgumentError	tf.errors.InvalidArgumentError	Error	Invalid argument provided.	Wildlife Species Recognition System	captureWildlifeImage	135.126.37.235
+user_0624	Lori Murphy	2/12/2025	19:15:15	NameError	builtins.NameError	Error	Name not found in namespace.	Wildlife Species Recognition System	preprocessImageData	150.153.164.73
+user_0625	Natalie Bowers	4/18/2025	23:13:38	AssertionError	builtins.AssertionError	Error	Assertion failed.	Wildlife Species Recognition System	captureWildlifeImage	4.51.69.19
+user_0626	Patricia King	1/24/2025	17:42:44	ResourceExhaustedError	tf.errors.ResourceExhaustedError	Error	Resource exhaustion during operation.	Wildlife Species Recognition System	segmentAnimalFromBackground	18.209.148.238
+user_0627	Tammie Stanley	4/18/2025	2:15:54	Type Inference Error	CustomError	Error	Unable to infer tensor type.	Security Threat Detection System	classifyThreatCategory	144.7.157.90
+user_0628	Clayton Torres	2/28/2025	6:09:38	Dataset Conversion Error	CustomError	Error	Error converting dataset.	Wildlife Species Recognition System	generateSpeciesReport	122.214.119.166
+user_0629	Cassandra Lucas	4/12/2025	19:18:09	Input Shape Mismatch	CustomError	Error	Input data shape doesn't match model expectation.	Wildlife Species Recognition System	segmentAnimalFromBackground	8.228.167.80
+user_0630	Jocelyn King	4/12/2025	11:59:09	NameError	builtins.NameError	Error	Name not found in namespace.	Security Threat Detection System	captureSurveillanceFrame	213.10.220.196
+user_0631	Brittney Walker	3/3/2025	22:23:11	DataLossError	tf.errors.DataLossError	Error	Unrecoverable data loss encountered.	Wildlife Species Recognition System	analyzeHabitatContext	250.162.66.145
+user_0632	Julie Archer	4/20/2025	17:56:57	Input Shape Mismatch	CustomError	Error	Input data shape doesn't match model expectation.	Wildlife Species Recognition System	segmentAnimalFromBackground	144.116.148.209
+user_0633	Vernon Montes	4/15/2025	5:26:08	DataLossError	tf.errors.DataLossError	Error	Unrecoverable data loss encountered.	Security Threat Detection System	analyzeThreatIntensity	101.162.217.186
+user_0634	Jerry Mitchell	1/13/2025	20:50:32	NotFoundError	tf.errors.NotFoundError	Error	Requested entity not found.	Wildlife Species Recognition System	verifySpeciesMatch	35.19.139.4
+user_0635	Julie Rodriguez	3/16/2025	12:04:09	OutOfRangeError	tf.errors.OutOfRangeError	Error	Operation iterated past valid range.	Security Threat Detection System	archiveSurveillanceLogs	181.176.161.167
+user_0636	Beth Elliott	4/15/2025	12:30:11	IndexError	builtins.IndexError	Error	Sequence index out of range.	Wildlife Species Recognition System	generateSpeciesReport	117.108.195.204
+user_0637	Travis Munoz	2/5/2025	4:01:33	Uninitialized Tensor	CustomError	Error	Tensor used before initialization.	Security Threat Detection System	traceSuspiciousPath	184.46.11.237
+user_0638	Arthur West	1/18/2025	19:16:24	OverflowError	builtins.OverflowError	Error	Arithmetic result too large.	Wildlife Species Recognition System	trackAnimalMovement	243.220.247.78
+user_0639	Joseph Larson	2/4/2025	12:09:43	DeprecationWarning	builtins.DeprecationWarning	Warning	Feature is deprecated.	Security Threat Detection System	detectIntrusiveObjects	186.138.91.63
+user_0640	Lisa Gibson	2/1/2025	7:48:09	OverflowError	builtins.OverflowError	Error	Arithmetic result too large.	Security Threat Detection System	alertSecurityPersonnel	146.124.205.148
+user_0641	Adam Cain	1/2/2025	10:47:10	ValueError	builtins.ValueError	Error	Inappropriate value passed to function.	Security Threat Detection System	analyzeThreatIntensity	220.220.184.182
+user_0642	Matthew Paul	3/7/2025	19:24:18	CancelledError	tf.errors.CancelledError	Error	Operation was cancelled.	Security Threat Detection System	traceSuspiciousPath	93.226.127.231
+user_0643	Dennis Smith	2/23/2025	2:51:53	OpError	tf.errors.OpError	Error	Base TensorFlow operation error.	Wildlife Species Recognition System	verifySpeciesMatch	200.21.143.108
+user_0644	Steven Kennedy	1/17/2025	15:31:26	OpError	tf.errors.OpError	Error	Base TensorFlow operation error.	Security Threat Detection System	captureSurveillanceFrame	232.98.60.210
+user_0645	Bradley Gonzalez	4/18/2025	4:46:57	Dataset Conversion Error	CustomError	Error	Error converting dataset.	Wildlife Species Recognition System	preprocessImageData	66.105.220.171
+user_0646	Emily Meyers	2/21/2025	14:38:11	UnknownError	tf.errors.UnknownError	Error	Unknown error occurred.	Wildlife Species Recognition System	analyzeHabitatContext	149.3.233.136
+user_0647	Jennifer Allen	4/16/2025	9:35:32	Uninitialized Tensor	CustomError	Error	Tensor used before initialization.	Wildlife Species Recognition System	trackAnimalMovement	92.194.205.217
+user_0648	Meagan Medina	4/6/2025	7:42:01	IndexError	builtins.IndexError	Error	Sequence index out of range.	Security Threat Detection System	analyzeThreatIntensity	120.114.249.133
+user_0649	Bianca Erickson	3/23/2025	18:29:12	Undefined Symbol	CustomError	Error	Required symbol not defined.	Wildlife Species Recognition System	generateSpeciesReport	239.67.150.83
+user_0650	Clayton Stephenson	4/5/2025	6:50:42	NameError	builtins.NameError	Error	Name not found in namespace.	Wildlife Species Recognition System	segmentAnimalFromBackground	125.58.218.197
+user_0651	Stephen Waller	2/25/2025	22:19:20	Uninitialized Tensor	CustomError	Error	Tensor used before initialization.	Wildlife Species Recognition System	applySpeciesModel	220.232.140.70
+user_0652	Virginia Rhodes	1/9/2025	3:47:59	Undefined Symbol	CustomError	Error	Required symbol not defined.	Security Threat Detection System	applyThreatDetectionModel	47.38.202.11
+user_0653	Jay Ibarra	3/31/2025	1:16:50	Uninitialized Tensor	CustomError	Error	Tensor used before initialization.	Wildlife Species Recognition System	extractAnimalFeatures	227.91.241.229
+user_0654	Ronald Garcia	1/23/2025	9:52:16	Type Inference Error	CustomError	Error	Unable to infer tensor type.	Security Threat Detection System	captureSurveillanceFrame	158.234.234.71
+user_0655	Christopher Lewis	4/18/2025	18:57:42	Data Type Mismatch	CustomError	Error	Input data type doesn't match expected type.	Security Threat Detection System	traceSuspiciousPath	49.65.88.1
+user_0656	Susan Knight	1/23/2025	7:31:52	ValueError	builtins.ValueError	Error	Inappropriate value passed to function.	Security Threat Detection System	traceSuspiciousPath	246.30.23.137
+user_0657	Henry Alexander	3/20/2025	14:50:48	KeyError	builtins.KeyError	Error	Dictionary key not found.	Security Threat Detection System	detectIntrusiveObjects	9.1.224.247
+user_0658	Jeanne Moreno MD	4/5/2025	10:11:29	ImportError	builtins.ImportError	Error	Module import failed.	Security Threat Detection System	alertSecurityPersonnel	102.204.18.6
+user_0659	Jill Rose	2/22/2025	9:29:26	Shape Mismatch	CustomError	Error	Shape of input data mismatch.	Security Threat Detection System	captureSurveillanceFrame	143.145.197.61
+user_0660	Ashley Yu	3/6/2025	0:28:06	MemoryError	builtins.MemoryError	Error	Operation ran out of memory.	Security Threat Detection System	filterNoiseFromImage	180.185.189.80
+user_0661	Pamela Williams	1/16/2025	2:46:17	AttributeError	builtins.AttributeError	Error	Attribute reference failed.	Security Threat Detection System	filterNoiseFromImage	122.80.59.203
+user_0662	Mr. Benjamin Harris DDS	1/16/2025	8:08:16	Undefined Symbol	CustomError	Error	Required symbol not defined.	Security Threat Detection System	identifyMovementPatterns	48.16.254.187
+user_0663	Anthony Johns	2/24/2025	1:12:53	ResourceExhaustedError	tf.errors.ResourceExhaustedError	Error	Resource exhaustion during operation.	Security Threat Detection System	classifyThreatCategory	248.22.139.172
+user_0664	Jorge Mcintyre	1/12/2025	12:39:11	Dataset Conversion Error	CustomError	Error	Error converting dataset.	Security Threat Detection System	applyThreatDetectionModel	61.223.105.129
+user_0665	Amber Singh	3/15/2025	6:03:58	FailedPreconditionError	tf.errors.FailedPreconditionError	Error	Prerequisites not met for operation.	Wildlife Species Recognition System	preprocessImageData	214.14.129.28
+user_0666	William Rivers	3/14/2025	17:37:26	DataLossError	tf.errors.DataLossError	Error	Unrecoverable data loss encountered.	Security Threat Detection System	applyThreatDetectionModel	252.221.80.165
+user_0667	Haley Davies	4/26/2025	5:37:39	Dataset Conversion Error	CustomError	Error	Error converting dataset.	Wildlife Species Recognition System	generateSpeciesReport	99.151.164.92
+user_0668	Erica Johnson	4/29/2025	16:49:48	KeyError	builtins.KeyError	Error	Dictionary key not found.	Security Threat Detection System	archiveSurveillanceLogs	216.95.55.188
+user_0669	Jerry Smith	3/9/2025	11:17:02	InvalidArgumentError	tf.errors.InvalidArgumentError	Error	Invalid argument provided.	Security Threat Detection System	captureSurveillanceFrame	235.70.23.60
+user_0670	Michelle Hernandez	3/3/2025	5:17:46	Uninitialized Tensor	CustomError	Error	Tensor used before initialization.	Security Threat Detection System	identifyMovementPatterns	50.224.173.92
+user_0671	Kristi Smith	2/7/2025	21:25:41	OpError	tf.errors.OpError	Error	Base TensorFlow operation error.	Security Threat Detection System	captureSurveillanceFrame	11.102.233.122
+user_0672	Brian Schmidt	4/22/2025	23:57:31	Input Shape Mismatch	CustomError	Error	Input data shape doesn't match model expectation.	Security Threat Detection System	identifyMovementPatterns	88.172.220.161
+user_0673	Joshua Harris	2/27/2025	2:13:05	Shape Mismatch	CustomError	Error	Shape of input data mismatch.	Security Threat Detection System	filterNoiseFromImage	77.51.119.68
+user_0674	Stephanie Gonzalez	1/13/2025	8:46:22	Input Shape Mismatch	CustomError	Error	Input data shape doesn't match model expectation.	Wildlife Species Recognition System	applySpeciesModel	106.174.59.135
+user_0675	Jason Santiago	3/16/2025	11:07:54	Type Inference Error	CustomError	Error	Unable to infer tensor type.	Wildlife Species Recognition System	captureWildlifeImage	242.252.51.167
+user_0676	Eric Walker	1/18/2025	8:17:23	TypeError	builtins.TypeError	Error	Inappropriate type for operation.	Wildlife Species Recognition System	verifySpeciesMatch	247.109.137.152
+user_0677	Matthew Obrien	4/21/2025	9:09:28	Out-of-Range Index	CustomError	Error	Index out of valid range.	Security Threat Detection System	captureSurveillanceFrame	52.97.226.52
+user_0678	Roberto Franklin	3/11/2025	23:50:23	Unknown Loss Function	CustomError	Error	Loss function not recognized.	Security Threat Detection System	applyThreatDetectionModel	254.110.215.194
+user_0679	Christopher Klein	3/10/2025	1:58:31	FailedPreconditionError	tf.errors.FailedPreconditionError	Error	Prerequisites not met for operation.	Security Threat Detection System	identifyMovementPatterns	252.84.235.176
+user_0680	Julia Smith	2/4/2025	10:55:52	Undefined Symbol	CustomError	Error	Required symbol not defined.	Security Threat Detection System	alertSecurityPersonnel	231.71.34.5
+user_0681	Robert Garcia	3/11/2025	7:27:20	OutOfRangeError	tf.errors.OutOfRangeError	Error	Operation iterated past valid range.	Security Threat Detection System	classifyThreatCategory	124.163.114.204
+user_0682	Kathryn Davis	1/29/2025	1:18:52	MemoryError	builtins.MemoryError	Error	Operation ran out of memory.	Wildlife Species Recognition System	extractAnimalFeatures	248.113.108.177
+user_0683	Lawrence Irwin	1/15/2025	8:51:42	TypeError	builtins.TypeError	Error	Inappropriate type for operation.	Wildlife Species Recognition System	generateSpeciesReport	60.244.247.25
+user_0684	Dawn Gill	1/13/2025	6:21:01	Undefined Symbol	CustomError	Error	Required symbol not defined.	Wildlife Species Recognition System	logSpeciesData	156.128.174.178
+user_0685	Samuel Macias	4/28/2025	3:06:44	MemoryError	builtins.MemoryError	Error	Operation ran out of memory.	Wildlife Species Recognition System	logSpeciesData	84.221.194.36
+user_0686	Phillip Perry	4/4/2025	12:31:21	Undefined Symbol	CustomError	Error	Required symbol not defined.	Wildlife Species Recognition System	trackAnimalMovement	4.66.29.128
+user_0687	Gene Dunlap	3/31/2025	20:41:45	OpError	tf.errors.OpError	Error	Base TensorFlow operation error.	Security Threat Detection System	archiveSurveillanceLogs	150.97.198.34
+user_0688	Jessica Jones	4/8/2025	10:50:31	Out-of-Range Index	CustomError	Error	Index out of valid range.	Security Threat Detection System	applyThreatDetectionModel	108.72.228.17
+user_0689	William Smith	3/21/2025	18:10:51	Dataset Conversion Error	CustomError	Error	Error converting dataset.	Security Threat Detection System	classifyThreatCategory	57.212.204.201
+user_0690	Andrea Thompson	1/8/2025	16:19:28	Input Shape Mismatch	CustomError	Error	Input data shape doesn't match model expectation.	Security Threat Detection System	archiveSurveillanceLogs	43.150.235.237
+user_0691	Tracy West	2/20/2025	13:04:51	Shape Mismatch	CustomError	Error	Shape of input data mismatch.	Security Threat Detection System	classifyThreatCategory	147.82.26.142
+user_0692	Sean Acosta	4/7/2025	0:49:42	Data Type Mismatch	CustomError	Error	Input data type doesn't match expected type.	Wildlife Species Recognition System	logSpeciesData	183.72.49.127
+user_0693	David Baldwin	4/27/2025	19:06:20	UnavailableError	tf.errors.UnavailableError	Error	Runtime currently unavailable.	Security Threat Detection System	analyzeThreatIntensity	45.240.28.227
+user_0694	Jennifer King	3/29/2025	22:49:37	AbortedError	tf.errors.AbortedError	Error	Operation was aborted.	Security Threat Detection System	analyzeThreatIntensity	75.201.250.4
+user_0695	Lauren Brown	3/4/2025	23:29:49	OverflowError	builtins.OverflowError	Error	Arithmetic result too large.	Wildlife Species Recognition System	preprocessImageData	173.40.6.239
+user_0696	Kristopher Hawkins	2/3/2025	0:20:50	CancelledError	tf.errors.CancelledError	Error	Operation was cancelled.	Wildlife Species Recognition System	captureWildlifeImage	115.205.82.71
+user_0697	Tamara Hernandez	1/8/2025	18:45:48	StopIteration	builtins.StopIteration	Error	Iteration has no more items.	Wildlife Species Recognition System	logSpeciesData	69.248.129.62
+user_0698	Nicole Jennings	4/28/2025	16:28:14	GPU Memory Error	CustomError	Error	GPU ran out of memory.	Wildlife Species Recognition System	extractAnimalFeatures	173.153.130.201
+user_0699	Christopher Johnson	4/29/2025	9:14:22	AssertionError	builtins.AssertionError	Error	Assertion failed.	Wildlife Species Recognition System	extractAnimalFeatures	186.40.98.104
+user_0700	Samantha Becker	2/2/2025	15:02:48	FailedPreconditionError	tf.errors.FailedPreconditionError	Error	Prerequisites not met for operation.	Security Threat Detection System	analyzeThreatIntensity	66.71.99.234
+user_0701	Cynthia Pena	4/17/2025	6:47:11	NameError	builtins.NameError	Error	Name not found in namespace.	Wildlife Species Recognition System	verifySpeciesMatch	183.11.28.128
+user_0702	Eric Powell	1/23/2025	14:11:51	Uninitialized Tensor	CustomError	Error	Tensor used before initialization.	Security Threat Detection System	traceSuspiciousPath	203.75.220.49
+user_0703	Christina Owens	1/6/2025	0:33:48	AbortedError	tf.errors.AbortedError	Error	Operation was aborted.	Security Threat Detection System	captureSurveillanceFrame	71.88.152.213
+user_0704	Walter Burgess	4/9/2025	6:10:23	UnknownError	tf.errors.UnknownError	Error	Unknown error occurred.	Security Threat Detection System	identifyMovementPatterns	152.245.27.134
+user_0705	April Hunter	1/7/2025	22:42:46	Unknown Loss Function	CustomError	Error	Loss function not recognized.	Security Threat Detection System	analyzeThreatIntensity	206.152.233.241
+user_0706	Karen Buchanan	3/1/2025	16:32:26	Shape Mismatch	CustomError	Error	Shape of input data mismatch.	Wildlife Species Recognition System	captureWildlifeImage	175.140.102.92
+user_0707	Sarah Green	2/9/2025	17:28:44	Type Inference Error	CustomError	Error	Unable to infer tensor type.	Wildlife Species Recognition System	generateSpeciesReport	94.236.176.186
+user_0708	Jared Barry	1/29/2025	10:05:02	Uninitialized Tensor	CustomError	Error	Tensor used before initialization.	Wildlife Species Recognition System	extractAnimalFeatures	253.42.43.132
+user_0709	Mark Hayes	2/14/2025	3:16:23	RuntimeError	builtins.RuntimeError	Error	General runtime error.	Security Threat Detection System	applyThreatDetectionModel	85.234.116.218
+user_0710	Timothy Price	1/6/2025	16:35:52	AttributeError	builtins.AttributeError	Error	Attribute reference failed.	Security Threat Detection System	identifyMovementPatterns	207.46.35.114
+user_0711	Antonio Ryan	4/16/2025	15:37:23	Shape Mismatch	CustomError	Error	Shape of input data mismatch.	Security Threat Detection System	traceSuspiciousPath	119.132.190.112
+user_0712	Tiffany Faulkner	3/17/2025	3:13:04	OperatorNotAllowedInGraphError	tf.errors.OperatorNotAllowedInGraphError	Error	Unsupported operator in graph execution.	Wildlife Species Recognition System	generateSpeciesReport	221.187.160.84
+user_0713	Karla Howard	2/20/2025	4:34:23	TypeError	builtins.TypeError	Error	Inappropriate type for operation.	Wildlife Species Recognition System	analyzeHabitatContext	139.210.228.208
+user_0714	Ashley Burke	2/26/2025	7:25:45	Shape Mismatch	CustomError	Error	Shape of input data mismatch.	Security Threat Detection System	traceSuspiciousPath	196.223.50.120
+user_0715	Michael Fox	4/21/2025	20:46:27	ResourceExhaustedError	tf.errors.ResourceExhaustedError	Error	Resource exhaustion during operation.	Security Threat Detection System	alertSecurityPersonnel	142.167.240.117
+user_0716	Jose Parker	1/22/2025	21:37:33	UnauthenticatedError	tf.errors.UnauthenticatedError	Error	Invalid authentication credentials.	Wildlife Species Recognition System	captureWildlifeImage	74.31.98.209
+user_0717	Emma Goodman	3/28/2025	19:11:30	UnauthenticatedError	tf.errors.UnauthenticatedError	Error	Invalid authentication credentials.	Wildlife Species Recognition System	analyzeHabitatContext	92.47.117.78
+user_0718	John Montgomery	3/16/2025	11:05:18	AttributeError	builtins.AttributeError	Error	Attribute reference failed.	Security Threat Detection System	captureSurveillanceFrame	26.147.47.10
+user_0719	Misty Foster	2/16/2025	13:50:15	NotFoundError	tf.errors.NotFoundError	Error	Requested entity not found.	Wildlife Species Recognition System	extractAnimalFeatures	130.21.137.65
+user_0720	Stacey Miller	3/12/2025	15:21:14	Type Inference Error	CustomError	Error	Unable to infer tensor type.	Security Threat Detection System	analyzeThreatIntensity	249.147.36.7
+user_0721	Brian Mckay	2/22/2025	11:17:23	UnauthenticatedError	tf.errors.UnauthenticatedError	Error	Invalid authentication credentials.	Wildlife Species Recognition System	segmentAnimalFromBackground	120.88.48.5
+user_0722	Melanie Ruiz	4/4/2025	8:43:28	Resource Exhaustion	CustomError	Error	Insufficient resources for operation.	Security Threat Detection System	applyThreatDetectionModel	67.168.233.152
+user_0723	Todd Kim MD	1/15/2025	0:35:52	Shape Mismatch	CustomError	Error	Shape of input data mismatch.	Security Threat Detection System	classifyThreatCategory	55.230.129.203
+user_0724	Denise Weber	3/17/2025	11:51:46	PermissionDeniedError	tf.errors.PermissionDeniedError	Error	Permission denied for operation.	Security Threat Detection System	classifyThreatCategory	168.42.66.235
+user_0725	Alexander Mills	2/5/2025	0:12:05	Resource Exhaustion	CustomError	Error	Insufficient resources for operation.	Security Threat Detection System	identifyMovementPatterns	250.39.105.12
+user_0726	Kenneth Miller	1/4/2025	15:16:46	UnimplementedError	tf.errors.UnimplementedError	Error	Operation not implemented.	Wildlife Species Recognition System	generateSpeciesReport	110.251.122.129
+user_0727	Bobby Lopez	4/20/2025	17:23:14	DeprecationWarning	builtins.DeprecationWarning	Warning	Feature is deprecated.	Security Threat Detection System	classifyThreatCategory	57.17.126.141
+user_0728	Bryan Hill	4/21/2025	9:14:45	DeadlineExceededError	tf.errors.DeadlineExceededError	Error	Operation deadline exceeded.	Wildlife Species Recognition System	verifySpeciesMatch	64.108.66.219
+user_0729	Michael Riggs	3/10/2025	5:15:35	Resource Exhaustion	CustomError	Error	Insufficient resources for operation.	Wildlife Species Recognition System	logSpeciesData	201.24.125.175
+user_0730	Alexandria Singleton	2/16/2025	4:57:16	OperatorNotAllowedInGraphError	tf.errors.OperatorNotAllowedInGraphError	Error	Unsupported operator in graph execution.	Wildlife Species Recognition System	applySpeciesModel	83.73.247.190
+user_0731	Lori Cook	4/1/2025	23:54:41	Unknown Loss Function	CustomError	Error	Loss function not recognized.	Security Threat Detection System	identifyMovementPatterns	36.145.54.108
+user_0732	Keith Costa	1/17/2025	21:28:41	FailedPreconditionError	tf.errors.FailedPreconditionError	Error	Prerequisites not met for operation.	Security Threat Detection System	captureSurveillanceFrame	69.92.61.145
+user_0733	Sandra Bell	3/5/2025	11:27:28	FailedPreconditionError	tf.errors.FailedPreconditionError	Error	Prerequisites not met for operation.	Security Threat Detection System	captureSurveillanceFrame	228.109.97.97
+user_0734	Ms. Natasha Wilson	2/3/2025	15:46:21	UnknownError	tf.errors.UnknownError	Error	Unknown error occurred.	Security Threat Detection System	identifyMovementPatterns	89.10.232.3
+user_0735	Mr. Vincent Mathews II	1/28/2025	8:09:51	FailedPreconditionError	tf.errors.FailedPreconditionError	Error	Prerequisites not met for operation.	Security Threat Detection System	analyzeThreatIntensity	201.217.63.218
+user_0736	Tracy Gentry	1/22/2025	2:17:24	CancelledError	tf.errors.CancelledError	Error	Operation was cancelled.	Security Threat Detection System	alertSecurityPersonnel	203.193.52.210
+user_0737	Jennifer Payne	3/28/2025	17:54:49	CancelledError	tf.errors.CancelledError	Error	Operation was cancelled.	Wildlife Species Recognition System	extractAnimalFeatures	3.3.246.178
+user_0738	Kathleen Stone	3/15/2025	12:17:53	KeyError	builtins.KeyError	Error	Dictionary key not found.	Wildlife Species Recognition System	analyzeHabitatContext	19.186.237.43
+user_0739	Dylan Conner MD	3/9/2025	4:19:38	ZeroDivisionError	builtins.ZeroDivisionError	Error	Division or modulo by zero.	Security Threat Detection System	detectIntrusiveObjects	63.68.73.91
+user_0740	Jeffrey Smith	2/26/2025	8:43:14	RuntimeError	builtins.RuntimeError	Error	General runtime error.	Security Threat Detection System	traceSuspiciousPath	187.9.18.60
+user_0741	Nichole Hill	3/16/2025	16:35:18	AttributeError	builtins.AttributeError	Error	Attribute reference failed.	Wildlife Species Recognition System	analyzeHabitatContext	143.247.67.2
+user_0742	Christine Gomez	2/27/2025	18:24:25	UnimplementedError	tf.errors.UnimplementedError	Error	Operation not implemented.	Security Threat Detection System	traceSuspiciousPath	197.44.93.245
+user_0743	Aaron Wilson	4/15/2025	11:28:31	Input Shape Mismatch	CustomError	Error	Input data shape doesn't match model expectation.	Wildlife Species Recognition System	preprocessImageData	169.209.220.251
+user_0744	Jillian Barajas	2/14/2025	3:24:44	Out-of-Range Index	CustomError	Error	Index out of valid range.	Wildlife Species Recognition System	analyzeHabitatContext	204.198.166.211
+user_0745	Brandon Howard	2/12/2025	6:32:50	Unknown Loss Function	CustomError	Error	Loss function not recognized.	Wildlife Species Recognition System	extractAnimalFeatures	154.50.46.143
+user_0746	Daniel Sexton	3/25/2025	22:49:13	IndexError	builtins.IndexError	Error	Sequence index out of range.	Security Threat Detection System	applyThreatDetectionModel	120.234.182.229
+user_0747	Dennis Weber	3/3/2025	8:21:02	StopIteration	builtins.StopIteration	Error	Iteration has no more items.	Wildlife Species Recognition System	preprocessImageData	254.136.254.128
+user_0748	Robin Lopez	2/28/2025	7:25:54	UnavailableError	tf.errors.UnavailableError	Error	Runtime currently unavailable.	Security Threat Detection System	archiveSurveillanceLogs	172.30.3.13
+user_0749	James Case	4/13/2025	20:26:11	KeyError	builtins.KeyError	Error	Dictionary key not found.	Wildlife Species Recognition System	analyzeHabitatContext	84.42.13.38
+user_0750	Cassidy Hart	2/24/2025	11:23:29	ValueError	builtins.ValueError	Error	Inappropriate value passed to function.	Wildlife Species Recognition System	preprocessImageData	143.175.112.252
+user_0751	Chris Hall	1/7/2025	13:59:11	KeyError	builtins.KeyError	Error	Dictionary key not found.	Wildlife Species Recognition System	analyzeHabitatContext	39.39.45.130
+user_0752	Todd Brown	1/29/2025	18:47:29	InternalError	tf.errors.InternalError	Error	Internal system error.	Wildlife Species Recognition System	analyzeHabitatContext	84.149.23.76
+user_0753	Laura Duffy	1/15/2025	14:16:44	Out-of-Range Index	CustomError	Error	Index out of valid range.	Security Threat Detection System	applyThreatDetectionModel	83.146.102.74
+user_0754	Thomas Hall	2/4/2025	10:22:56	UnknownError	tf.errors.UnknownError	Error	Unknown error occurred.	Security Threat Detection System	detectIntrusiveObjects	213.203.65.73
+user_0755	Thomas Cole	4/22/2025	23:55:54	NotFoundError	tf.errors.NotFoundError	Error	Requested entity not found.	Security Threat Detection System	classifyThreatCategory	12.182.148.125
+user_0756	Kelly Weeks	3/19/2025	15:12:01	KeyError	builtins.KeyError	Error	Dictionary key not found.	Security Threat Detection System	detectIntrusiveObjects	176.168.20.56
+user_0757	Paula Webb	3/18/2025	13:27:10	CancelledError	tf.errors.CancelledError	Error	Operation was cancelled.	Wildlife Species Recognition System	generateSpeciesReport	139.6.170.78
+user_0758	Jennifer Harrison	2/17/2025	23:04:25	UnimplementedError	tf.errors.UnimplementedError	Error	Operation not implemented.	Security Threat Detection System	classifyThreatCategory	65.202.127.176
+user_0759	Diana Hester	2/20/2025	23:23:30	NameError	builtins.NameError	Error	Name not found in namespace.	Security Threat Detection System	classifyThreatCategory	247.35.189.119
+user_0760	Todd Wang	1/27/2025	20:53:38	Input Shape Mismatch	CustomError	Error	Input data shape doesn't match model expectation.	Security Threat Detection System	applyThreatDetectionModel	54.235.222.224
+user_0761	Victoria Brown	1/30/2025	21:39:54	OverflowError	builtins.OverflowError	Error	Arithmetic result too large.	Wildlife Species Recognition System	preprocessImageData	160.197.148.62
+user_0762	Casey Myers	2/6/2025	6:40:51	AbortedError	tf.errors.AbortedError	Error	Operation was aborted.	Wildlife Species Recognition System	applySpeciesModel	34.246.72.149
+user_0763	Benjamin Sanders	2/3/2025	10:44:00	KeyError	builtins.KeyError	Error	Dictionary key not found.	Wildlife Species Recognition System	generateSpeciesReport	37.160.182.14
+user_0764	Leslie Stevens	1/11/2025	0:57:40	Type Inference Error	CustomError	Error	Unable to infer tensor type.	Security Threat Detection System	applyThreatDetectionModel	38.105.236.172
+user_0765	Kathleen Wright	1/24/2025	22:04:01	InternalError	tf.errors.InternalError	Error	Internal system error.	Security Threat Detection System	applyThreatDetectionModel	191.232.81.214
+user_0766	Mr. Austin Vasquez	3/5/2025	20:33:22	KeyError	builtins.KeyError	Error	Dictionary key not found.	Wildlife Species Recognition System	trackAnimalMovement	38.138.112.1
+user_0767	Laurie Harris	2/3/2025	19:40:54	MemoryError	builtins.MemoryError	Error	Operation ran out of memory.	Security Threat Detection System	alertSecurityPersonnel	75.192.65.176
+user_0768	Courtney Schaefer	4/28/2025	19:13:27	StopIteration	builtins.StopIteration	Error	Iteration has no more items.	Security Threat Detection System	detectIntrusiveObjects	148.144.11.82
+user_0769	Joseph Hubbard	2/14/2025	15:26:52	Input Shape Mismatch	CustomError	Error	Input data shape doesn't match model expectation.	Wildlife Species Recognition System	generateSpeciesReport	33.243.68.117
+user_0770	Beverly Stuart	1/1/2025	7:18:30	CancelledError	tf.errors.CancelledError	Error	Operation was cancelled.	Wildlife Species Recognition System	applySpeciesModel	228.198.10.249
+user_0771	Brian Rogers	3/29/2025	19:54:45	Data Type Mismatch	CustomError	Error	Input data type doesn't match expected type.	Security Threat Detection System	archiveSurveillanceLogs	191.119.128.5
+user_0772	Henry Green	2/9/2025	22:27:42	OperatorNotAllowedInGraphError	tf.errors.OperatorNotAllowedInGraphError	Error	Unsupported operator in graph execution.	Wildlife Species Recognition System	preprocessImageData	240.227.230.237
+user_0773	Zachary Harris	3/8/2025	13:34:09	ValueError	builtins.ValueError	Error	Inappropriate value passed to function.	Security Threat Detection System	identifyMovementPatterns	241.138.9.131
+user_0774	Melissa Harris	3/6/2025	7:51:40	UnimplementedError	tf.errors.UnimplementedError	Error	Operation not implemented.	Security Threat Detection System	traceSuspiciousPath	183.192.99.145
+user_0775	Sharon Whitney	3/14/2025	14:24:57	InvalidArgumentError	tf.errors.InvalidArgumentError	Error	Invalid argument provided.	Wildlife Species Recognition System	analyzeHabitatContext	129.41.219.191
+user_0776	Jessica Singleton	4/20/2025	22:00:47	ResourceExhaustedError	tf.errors.ResourceExhaustedError	Error	Resource exhaustion during operation.	Wildlife Species Recognition System	extractAnimalFeatures	44.187.74.64
+user_0777	Joshua Perez	2/1/2025	16:50:09	OutOfRangeError	tf.errors.OutOfRangeError	Error	Operation iterated past valid range.	Wildlife Species Recognition System	generateSpeciesReport	169.136.178.156
+user_0778	Caitlyn Fisher	4/30/2025	13:10:05	ImportError	builtins.ImportError	Error	Module import failed.	Wildlife Species Recognition System	analyzeHabitatContext	79.89.244.139
+user_0779	Katelyn Thornton	4/11/2025	5:16:24	Undefined Symbol	CustomError	Error	Required symbol not defined.	Wildlife Species Recognition System	logSpeciesData	241.62.86.161
+user_0780	Stephanie Haynes	4/5/2025	17:20:40	AbortedError	tf.errors.AbortedError	Error	Operation was aborted.	Wildlife Species Recognition System	verifySpeciesMatch	32.168.169.8
+user_0781	Jacqueline Brewer	1/22/2025	10:19:06	TypeError	builtins.TypeError	Error	Inappropriate type for operation.	Security Threat Detection System	classifyThreatCategory	22.151.99.253
+user_0782	Brittany Hayes	3/20/2025	2:48:00	ResourceExhaustedError	tf.errors.ResourceExhaustedError	Error	Resource exhaustion during operation.	Wildlife Species Recognition System	captureWildlifeImage	4.148.241.111
+user_0783	Tiffany Johnson	4/2/2025	8:48:04	UnauthenticatedError	tf.errors.UnauthenticatedError	Error	Invalid authentication credentials.	Security Threat Detection System	analyzeThreatIntensity	89.242.27.182
+user_0784	Gary Malone	2/19/2025	21:06:08	CancelledError	tf.errors.CancelledError	Error	Operation was cancelled.	Wildlife Species Recognition System	preprocessImageData	29.183.104.62
+user_0785	Jeffrey Edwards	4/11/2025	7:26:39	FailedPreconditionError	tf.errors.FailedPreconditionError	Error	Prerequisites not met for operation.	Wildlife Species Recognition System	logSpeciesData	247.129.172.131
+user_0786	Caitlin Becker	2/20/2025	2:36:13	UnavailableError	tf.errors.UnavailableError	Error	Runtime currently unavailable.	Security Threat Detection System	captureSurveillanceFrame	5.157.119.55
+user_0787	Javier Taylor	3/13/2025	19:36:33	MemoryError	builtins.MemoryError	Error	Operation ran out of memory.	Wildlife Species Recognition System	trackAnimalMovement	149.112.57.28
+user_0788	Michele Roman	4/15/2025	12:06:35	UnauthenticatedError	tf.errors.UnauthenticatedError	Error	Invalid authentication credentials.	Wildlife Species Recognition System	trackAnimalMovement	27.93.16.42
+user_0789	Anthony Lee	3/29/2025	14:53:45	Type Inference Error	CustomError	Error	Unable to infer tensor type.	Wildlife Species Recognition System	logSpeciesData	15.195.186.71
+user_0790	Antonio Pollard	3/28/2025	22:15:10	DeadlineExceededError	tf.errors.DeadlineExceededError	Error	Operation deadline exceeded.	Wildlife Species Recognition System	captureWildlifeImage	239.143.245.48
+user_0791	Denise Watson	3/24/2025	10:29:51	AlreadyExistsError	tf.errors.AlreadyExistsError	Error	Entity already exists.	Security Threat Detection System	identifyMovementPatterns	225.176.201.90
+user_0792	Jessica Phillips	2/18/2025	22:53:59	InvalidArgumentError	tf.errors.InvalidArgumentError	Error	Invalid argument provided.	Security Threat Detection System	archiveSurveillanceLogs	39.233.107.32
+user_0793	Donna Johnson	3/8/2025	3:57:58	OperatorNotAllowedInGraphError	tf.errors.OperatorNotAllowedInGraphError	Error	Unsupported operator in graph execution.	Wildlife Species Recognition System	preprocessImageData	42.158.4.7
+user_0794	Emily Day	4/6/2025	16:30:17	NameError	builtins.NameError	Error	Name not found in namespace.	Security Threat Detection System	identifyMovementPatterns	162.99.140.213
+user_0795	Anthony Lee	4/20/2025	6:52:38	OperatorNotAllowedInGraphError	tf.errors.OperatorNotAllowedInGraphError	Error	Unsupported operator in graph execution.	Security Threat Detection System	alertSecurityPersonnel	26.236.152.32
+user_0796	Joe Dunn	3/24/2025	8:19:25	CancelledError	tf.errors.CancelledError	Error	Operation was cancelled.	Security Threat Detection System	alertSecurityPersonnel	32.27.102.93
+user_0797	Lisa Baxter DDS	1/2/2025	6:01:55	OutOfRangeError	tf.errors.OutOfRangeError	Error	Operation iterated past valid range.	Wildlife Species Recognition System	applySpeciesModel	203.193.203.241
+user_0798	Courtney Bell	2/24/2025	11:13:38	ValueError	builtins.ValueError	Error	Inappropriate value passed to function.	Wildlife Species Recognition System	segmentAnimalFromBackground	199.148.246.68
+user_0799	Julie Proctor	2/19/2025	13:36:33	InvalidArgumentError	tf.errors.InvalidArgumentError	Error	Invalid argument provided.	Wildlife Species Recognition System	trackAnimalMovement	172.170.91.133
+user_0800	Robert Estes	3/29/2025	6:21:49	Data Type Mismatch	CustomError	Error	Input data type doesn't match expected type.	Wildlife Species Recognition System	verifySpeciesMatch	81.219.220.224
+user_0801	Heather Martin	1/2/2025	22:29:31	OpError	tf.errors.OpError	Error	Base TensorFlow operation error.	Security Threat Detection System	detectIntrusiveObjects	21.66.187.207
+user_0802	Barbara Burns	3/27/2025	18:06:06	AssertionError	builtins.AssertionError	Error	Assertion failed.	Wildlife Species Recognition System	analyzeHabitatContext	244.5.198.83
+user_0803	Anthony Clark	3/27/2025	5:50:51	PermissionDeniedError	tf.errors.PermissionDeniedError	Error	Permission denied for operation.	Security Threat Detection System	analyzeThreatIntensity	60.49.40.231
+user_0804	David Arnold	4/25/2025	8:51:59	AttributeError	builtins.AttributeError	Error	Attribute reference failed.	Wildlife Species Recognition System	analyzeHabitatContext	235.87.244.138
+user_0805	Michael Castro	3/2/2025	11:38:34	UnavailableError	tf.errors.UnavailableError	Error	Runtime currently unavailable.	Wildlife Species Recognition System	verifySpeciesMatch	168.179.45.217
+user_0806	Travis Reyes	2/19/2025	13:28:11	MemoryError	builtins.MemoryError	Error	Operation ran out of memory.	Security Threat Detection System	detectIntrusiveObjects	198.229.128.116
+user_0807	Deborah Galvan	3/15/2025	5:13:54	Input Shape Mismatch	CustomError	Error	Input data shape doesn't match model expectation.	Wildlife Species Recognition System	verifySpeciesMatch	119.72.87.224
+user_0808	Robert Davidson	2/5/2025	3:14:27	KeyError	builtins.KeyError	Error	Dictionary key not found.	Security Threat Detection System	filterNoiseFromImage	224.232.128.153
+user_0809	Michael Anderson	2/17/2025	17:36:22	GPU Memory Error	CustomError	Error	GPU ran out of memory.	Wildlife Species Recognition System	applySpeciesModel	148.62.32.84
+user_0810	Jeanne Gomez	2/9/2025	8:20:57	OutOfRangeError	tf.errors.OutOfRangeError	Error	Operation iterated past valid range.	Security Threat Detection System	traceSuspiciousPath	162.70.145.116
+user_0811	Kayla Johnson	1/26/2025	1:01:23	CancelledError	tf.errors.CancelledError	Error	Operation was cancelled.	Security Threat Detection System	alertSecurityPersonnel	153.15.23.2
+user_0812	Edward Edwards	2/12/2025	3:35:52	InternalError	tf.errors.InternalError	Error	Internal system error.	Wildlife Species Recognition System	generateSpeciesReport	191.6.123.48
+user_0813	Joshua Richard	3/14/2025	11:05:14	UnknownError	tf.errors.UnknownError	Error	Unknown error occurred.	Security Threat Detection System	detectIntrusiveObjects	124.20.81.83
+user_0814	Todd Walker	1/12/2025	23:40:36	UnauthenticatedError	tf.errors.UnauthenticatedError	Error	Invalid authentication credentials.	Wildlife Species Recognition System	analyzeHabitatContext	130.78.29.36
+user_0815	Charles Paul	4/11/2025	10:23:27	ImportError	builtins.ImportError	Error	Module import failed.	Security Threat Detection System	filterNoiseFromImage	104.77.210.233
+user_0816	John Romero	1/17/2025	3:59:22	Undefined Symbol	CustomError	Error	Required symbol not defined.	Wildlife Species Recognition System	generateSpeciesReport	76.133.19.235
+user_0817	Dana Woods	4/26/2025	2:21:48	InternalError	tf.errors.InternalError	Error	Internal system error.	Wildlife Species Recognition System	segmentAnimalFromBackground	128.80.213.149
+user_0818	Shelby Mckay	4/14/2025	13:10:46	TypeError	builtins.TypeError	Error	Inappropriate type for operation.	Security Threat Detection System	traceSuspiciousPath	39.82.59.190
+user_0819	Matthew Simpson	1/31/2025	23:06:55	OperatorNotAllowedInGraphError	tf.errors.OperatorNotAllowedInGraphError	Error	Unsupported operator in graph execution.	Security Threat Detection System	filterNoiseFromImage	114.30.210.205
+user_0820	William Stewart	3/8/2025	17:22:07	KeyError	builtins.KeyError	Error	Dictionary key not found.	Security Threat Detection System	filterNoiseFromImage	48.76.234.178
+user_0821	Paul Campbell	3/10/2025	0:10:43	OverflowError	builtins.OverflowError	Error	Arithmetic result too large.	Wildlife Species Recognition System	captureWildlifeImage	106.184.50.158
+user_0822	Catherine Thomas	2/18/2025	0:04:22	OperatorNotAllowedInGraphError	tf.errors.OperatorNotAllowedInGraphError	Error	Unsupported operator in graph execution.	Wildlife Species Recognition System	logSpeciesData	106.77.70.201
+user_0823	Sydney Aguilar	3/21/2025	17:40:18	OperatorNotAllowedInGraphError	tf.errors.OperatorNotAllowedInGraphError	Error	Unsupported operator in graph execution.	Wildlife Species Recognition System	logSpeciesData	91.75.119.80
+user_0824	Richard Brown DDS	4/4/2025	11:30:47	PermissionDeniedError	tf.errors.PermissionDeniedError	Error	Permission denied for operation.	Wildlife Species Recognition System	logSpeciesData	135.167.234.137
+user_0825	James Acevedo	4/26/2025	14:11:20	Input Shape Mismatch	CustomError	Error	Input data shape doesn't match model expectation.	Security Threat Detection System	traceSuspiciousPath	172.243.133.37
+user_0826	Andrea Harper	4/30/2025	18:19:18	DataLossError	tf.errors.DataLossError	Error	Unrecoverable data loss encountered.	Wildlife Species Recognition System	verifySpeciesMatch	90.197.231.49
+user_0827	Pamela Smith	4/13/2025	10:56:03	UnknownError	tf.errors.UnknownError	Error	Unknown error occurred.	Wildlife Species Recognition System	captureWildlifeImage	245.89.17.124
+user_0828	Dr. Allen Maldonado	1/13/2025	23:19:12	CancelledError	tf.errors.CancelledError	Error	Operation was cancelled.	Wildlife Species Recognition System	verifySpeciesMatch	216.148.136.102
+user_0829	Sherry Parrish	1/15/2025	5:51:09	AttributeError	builtins.AttributeError	Error	Attribute reference failed.	Security Threat Detection System	detectIntrusiveObjects	3.240.205.179
+user_0830	Adrian Torres	3/20/2025	21:44:09	Out-of-Range Index	CustomError	Error	Index out of valid range.	Security Threat Detection System	detectIntrusiveObjects	10.235.27.102
+user_0831	Angela Stevenson	2/6/2025	6:23:32	ValueError	builtins.ValueError	Error	Inappropriate value passed to function.	Security Threat Detection System	traceSuspiciousPath	249.129.81.37
+user_0832	Wendy Schneider	1/12/2025	23:32:48	NotFoundError	tf.errors.NotFoundError	Error	Requested entity not found.	Wildlife Species Recognition System	analyzeHabitatContext	230.237.87.30
+user_0833	Sarah Smith	3/5/2025	2:05:39	UnavailableError	tf.errors.UnavailableError	Error	Runtime currently unavailable.	Wildlife Species Recognition System	applySpeciesModel	202.96.26.219
+user_0834	Kenneth Hester	1/31/2025	11:33:32	DeprecationWarning	builtins.DeprecationWarning	Warning	Feature is deprecated.	Wildlife Species Recognition System	captureWildlifeImage	143.11.236.246
+user_0835	James Mccarthy	3/19/2025	5:19:23	StopIteration	builtins.StopIteration	Error	Iteration has no more items.	Security Threat Detection System	archiveSurveillanceLogs	50.26.104.42
+user_0836	Steven Carter	2/1/2025	20:26:25	PermissionDeniedError	tf.errors.PermissionDeniedError	Error	Permission denied for operation.	Wildlife Species Recognition System	logSpeciesData	179.218.56.5
+user_0837	Ryan Montoya	4/17/2025	14:37:28	Shape Mismatch	CustomError	Error	Shape of input data mismatch.	Security Threat Detection System	alertSecurityPersonnel	192.36.225.27
+user_0838	James Stephens	2/19/2025	8:08:16	AlreadyExistsError	tf.errors.AlreadyExistsError	Error	Entity already exists.	Wildlife Species Recognition System	logSpeciesData	58.200.144.23
+user_0839	Adam Pham	4/27/2025	10:48:08	TypeError	builtins.TypeError	Error	Inappropriate type for operation.	Wildlife Species Recognition System	captureWildlifeImage	105.46.245.24
+user_0840	Dr. Kelly Powers	1/27/2025	22:53:22	IndexError	builtins.IndexError	Error	Sequence index out of range.	Security Threat Detection System	filterNoiseFromImage	154.215.78.250
+user_0841	Matthew Dean	1/9/2025	2:26:17	OperatorNotAllowedInGraphError	tf.errors.OperatorNotAllowedInGraphError	Error	Unsupported operator in graph execution.	Wildlife Species Recognition System	trackAnimalMovement	232.15.207.50
+user_0842	Terry Wilson	1/4/2025	14:09:43	OpError	tf.errors.OpError	Error	Base TensorFlow operation error.	Security Threat Detection System	archiveSurveillanceLogs	221.53.132.222
+user_0843	Jean Gonzalez	3/12/2025	15:48:01	OutOfRangeError	tf.errors.OutOfRangeError	Error	Operation iterated past valid range.	Security Threat Detection System	analyzeThreatIntensity	120.174.151.54
+user_0844	Natasha Kelly	3/26/2025	22:58:26	MemoryError	builtins.MemoryError	Error	Operation ran out of memory.	Wildlife Species Recognition System	segmentAnimalFromBackground	223.226.13.65
+user_0845	Brian Hughes	2/6/2025	3:55:26	Out-of-Range Index	CustomError	Error	Index out of valid range.	Security Threat Detection System	applyThreatDetectionModel	137.157.127.247
+user_0846	Jill Wilcox	2/8/2025	21:42:36	Shape Mismatch	CustomError	Error	Shape of input data mismatch.	Wildlife Species Recognition System	extractAnimalFeatures	135.111.43.5
+user_0847	Ashley Rivera	3/1/2025	20:17:03	IndexError	builtins.IndexError	Error	Sequence index out of range.	Security Threat Detection System	identifyMovementPatterns	108.9.112.182
+user_0848	Karina Scott	4/24/2025	12:23:23	Input Shape Mismatch	CustomError	Error	Input data shape doesn't match model expectation.	Security Threat Detection System	classifyThreatCategory	118.231.44.20
+user_0849	Phillip Williams	4/1/2025	18:12:26	InvalidArgumentError	tf.errors.InvalidArgumentError	Error	Invalid argument provided.	Security Threat Detection System	detectIntrusiveObjects	215.181.222.103
+user_0850	Drew Steele	3/14/2025	21:55:45	Type Inference Error	CustomError	Error	Unable to infer tensor type.	Wildlife Species Recognition System	trackAnimalMovement	101.243.54.61
+user_0851	Timothy Anderson	4/26/2025	12:09:14	AbortedError	tf.errors.AbortedError	Error	Operation was aborted.	Wildlife Species Recognition System	extractAnimalFeatures	49.222.121.251
+user_0852	Michael Leach	3/26/2025	12:28:45	InternalError	tf.errors.InternalError	Error	Internal system error.	Security Threat Detection System	classifyThreatCategory	93.132.201.143
+user_0853	Mr. Benjamin Jackson DVM	4/15/2025	6:39:32	DeadlineExceededError	tf.errors.DeadlineExceededError	Error	Operation deadline exceeded.	Security Threat Detection System	applyThreatDetectionModel	12.45.60.192
+user_0854	Amy Wright	1/25/2025	22:31:37	AbortedError	tf.errors.AbortedError	Error	Operation was aborted.	Wildlife Species Recognition System	captureWildlifeImage	199.146.97.13
+user_0855	Jeffrey Rubio	4/30/2025	18:09:23	InvalidArgumentError	tf.errors.InvalidArgumentError	Error	Invalid argument provided.	Wildlife Species Recognition System	analyzeHabitatContext	136.226.187.27
+user_0856	Sharon Smith	1/6/2025	10:06:25	Undefined Symbol	CustomError	Error	Required symbol not defined.	Security Threat Detection System	archiveSurveillanceLogs	173.249.77.85
+user_0857	Kimberly Clarke	1/16/2025	1:33:36	UnavailableError	tf.errors.UnavailableError	Error	Runtime currently unavailable.	Wildlife Species Recognition System	extractAnimalFeatures	14.100.103.16
+user_0858	Blake Vargas	2/16/2025	23:43:34	UnknownError	tf.errors.UnknownError	Error	Unknown error occurred.	Wildlife Species Recognition System	verifySpeciesMatch	168.153.223.237
+user_0859	Michael Meyer	1/25/2025	6:29:19	UnknownError	tf.errors.UnknownError	Error	Unknown error occurred.	Security Threat Detection System	detectIntrusiveObjects	31.162.223.41
+user_0860	Billy Hester	3/2/2025	19:44:00	UnauthenticatedError	tf.errors.UnauthenticatedError	Error	Invalid authentication credentials.	Wildlife Species Recognition System	analyzeHabitatContext	121.234.162.212
+user_0861	Susan Landry	3/1/2025	5:56:15	InternalError	tf.errors.InternalError	Error	Internal system error.	Wildlife Species Recognition System	trackAnimalMovement	32.49.207.139
+user_0862	Cory Buck	4/6/2025	8:06:20	AbortedError	tf.errors.AbortedError	Error	Operation was aborted.	Security Threat Detection System	applyThreatDetectionModel	225.210.105.15
+user_0863	Lisa Reyes	3/4/2025	23:31:37	DataLossError	tf.errors.DataLossError	Error	Unrecoverable data loss encountered.	Wildlife Species Recognition System	trackAnimalMovement	226.168.26.190
+user_0864	Rachel Lara	1/15/2025	2:49:32	PermissionDeniedError	tf.errors.PermissionDeniedError	Error	Permission denied for operation.	Wildlife Species Recognition System	analyzeHabitatContext	64.19.180.214
+user_0865	Jennifer Roberts	2/3/2025	13:24:54	TypeError	builtins.TypeError	Error	Inappropriate type for operation.	Security Threat Detection System	applyThreatDetectionModel	238.136.174.81
+user_0866	Sarah Nguyen	4/15/2025	17:36:12	Unknown Loss Function	CustomError	Error	Loss function not recognized.	Security Threat Detection System	identifyMovementPatterns	124.162.87.134
+user_0867	Shelby Jones	1/31/2025	21:08:09	AbortedError	tf.errors.AbortedError	Error	Operation was aborted.	Security Threat Detection System	filterNoiseFromImage	100.6.180.79
+user_0868	Amanda Becker	4/4/2025	11:15:15	Dataset Conversion Error	CustomError	Error	Error converting dataset.	Security Threat Detection System	classifyThreatCategory	151.149.54.242
+user_0869	Jodi Ryan	1/27/2025	9:31:43	Uninitialized Tensor	CustomError	Error	Tensor used before initialization.	Wildlife Species Recognition System	applySpeciesModel	52.123.216.14
+user_0870	Olivia Saunders	2/8/2025	21:15:24	Type Inference Error	CustomError	Error	Unable to infer tensor type.	Wildlife Species Recognition System	segmentAnimalFromBackground	176.197.178.203
+user_0871	Arthur Ross	2/1/2025	1:28:29	Uninitialized Tensor	CustomError	Error	Tensor used before initialization.	Security Threat Detection System	captureSurveillanceFrame	55.216.95.152
+user_0872	Melanie Bennett	2/23/2025	17:38:10	KeyError	builtins.KeyError	Error	Dictionary key not found.	Security Threat Detection System	filterNoiseFromImage	179.122.128.143
+user_0873	Keith Torres	3/10/2025	1:12:59	ZeroDivisionError	builtins.ZeroDivisionError	Error	Division or modulo by zero.	Security Threat Detection System	applyThreatDetectionModel	49.222.203.25
+user_0874	Teresa Sullivan	4/5/2025	1:16:18	OpError	tf.errors.OpError	Error	Base TensorFlow operation error.	Security Threat Detection System	captureSurveillanceFrame	28.189.66.28
+user_0875	Nicholas Freeman	1/23/2025	10:21:38	UnknownError	tf.errors.UnknownError	Error	Unknown error occurred.	Wildlife Species Recognition System	verifySpeciesMatch	58.178.116.99
+user_0876	John Munoz	2/21/2025	19:30:55	ImportError	builtins.ImportError	Error	Module import failed.	Wildlife Species Recognition System	generateSpeciesReport	160.122.201.67
+user_0877	Karen Ferrell	1/19/2025	5:44:52	AttributeError	builtins.AttributeError	Error	Attribute reference failed.	Wildlife Species Recognition System	analyzeHabitatContext	236.18.41.124
+user_0878	Gina Jones	3/9/2025	6:12:52	OperatorNotAllowedInGraphError	tf.errors.OperatorNotAllowedInGraphError	Error	Unsupported operator in graph execution.	Wildlife Species Recognition System	captureWildlifeImage	135.223.198.100
+user_0879	Haley Short	1/29/2025	18:51:24	DataLossError	tf.errors.DataLossError	Error	Unrecoverable data loss encountered.	Wildlife Species Recognition System	applySpeciesModel	238.97.17.145
+user_0880	Stephanie Williams	1/22/2025	2:34:07	UnimplementedError	tf.errors.UnimplementedError	Error	Operation not implemented.	Security Threat Detection System	archiveSurveillanceLogs	78.59.183.105
+user_0881	Kimberly Landry	3/26/2025	21:50:27	UnauthenticatedError	tf.errors.UnauthenticatedError	Error	Invalid authentication credentials.	Security Threat Detection System	analyzeThreatIntensity	107.123.4.181
+user_0882	Mark Hill	2/19/2025	21:57:50	GPU Memory Error	CustomError	Error	GPU ran out of memory.	Security Threat Detection System	applyThreatDetectionModel	54.140.244.71
+user_0883	Dr. Kimberly Vance	3/3/2025	10:40:09	OverflowError	builtins.OverflowError	Error	Arithmetic result too large.	Wildlife Species Recognition System	logSpeciesData	192.28.9.158
+user_0884	Jennifer Diaz	3/25/2025	18:28:41	CancelledError	tf.errors.CancelledError	Error	Operation was cancelled.	Security Threat Detection System	analyzeThreatIntensity	201.99.69.81
+user_0885	Jonathan Smith	4/8/2025	13:21:15	OutOfRangeError	tf.errors.OutOfRangeError	Error	Operation iterated past valid range.	Wildlife Species Recognition System	verifySpeciesMatch	226.40.102.222
+user_0886	Todd Clark	1/11/2025	16:29:59	Uninitialized Tensor	CustomError	Error	Tensor used before initialization.	Security Threat Detection System	analyzeThreatIntensity	179.8.73.165
+user_0887	Meghan Henderson	2/22/2025	16:02:28	MemoryError	builtins.MemoryError	Error	Operation ran out of memory.	Wildlife Species Recognition System	generateSpeciesReport	152.189.133.232
+user_0888	Deborah Bailey	2/26/2025	13:18:50	ResourceExhaustedError	tf.errors.ResourceExhaustedError	Error	Resource exhaustion during operation.	Security Threat Detection System	analyzeThreatIntensity	24.67.246.24
+user_0889	Arthur Fleming	1/26/2025	1:46:28	Type Inference Error	CustomError	Error	Unable to infer tensor type.	Wildlife Species Recognition System	captureWildlifeImage	236.95.174.76
+user_0890	Evelyn Walsh	4/2/2025	2:01:12	OpError	tf.errors.OpError	Error	Base TensorFlow operation error.	Security Threat Detection System	detectIntrusiveObjects	192.199.40.152
+user_0891	Edward Shannon	3/31/2025	15:19:03	FailedPreconditionError	tf.errors.FailedPreconditionError	Error	Prerequisites not met for operation.	Wildlife Species Recognition System	segmentAnimalFromBackground	226.8.6.172
+user_0892	Matthew Ramirez	3/28/2025	9:04:28	DataLossError	tf.errors.DataLossError	Error	Unrecoverable data loss encountered.	Wildlife Species Recognition System	trackAnimalMovement	139.229.85.206
+user_0893	James Bennett	4/2/2025	14:08:07	DeprecationWarning	builtins.DeprecationWarning	Warning	Feature is deprecated.	Security Threat Detection System	captureSurveillanceFrame	207.137.34.181
+user_0894	John Sanchez	3/2/2025	1:28:47	Unknown Loss Function	CustomError	Error	Loss function not recognized.	Wildlife Species Recognition System	logSpeciesData	144.213.161.140
+user_0895	Richard Smith	4/2/2025	23:24:57	ZeroDivisionError	builtins.ZeroDivisionError	Error	Division or modulo by zero.	Wildlife Species Recognition System	trackAnimalMovement	194.25.236.84
+user_0896	Katherine Hicks	4/28/2025	17:45:35	Shape Mismatch	CustomError	Error	Shape of input data mismatch.	Security Threat Detection System	captureSurveillanceFrame	14.246.167.55
+user_0897	Lisa Frazier	4/2/2025	1:09:57	AbortedError	tf.errors.AbortedError	Error	Operation was aborted.	Wildlife Species Recognition System	generateSpeciesReport	100.25.52.14
+user_0898	Robin Hobbs	3/12/2025	18:09:06	IndexError	builtins.IndexError	Error	Sequence index out of range.	Wildlife Species Recognition System	analyzeHabitatContext	237.237.90.99
+user_0899	Tami Barker	1/22/2025	11:07:36	ImportError	builtins.ImportError	Error	Module import failed.	Wildlife Species Recognition System	applySpeciesModel	226.169.199.114
+user_0900	Charles Jarvis	2/10/2025	9:53:56	AlreadyExistsError	tf.errors.AlreadyExistsError	Error	Entity already exists.	Security Threat Detection System	traceSuspiciousPath	99.59.141.149
+user_0901	Marilyn Huynh	2/24/2025	2:39:33	Uninitialized Tensor	CustomError	Error	Tensor used before initialization.	Security Threat Detection System	alertSecurityPersonnel	34.111.44.9
+user_0902	Patricia Smith	4/11/2025	22:19:45	UnauthenticatedError	tf.errors.UnauthenticatedError	Error	Invalid authentication credentials.	Wildlife Species Recognition System	preprocessImageData	197.131.116.139
+user_0903	Darryl Ross	2/20/2025	1:06:50	Undefined Symbol	CustomError	Error	Required symbol not defined.	Wildlife Species Recognition System	logSpeciesData	223.117.201.167
+user_0904	Lori Robertson	4/20/2025	18:41:10	NotFoundError	tf.errors.NotFoundError	Error	Requested entity not found.	Wildlife Species Recognition System	generateSpeciesReport	113.154.200.96
+user_0905	Donna Cruz	2/3/2025	17:50:59	InternalError	tf.errors.InternalError	Error	Internal system error.	Security Threat Detection System	analyzeThreatIntensity	21.206.200.244
+user_0906	Emily Brown	1/25/2025	22:57:38	ImportError	builtins.ImportError	Error	Module import failed.	Security Threat Detection System	identifyMovementPatterns	134.75.210.221
+user_0907	Joel Rivers	2/5/2025	20:18:29	Out-of-Range Index	CustomError	Error	Index out of valid range.	Security Threat Detection System	archiveSurveillanceLogs	31.241.53.2
+user_0908	Angela Walters	3/4/2025	5:51:48	Undefined Symbol	CustomError	Error	Required symbol not defined.	Wildlife Species Recognition System	applySpeciesModel	5.59.206.145
+user_0909	James Smith	2/25/2025	9:29:12	DeprecationWarning	builtins.DeprecationWarning	Warning	Feature is deprecated.	Wildlife Species Recognition System	preprocessImageData	24.179.31.61
+user_0910	Robert Black	2/25/2025	19:42:37	Type Inference Error	CustomError	Error	Unable to infer tensor type.	Security Threat Detection System	traceSuspiciousPath	202.1.190.82
+user_0911	Heidi Lee	1/28/2025	7:05:32	ValueError	builtins.ValueError	Error	Inappropriate value passed to function.	Wildlife Species Recognition System	trackAnimalMovement	27.144.203.53
+user_0912	David Ray	2/2/2025	21:26:29	IndexError	builtins.IndexError	Error	Sequence index out of range.	Security Threat Detection System	captureSurveillanceFrame	158.58.13.63
+user_0913	Brandy Smith	2/21/2025	21:00:37	TypeError	builtins.TypeError	Error	Inappropriate type for operation.	Wildlife Species Recognition System	applySpeciesModel	5.2.194.254
+user_0914	Lindsey Wilson	1/18/2025	14:46:04	Uninitialized Tensor	CustomError	Error	Tensor used before initialization.	Security Threat Detection System	analyzeThreatIntensity	25.190.63.65
+user_0915	Dr. Jessica Garza MD	1/9/2025	10:09:38	CancelledError	tf.errors.CancelledError	Error	Operation was cancelled.	Security Threat Detection System	detectIntrusiveObjects	49.47.109.16
+user_0916	James Cummings	2/26/2025	2:15:39	Shape Mismatch	CustomError	Error	Shape of input data mismatch.	Wildlife Species Recognition System	applySpeciesModel	35.231.75.43
+user_0917	Debra Barnett	4/22/2025	9:42:16	KeyError	builtins.KeyError	Error	Dictionary key not found.	Security Threat Detection System	detectIntrusiveObjects	189.61.238.61
+user_0918	Brian Reed	2/6/2025	7:58:01	UnimplementedError	tf.errors.UnimplementedError	Error	Operation not implemented.	Wildlife Species Recognition System	preprocessImageData	174.204.72.183
+user_0919	Kara Baxter	4/30/2025	18:23:09	GPU Memory Error	CustomError	Error	GPU ran out of memory.	Security Threat Detection System	captureSurveillanceFrame	215.153.233.201
+user_0920	Anthony Shaw	2/26/2025	5:01:45	StopIteration	builtins.StopIteration	Error	Iteration has no more items.	Security Threat Detection System	classifyThreatCategory	229.17.165.12
+user_0921	Aaron Bush	2/4/2025	22:14:32	Shape Mismatch	CustomError	Error	Shape of input data mismatch.	Security Threat Detection System	filterNoiseFromImage	174.72.9.201
+user_0922	Stephen Torres	2/1/2025	13:39:49	Data Type Mismatch	CustomError	Error	Input data type doesn't match expected type.	Security Threat Detection System	traceSuspiciousPath	41.124.212.79
+user_0923	Mark Smith	1/10/2025	6:34:21	InternalError	tf.errors.InternalError	Error	Internal system error.	Security Threat Detection System	traceSuspiciousPath	89.237.202.108
+user_0924	Robyn Powell	1/18/2025	5:18:40	ValueError	builtins.ValueError	Error	Inappropriate value passed to function.	Wildlife Species Recognition System	preprocessImageData	6.69.172.239
+user_0925	David Lee PhD	3/30/2025	13:05:13	IndexError	builtins.IndexError	Error	Sequence index out of range.	Wildlife Species Recognition System	trackAnimalMovement	201.47.81.158
+user_0926	Joshua Thompson	2/5/2025	2:31:46	ValueError	builtins.ValueError	Error	Inappropriate value passed to function.	Security Threat Detection System	filterNoiseFromImage	194.35.98.112
+user_0927	Norman Copeland	4/26/2025	16:03:40	Type Inference Error	CustomError	Error	Unable to infer tensor type.	Security Threat Detection System	detectIntrusiveObjects	33.101.55.146
+user_0928	Robert Wilkerson	1/16/2025	13:52:46	InvalidArgumentError	tf.errors.InvalidArgumentError	Error	Invalid argument provided.	Wildlife Species Recognition System	captureWildlifeImage	47.119.86.139
+user_0929	Jason Carpenter	4/24/2025	20:27:02	DeadlineExceededError	tf.errors.DeadlineExceededError	Error	Operation deadline exceeded.	Wildlife Species Recognition System	analyzeHabitatContext	178.152.60.238
+user_0930	Sonya Fields	4/19/2025	23:14:49	Out-of-Range Index	CustomError	Error	Index out of valid range.	Wildlife Species Recognition System	extractAnimalFeatures	209.48.189.29
+user_0931	Jenna Knox	2/9/2025	3:04:36	PermissionDeniedError	tf.errors.PermissionDeniedError	Error	Permission denied for operation.	Security Threat Detection System	alertSecurityPersonnel	229.185.58.47
+user_0932	Mr. John Robinson PhD	4/27/2025	13:18:50	TypeError	builtins.TypeError	Error	Inappropriate type for operation.	Wildlife Species Recognition System	extractAnimalFeatures	103.115.32.148
+user_0933	Derek Griffith	3/12/2025	18:26:20	UnavailableError	tf.errors.UnavailableError	Error	Runtime currently unavailable.	Security Threat Detection System	applyThreatDetectionModel	123.99.75.141
+user_0934	Carol Bautista	1/7/2025	20:09:59	ValueError	builtins.ValueError	Error	Inappropriate value passed to function.	Security Threat Detection System	identifyMovementPatterns	67.5.229.240
+user_0935	Jennifer Gallegos	2/10/2025	19:22:12	Dataset Conversion Error	CustomError	Error	Error converting dataset.	Wildlife Species Recognition System	preprocessImageData	39.99.62.123
+user_0936	Kimberly Martinez	3/12/2025	4:22:55	CancelledError	tf.errors.CancelledError	Error	Operation was cancelled.	Security Threat Detection System	alertSecurityPersonnel	215.239.163.236
+user_0937	Stephanie Burgess	4/23/2025	7:31:11	OperatorNotAllowedInGraphError	tf.errors.OperatorNotAllowedInGraphError	Error	Unsupported operator in graph execution.	Security Threat Detection System	captureSurveillanceFrame	186.84.157.93
+user_0938	Deanna Wolfe	1/7/2025	2:00:19	ResourceExhaustedError	tf.errors.ResourceExhaustedError	Error	Resource exhaustion during operation.	Security Threat Detection System	classifyThreatCategory	129.117.170.104
+user_0939	Carolyn Murillo	2/23/2025	1:32:04	Data Type Mismatch	CustomError	Error	Input data type doesn't match expected type.	Wildlife Species Recognition System	analyzeHabitatContext	120.83.250.157
+user_0940	Jeffrey Mills	3/30/2025	15:06:57	DeprecationWarning	builtins.DeprecationWarning	Warning	Feature is deprecated.	Security Threat Detection System	classifyThreatCategory	25.192.176.168
+user_0941	Preston Nguyen	1/24/2025	2:45:00	Data Type Mismatch	CustomError	Error	Input data type doesn't match expected type.	Security Threat Detection System	traceSuspiciousPath	231.227.49.14
+user_0942	Adam Jackson	1/4/2025	17:25:42	ValueError	builtins.ValueError	Error	Inappropriate value passed to function.	Wildlife Species Recognition System	generateSpeciesReport	114.220.64.243
+user_0943	Kimberly Lawrence	4/28/2025	8:09:56	OutOfRangeError	tf.errors.OutOfRangeError	Error	Operation iterated past valid range.	Wildlife Species Recognition System	verifySpeciesMatch	52.74.237.160
+user_0944	Lisa Deleon	2/3/2025	19:27:50	UnimplementedError	tf.errors.UnimplementedError	Error	Operation not implemented.	Wildlife Species Recognition System	captureWildlifeImage	114.44.246.208
+user_0945	Monica Martin	4/5/2025	22:39:30	Input Shape Mismatch	CustomError	Error	Input data shape doesn't match model expectation.	Wildlife Species Recognition System	logSpeciesData	14.195.27.28
+user_0946	Cameron Moore	4/21/2025	21:14:46	NameError	builtins.NameError	Error	Name not found in namespace.	Wildlife Species Recognition System	captureWildlifeImage	227.206.189.54
+user_0947	Kevin Jones	4/2/2025	22:40:12	DeadlineExceededError	tf.errors.DeadlineExceededError	Error	Operation deadline exceeded.	Wildlife Species Recognition System	applySpeciesModel	191.66.119.194
+user_0948	Melissa Myers	1/26/2025	4:20:10	Uninitialized Tensor	CustomError	Error	Tensor used before initialization.	Security Threat Detection System	detectIntrusiveObjects	205.231.155.211
+user_0949	Sarah Aguirre	1/27/2025	10:52:42	UnauthenticatedError	tf.errors.UnauthenticatedError	Error	Invalid authentication credentials.	Security Threat Detection System	archiveSurveillanceLogs	63.109.132.107
+user_0950	Alan Sutton	2/26/2025	14:41:21	Out-of-Range Index	CustomError	Error	Index out of valid range.	Security Threat Detection System	detectIntrusiveObjects	122.8.116.18
+user_0951	Martha Smith	2/2/2025	16:35:06	MemoryError	builtins.MemoryError	Error	Operation ran out of memory.	Security Threat Detection System	filterNoiseFromImage	7.83.55.13
+user_0952	Terry Wright	3/24/2025	5:50:27	Input Shape Mismatch	CustomError	Error	Input data shape doesn't match model expectation.	Security Threat Detection System	filterNoiseFromImage	71.142.139.124
+user_0953	Sean Johnson	1/12/2025	5:34:51	CancelledError	tf.errors.CancelledError	Error	Operation was cancelled.	Wildlife Species Recognition System	generateSpeciesReport	184.210.130.189
+user_0954	Shawn Martin	3/29/2025	3:19:32	Data Type Mismatch	CustomError	Error	Input data type doesn't match expected type.	Security Threat Detection System	traceSuspiciousPath	58.25.216.242
+user_0955	Jason Jackson	3/13/2025	16:03:04	PermissionDeniedError	tf.errors.PermissionDeniedError	Error	Permission denied for operation.	Security Threat Detection System	analyzeThreatIntensity	149.56.179.59
+user_0956	David Cooper	3/16/2025	6:35:49	Uninitialized Tensor	CustomError	Error	Tensor used before initialization.	Security Threat Detection System	detectIntrusiveObjects	158.169.134.240
+user_0957	Bradley Flores	4/30/2025	18:47:24	AssertionError	builtins.AssertionError	Error	Assertion failed.	Wildlife Species Recognition System	logSpeciesData	23.236.31.102
+user_0958	Brittany Davis	2/14/2025	4:54:27	AssertionError	builtins.AssertionError	Error	Assertion failed.	Security Threat Detection System	classifyThreatCategory	11.30.5.217
+user_0959	Megan Diaz	3/31/2025	2:49:41	OpError	tf.errors.OpError	Error	Base TensorFlow operation error.	Security Threat Detection System	filterNoiseFromImage	92.214.103.242
+user_0960	Kristi Hughes	2/6/2025	5:55:31	DeprecationWarning	builtins.DeprecationWarning	Warning	Feature is deprecated.	Wildlife Species Recognition System	extractAnimalFeatures	61.141.227.80
+user_0961	Virginia Hernandez	2/28/2025	15:20:22	DeprecationWarning	builtins.DeprecationWarning	Warning	Feature is deprecated.	Security Threat Detection System	alertSecurityPersonnel	1.87.198.116
+user_0962	Noah Kelly	4/4/2025	9:13:27	PermissionDeniedError	tf.errors.PermissionDeniedError	Error	Permission denied for operation.	Security Threat Detection System	traceSuspiciousPath	143.75.117.169
+user_0963	Kristopher Robinson	4/16/2025	1:29:55	ZeroDivisionError	builtins.ZeroDivisionError	Error	Division or modulo by zero.	Wildlife Species Recognition System	applySpeciesModel	118.95.25.179
+user_0964	Michelle Anderson	1/8/2025	10:32:21	UnimplementedError	tf.errors.UnimplementedError	Error	Operation not implemented.	Security Threat Detection System	archiveSurveillanceLogs	75.134.101.196
+user_0965	Brian Joseph	2/26/2025	16:13:47	InternalError	tf.errors.InternalError	Error	Internal system error.	Security Threat Detection System	classifyThreatCategory	242.126.27.251
+user_0966	Richard Fischer	3/31/2025	6:12:51	ValueError	builtins.ValueError	Error	Inappropriate value passed to function.	Wildlife Species Recognition System	extractAnimalFeatures	125.90.41.110
+user_0967	Morgan Butler	4/26/2025	6:59:17	UnauthenticatedError	tf.errors.UnauthenticatedError	Error	Invalid authentication credentials.	Wildlife Species Recognition System	extractAnimalFeatures	126.144.111.54
+user_0968	Alexandra Simmons	4/12/2025	14:28:08	Dataset Conversion Error	CustomError	Error	Error converting dataset.	Security Threat Detection System	analyzeThreatIntensity	195.229.207.169
+user_0969	Joshua Montoya	1/10/2025	21:12:19	KeyError	builtins.KeyError	Error	Dictionary key not found.	Security Threat Detection System	traceSuspiciousPath	26.246.175.168
+user_0970	Jacqueline Young	2/19/2025	11:58:10	OpError	tf.errors.OpError	Error	Base TensorFlow operation error.	Security Threat Detection System	classifyThreatCategory	120.91.7.226
+user_0971	Debra Palmer	3/10/2025	13:28:25	KeyError	builtins.KeyError	Error	Dictionary key not found.	Wildlife Species Recognition System	analyzeHabitatContext	236.216.90.212
+user_0972	Kelly Boyd	4/30/2025	22:32:33	CancelledError	tf.errors.CancelledError	Error	Operation was cancelled.	Wildlife Species Recognition System	applySpeciesModel	123.42.48.88
+user_0973	Cathy Sanders	1/24/2025	19:56:28	AttributeError	builtins.AttributeError	Error	Attribute reference failed.	Wildlife Species Recognition System	applySpeciesModel	240.4.76.135
+user_0974	Natasha Curtis DDS	1/14/2025	19:23:59	AssertionError	builtins.AssertionError	Error	Assertion failed.	Security Threat Detection System	filterNoiseFromImage	64.48.168.233
+user_0975	Brian Collins	1/26/2025	18:23:51	Out-of-Range Index	CustomError	Error	Index out of valid range.	Security Threat Detection System	captureSurveillanceFrame	122.208.96.78
+user_0976	Scott Ramirez	3/15/2025	18:47:47	AbortedError	tf.errors.AbortedError	Error	Operation was aborted.	Wildlife Species Recognition System	applySpeciesModel	94.221.71.41
+user_0977	Nina Carter	2/15/2025	8:44:42	UnauthenticatedError	tf.errors.UnauthenticatedError	Error	Invalid authentication credentials.	Security Threat Detection System	analyzeThreatIntensity	156.222.110.221
+user_0978	Michael Kemp	4/19/2025	23:49:12	ValueError	builtins.ValueError	Error	Inappropriate value passed to function.	Security Threat Detection System	applyThreatDetectionModel	254.59.120.250
+user_0979	Nicole Johnson	2/28/2025	19:22:57	OperatorNotAllowedInGraphError	tf.errors.OperatorNotAllowedInGraphError	Error	Unsupported operator in graph execution.	Wildlife Species Recognition System	segmentAnimalFromBackground	14.249.60.229
+user_0980	Emily Hopkins	3/24/2025	19:09:39	UnavailableError	tf.errors.UnavailableError	Error	Runtime currently unavailable.	Wildlife Species Recognition System	verifySpeciesMatch	116.124.51.141
+user_0981	Christian Hill	3/11/2025	18:04:45	Out-of-Range Index	CustomError	Error	Index out of valid range.	Wildlife Species Recognition System	generateSpeciesReport	227.247.164.83
+user_0982	Michael Johnson	3/2/2025	13:45:19	TypeError	builtins.TypeError	Error	Inappropriate type for operation.	Security Threat Detection System	traceSuspiciousPath	107.17.75.135
+user_0983	William Robertson	1/21/2025	17:23:15	Unknown Loss Function	CustomError	Error	Loss function not recognized.	Wildlife Species Recognition System	preprocessImageData	182.76.254.39
+user_0984	Monica Torres	4/18/2025	16:45:13	DeadlineExceededError	tf.errors.DeadlineExceededError	Error	Operation deadline exceeded.	Security Threat Detection System	applyThreatDetectionModel	23.187.62.24
+user_0985	Todd Mccormick	2/7/2025	16:33:14	AssertionError	builtins.AssertionError	Error	Assertion failed.	Wildlife Species Recognition System	extractAnimalFeatures	137.117.239.71
+user_0986	Jodi Ramirez	1/20/2025	9:46:47	UnauthenticatedError	tf.errors.UnauthenticatedError	Error	Invalid authentication credentials.	Security Threat Detection System	identifyMovementPatterns	159.60.156.40
+user_0987	Judy Gibson	4/9/2025	10:17:07	IndexError	builtins.IndexError	Error	Sequence index out of range.	Security Threat Detection System	analyzeThreatIntensity	125.79.48.202
+user_0988	Gloria York	1/9/2025	13:15:46	AttributeError	builtins.AttributeError	Error	Attribute reference failed.	Security Threat Detection System	classifyThreatCategory	129.121.126.198
+user_0989	Robert Rowland	1/16/2025	4:43:57	RuntimeError	builtins.RuntimeError	Error	General runtime error.	Wildlife Species Recognition System	extractAnimalFeatures	54.246.122.194
+user_0990	Brian Washington	1/23/2025	8:54:09	FailedPreconditionError	tf.errors.FailedPreconditionError	Error	Prerequisites not met for operation.	Wildlife Species Recognition System	segmentAnimalFromBackground	47.236.67.52
+user_0991	Randy Wilson	1/20/2025	13:40:29	UnavailableError	tf.errors.UnavailableError	Error	Runtime currently unavailable.	Security Threat Detection System	detectIntrusiveObjects	218.55.239.47
+user_0992	Brian Reyes	4/10/2025	1:52:08	RuntimeError	builtins.RuntimeError	Error	General runtime error.	Security Threat Detection System	archiveSurveillanceLogs	139.22.184.146
+user_0993	Garrett Allen	3/20/2025	11:56:52	UnavailableError	tf.errors.UnavailableError	Error	Runtime currently unavailable.	Wildlife Species Recognition System	applySpeciesModel	135.50.160.237
+user_0994	Jerry Spencer	4/18/2025	18:26:13	StopIteration	builtins.StopIteration	Error	Iteration has no more items.	Wildlife Species Recognition System	trackAnimalMovement	92.6.135.170
+user_0995	Christy Davis	2/21/2025	8:07:58	NotFoundError	tf.errors.NotFoundError	Error	Requested entity not found.	Security Threat Detection System	detectIntrusiveObjects	121.112.102.188
+user_0996	Emily Sutton	3/14/2025	14:33:21	AssertionError	builtins.AssertionError	Error	Assertion failed.	Security Threat Detection System	alertSecurityPersonnel	224.205.108.172
+user_0997	Brian Edwards	1/5/2025	3:57:30	OutOfRangeError	tf.errors.OutOfRangeError	Error	Operation iterated past valid range.	Security Threat Detection System	classifyThreatCategory	18.242.164.19
+user_0998	Eric Henderson	3/22/2025	18:42:31	Unknown Loss Function	CustomError	Error	Loss function not recognized.	Wildlife Species Recognition System	generateSpeciesReport	80.97.24.6
+user_0999	Tammy Peters	4/16/2025	18:08:24	Undefined Symbol	CustomError	Error	Required symbol not defined.	Wildlife Species Recognition System	captureWildlifeImage	227.61.220.207
+user_1000	Matthew Paul	3/20/2025	3:08:29	Undefined Symbol	CustomError	Error	Required symbol not defined.	Security Threat Detection System	applyThreatDetectionModel	58.171.111.126
