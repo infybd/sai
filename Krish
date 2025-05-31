@@ -1,22 +1,7 @@
-User Stories – SMTP Exception Log Analysis Project (End-to-End)
-
-1. Data Collection Phase
-
-Story 1:As a Data Analyst, I want to collect exception logs from the SMTP service of the e-commerce application, so I can analyze errors across different modules.
-
-Story 2:As a Data Analyst, I want to collect exception data in JSON and XML  format with fields like exception type, class, timestamp, user, method, and IP, so that I can perform structured analysis.
-2. Data Preprocessing & Transformation Phase
-
-Story 3:As a Data Analyst, I want to flatten the nested JSON structure into tabular format, so that I can load it into Power BI easily.
-
-Story 4:As a Data Analyst, I want to convert the date_time field into Date, Time, and Weekday columns, so that I can analyze exception trends over time.
-
-Story 5:As a Data Analyst, I want to categorize exception types into broader categories (e.g., SMTP Error, Validation Error, Network Error), so stakeholders can focus on major problem areas.
-
-Story 6:As a Data Analyst, I want to flag repeated IP addresses or domains, so suspicious or problematic sources can be identified.
-
-Story 7:As a Data Analyst, I want to clean and validate all user_name, domain, and method_name values to ensure consistency before analysis.
-3. Analysis & Visualization Phase
-
-Story 8:As a Developer, I want to see a chart showing the number of exceptions by exception type, so I can focus on the most frequent error categories.
-Story 9:As a Project Manager, I want a dashboard showing total exceptions per week, severity breakdown, and resolution trend, so I can assess release readiness.
+let 
+    parts = Text.Split([Date], "-"),
+    year = "20" & parts{0},
+    month = parts{1},
+    day = parts{2}
+in
+    Date.FromText(year & "-" & month & "-" & day)
