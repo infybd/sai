@@ -5,3 +5,11 @@ let
     day = parts{2}
 in
     Date.FromText(year & "-" & month & "-" & day)
+
+Total Exceptions = COUNTROWS(Exceptions)
+
+Records Per App = 
+CALCULATE(COUNTROWS(Exceptions), ALLEXCEPT(Exceptions, Exceptions[ApplicationName]))
+
+Missing ExceptionType % = 
+DIVIDE(CALCULATE(COUNTROWS(Exceptions), ISBLANK(Exceptions[ExceptionType])), COUNTROWS(Exceptions), 0)
