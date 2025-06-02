@@ -1,0 +1,102 @@
+Based on the uploaded User Stories document and the nature of your merged exception log data (which includes biased, uneven, and inconsistent entries), here are four main user stories that are both critical for a Team Lead and practical to implement in Power BI — some taken and enhanced from your file, some newly suggested:
+
+
+---
+
+✅ 1. Exception Overview with Volume Normalization (Enhanced from Story 1)
+
+User Story:
+As a Team Lead, I want to view the total number of exceptions per application along with their respective time coverage and data volume indicators, so I can accurately compare exception frequency across uneven logs.
+
+Why it's Important:
+Because each application has different log sizes and periods, raw exception counts can mislead without context.
+
+Visuals to Use:
+
+Bar chart for total exceptions by application
+
+Timeline coverage per application
+
+Data volume indicators (record count cards)
+
+Normalized metric: exceptions per 1000 records
+
+
+
+---
+
+✅ 2. Exception Trend Analysis with Data Gap Alerts (from Story 2)
+
+User Story:
+As a Team Lead, I want to analyze exception trends over time with visible gaps or low-data periods, so I can avoid drawing false conclusions from missing or incomplete data.
+
+Why it's Important:
+To detect if exception drops are due to fixes or just due to missing logs.
+
+Visuals to Use:
+
+Line chart with exception counts over time (by app/source)
+
+Highlight or annotate missing time windows
+
+Optional filter per log source
+
+
+
+---
+
+✅ 3. Component-Level Exception Heatmap (Inspired by Story 4)
+
+User Story:
+As a Team Lead, I want to see which components and methods are generating the most exceptions per application, so I can prioritize debugging and refactoring efforts.
+
+Why it's Important:
+Component-level granularity allows targeted action instead of generalized assumptions.
+
+Visuals to Use:
+
+Matrix heatmap: Components vs Applications/Methods
+
+Drill-down option for method-level detail
+
+Filters by log source and time
+
+
+
+---
+
+✅ 4. Exception Type & Severity Overview with Criticality Focus (Hybrid of Story 3 & 6 + Custom)
+
+User Story:
+As a Team Lead, I want to categorize exceptions by type and severity to identify the most critical recurring issues across applications, so I can prioritize what needs urgent attention.
+
+Why it's Important:
+Prioritizing based on frequency and severity improves resource focus.
+
+Visuals to Use:
+
+Pie or stacked bar for exception types
+
+Filters for severity levels (if available)
+
+Exception frequency tables sorted by severity
+
+
+
+---
+
+Summary Table
+
+User Story Title	From	Why Implement?
+
+Exception Overview with Volume Normalization	Enhanced from Story 1	Accounts for data bias
+Exception Trend Analysis with Data Gap Alerts	Story 2	Highlights missing data
+Component-Level Exception Heatmap	Inspired by Story 4	Enables targeted fixes
+Exception Type & Severity Overview	Hybrid (Story 3 + 6 + Custom)	Prioritizes high-impact issues
+
+
+
+---
+
+Would you like a Power BI visual layout and design guide based on these four user stories?
+
