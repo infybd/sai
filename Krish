@@ -1,15 +1,21 @@
-let 
-    parts = Text.Split([Date], "-"),
-    year = "20" & parts{0},
-    month = parts{1},
-    day = parts{2}
-in
-    Date.FromText(year & "-" & month & "-" & day)
+Transformation and Power BI Preparation
 
-Total Exceptions = COUNTROWS(Exceptions)
+Created a structured path to store all incoming datasets to ensure consistent data organization.
 
-Records Per App = 
-CALCULATE(COUNTROWS(Exceptions), ALLEXCEPT(Exceptions, Exceptions[ApplicationName]))
+Collected datasets from various team members and renamed each file according to defined naming standards.
 
-Missing ExceptionType % = 
-DIVIDE(CALCULATE(COUNTROWS(Exceptions), ISBLANK(Exceptions[ExceptionType])), COUNTROWS(Exceptions), 0)
+Saved all renamed datasets in the designated storage path for easy reference and automation compatibility.
+
+Loaded each dataset into Power BI and standardized column names to follow a uniform naming convention across all files.
+
+Updated the data types of columns in each dataset to match their intended data format, improving data quality and compatibility.
+
+Ensured all datasets had consistent column names and types to facilitate accurate merging.
+
+Merged all cleaned datasets into a single consolidated dataset for reporting and analysis.
+
+Removed unnecessary or null-value columns from the merged dataset to improve clarity and performance.
+
+Added additional calculated or reference columns that provide meaningful insights for visualization.
+
+Final merged dataset was used as the base table for Power BI visualizations and dashboard reporting.
