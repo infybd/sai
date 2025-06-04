@@ -1,21 +1,80 @@
-Transformation and Power BI Preparation
-
-Created a structured path to store all incoming datasets to ensure consistent data organization.
-
-Collected datasets from various team members and renamed each file according to defined naming standards.
-
-Saved all renamed datasets in the designated storage path for easy reference and automation compatibility.
-
-Loaded each dataset into Power BI and standardized column names to follow a uniform naming convention across all files.
-
-Updated the data types of columns in each dataset to match their intended data format, improving data quality and compatibility.
-
-Ensured all datasets had consistent column names and types to facilitate accurate merging.
-
-Merged all cleaned datasets into a single consolidated dataset for reporting and analysis.
-
-Removed unnecessary or null-value columns from the merged dataset to improve clarity and performance.
-
-Added additional calculated or reference columns that provide meaningful insights for visualization.
-
-Final merged dataset was used as the base table for Power BI visualizations and dashboard reporting.
+{
+    "name": "SMTP Exception Dashboard Theme",
+    "dataColors": [
+        "#0078d4",
+        "#004578",
+        "#a4262c",
+        "#498205",
+        "#ca5010",
+        "#038387"
+    ],
+    "background": "#ffffff",
+    "foreground": "#323130",
+    "tableAccent": "#0078d4",
+    "visualStyles": {
+        "*": {
+            "*": {
+                "title": [
+                    {
+                        "fontFamily": "Segoe UI",
+                        "fontSize": 14,
+                        "fontColor": {
+                            "solid": {
+                                "color": "#323130"
+                            }
+                        }
+                    }
+                ],
+                "labels": [
+                    {
+                        "fontFamily": "Segoe UI",
+                        "fontSize": 12,
+                        "color": {
+                            "solid": {
+                                "color": "#605e5c"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "card": {
+            "*": {
+                "title": [
+                    {
+                        "fontSize": 13,
+                        "fontColor": {
+                            "solid": {
+                                "color": "#605e5c"
+                            }
+                        }
+                    }
+                ],
+                "labels": [
+                    {
+                        "fontSize": 36,
+                        "fontColor": {
+                            "solid": {
+                                "color": "#0078d4"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "slicer": {
+            "*": {
+                "header": [
+                    {
+                        "fontSize": 13,
+                        "fontColor": {
+                            "solid": {
+                                "color": "#323130"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
