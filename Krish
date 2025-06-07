@@ -1,4 +1,5 @@
-Split 1:                                                                                                                                    Data Collection – SMTP (E-commerce)
+Split 1:                                            
+                                                                       Phase1: Data Collection – SMTP (E-commerce)                                                                                                                                                                                                                                                                                                                                                                                                                      
 USER STORY ID: SMTP-01
 Title: Collect Exception Logs from SMTP Service
 As a Data Analyst
@@ -19,7 +20,7 @@ Acceptance Criteria:
 
 JSON and XML files include defined fields (type, class, method, user, IP, timestamp)
 
-🔹 Phase 2: Data Transformation – SMTP Dataset
+                                                                                                             Phase 2: Data Transformation – SMTP Dataset
 USER STORY ID: SMTP-03
 Title: Flatten Nested JSON for Power BI
 As a Data Analyst
@@ -38,7 +39,7 @@ Acceptance Criteria:
 
 Date/Time fields are correctly parsed and formatted in Power BI
 
-🔹 Phase 3: Dashboard Views by Role (SMTP Dataset)
+                                                                                   Phase 3: Dashboard Views by Role (SMTP Dataset)
 👨‍💻 Developer Dashboard
 USER STORY ID: DASH-DEV-01
 Title: Identify Frequent Failures by Method and Type
@@ -94,8 +95,10 @@ Area chart (Monthly Exception Volume)
 Matrix (Component vs Exception Type)
 
 Summary KPI Cards (Total Exceptions, Components Affected, etc.)
+ 
+Split 2:
 
-🔹 Phase 4: Multi-Dataset Merging (SMTP + SQL + MongoDB + ANN + CNN)
+                                                                                Phase 4: Multi-Dataset Merging (SMTP + SQL + MongoDB + ANN + CNN)
 USER STORY ID: MERGE-01
 Title: Standardized Directory Setup
 As a Data Analyst
@@ -132,7 +135,7 @@ Acceptance Criteria:
 
 Cleaned, merged, deduplicated dataset ready (MergedData2.csv)
 
-🔹 Phase 5: Usability Enhancement
+                                                                     Phase 5: Usability Enhancement
 USER STORY ID: NAV-01
 Title: Role-Based Navigation Panel
 As a Dashboard User (Dev, QA, Lead, Manager)
