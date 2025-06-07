@@ -1,7 +1,366 @@
-BusiestDay = 
-CALCULATE(
-  MAX('Table'[Date]),
-  FILTER(VALUES('Table'[Date]), 
-  CALCULATE(COUNT('Table'[ExceptionType])) = 
-  CALCULATE(MAXX(ALL('Table'[Date]), COUNTROWS(FILTER('Table', 'Table'[Date] = EARLIER('Table'[Date]))))))
-)
+"""
+Ecommerce SMTP Exception Dataset Generator
+Generates comprehensive SMTP exception logs for ecommerce applications
+Outputs in both JSON and XML formats
+"""
+
+import json
+import xml.etree.ElementTree as ET
+import xml.dom.minidom as minidom
+import random
+import datetime
+from typing import Dict, List, Any
+import os
+
+class EcommerceSMTPExceptionGenerator:
+    def __init__(self):
+        self.smtp_exception_types = [
+            'SMTPConnectError', 'SMTPAuthenticationFailure', 'SMTPRecipientsRefused',
+            'SMTPDataError', 'SMTPServerDisconnected', 'SMTPResponseException',
+            'SMTPSenderRefused', 'SMTPHeloError', 'SMTPException',
+            'SMTPConnectTimeoutError', 'SMTPSocketError', 'SMTPSSLError',
+            'SMTPRateLimitError', 'SMTPQuotaExceededError', 'SMTPBlacklistError',
+            'SMTPGreylistError', 'SMTPMessageSizeError', 'SMTPContentFilterError',
+            'SMTPDNSError', 'SMTPRelayError', 'SMTPTLSError', 'SMTPCertificateError',
+            'SMTPConfigurationError', 'SMTPServiceUnavailableError', 'SMTPTemporaryFailure',
+            'SMTPPermanentFailure', 'SMTPInvalidRecipientError', 'SMTPBounceError',
+            'SMTPSpamFilterError', 'SMTPVirusFilterError', 'SMTPAttachmentError',
+            'SMTPEncryptionError', 'SMTPHeaderError', 'SMTPEncodingError',
+            'SMTPPriorityError', 'SMTPDeliveryError', 'SMTPNetworkError'
+        ]
+        
+        self.smtp_exception_classes = [
+            'smtplib.SMTPConnectError', 'smtplib.SMTPAuthenticationError',
+            'smtplib.SMTPRecipientsRefused', 'smtplib.SMTPDataError',
+            'smtplib.SMTPServerDisconnected', 'smtplib.SMTPResponseException',
+            'smtplib.SMTPSenderRefused', 'smtplib.SMTPHeloError',
+            'smtplib.SMTPException', 'socket.timeout', 'socket.error',
+            'ssl.SSLError', 'ssl.SSLHandshakeError', 'ssl.CertificateError',
+            'ConnectionRefusedError', 'ConnectionResetError', 'ConnectionAbortedError',
+            'TimeoutError', 'OSError', 'IOError', 'ValueError', 'TypeError',
+            'UnicodeDecodeError', 'UnicodeEncodeError', 'DNSException',
+            'NetworkError', 'ServiceUnavailableError', 'RateLimitError',
+            'QuotaExceededError', 'BlacklistError', 'GreylistError',
+            'ContentFilterError', 'SpamFilterError', 'VirusFilterError',
+            'AttachmentError', 'ConfigurationError', 'AuthorizationError',
+            'PermissionError', 'SecurityError', 'ValidationError'
+        ]
+        
+        self.ecommerce_components = [
+            'OrderConfirmationService', 'PaymentNotificationService', 'ShippingNotificationService',
+            'CustomerRegistrationService', 'PasswordResetService', 'WelcomeEmailService',
+            'NewsletterService', 'PromotionalEmailService', 'AbandonedCartService',
+            'ReviewReminderService', 'RefundNotificationService', 'ReturnNotificationService',
+            'InventoryAlertService', 'PriceDropNotificationService', 'BackInStockService',
+            'DeliveryConfirmationService', 'InvoiceService', 'ReceiptService',
+            'SupportTicketService', 'MarketingCampaignService', 'RecommendationService',
+            'LoyaltyProgramService', 'ReferralService', 'WishlistNotificationService',
+            'SecurityAlertService', 'AccountUpdateService', 'SubscriptionService',
+            'CouponDeliveryService', 'SurveyInvitationService', 'EventNotificationService'
+        ]
+        
+        self.method_names = [
+            'sendOrderConfirmation', 'sendPaymentNotification', 'sendShippingUpdate',
+            'sendWelcomeEmail', 'sendPasswordReset', 'sendRegistrationConfirmation',
+            'sendNewsletter', 'sendPromotionalEmail', 'sendAbandonedCartReminder',
+            'sendReviewRequest', 'sendRefundNotification', 'sendReturnLabel',
+            'sendInventoryAlert', 'sendPriceDropAlert', 'sendBackInStockNotification',
+            'sendDeliveryConfirmation', 'sendInvoice', 'sendReceipt',
+            'sendSupportResponse', 'sendMarketingCampaign', 'sendProductRecommendation',
+            'sendLoyaltyUpdate', 'sendReferralInvite', 'sendWishlistAlert',
+            'sendSecurityAlert', 'sendAccountUpdate', 'sendSubscriptionRenewal',
+            'sendCouponCode', 'sendSurveyInvitation', 'sendEventNotification',
+            'sendBulkEmails', 'sendTransactionalEmail', 'sendNotificationEmail'
+        ]
+        
+        self.smtp_error_descriptions = [
+            # Connection Errors
+            'SMTP server connection timeout - unable to establish connection within 30 seconds',
+            'SMTP server refused connection - port 587 blocked by firewall',
+            'SMTP server hostname resolution failed - DNS lookup timeout',
+            'Connection reset by peer during SMTP handshake',
+            'Network unreachable - SMTP server not accessible',
+            'Connection refused by SMTP server on port 25',
+            'SMTP server socket connection interrupted unexpectedly',
+            
+            # Authentication Errors
+            'SMTP authentication failed - invalid username or password',
+            'SMTP server rejected authentication credentials (535 5.7.8)',
+            'Authentication method not supported by SMTP server',
+            'OAuth2 token expired for SMTP authentication',
+            'Two-factor authentication required for SMTP access',
+            'Account temporarily locked due to multiple failed login attempts',
+            'SMTP authentication disabled for this account',
+            
+            # Recipient Errors
+            'Recipient email address rejected - user unknown (550 5.1.1)',
+            'Recipient mailbox full - message rejected (552 5.2.2)',
+            'Recipient domain does not exist - DNS NXDOMAIN',
+            'Recipient server temporarily unavailable (421 4.4.1)',
+            'Recipient email address blacklisted by server',
+            'Invalid recipient email format detected',
+            'Recipient server blocking our IP address',
+            
+            # Content and Size Errors
+            'Message size exceeds server limit - 25MB maximum allowed',
+            'Attachment type not permitted by recipient server',
+            'Message content flagged as spam by content filter',
+            'HTML content contains malicious scripts - message blocked',
+            'Email subject line triggers spam filter rules',
+            'Message contains too many external links',
+            'Image attachments exceed size limitations',
+            
+            # Rate Limiting and Quota Errors
+            'Daily sending quota exceeded - 10,000 emails per day limit',
+            'Hourly rate limit reached - maximum 250 emails per hour',
+            'Too many recipients in single message - limit 100 recipients',
+            'Sending frequency too high - rate limited by provider',
+            'Monthly quota exhausted for email service plan',
+            'Concurrent connection limit exceeded',
+            'API rate limit exceeded for email service',
+            
+            # Server and Service Errors
+            'SMTP server temporarily unavailable (421 service not available)',
+            'SMTP service overloaded - retry after delay',
+            'Email service provider experiencing outage',
+            'SMTP server maintenance window - service temporarily down',
+            'Third-party email service integration failure',
+            'Database connection lost during email processing',
+            'Email queue processing service crashed',
+            
+            # Security and Compliance Errors
+            'Message rejected due to sender reputation issues',
+            'IP address blacklisted by spam detection service',
+            'Domain not verified for sending emails',
+            'SPF record validation failed for sender domain',
+            'DKIM signature verification failed',
+            'DMARC policy violation - message rejected',
+            'Email content violates anti-spam regulations',
+            
+            # SSL/TLS Errors
+            'SSL certificate verification failed for SMTP server',
+            'TLS handshake failed - incompatible cipher suites',
+            'SMTP server certificate expired or invalid',
+            'SSL connection dropped during message transmission',
+            'TLS version not supported by SMTP server',
+            'Certificate hostname mismatch error',
+            'SSL protocol error during secure connection',
+            
+            # Configuration Errors
+            'Invalid SMTP server configuration detected',
+            'Missing required SMTP authentication parameters',
+            'Incorrect port number specified for SMTP connection',
+            'Email template rendering failed - syntax error',
+            'Environment variables not set for email service',
+            'SMTP relay configuration incorrect',
+            'Email service API key invalid or expired'
+        ]
+        
+        self.ecommerce_domains = [
+            'amazingdeals.com', 'shopmaster.net', 'ecommercehub.org', 'retailworld.co',
+            'megastore.com', 'quickbuy.net', 'shopnow.store', 'marketplace.biz',
+            'onlinemart.com', 'digitalstore.net', 'buyfast.co', 'shopease.org',
+            'retailexpress.com', 'webstore.net', 'shopsmart.store', 'dealfinder.co',
+            'bargainhunt.net', 'shopcentral.com', 'retailhaven.org', 'buyonline.store'
+        ]
+        
+        self.user_types = ['customer', 'admin', 'vendor', 'support', 'marketing', 'guest']
+        
+        self.ip_ranges = [
+            '192.168.', '10.0.', '172.16.', '203.0.', '198.51.', '172.31.',
+            '185.199.', '151.101.', '104.16.', '172.67.', '104.21.', '198.41.'
+        ]
+
+    def generate_random_ip(self) -> str:
+        """Generate a random IP address"""
+        range_prefix = random.choice(self.ip_ranges)
+        if range_prefix in ['192.168.', '10.0.', '172.16.', '172.31.']:
+            # Private IP ranges
+            third = random.randint(0, 255)
+            fourth = random.randint(1, 254)
+        else:
+            # Public IP ranges
+            third = random.randint(1, 255)
+            fourth = random.randint(1, 255)
+        return f"{range_prefix}{third}.{fourth}"
+
+    def generate_random_datetime(self, start_date: datetime.datetime, end_date: datetime.datetime) -> str:
+        """Generate a random datetime within the specified range"""
+        time_between = end_date - start_date
+        days_between = time_between.days
+        random_days = random.randrange(days_between)
+        random_seconds = random.randrange(24 * 60 * 60)
+        random_microseconds = random.randrange(1000000)
+        
+        random_date = start_date + datetime.timedelta(
+            days=random_days, 
+            seconds=random_seconds, 
+            microseconds=random_microseconds
+        )
+        return random_date.strftime('%Y-%m-%dT%H:%M:%S.%fZ')
+
+    def generate_user_data(self) -> Dict[str, str]:
+        """Generate user ID and username"""
+        user_type = random.choice(self.user_types)
+        user_id = f"{user_type.upper()[0]}{random.randint(1000, 9999)}"
+        user_name = f"{user_type}{random.randint(1000, 9999)}"
+        return {'user_id': user_id, 'user_name': user_name}
+
+    def generate_smtp_exception_record(self, start_date: datetime.datetime, end_date: datetime.datetime) -> Dict[str, Any]:
+        """Generate a single SMTP exception record with only specified columns"""
+        user_data = self.generate_user_data()
+        
+        record = {
+            'application_name': 'Ecommerce Platform',
+            'application_component': random.choice(self.ecommerce_components),
+            'method_name': random.choice(self.method_names),
+            'exception_type': random.choice(self.smtp_exception_types),
+            'exception_class': random.choice(self.smtp_exception_classes),
+            'exception_description': random.choice(self.smtp_error_descriptions),
+            'date_time': self.generate_random_datetime(start_date, end_date),
+            'user_id': user_data['user_id'],
+            'user_name': user_data['user_name'],
+            'domain': random.choice(self.ecommerce_domains),
+            'ip_address': self.generate_random_ip()
+        }
+        
+        return record
+
+    def generate_smtp_server_info(self) -> str:
+        """Generate SMTP server information"""
+        servers = [
+            'smtp.gmail.com:587', 'smtp.outlook.com:587', 'smtp.yahoo.com:587',
+            'smtp.sendgrid.net:587', 'smtp.mailgun.org:587', 'smtp.ses.amazonaws.com:587',
+            'smtp.sparkpost.com:587', 'smtp.postmark.com:587', 'mail.ecommerce.com:25',
+            'relay.ecommerce.com:25', 'smtp.mandrill.com:587', 'smtp.mailjet.com:587'
+        ]
+        return random.choice(servers)
+
+    def generate_smtp_error_code(self) -> str:
+        """Generate realistic SMTP error codes"""
+        error_codes = [
+            '421 4.4.1', '421 4.4.2', '450 4.1.8', '450 4.2.1', '451 4.3.0',
+            '451 4.4.1', '452 4.2.2', '452 4.3.1', '500 5.0.0', '501 5.1.3',
+            '502 5.2.2', '503 5.3.3', '504 5.4.4', '550 5.1.1', '550 5.1.2',
+            '551 5.1.3', '552 5.2.2', '552 5.2.3', '553 5.3.0', '554 5.4.7',
+            '554 5.7.1', '535 5.7.8', '530 5.7.0', '571 5.7.1'
+        ]
+        return random.choice(error_codes)
+
+    def generate_email_type(self) -> str:
+        """Generate email type for ecommerce context"""
+        email_types = [
+            'Order Confirmation', 'Payment Receipt', 'Shipping Notification',
+            'Delivery Confirmation', 'Welcome Email', 'Password Reset',
+            'Newsletter', 'Promotional Campaign', 'Abandoned Cart',
+            'Product Recommendation', 'Review Request', 'Refund Notification',
+            'Return Label', 'Inventory Alert', 'Price Drop Alert',
+            'Back in Stock', 'Loyalty Program', 'Coupon Code',
+            'Survey Invitation', 'Account Update', 'Security Alert'
+        ]
+        return random.choice(email_types)
+
+    def generate_dataset(self, num_records: int, start_date: str, end_date: str) -> List[Dict[str, Any]]:
+        """Generate the complete dataset"""
+        try:
+            start_dt = datetime.datetime.fromisoformat(start_date.replace('Z', '+00:00'))
+            end_dt = datetime.datetime.fromisoformat(end_date.replace('Z', '+00:00'))
+        except:
+            # Fallback for simple date format
+            start_dt = datetime.datetime.strptime(start_date, '%Y-%m-%d')
+            end_dt = datetime.datetime.strptime(end_date, '%Y-%m-%d')
+        
+        dataset = []
+        for i in range(num_records):
+            record = self.generate_smtp_exception_record(start_dt, end_dt)
+            dataset.append(record)
+            
+            # Progress indicator
+            if (i + 1) % 1000 == 0:
+                print(f"Generated {i + 1}/{num_records} records...")
+        
+        return dataset
+
+    def save_to_json(self, dataset: List[Dict[str, Any]], filename: str) -> None:
+        """Save dataset to JSON file"""
+        try:
+            with open(filename, 'w', encoding='utf-8') as f:
+                json.dump(dataset, f, indent=2, ensure_ascii=False)
+            print(f"JSON dataset saved to: {filename}")
+            print(f"File size: {os.path.getsize(filename) / (1024*1024):.2f} MB")
+        except Exception as e:
+            print(f"Error saving JSON file: {e}")
+
+    def save_to_xml(self, dataset: List[Dict[str, Any]], filename: str) -> None:
+        """Save dataset to XML file"""
+        try:
+            root = ET.Element('smtp_exceptions')
+            
+            for record in dataset:
+                exception_elem = ET.SubElement(root, 'exception')
+                for key, value in record.items():
+                    elem = ET.SubElement(exception_elem, key)
+                    elem.text = str(value)
+            
+            # Pretty print XML
+            rough_string = ET.tostring(root, encoding='unicode')
+            reparsed = minidom.parseString(rough_string)
+            pretty_xml = reparsed.toprettyxml(indent='  ')
+            
+            with open(filename, 'w', encoding='utf-8') as f:
+                f.write(pretty_xml)
+            print(f"XML dataset saved to: {filename}")
+            print(f"File size: {os.path.getsize(filename) / (1024*1024):.2f} MB")
+        except Exception as e:
+            print(f"Error saving XML file: {e}")
+
+def main():
+    """Main function to run the generator"""
+    print("Ecommerce SMTP Exception Dataset Generator")
+    print("="*50)
+    
+    # Configuration - you can modify these values
+    num_records = 5000
+    start_date = '2024-04-23'
+    end_date = '2024-05-23'
+    output_prefix = 'ecommerce_smtp_exceptions'
+    
+    print(f"Records to generate: {num_records:,}")
+    print(f"Date range: {start_date} to {end_date}")
+    print(f"Output prefix: {output_prefix}")
+    print()
+    
+    # Initialize generator
+    generator = EcommerceSMTPExceptionGenerator()
+    
+    # Generate dataset
+    print("Generating SMTP exception dataset...")
+    dataset = generator.generate_dataset(num_records, start_date, end_date)
+    
+    # Save to JSON
+    json_filename = f"{output_prefix}_{num_records}_records.json"
+    generator.save_to_json(dataset, json_filename)
+    
+    # Save to XML
+    xml_filename = f"{output_prefix}_{num_records}_records.xml"
+    generator.save_to_xml(dataset, xml_filename)
+    
+    print(f"\nSuccessfully generated {len(dataset):,} SMTP exception records!")
+    print(f" Files created:")
+    print(f" - {json_filename}")
+    print(f"- {xml_filename}")
+    
+    # Display sample records
+    print(f"\nSample records (first 2):")
+    for i, record in enumerate(dataset[:2]):
+        print(f"\nRecord {i+1}:")
+        for key, value in record.items():
+            print(f"  {key}: {value}")
+    
+    print(f"\nColumn Structure:")
+    if dataset:
+        print("Columns included:", list(dataset[0].keys()))
+
+# This is the missing piece - the entry point that actually runs the code
+if __name__ == "__main__":
+    main()
